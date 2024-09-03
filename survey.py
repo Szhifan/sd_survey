@@ -15,14 +15,19 @@ random.seed(114)
 #     "Refugee Pathways":["smuglling","boat sinking","mediterranean crossing"],
 #     "Asylum Procedures":["protection","compensation","refugee status","legal rights"]
 # }
-completion_code = "DOHFEIUIUFDSFUSDIFilfiu"
+completion_code = "YOUR_COMPLETION_CODE"
 all_targets = {
-    "Migrants":{"fg_target":["illegal migrants","refugees","asylum seekers","economic migrants"],"help":None},
-    "European Union Institutions":{"tg_target":["European Parliament","European Conmission", "European Council","none"],"help":"Governmental Agencies at EU level, such as European Parliament, Comission and Council"},
+    "Turkey Agreement":{"help":"This is the agreement between Turkey and the EU signed in 2016, which states that Turkey should take measures to stop the refugees from crossing the EU-Turkey border."}, 
+    "Dublin Agreement":{"help":"an EU law that determines which EU member state is responsible for processing an asylum seeker's application."}, 
+    "FRONTEX":{"help":"European Border and Coast Guard Agency"},
+    "FRONTEX":{"help":"European Civil Protection and Humanitarian Aid Operations"},
+    "Migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants"],"help":None},
+    "European Union Institutions":{"tg_targets":["none","European Parliament","European Conmission", "European Council"],"help":"Governmental Agencies at EU level, such as European Parliament, Comission and Council"},
     "refugee quotas":{"help":None},
-    "refugee pathways":{"fg_target":["boat sinking","mediterranean crossing","smuggling","none"],"help":"This includes phenomena occurring during the refugee's journey, e.g. boat sinking, smuggling, Mediterranean crossing, and so on."},
-    "refugee camps":{"fg_target":["living conditions","none"],"help":"camps to accomondate refugees"}
-    
+    "refugee pathways":{"fg_targets":["none","boat sinking","mediterranean crossing","smuggling"],"help":"This includes phenomena occurring during the refugee's journey, e.g. boat sinking, smuggling, Mediterranean crossing, and so on."},
+    "refugee camps":{"fg_targets":["none","living conditions"],"help":"camps to accomondate refugees"},
+    "asylum procedures":{"fg_targets":["protection", "compensation", "refugee status", "legal rights", "none"],"help":"This includes legal procedures and concepts related to asylum application, e.g. protection, refugee status, legal rights, and so on"}, 
+
      
 }
 stance_options = ["favor","against","none"]
@@ -37,8 +42,8 @@ class SDSurvey:
         self.survey = ss.StreamlitSurvey("sd annotation survey")
         self.survey_state = self.survey.data 
         self.n_annotation = 4
-        self.n_examples = 6 
-        self.n_pages = self.n_annotation + self.n_examples + 2 # intro page + conclusion page + example page + annotation page 
+
+        self.n_pages = self.n_annotation + 2 # intro page + conclusion page + example page + annotation page 
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         self.estimated_completion_time = 20 # the estimated completion time (in second) if the annotator spends less than this, he or she will not be marked as completed 
        
@@ -81,31 +86,31 @@ class SDSurvey:
             if not lang: 
                 st.warning("please choose a language")
         
-
-  
-        
-    def example_page(self,n:str):
-        st.write(f"example: {n}")
-        # =======================to do =====================
+    @staticmethod
+    def reformat_ans(path:str):
+        """
+        reformat the survey state such that the answer for each examples is stored as: 
+        {sourceID:[(target,stance)...]}
+        """
 
     def construct_annotations(self,cur_idx):
      
         st.subheader("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance.")
         n_selected_trgt = 0 
         targets = all_targets.keys()
-
-
         # random.shuffle(list(targets))
         for t in targets:
             l_col,r_col = st.columns([2,1])
             with l_col:
+                st.write(f"**{t}**")
                 t_selected = self.survey.radio(t, options=["no","yes"], horizontal=True,id = f"t_{t}_{cur_idx}",help=all_targets[t]["help"])
                 if t_selected == "yes":
                     n_selected_trgt += 1 
+               
 
             with r_col:
                 if t_selected == "yes":
-                    s = self.survey.radio(f"stance toward {t}", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{cur_idx}",index=None,help="please choose none if the post doesn't express a clear stance toward the topic.")
+                    s = self.survey.radio(f"stance toward _{t}_", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{cur_idx}",index=None,help="please choose none if the post doesn't express a clear stance toward the topic.")
             
                     if not s:
                         st.warning("please choose a stance")
@@ -120,7 +125,7 @@ class SDSurvey:
     def annotation_page(self,n:int):
         lang = self.survey_state["lang"]["value"]
         if lang:
-            cur_idx = n - self.n_examples - 1 
+            cur_idx = n - 1 
           
       
             path = f"data/{lang2id[lang]}.json"
@@ -139,7 +144,8 @@ class SDSurvey:
         """
         check if: 1.) the annotator entered the valid id. 2.) The annotator has completed all the examples. 3) check if they have spend enought time on the survey
         """
-        success = True 
+
+        success = True  
         if not st.session_state["valid_id"]:
             success = False 
             st.error("please enter a valid prolific id.")
@@ -148,6 +154,9 @@ class SDSurvey:
             success = False 
             st.error(f"you have not completed example(s): {failed_annos}")
         time_spent = time.time() - st.session_state["start_time"]
+        if "time_spent" not in self.survey_state:
+            self.survey_state["time_spent"] = time_spent 
+
         if  time_spent <= self.estimated_completion_time:
             success = False 
             st.error(f"you should spend at least {round(self.estimated_completion_time / 60,2)} minutes on the task. There are still {round((self.estimated_completion_time - time_spent) / 60,2)} minutes left.")
@@ -159,6 +168,7 @@ class SDSurvey:
     def last_page(self):
         st.title("Submission")
         st.write("we are checking your response. Upon successful completion, you will receive a completion code, which marks your completion and you will be rewarded accordingly.")
+        st.write("please ")
         st.session_state["success"] = self.check_success()
 
 
@@ -167,8 +177,6 @@ class SDSurvey:
         with self.pages:
             if self.pages.current == 0:
                 self.welcome_page()
-            elif self.pages.current ==1 :
-                self.example_page(1)
             elif self.pages.current ==self.n_pages-1:
                 self.last_page()
             else:
