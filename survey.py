@@ -157,7 +157,7 @@ class SDSurvey:
 
         success = True  
      
-        failed_annos = [i for i,c in enumerate(st.session_state["annos_completed"]) if not c]
+        failed_annos = [i + 1 for i,c in enumerate(st.session_state["annos_completed"]) if not c]
         if len(failed_annos):
             success = False 
             st.error(f"you have not completed example(s): {failed_annos}")
@@ -176,7 +176,7 @@ class SDSurvey:
     def last_page(self):
         st.title("Submission")
         st.write("we are checking your response. Upon successful completion, you will receive a completion code, which marks your completion and you will be rewarded accordingly.")
-        st.write("If you have any suggestions for our survey. Please feel free to reach out to us in Prolific, we would appreciate your feedbacks!")
+        st.write("If you have any suggestions for our survey. Please feel free to reach out to us in Prolific, we would appreciate your feedback!")
         st.session_state["success"] = self.check_success()
 
 
@@ -193,8 +193,7 @@ class SDSurvey:
         
 
 if __name__ == "__main__":
-    # st.query_params["id"] = "TESTID"
-    # st.query_params["lang"] = "English"
+
     st.set_page_config(layout="wide",page_title="stance annotation")
     sv = SDSurvey()
     sv.run_app()
