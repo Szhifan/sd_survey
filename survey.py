@@ -52,20 +52,20 @@ class SDSurvey:
         if "qp" not in st.session_state:
             st.session_state["qp"] = st.query_params.to_dict()  
         if len(st.session_state["qp"]): 
-            self.lang = st.session_state["qp"]["lang"]   
-            self.id = st.session_state["qp"]["id"]  
+            self.lang = st.session_state["qp"]["LANG"]   
+            self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"]  
+  
         else: #if there is no qp 
             self.lang = "English"
-            self.id = "Default_id"  
-        st.query_params.from_dict(st.session_state["qp"])       
-
+            self.prolific_id = "prolific_id"  
+        st.query_params.from_dict(st.session_state["qp"])     
+    
 
     def submit_func(self):
         if st.session_state["success"]:
             st.success("submission successful!")
-            dir = "anno_results/" + lang2id[self.survey_state["lang"]["value"]] + "/"
+            dir = "anno_results/" + lang2id[self.survey_state["LANG"]["value"]] + "/"
             os.makedirs(dir,exist_ok=True)
-            id = self.survey_state["prolific_id"]["value"]
             path = f"id_{id}.json"
             
             self.survey.to_json(os.path.join(dir,path))
@@ -98,7 +98,7 @@ class SDSurvey:
         st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target and stance. A target is the topic in a piece of text while a stance is associated with the target. Here is an example from [semeval-2016](https://www.saifmohammad.com/WebPages/StanceDataset.htm)")
         with st.container(border=True):
             st.table(example)
-        st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target and stance, where the target is the topic of the text and the stance is the position of the author of the text toward the target. In our dataset, we introduce the distinction between target and fine-grained target. A fine-grained target is usually the hyponym of its corresponding target. For instance, “refugee” is the fine-grained target of “migrants”. Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get you self familiar with the interface and the expected answers. You can also refer to it when you annotate.")
+        st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target(s) and stance, where the target is the topic of the text and the stance is the position of the author of the text toward the target. In our dataset, we introduce the distinction between target and fine-grained target. A fine-grained target is usually the hyponym of its corresponding target. For instance, “refugee” is the fine-grained target of “migrants”. Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
     
     def construct_annotations(self,cur_idx):
      
@@ -194,7 +194,7 @@ class SDSurvey:
 
 if __name__ == "__main__":
 
-    st.set_page_config(layout="wide",page_title="stance annotation")
+    st.set_page_config("Stance Detection Annotation",layout="wide")
     sv = SDSurvey()
     sv.run_app()
     

@@ -10,7 +10,7 @@ def load_data(path="examples.json"):
 
 def construct_annotations(cur_idx,example:dict):
      
-    st.write("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance. You can choose up to **three** targets")
+    st.write("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and its stance. You can choose up to **three** targets")
     n_selected_trgt = 0 
     targets = all_targets.keys()
     ans_dict = {a["t"]:a["s"] for a in example["ans"]}
