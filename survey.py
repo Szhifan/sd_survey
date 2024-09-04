@@ -7,26 +7,17 @@ import time
 import json
 import os 
 random.seed(114)
-# all_targets = {
-#     "Migrants":{"fg_target":["illegal migrants","refugees","asylum seekers","economic migrants"],"help":None},
-#     "European Union Institutions":{"tg_target":["European Parliament","European Conmission", "European Council","none"],"help":None},
-#     "Migration Policies":{"fg_target":[],"help":None},
-#     "Refugee Camp":["living condition","none"],
-#     "Refugee Pathways":["smuglling","boat sinking","mediterranean crossing"],
-#     "Asylum Procedures":["protection","compensation","refugee status","legal rights"]
-# }
+
 completion_code = "YOUR_COMPLETION_CODE"
 all_targets = {
-    "Turkey Agreement":{"help":"This is the agreement between Turkey and the EU signed in 2016, which states that Turkey should take measures to stop the refugees from crossing the EU-Turkey border."}, 
-    "Dublin Agreement":{"help":"an EU law that determines which EU member state is responsible for processing an asylum seeker's application."}, 
-    "FRONTEX":{"help":"European Border and Coast Guard Agency"},
-    "FRONTEX":{"help":"European Civil Protection and Humanitarian Aid Operations"},
-    "Migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants"],"help":None},
-    "European Union Institutions":{"tg_targets":["none","European Parliament","European Conmission", "European Council"],"help":"Governmental Agencies at EU level, such as European Parliament, Comission and Council"},
-    "refugee quotas":{"help":None},
-    "refugee pathways":{"fg_targets":["none","boat sinking","mediterranean crossing","smuggling"],"help":"This includes phenomena occurring during the refugee's journey, e.g. boat sinking, smuggling, Mediterranean crossing, and so on."},
-    "refugee camps":{"fg_targets":["none","living conditions"],"help":"camps to accomondate refugees"},
-    "asylum procedures":{"fg_targets":["protection", "compensation", "refugee status", "legal rights", "none"],"help":"This includes legal procedures and concepts related to asylum application, e.g. protection, refugee status, legal rights, and so on"}, 
+    "Turkey Agreement":{"fg_targets":["Turkey Agreement"],"help":"[Click the link for more information:](https://www.rescue.org/eu/article/what-eu-turkey-deal)"}, 
+    "Dublin Agreement":{"fg_targets":["Dublin Agreement"],"help":"[Click the link for more information:](https://en.wikipedia.org/wiki/Dublin_Regulation)"}, 
+    "Migrants":{"fg_targets":["migrants","illegal migrants","refugees","asylum seekers","economic migrants",],"help":None},
+    "European Union Institutions":{"fg_targets":["European Union Institutions","European Parliament","European Conmission", "European Council","FRONTEX","ECHO"],"help":"FRONTEX:European Border and Coast Guard Agency;ECHO:European Civil Protection and Humanitarian Aid Operations"},
+    "refugee quotas":{"fg_targets":["refugee quotas"],"help":"Ratio of refugees assigned to each EU countries during the refugee crisis."},
+    "refugee pathways":{"fg_targets":["refugee pathways","boat sinking","mediterranean crossing","smuggling"],"help":"This includes phenomena occurring during the refugee's journey."},
+    "refugee camps":{"fg_targets":["refugee camps","living conditions"],"help":"camps to accomondate refugees"},
+    "asylum procedures":{"fg_targets":["asylum procedures","protection", "compensation", "refugee status", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."}, 
 
      
 }
@@ -49,12 +40,25 @@ class SDSurvey:
        
         if "annos_completed" not in st.session_state:  # check if an annotation is successfull completed. Criterion: for each example, at least one target must be choosen. For each choosen target, a stance must be choosen. 
             st.session_state["annos_completed"] = [False] * self.n_annotation
-        if "valid_id" not in st.session_state:
-            st.session_state["valid_id"] = False
         if "start_time" not in st.session_state:
             st.session_state["start_time"] = time.time()
         if "success" not in st.session_state:
             st.session_state["success"] = False 
+        self.set_qp()
+
+        
+    def set_qp(self):
+        
+        if "qp" not in st.session_state:
+            st.session_state["qp"] = st.query_params.to_dict()  
+        if len(st.session_state["qp"]): 
+            self.lang = st.session_state["qp"]["lang"]   
+            self.id = st.session_state["qp"]["id"]  
+        else: #if there is no qp 
+            self.lang = "English"
+            self.id = "Default_id"  
+        st.query_params.from_dict(st.session_state["qp"])       
+
 
     def submit_func(self):
         if st.session_state["success"]:
@@ -67,78 +71,84 @@ class SDSurvey:
             self.survey.to_json(os.path.join(dir,path))
         else:
             st.error("submission failed!")
-    def welcome_page(self):
-    
-
-        st.title("Multilingual Stance Detection")
-        with st.container():
-            st.write("Welcome to our study! You will help us annotating a SD detection dataset of tweets about the refugee crisis in the EU during 2014 and 2019.")
-            id = self.survey.text_input("please enter your 24-digits prolific id and press **enter**",max_chars=24,id="prolific_id")
-            if not id.isalnum() or not len(id) == 24:
-            
-                st.warning("invalid id")
-            else: 
-                st.session_state["valid_id"] = True
-                st.success("id successfully submitted")
-            
-        with st.container():
-            lang = self.survey.selectbox("please choose your language",id="lang",index=None,options=lang2id)
-            if not lang: 
-                st.warning("please choose a language")
-        
+          
     @staticmethod
     def reformat_ans(path:str):
         """
         reformat the survey state such that the answer for each examples is stored as: 
         {sourceID:[(target,stance)...]}
         """
+    def set_state(self,cur_idx:int,choise="NA"):
+        """
+        check if a valid answer is selected
+        """
+        if "annos_completed" in st.session_state:
+            st.session_state["annos_completed"][cur_idx] = (choise!="NA")
+  
 
+    def welcome_page(self):
+        """draw the first welcom page"""
+        st.sidebar.success("have a look at the examples and instructions!")
+
+        example = {"text":["Blessed are the peacemakers, for they shall be called children of God. Matthew 5:9 #scripture #peace #SemST"],"target":["Atheism"],"stance":["against"]}
+
+        st.title("Stance Detection: Refugee Crisis 2015")
+    
+        st.header("Welcome to our study!")
+        st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target and stance. A target is the topic in a piece of text while a stance is associated with the target. Here is an example from [semeval-2016](https://www.saifmohammad.com/WebPages/StanceDataset.htm)")
+        with st.container(border=True):
+            st.table(example)
+        st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target and stance, where the target is the topic of the text and the stance is the position of the author of the text toward the target. In our dataset, we introduce the distinction between target and fine-grained target. A fine-grained target is usually the hyponym of its corresponding target. For instance, “refugee” is the fine-grained target of “migrants”. Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get you self familiar with the interface and the expected answers. You can also refer to it when you annotate.")
+    
     def construct_annotations(self,cur_idx):
      
-        st.subheader("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance.")
+        st.write("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance. You can choose up to **three** targets")
         n_selected_trgt = 0 
         targets = all_targets.keys()
         # random.shuffle(list(targets))
         for t in targets:
-            l_col,r_col = st.columns([2,1])
-            with l_col:
-                st.write(f"**{t}**")
-                t_selected = self.survey.radio(t, options=["no","yes"], horizontal=True,id = f"t_{t}_{cur_idx}",help=all_targets[t]["help"])
-                if t_selected == "yes":
-                    n_selected_trgt += 1 
-               
+            with st.container(border=True):
+                l_col,r_col = st.columns([2,1])
+                with l_col: 
+                    st.subheader(f"{t}",help=all_targets[t]["help"])
+                    t_selected = self.survey.radio("please choose a fine-grained target (if applicable)", options=["NA"] + all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{cur_idx}")
+                    if t_selected != "NA":
+                        n_selected_trgt += 1 
+                
 
-            with r_col:
-                if t_selected == "yes":
-                    s = self.survey.radio(f"stance toward _{t}_", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{cur_idx}",index=None,help="please choose none if the post doesn't express a clear stance toward the topic.")
-            
-                    if not s:
-                        st.warning("please choose a stance")
-                    else: 
-         
-                        st.session_state["annos_completed"][cur_idx] = True 
+                with r_col:
+                    if t_selected != "NA":
+                        s_selected = self.survey.radio(f"stance toward _{t_selected}_", options=["NA"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{cur_idx}",help="please choose none if the post doesn't express a clear stance toward the topic.")
+                
+                        if s_selected == "NA":
+                            st.warning("please choose a stance")
+                        self.set_state(cur_idx,s_selected)
+        
+           
+ 
                         
         if not n_selected_trgt:
+            self.set_state(cur_idx)
             st.warning("please choose at leat one target")
+        if n_selected_trgt > 3:
+            self.set_state(cur_idx)
+            st.warning("you can only choose up to three targets")
+            
 
 
     def annotation_page(self,n:int):
-        lang = self.survey_state["lang"]["value"]
-        if lang:
-            cur_idx = n - 1 
-          
-      
-            path = f"data/{lang2id[lang]}.json"
-            anno_data = get_data(path)[cur_idx]
-   
-            
-            st.header("Please read the following tweet:")
-            st.write(f"{cur_idx + 1}|{self.n_annotation}")
-            with st.container(border=True):
-                st.write(anno_data["fullText"])
-            self.construct_annotations(cur_idx)
-        else:
-            st.error("please choose a language.")
+        st.title("Annotation")
+        cur_idx = n - 1 
+        path = f"data/{lang2id[self.lang]}.json"
+        anno_data = get_data(path)[cur_idx]
+
+        
+        st.header("Please read the following tweet:",divider="red")
+        st.write(f"{cur_idx + 1}|{self.n_annotation}")
+        with st.container(border=True):
+            st.subheader(anno_data["fullText"])
+        self.construct_annotations(cur_idx)
+
 
     def check_success(self):
         """
@@ -146,9 +156,7 @@ class SDSurvey:
         """
 
         success = True  
-        if not st.session_state["valid_id"]:
-            success = False 
-            st.error("please enter a valid prolific id.")
+     
         failed_annos = [i for i,c in enumerate(st.session_state["annos_completed"]) if not c]
         if len(failed_annos):
             success = False 
@@ -168,7 +176,7 @@ class SDSurvey:
     def last_page(self):
         st.title("Submission")
         st.write("we are checking your response. Upon successful completion, you will receive a completion code, which marks your completion and you will be rewarded accordingly.")
-        st.write("please ")
+        st.write("If you have any suggestions for our survey. Please feel free to reach out to us in Prolific, we would appreciate your feedbacks!")
         st.session_state["success"] = self.check_success()
 
 
@@ -185,7 +193,9 @@ class SDSurvey:
         
 
 if __name__ == "__main__":
-    
+    # st.query_params["id"] = "TESTID"
+    # st.query_params["lang"] = "English"
+    st.set_page_config(layout="wide",page_title="stance annotation")
     sv = SDSurvey()
     sv.run_app()
     
