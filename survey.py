@@ -126,7 +126,8 @@ class SDSurvey:
         client = init_mongo_clinet()
         db = client["anno-results"]
         col = db["de"]
-        col.insert({"kk":12})
+        col.insert_one({"kk":12})
+        
         st.success(123)
     def construct_annotations(self,cur_idx):
      
