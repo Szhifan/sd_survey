@@ -189,7 +189,7 @@ class SDSurvey:
             else:
                 self.annotation_page(self.pages.current)
     
-@st.experimental_singleton(suppress_st_warning=True)
+@st.cache_resource
 def init_connection():
     client =  MongoClient("mongodb+srv://st.secrets.db_username:st.secrets.db_pswd@st.secrets.cluster_name.n4ycr4f.mongodb.net/?retryWrites=true&w=majority")
     try:
