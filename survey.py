@@ -28,11 +28,33 @@ def get_data(path:str):
     with open(path,"r") as f:
         return json.load(f)
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
+@st.cache_resource
+def init_mongo_clinet() -> MongoClient:
+    
+    # Create a new client and connect to the server
+    client = MongoClient(st.secrets["uri"])
+    # Send a ping to confirm a successful connection
+    try:
+        client.admin.command('ping')
+        return client 
+    except Exception as e:
+        return None 
+    
+def save_to_mongodb(data:dict):
+
+    client = init_mongo_clinet()
+    if not client:
+        st.warning("saving failed")
+    db = client["anno-results"]
+    col = db[lang2id[data["LANG"]]]
+    col.insert_one(data)
+
+
 class SDSurvey: 
     def __init__(self) -> None:
         self.success = False 
         self.survey = ss.StreamlitSurvey("sd annotation survey")
-        self.survey_state = self.survey.data 
+        self.survey_state = self.survey.data
         self.n_annotation = 4
 
         self.n_pages = self.n_annotation + 2 # intro page + conclusion page + example page + annotation page 
@@ -61,15 +83,16 @@ class SDSurvey:
             self.lang = "English"
             self.prolific_id = "default_prolific_id"  
         st.query_params.from_dict(st.session_state["qp"])     
-    
+
 
     def submit_func(self):
         if st.session_state["success"]:
             st.success("submission successful!")
-            dir = "anno_results/" + lang2id[self.lang] + "/"
-            os.makedirs(dir,exist_ok=True)
-            path = f"id_{self.prolific_id}.json"
-            self.survey.to_json(os.path.join(dir,path))
+            self.survey_state["LANG"] = self.lang 
+            self.survey_state["PROLIFIC_PID"] = self.prolific_id
+            client = init_mongo_clinet()
+            save_to_mongodb(self.survey_state)
+
             
         else:
             st.error("submission failed!")
@@ -189,21 +212,12 @@ class SDSurvey:
             else:
                 self.annotation_page(self.pages.current)
     
-@st.cache_resource
-def init_connection():
-    client =  MongoClient(st.secrets["uri"])
-    try:
-        client.admin.command('ping')
-        print(1)
-        st.write("Pinged your deployment. You successfully connected to MongoDB!")
-    except Exception as e:
-        st.write(e)
-        print(2)
+
 
 
 if __name__ == "__main__":
-    init_connection()
-    # st.set_page_config("Stance Detection Annotation",layout="wide")
-    # sv = SDSurvey()
-    # sv.run_app()
+    
+    st.set_page_config("Stance Detection Annotation",layout="wide")
+    sv = SDSurvey()
+    sv.run_app()
     
