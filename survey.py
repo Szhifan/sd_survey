@@ -48,8 +48,7 @@ def save_to_mongodb(data:dict):
     db = client["anno-results"]
     col = db[lang2id[data["LANG"]]]
     col.insert_one(data)
-    print(data)
-    print("done")
+    st.success("saved!")
 
 
 class SDSurvey: 
