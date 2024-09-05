@@ -5,7 +5,7 @@ import json
 import random 
 import time 
 import json
-# from pymongo.mongo_client import MongoClient
+from pymongo.mongo_client import MongoClient
 import os 
 random.seed(114)
 completion_link = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
@@ -28,26 +28,28 @@ def get_data(path:str):
     with open(path,"r") as f:
         return json.load(f)
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
-# @st.cache_resource
-# def init_mongo_clinet() -> MongoClient:
+@st.cache_resource
+def init_mongo_clinet() -> MongoClient:
     
-#     # Create a new client and connect to the server
-#     client = MongoClient(st.secrets["uri"])
-#     # Send a ping to confirm a successful connection
-#     try:
-#         client.admin.command('ping')
-#         return client 
-#     except Exception as e:
-#         return None 
+    # Create a new client and connect to the server
+    client = MongoClient(st.secrets["uri"])
+    # Send a ping to confirm a successful connection
+    try:
+        client.admin.command('ping')
+        return client 
+    except Exception as e:
+        return None 
     
-# def save_to_mongodb(data:dict):
+def save_to_mongodb(data:dict):
 
-#     client = init_mongo_clinet()
-#     if not client:
-#         st.warning("saving failed")
-#     db = client["anno-results"]
-#     col = db[lang2id[data["LANG"]]]
-#     col.insert_one(data)
+    client = init_mongo_clinet()
+    if not client:
+        st.warning("saving failed")
+    db = client["anno-results"]
+    col = db[lang2id[data["LANG"]]]
+    col.insert_one(data)
+    print(data)
+    print("done")
 
 
 class SDSurvey: 
@@ -90,8 +92,8 @@ class SDSurvey:
             st.success("submission successful!")
             self.survey_state["LANG"] = self.lang 
             self.survey_state["PROLIFIC_PID"] = self.prolific_id
-            # client = init_mongo_clinet()
-            # save_to_mongodb(self.survey_state)
+            client = init_mongo_clinet()
+            save_to_mongodb(self.survey_state)
 
             
         else:
@@ -120,9 +122,7 @@ class SDSurvey:
         st.title("Stance Detection: Refugee Crisis 2015")
     
         st.header("Welcome to our study!")
-        st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target and stance. A target is the topic in a piece of text while a stance is associated with the target. Here is an example from [semeval-2016](https://www.saifmohammad.com/WebPages/StanceDataset.htm)")
-        with st.container(border=True):
-            st.table(example)
+        
         st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target(s) and stance, where the target is the topic of the text and the stance is the position of the author of the text toward the target. In our dataset, we introduce the distinction between target and fine-grained target. A fine-grained target is usually the hyponym of its corresponding target. For instance, “refugee” is the fine-grained target of “migrants”. Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
     
     def construct_annotations(self,cur_idx):
