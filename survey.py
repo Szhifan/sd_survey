@@ -5,10 +5,11 @@ import json
 import random 
 import time 
 import json
+from pymongo.mongo_client import MongoClient
 import os 
 random.seed(114)
+completion_link = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
 
-completion_code = "YOUR_COMPLETION_CODE"
 all_targets = {
     "Turkey Agreement":{"fg_targets":["Turkey Agreement"],"help":"[Click the link for more information:](https://www.rescue.org/eu/article/what-eu-turkey-deal)"}, 
     "Dublin Agreement":{"fg_targets":["Dublin Agreement"],"help":"[Click the link for more information:](https://en.wikipedia.org/wiki/Dublin_Regulation)"}, 
@@ -53,25 +54,26 @@ class SDSurvey:
             st.session_state["qp"] = st.query_params.to_dict()  
         if len(st.session_state["qp"]): 
             self.lang = st.session_state["qp"]["LANG"]   
-            self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"]  
+            self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"]
+            self.study_id = st.session_state["qp"]["STUDY_ID"]  
   
         else: #if there is no qp 
             self.lang = "English"
-            self.prolific_id = "prolific_id"  
+            self.prolific_id = "default_prolific_id"  
         st.query_params.from_dict(st.session_state["qp"])     
     
 
     def submit_func(self):
         if st.session_state["success"]:
             st.success("submission successful!")
-            dir = "anno_results/" + lang2id[self.survey_state["LANG"]["value"]] + "/"
+            dir = "anno_results/" + lang2id[self.lang] + "/"
             os.makedirs(dir,exist_ok=True)
-            path = f"id_{id}.json"
-            
+            path = f"id_{self.prolific_id}.json"
             self.survey.to_json(os.path.join(dir,path))
+            
         else:
             st.error("submission failed!")
-          
+  
     @staticmethod
     def reformat_ans(path:str):
         """
@@ -169,18 +171,15 @@ class SDSurvey:
             success = False 
             st.error(f"you should spend at least {round(self.estimated_completion_time / 60,2)} minutes on the task. There are still {round((self.estimated_completion_time - time_spent) / 60,2)} minutes left.")
         if success: 
-            st.success(f"Congradualations, you have successfully completed the survey, here is your completion code: **{completion_code}**")
+            st.success(f"Congradualations, you have successfully completed the survey, [click this link to mark your completion!](https://app.prolific.com/submissions/complete?cc=CHCBTBHM)")
         return success 
 
 
     def last_page(self):
         st.title("Submission")
-        st.write("we are checking your response. Upon successful completion, you will receive a completion code, which marks your completion and you will be rewarded accordingly.")
+        st.write("we are checking your response. Upon successful completion, you will receive a **completion link**, please click the link to mark your completion.")
         st.write("If you have any suggestions for our survey. Please feel free to reach out to us in Prolific, we would appreciate your feedback!")
         st.session_state["success"] = self.check_success()
-
-
-
     def run_app(self):
         with self.pages:
             if self.pages.current == 0:
@@ -189,12 +188,22 @@ class SDSurvey:
                 self.last_page()
             else:
                 self.annotation_page(self.pages.current)
-        
-        
+    
+def test():
+    uri = "mongodb+srv://zhifan:dudu8802616@cluster0.nau3g.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            # Create a new client and connect to the server
+    client = MongoClient(uri)
+
+# Send a ping to confirm a successful connection
+    try:
+        client.admin.command('ping')
+        print("Pinged your deployment. You successfully connected to MongoDB!")
+    except Exception as e:
+        print(e)
 
 if __name__ == "__main__":
-
-    st.set_page_config("Stance Detection Annotation",layout="wide")
-    sv = SDSurvey()
-    sv.run_app()
+    test()
+    # st.set_page_config("Stance Detection Annotation",layout="wide")
+    # sv = SDSurvey()
+    # sv.run_app()
     
