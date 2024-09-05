@@ -20,19 +20,19 @@ def construct_annotations(cur_idx,example:dict):
             l_col,r_col = st.columns([2,1])
             with l_col: 
                 st.subheader(f"{t}",help=all_targets[t]["help"])
-                t_selected = st.radio("please choose a fine-grained target (if applicable)", options=["NA"] + all_targets[t]["fg_targets"], horizontal=True,key = f"t_{t}_{cur_idx}")
+                t_selected = st.radio("please choose a fine-grained target (if applicable)", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,key = f"t_{t}_{cur_idx}")
 
-                if t_selected != "NA":
+                if t_selected != "No selection":
                     n_selected_trgt += 1 
                     if t_selected not in ans_dict.keys():
-                        st.error("please try again!")
+                        st.error("incoorect")
                     else:
                         st.success("correct")
             with r_col:
-                if t_selected != "NA" and t_selected in ans_dict.keys():
-                    s_selected = st.radio(f"stance toward _{t_selected}_", options=["NA"] + ["favor", "against","none"], horizontal=True,key = f"s_{t}_{cur_idx}",help="please choose none if the post doesn't express a clear stance toward the topic.")
+                if t_selected != "No selection" and t_selected in ans_dict.keys():
+                    s_selected = st.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,key = f"s_{t}_{cur_idx}",help="please choose none if the post doesn't express a clear stance toward the topic.")
             
-                    if s_selected == "NA":
+                    if s_selected == "No selection":
                         st.warning("please choose a stance")
                     else:
                         if s_selected != ans_dict[t_selected]:
