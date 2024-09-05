@@ -188,11 +188,20 @@ class SDSurvey:
                 self.last_page()
             else:
                 self.annotation_page(self.pages.current)
- 
+    
+@st.experimental_singleton(suppress_st_warning=True)
+def init_connection():
+    client =  MongoClient("mongodb+srv://st.secrets.db_username:st.secrets.db_pswd@st.secrets.cluster_name.n4ycr4f.mongodb.net/?retryWrites=true&w=majority")
+    try:
+        client.admin.command('ping')
+        st.write("Pinged your deployment. You successfully connected to MongoDB!")
+    except Exception as e:
+        st.write(e)
+
 
 if __name__ == "__main__":
-    
-    st.set_page_config("Stance Detection Annotation",layout="wide")
-    sv = SDSurvey()
-    sv.run_app()
+    init_connection()
+    # st.set_page_config("Stance Detection Annotation",layout="wide")
+    # sv = SDSurvey()
+    # sv.run_app()
     
