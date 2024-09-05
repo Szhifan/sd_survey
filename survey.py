@@ -123,7 +123,11 @@ class SDSurvey:
         st.header("Welcome to our study!")
         
         st.write("You are tasked with annotating a stance detection dataset about the refugee crisis in the EU during 2014 and 2019. A stance detection dataset typically includes target(s) and stance, where the target is the topic of the text and the stance is the position of the author of the text toward the target. In our dataset, we introduce the distinction between target and fine-grained target. A fine-grained target is usually the hyponym of its corresponding target. For instance, “refugee” is the fine-grained target of “migrants”. Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
-    
+        client = init_mongo_clinet()
+        db = client["anno-results"]
+        col = db["de"]
+        col.insert({"kk":12})
+        st.success(123)
     def construct_annotations(self,cur_idx):
      
         st.write("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance. You can choose up to **three** targets")
