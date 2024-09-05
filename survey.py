@@ -191,12 +191,14 @@ class SDSurvey:
     
 @st.cache_resource
 def init_connection():
-    client =  MongoClient("mongodb+srv://st.secrets.db_username:st.secrets.db_pswd@st.secrets.cluster_name.n4ycr4f.mongodb.net/?retryWrites=true&w=majority")
+    client =  MongoClient(st.secrets["uri"])
     try:
         client.admin.command('ping')
+        print(1)
         st.write("Pinged your deployment. You successfully connected to MongoDB!")
     except Exception as e:
         st.write(e)
+        print(2)
 
 
 if __name__ == "__main__":
