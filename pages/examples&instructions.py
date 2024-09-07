@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_survey as ss 
+import my_streamlit_survey as ss 
 import json
 from survey import all_targets 
 @st.cache_data()
@@ -25,7 +25,7 @@ def construct_annotations(cur_idx,example:dict):
                 if t_selected != "No selection":
                     n_selected_trgt += 1 
                     if t_selected not in ans_dict.keys():
-                        st.error("incoorect")
+                        st.error("incorect")
                     else:
                         st.success("correct")
             with r_col:

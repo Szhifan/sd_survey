@@ -22,7 +22,7 @@ from typing import Any, Hashable, List, Optional, Union
 
 import streamlit as st
 
-from pages import Pages
+from my_pages import Pages
 from streamlit_survey.survey_component import (
     CheckBox,
     DateInput,
@@ -117,7 +117,12 @@ class StreamlitSurvey:
             
             if self.data_name not in st.session_state:
                 st.session_state[self.data_name] = {}
-            data = st.session_state[self.data_name]
+        
+        else:
+          
+            if self.data_name not in st.session_state:
+                st.session_state[self.data_name] = data
+        data = st.session_state[self.data_name]
 
         self.label = label
         self.auto_id = auto_id

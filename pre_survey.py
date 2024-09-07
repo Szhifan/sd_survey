@@ -1,6 +1,8 @@
 import streamlit as st  
 import json 
-import streamlit_survey as ss 
+import my_streamlit_survey as ss 
+from my_pages import Pages
+
 from urllib.parse import urlencode
 survey_link = ""
 st.set_page_config(layout="wide")
@@ -52,7 +54,7 @@ def set_qp():
         st.session_state["qp"]["STUDY_ID"]  = "default_study_id"
     
     st.query_params.from_dict(st.session_state["qp"])           
-def main():
+def main(**kwargs):
     survey_link = f"https://sdsurvey-ew4vwqofwonjaw6ojqrmd2.streamlit.app/?"
     set_qp()
     survey = ss.StreamlitSurvey("sd annotation: pre-survey")

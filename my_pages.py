@@ -21,15 +21,23 @@ class Pages(object):
             label,
             use_container_width=True,
             on_click=pages.next,
-            disabled=pages.current == pages.n_pages - 1,
+            disabled=(pages.current == pages.n_pages - 1) or (not pages.proceed_to_next),
             key=f"{pages.current_page_key}_btn_next",
         )
-
+    @staticmethod
+    def default_btn_jump(label="jump to latest"):
+        return lambda pages : st.button(
+            label,
+            use_container_width=True,
+            on_click=pages.latest,
+            disabled=pages.current == pages.n_pages - 1, 
+            key=f"{pages.current_page_key}_btn_jump", 
+        )
     @staticmethod
     def default_btn_submit(label="Submit"):
         return lambda pages: st.button(label, use_container_width=True, key=f"{pages.current_page_key}_btn_next")
 
-    def __init__(self, labels: Union[int, list], key="__Pages_curent", on_submit=None, progress_bar=False):
+    def __init__(self, labels: Union[int, list],key="__Pages_curent", on_submit=None, progress_bar=False):
         """
         Parameters
         ----------
@@ -54,15 +62,17 @@ class Pages(object):
         if isinstance(labels, int):
             labels = list(range(labels))
         self.n_pages = len(labels)
-        self.n_page_completed = [False] * self.n_pages
+        self.proceed_to_next = True
         self.labels = labels 
         self.current_page_key = key
         self.on_submit = on_submit
         self.progress_bar = progress_bar
+        self.latest_page = 0 
 
         self._prev_btn = Pages.default_btn_previous()
         self._next_btn = Pages.default_btn_next()
         self._submit_btn = Pages.default_btn_submit()
+        self._jump_btn = Pages.default_btn_jump()
 
     def update(self, value):
         """
@@ -74,6 +84,7 @@ class Pages(object):
             Page index.
         """
         self.current = value
+    
 
     @property
     def current(self):
@@ -105,6 +116,7 @@ class Pages(object):
         else:
             raise ValueError("Page index out of range")
 
+
     @property
     def label(self):
         return self.labels[self.current]
@@ -122,6 +134,12 @@ class Pages(object):
         """
         if self.current < self.n_pages - 1:
             self.current += 1
+    def latest(self):
+        """
+        jump to the latest page
+        """
+        if self.latest_page < self.n_pages - 1:
+            self.current = self.latest_page 
 
     @property
     def prev_button(self):
@@ -179,6 +197,15 @@ class Pages(object):
             Function taking one argument (the current page instance) and returning the "submit" button for page navigation.
         """
         self._submit_btn = func
+    @property
+    def jump_button(self):
+        """
+        return "jump to latest" button to the last annotated example.
+        """
+        return self._jump_btn(self)
+    @jump_button.setter
+    def jump_button(self,func):
+        self._jump_btn = func
 
     def __enter__(self):
         return self
@@ -188,7 +215,7 @@ class Pages(object):
         Display the navigation buttons
         """
         submitted = False
-        left, _, right = st.columns([2, 4, 2])
+        left, _,mid,_, right = st.columns([2,1,2,1, 2])
         with left:
             self.prev_button
         with right:
@@ -196,8 +223,13 @@ class Pages(object):
                 
                 submitted = self.submit_button
             else:
-                if self.n_page_completed[self.current]:
-                    self.next_button
+              
+                self.next_button
+        with mid:
+            if self.latest_page and self.current == 0:
+            
+                
+                self.jump_button
                 
         if self.progress_bar and self.n_pages > 1:
             st.progress(self.current / (self.n_pages - 1))

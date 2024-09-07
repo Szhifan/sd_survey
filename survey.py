@@ -1,5 +1,5 @@
 import streamlit as st
-import streamlit_survey as ss 
+import my_streamlit_survey as ss 
 import re 
 import json 
 import random 
@@ -36,7 +36,7 @@ def init_mongo_clinet() -> MongoClient:
     except Exception as e:
         return None 
     
-
+@st.cache_data
 def load_user_data(lang,id):
     client = init_mongo_clinet()
     if not client:
@@ -51,39 +51,33 @@ def load_user_data(lang,id):
 
 
 class SDSurvey: 
-    def __init__(self,name="sd-survey") -> None:
+    def __init__(self,lang="English",prolific_id="default_prolific_id",study_id="default_study_id") -> None:
        
         self.set_qp()
         self.success = False 
-   
         self.n_annotation = 4
+        self.lang = lang 
+        self.prolific_id = prolific_id 
+        self.study_id = study_id
 
         
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
-        
-        # self.estimated_completion_time = 20 # the estimated completion time (in second) if the annotator spends less than this, he or she will not be marked as completed 
-       
+        user_data = load_user_data(self.lang,self.prolific_id)
         if "annos_completed" not in st.session_state:  # check if an annotation is successfull completed. Criterion: for each example, at least one target must be choosen. For each choosen target, a stance must be choosen. 
             st.session_state["annos_completed"] = [False] * self.n_annotation
+          
+            if user_data and "completed" in user_data: #load the completion status 
+                st.session_state["annos_completed"] = [i < user_data["completed"] for i in range(self.n_annotation)]
         if "start_time" not in st.session_state:
             st.session_state["start_time"] = time.time()
         if "success" not in st.session_state:
             st.session_state["success"] = False 
-
-
-    
-            
-        user_data = load_user_data(self.lang,self.prolific_id)
-       
-        if user_data and "__streamlit-survey-data" + "_" + name not in st.session_state:
-            st.session_state["__streamlit-survey-data" + "_" + name] = user_data
-        
-        self.survey = ss.StreamlitSurvey(name)
+        self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
         self.survey_state = self.survey.data
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
-    
-        
-        
+        if sum(st.session_state["annos_completed"]):
+            self.pages.latest_page = 1 + sum(st.session_state["annos_completed"])
+           
     def set_qp(self):
         
         if "qp" not in st.session_state:
@@ -93,10 +87,7 @@ class SDSurvey:
             self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"]
             self.study_id = st.session_state["qp"]["STUDY_ID"]  
   
-        else: #if there is no qp 
-            self.lang = "English"
-            self.prolific_id = "default_prolific_id"  
-            self.study_id = "default_study_id"
+      
         st.query_params.from_dict(st.session_state["qp"])     
 
     def save_to_mongodb(self):
@@ -106,6 +97,7 @@ class SDSurvey:
         client = init_mongo_clinet()
         self.survey_state["LANG"] = self.lang
         self.survey_state["PROLIFIC_PID"] = self.prolific_id
+        self.survey_state["completed"] = sum(st.session_state["annos_completed"])
         if not client:
             st.warning("connection to database failed, please try again.")
             return 
@@ -127,7 +119,7 @@ class SDSurvey:
             self.save_to_mongodb(self.survey_state)
             st.success("submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CHCBTBHM) to mark your completion.")
 
-            
+
         else:
             st.error("submission failed!")
   
@@ -148,18 +140,19 @@ class SDSurvey:
 
     def welcome_page(self):
         """draw the first welcom page"""
+        
         st.sidebar.success("have a look at the examples and instructions!")
-        self.pages.n_page_completed[0] = True
+        
 
   
 
-        st.title("Stance Detection: Refugee Crisis 2015")
+        st.title("Stance Detection: Refugee Crisis")
     
         st.header("Welcome to our study!")
         
         st.write("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
-        st.write("please note that once you start the annotation you cannot close the browser window as the results will lose.")
-   
+        st.write("If you wish to take a rest, you can push the 'save' button to the top-left corner in the annotation page.")
+        
         
      
     def construct_annotations(self,cur_idx):
@@ -198,21 +191,19 @@ class SDSurvey:
 
         st.title("Annotation")
         cur_idx = n - 1 
-        btn = st.button("save results",key="save_btn_" + str(cur_idx))
+        btn = st.button("save results",key="save_btn_" + str(cur_idx),help="please click to save the results.")
         if btn:
             self.save_to_mongodb()
         path = f"data/{lang2id[self.lang]}.json"
         anno_data = get_data(path)[cur_idx]
-        if cur_idx and not st.session_state["annos_completed"][cur_idx-1]:
-            st.error("You haven't completed the last annotation, please go back.")
-        else:
-            st.header("Please read the following tweet:",divider="red")
-            st.write(f"{cur_idx + 1}|{self.n_annotation}")
-            with st.container(border=True):
-                st.subheader(anno_data["fullText"])
-            self.construct_annotations(cur_idx)
+       
+        st.header("Please read the following tweet:",divider="red")
+        st.write(f"{cur_idx + 1}|{self.n_annotation}")
+        with st.container(border=True):
+            st.subheader(anno_data["fullText"])
+        self.construct_annotations(cur_idx)
         
-        self.pages.n_page_completed[n] =  st.session_state["annos_completed"][cur_idx]
+        self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
 
     def check_success(self):
         """
@@ -225,13 +216,6 @@ class SDSurvey:
         if len(failed_annos):
             success = False 
             st.error(f"you have not completed example(s): {failed_annos}")
-        # time_spent = time.time() - st.session_state["start_time"]
-        # if "time_spent" not in self.survey_state:
-        #     self.survey_state["time_spent"] = time_spent 
-
-        # if  time_spent <= self.estimated_completion_time:
-        #     success = False 
-        #     st.error(f"you should spend at least {round(self.estimated_completion_time / 60,2)} minutes on the task. There are still {round((self.estimated_completion_time - time_spent) / 60,2)} minutes left.")
         if success: 
             st.success(f"Congradualations, you have successfully completed the survey, please click the submit button.")
         return success 
