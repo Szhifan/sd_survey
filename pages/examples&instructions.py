@@ -10,7 +10,7 @@ def load_data(path="examples.json"):
 
 def construct_annotations(cur_idx,example:dict):
      
-    st.write("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and its stance. You can choose up to **three** targets")
+    st.write("please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance. You can choose up to **three** targets")
     n_selected_trgt = 0 
     targets = all_targets.keys()
     ans_dict = {a["t"]:a["s"] for a in example["ans"]}
@@ -20,7 +20,7 @@ def construct_annotations(cur_idx,example:dict):
             l_col,r_col = st.columns([2,1])
             with l_col: 
                 st.subheader(f"{t}",help=all_targets[t]["help"])
-                t_selected = st.radio("please choose a fine-grained target (if applicable)", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,key = f"t_{t}_{cur_idx}")
+                t_selected = st.radio("please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,key = f"t_{t}_{cur_idx}")
 
                 if t_selected != "No selection":
                     n_selected_trgt += 1 
@@ -36,9 +36,9 @@ def construct_annotations(cur_idx,example:dict):
                         st.warning("please choose a stance")
                     else:
                         if s_selected != ans_dict[t_selected]:
-                            st.error("please try again!")
+                            st.error("incorrect")
                         else:
-                            st.success("correct!")
+                            st.success("correct")
                     
     if not n_selected_trgt:
     
@@ -76,10 +76,14 @@ def example_page(cur_idx:int,data:list):
             with r_col:
                 ex = ans["explanation"]
                 st.write(f"**explanation**: {ex}")
-
+        
+        
     with st.container():
         st.subheader("Please choose the correct options based on the above answers.",divider="red")
         st.write("hint: you do not need to complete every instance as long as you are familiar with the interface")
+        
+        bt = st.button("show options")
+       
         construct_annotations(cur_idx,example)
 
 def run():
@@ -92,4 +96,5 @@ def run():
         example_page(pages.current,data) 
 
 if __name__ == "__main__":
+    st.set_page_config(layout="wide")
     run()
