@@ -24,7 +24,7 @@ def get_data(path:str):
     with open(path,"r") as f:
         return json.load(f)
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
-@st.cache_resource
+
 def init_mongo_clinet() -> MongoClient:
     
     # Create a new client and connect to the server
@@ -46,12 +46,12 @@ def load_user_data(lang,id):
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
     user_data = col.find_one(query)
-    st.write(user_data["LANG"])
+    
     return user_data 
 
 
 class SDSurvey: 
-    def __init__(self,lang="English",prolific_id="default_prolific_id",study_id="default_study_id") -> None:
+    def __init__(self,lang="Polish",prolific_id="default_prolific_id",study_id="default_study_id") -> None:
        
         self.set_qp()
         self.success = False 
