@@ -46,7 +46,7 @@ def load_user_data(lang,id):
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
     user_data = col.find_one(query)
-    st(user_data[lang])
+    st.write(user_data["LANG"])
     return user_data 
 
 
