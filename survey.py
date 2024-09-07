@@ -19,7 +19,7 @@ all_targets = {
 "asylum procedures":{"fg_targets":["none","protection", "compensation", "refugee status", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."},
 } 
 stance_options = ["favor","against","none"]
-@st.cache_data()
+
 def get_data(path:str):
     with open(path,"r") as f:
         return json.load(f)
@@ -46,7 +46,7 @@ def load_user_data(lang,id):
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
     user_data = col.find_one(query)
-    
+    st(user_data[lang])
     return user_data 
 
 
