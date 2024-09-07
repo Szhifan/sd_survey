@@ -54,7 +54,7 @@ def set_qp():
         st.session_state["qp"]["STUDY_ID"]  = "default_study_id"
     
     st.query_params.from_dict(st.session_state["qp"])           
-def main(**kwargs):
+def main():
     survey_link = f"https://sdsurvey-ew4vwqofwonjaw6ojqrmd2.streamlit.app/?"
     set_qp()
     survey = ss.StreamlitSurvey("sd annotation: pre-survey")
@@ -66,6 +66,7 @@ def main(**kwargs):
     
     score = questions(survey)
     params = urlencode(st.session_state["qp"]) 
+    
     btn = st.button("finish and submit")
     if btn:
         if score >= 3:
@@ -77,4 +78,5 @@ def main(**kwargs):
 
 
 if __name__ == "__main__":
+    qp = {"LANG":"English","PROLIFIC_PID":"default_prolific_id2","STUDY_ID":"default_study_id"}
     main()

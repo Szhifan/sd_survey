@@ -36,7 +36,7 @@ def init_mongo_clinet() -> MongoClient:
     except Exception as e:
         return None 
     
-@st.cache_data
+
 def load_user_data(lang,id):
     client = init_mongo_clinet()
     if not client:
