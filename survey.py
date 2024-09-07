@@ -19,12 +19,12 @@ all_targets = {
 "asylum procedures":{"fg_targets":["none","protection", "compensation", "refugee status", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."},
 } 
 stance_options = ["favor","against","none"]
-
+@st.cache_data()
 def get_data(path:str):
     with open(path,"r") as f:
         return json.load(f)
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
-
+@st.cache_resource()
 def init_mongo_clinet() -> MongoClient:
     
     # Create a new client and connect to the server
@@ -36,7 +36,7 @@ def init_mongo_clinet() -> MongoClient:
     except Exception as e:
         return None 
     
-
+@st.cache_data()
 def load_user_data(lang,id):
     client = init_mongo_clinet()
     if not client:
@@ -51,14 +51,12 @@ def load_user_data(lang,id):
 
 
 class SDSurvey: 
-    def __init__(self,lang="Polish",prolific_id="default_prolific_id",study_id="default_study_id") -> None:
+    def __init__(self) -> None:
        
         self.set_qp()
         self.success = False 
         self.n_annotation = 4
-        self.lang = lang 
-        self.prolific_id = prolific_id 
-        self.study_id = study_id
+
 
         
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
@@ -86,7 +84,11 @@ class SDSurvey:
             self.lang = st.session_state["qp"]["LANG"]   
             self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"]
             self.study_id = st.session_state["qp"]["STUDY_ID"]  
-  
+        else:
+            self.lang = "English"
+            self.prolific_id = "default_prolific_id"
+            self.study_id = "default_study_id"
+
       
         st.query_params.from_dict(st.session_state["qp"])     
 
