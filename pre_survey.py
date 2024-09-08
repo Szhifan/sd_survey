@@ -4,7 +4,11 @@ import my_streamlit_survey as ss
 from my_pages import Pages
 
 from urllib.parse import urlencode
-survey_link = ""
+pre_tests = [
+            {"text":"RT @trevdick Farage claims to be uncomfortable with EU migrants not learning English, my exp tells me many more of them speak English than Brits abroad!>","target":["migrants","economic migrants"],"stance":["favor"]},
+            {"text":"let the russians have ukraine, if they joined the eu england would have to put up with another million immigrants to give jobs+homes to","target":["migrants","economic migrants"],"stance":["against"]},
+            {"text":"#Disaster #humanity European Commission Pledges 3.9 Million Euro in Aid to Kobani Refugees - RIA ... http://t.co/isnrtULyBL #HumanRights","target":["European Commission","refugees"],"stance":["favor","none"]}, 
+            {"text":"@DrGertJanMulder: Are you fond of English as I do: EU asylum plan presents a threat to our civilisation -UKIP leader Nigel","target":["asylum seekers", "refugees"],"stance":"against"}]
 st.set_page_config(layout="wide")
 targets =  {
     "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",],"help":None},
@@ -12,9 +16,8 @@ targets =  {
 def questions(survey:ss.StreamlitSurvey):
 
     score = 0  
-    with open("pre_test.json","r") as f:
-        data = json.load(f)  
-    for i,item in enumerate(data):
+
+    for i,item in enumerate(pre_tests):
         with st.container(border=True):
             text = item["text"]
             st.subheader(f"{i+1}: {text}",divider="red")
@@ -35,8 +38,6 @@ def questions(survey:ss.StreamlitSurvey):
                         s_selected = survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{i}",help="please choose none if the post doesn't express a clear stance toward the topic.")
                         if s_selected == "No selection":
                             st.warning("please choose a stance.")
-           
-
                 if t_selected in item["target"] and s_selected in item["stance"]:
                     score += 1 
           
@@ -61,8 +62,8 @@ def main():
     st.title("Pre-annotation survey")
     st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on tweets about migrants by annotating target and stance on simpler tweets with simpler question settings, good luck!",divider="red")
 
-    st.write("Please check the sidebare for explanations and get yourself familiar withe the annotation interface!")
-    st.write("please determine if the following targets appear in these posts, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance.")
+    st.write("Please check the sidebar for explanations and get yourself familiar withe the annotation interface!")
+    st.write("Please determine if the following targets appear in these posts, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance.")
     
     score = questions(survey)
     params = urlencode(st.session_state["qp"]) 
@@ -70,13 +71,8 @@ def main():
     btn = st.button("finish and submit")
     if btn:
         if score >= 3:
-            st.success(f"Congradulations, you have passed the test, please click this [link]({survey_link + params}) for the actual annotation.")
+            st.success(f"Congratulations, you have passed the test, please click this [link]({survey_link + params}) for the actual annotation.")
         else:
-            st.error("sorry, you didn't past the test.")
-
-
-
-
+            st.error("Sorry, you didn't past the test.")
 if __name__ == "__main__":
-    qp = {"LANG":"English","PROLIFIC_PID":"default_prolific_id2","STUDY_ID":"default_study_id"}
     main()

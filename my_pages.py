@@ -25,7 +25,7 @@ class Pages(object):
             key=f"{pages.current_page_key}_btn_next",
         )
     @staticmethod
-    def default_btn_jump(label="jump to latest"):
+    def default_btn_jump(label="jump to the latest annotation"):
         return lambda pages : st.button(
             label,
             use_container_width=True,
