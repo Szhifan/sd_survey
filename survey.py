@@ -31,6 +31,7 @@ class SDSurvey:
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         if sum(st.session_state["annos_completed"]):
             self.pages.latest_page = 1 + sum(st.session_state["annos_completed"])
+     
            
     def set_qp(self):
         """
