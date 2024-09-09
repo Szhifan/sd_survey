@@ -25,7 +25,7 @@ class Pages(object):
             key=f"{pages.current_page_key}_btn_next",
         )
     @staticmethod
-    def default_btn_jump(label="jump to the latest annotation"):
+    def default_btn_jump(label="jump to latest"):
         return lambda pages : st.button(
             label,
             use_container_width=True,
@@ -138,8 +138,8 @@ class Pages(object):
         """
         jump to the latest page
         """
-        if self.latest_page < self.n_pages - 1:
-            self.current = self.latest_page 
+   
+        self.current = self.latest_page 
 
     @property
     def prev_button(self):
@@ -227,8 +227,6 @@ class Pages(object):
                 self.next_button
         with mid:
             if self.latest_page and self.current == 0:
-            
-                
                 self.jump_button
                 
         if self.progress_bar and self.n_pages > 1:

@@ -2,10 +2,9 @@ import streamlit as st
 import my_streamlit_survey as ss 
 import re 
 import json  
+from utils import  *
 import time 
 import json
-from pymongo.mongo_client import MongoClient
-
 all_targets = {
 "migration policies":{"fg_targets":["Turkey Agreement","Dublin Agreement","Refugee Quotas"],"help":"[turkey agreement](https://www.rescue.org/eu/article/what-eu-turkey-deal); [Dublin Agreement](https://en.wikipedia.org/wiki/Dublin_Regulation); refugee quotas: Ratio of refugees assigned to each EU countries during the refugee crisis."},
 "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",],"help":None},
@@ -14,62 +13,14 @@ all_targets = {
 "refugee camps":{"fg_targets":["none","living conditions"],"help":"camps to accommodate refugees"},
 "asylum procedures":{"fg_targets":["none","protection", "compensation", "refugee status", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."},
 } 
-lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
+
 stance_options = ["favor","against","none"]
-ttl = 1200
-@st.cache_data(ttl=ttl)
-def get_data(path:str):
-    with open(path,"r") as f:
-        return json.load(f)
-
-@st.cache_resource(ttl=ttl)
-def init_mongo_clinet() -> MongoClient:
-    
-    # Create a new client and connect to the server
-    client = MongoClient(st.secrets["uri"])
-    # Send a ping to confirm a successful connection
-    try:
-        client.admin.command('ping')
-        return client 
-    except Exception:
-        return None 
-    
-
-def load_results_no_cache(lang,id):
-
-    client = init_mongo_clinet()
-    if not client:
-        st.warning("connection to database failed, please try again.")
-        return None 
-    db = client["anno-results"]
-    col = db[lang2id[lang]]
-    query = {"PROLIFIC_PID":id}
-    user_data = col.find_one(query)
-    return user_data 
-@st.cache_data(ttl=ttl,show_spinner="loading your previously stored results")
-def load_results_cache(lang,id):
- 
-    client = init_mongo_clinet()
-    if not client:
-        st.warning("connection to database failed, please try again.")
-        return None 
-    db = client["anno-results"]
-    col = db[lang2id[lang]]
-    query = {"PROLIFIC_PID":id}
-    user_data = col.find_one(query)
-    return user_data 
-
-def load_results(lang,id,use_cache=False):
-   
-    return load_results_no_cache(lang,id) if use_cache else load_results_cache(lang,id)
-    
-
 
 class SDSurvey: 
     def __init__(self) -> None:
         new_session = self.set_qp()
         path = f"data/{lang2id[self.lang]}.json"
-        self.anno_data = get_data(path)
+        self.anno_data = get_anno_data(path)
         self.n_annotation = len(self.anno_data)
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
         user_data = load_results(self.lang,self.prolific_id,use_cache=new_session)
@@ -105,7 +56,7 @@ class SDSurvey:
 
     def save_to_mongodb(self):
         """
-        save or update the annotation results based on prolific_id 
+        save or update the annotation results based on prolific_id  and language 
         """
         client = init_mongo_clinet()
         self.survey.data["LANG"] = self.lang
@@ -113,7 +64,7 @@ class SDSurvey:
         self.survey.data["completed"] = sum(st.session_state["annos_completed"])
         if not client:
             st.error("connection to database failed, please try again.")
-            return 
+            return False
         db = client["anno-results"]
         col = db[lang2id[self.survey.data["LANG"]]]
         query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"]}
@@ -124,14 +75,7 @@ class SDSurvey:
         else:
             col.update_one(query,update)
         st.success("results saved")
-
-  
-    @staticmethod
-    def reformat_ans(data):
-        """
-        reformat the survey state such that the answer for each examples is stored as: 
-        {sourceID:[(target,stance)...]}
-        """
+        return True
 
     def set_state(self,cur_idx:int,choise="No selection"):
         """
@@ -150,8 +94,8 @@ class SDSurvey:
     
         st.header("Welcome to our study!")
         st.write("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
-        st.write("If you wish to take a rest, you can push the **save** button to the top-left corner of the annotation page.")
-        
+        st.write("If you wish to take a rest, you can click the **save** button to the top-left corner of the annotation page.")
+
         
      
     def construct_annotations(self,cur_idx,example_id):
@@ -168,14 +112,12 @@ class SDSurvey:
                 l_col,r_col = st.columns([2,1])
                 with l_col: 
                     st.subheader(f"{t}",help=all_targets[t]["help"])
-                    t_selected = self.survey.radio("Please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{cur_idx}")
+                    t_selected = self.survey.radio("Please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{example_id}")
                     if t_selected != "No selection":
                         n_selected_trgt += 1 
-                
-
                 with r_col:
                     if t_selected != "No selection":
-                        s_selected = self.survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{cur_idx}",help="please choose none if the post doesn't express a clear stance toward the topic.")
+                        s_selected = self.survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{example_id}",help="please choose none if the post doesn't express a clear stance toward the topic.")
                 
                         if s_selected == "No selection":
                             st.warning("Please choose a stance.")
@@ -190,9 +132,9 @@ class SDSurvey:
         '''
         Display the annotation page. 
         '''
-
-        st.title("Annotation")
         cur_idx = n - 1 
+        st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")
+        
         btn = st.button("save results",key="save_btn_" + str(cur_idx),help="please click to save the results.")
         if btn:
             self.save_to_mongodb()
@@ -200,7 +142,7 @@ class SDSurvey:
         anno_example = self.anno_data[cur_idx]
        
         st.header("Please read the following tweet:",divider="red")
-        st.write(f"{cur_idx + 1}|{self.n_annotation}")
+      
         with st.container(border=True):
             st.subheader(anno_example["fullText"])
         
@@ -208,13 +150,12 @@ class SDSurvey:
         
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
 
-    def last_page(self):
+    def conclusion_page(self):
         st.title("Submission")
-        st.write("You have successfully completed our study. Please click the submission button below to save your answers get your **completion code**.")
-        st.write("If you have any suggestions for our survey. Please feel free to reach out to us in Prolific, we would appreciate your feedback!")
+        st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
+        st.write("If you have any have suggestions for our survey. Please feel free to reach out to us on Prolific, your feedback is valuable for us!")
     def submit_func(self):
-        
-        if self.save_to_mongodb(self.survey.data):
+        if self.save_to_mongodb():
             st.success("Submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CHCBTBHM) to mark your completion.")
      
     def run_app(self):
@@ -222,7 +163,7 @@ class SDSurvey:
             if self.pages.current == 0:
                 self.welcome_page()
             elif self.pages.current ==self.n_pages-1:
-                self.last_page()
+                self.conclusion_page()
             else:
                 self.annotation_page(self.pages.current)
 if __name__ == "__main__":

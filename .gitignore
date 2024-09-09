@@ -164,3 +164,5 @@ cython_debug/
 #.idea/
 test.py
 vscode/.*
+pq.txt
+res_example.json

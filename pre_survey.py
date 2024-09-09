@@ -1,9 +1,11 @@
 import streamlit as st  
 import json 
 import my_streamlit_survey as ss 
-from my_pages import Pages
+from survey import init_mongo_clinet
+from survey import load_results 
 
 from urllib.parse import urlencode
+survey_link = f"https://sdsurvey-ew4vwqofwonjaw6ojqrmd2.streamlit.app/?"
 pre_tests = [
             {"text":"RT @trevdick Farage claims to be uncomfortable with EU migrants not learning English, my exp tells me many more of them speak English than Brits abroad!>","target":["migrants","economic migrants"],"stance":["favor"]},
             {"text":"let the russians have ukraine, if they joined the eu england would have to put up with another million immigrants to give jobs+homes to","target":["migrants","economic migrants"],"stance":["against"]},
@@ -44,6 +46,10 @@ def questions(survey:ss.StreamlitSurvey):
             if not n_t_selected:
                 st.warning("please choose at least one target.")
     return score 
+def get_survey_url(params:dict):
+    parsed_params = urlencode(params)
+    return survey_link + parsed_params
+
 
 def set_qp():
     
@@ -56,23 +62,26 @@ def set_qp():
     
     st.query_params.from_dict(st.session_state["qp"])           
 def main():
-    survey_link = f"https://sdsurvey-ew4vwqofwonjaw6ojqrmd2.streamlit.app/?"
+    
     set_qp()
+    used_data = load_results(lang=st.session_state["qp"]["LANG"],id=st.session_state["qp"]["PROLIFIC_PID"])
+    anno_url = get_survey_url(st.session_state["qp"])
+    if used_data:
+
+        st.success(f"You have passed the test, please click this [link]({anno_url}) to proceed to the annotation.")
+        return 
     survey = ss.StreamlitSurvey("sd annotation: pre-survey")
     st.title("Pre-annotation survey")
-    st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on tweets about migrants by annotating target and stance on simpler tweets with simpler question settings, good luck!",divider="red")
-
-    st.write("Please check the sidebar for explanations and get yourself familiar withe the annotation interface!")
+    st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on simpler tweets with simpler question settings, good luck!",divider="red")
+    st.write("Please check the sidebar for explanations and get yourself familiar withe the annotation interface first!")
     st.write("Please determine if the following targets appear in these posts, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance.")
     
     score = questions(survey)
-    params = urlencode(st.session_state["qp"]) 
-    
     btn = st.button("finish and submit")
     if btn:
         if score >= 3:
-            st.success(f"Congratulations, you have passed the test, please click this [link]({survey_link + params}) for the actual annotation.")
+            st.success(f"Congratulations, you have passed the test, please click this [link]({anno_url}) to proceed to the annotation")
         else:
-            st.error("Sorry, you didn't past the test.")
+            st.error("Sorry, you didn't pass the test.")
 if __name__ == "__main__":
     main()
