@@ -34,8 +34,9 @@ def init_mongo_clinet() -> MongoClient:
     except Exception:
         return None 
     
-@st.cache_data(ttl=ttl)
-def load_user_data(lang,id):
+
+def load_results_no_cache(lang,id):
+
     client = init_mongo_clinet()
     if not client:
         st.warning("connection to database failed, please try again.")
@@ -44,17 +45,34 @@ def load_user_data(lang,id):
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
     user_data = col.find_one(query)
-    
     return user_data 
+@st.cache_data(ttl=ttl,show_spinner="loading your previously stored results")
+def load_results_cache(lang,id):
+ 
+    client = init_mongo_clinet()
+    if not client:
+        st.warning("connection to database failed, please try again.")
+        return None 
+    db = client["anno-results"]
+    col = db[lang2id[lang]]
+    query = {"PROLIFIC_PID":id}
+    user_data = col.find_one(query)
+    return user_data 
+
+def load_results(lang,id,use_cache=False):
+   
+    return load_results_no_cache(lang,id) if use_cache else load_results_cache(lang,id)
+    
+
+
 class SDSurvey: 
     def __init__(self) -> None:
-        self.set_qp()
-        self.success = False 
+        new_session = self.set_qp()
         path = f"data/{lang2id[self.lang]}.json"
         self.anno_data = get_data(path)
         self.n_annotation = len(self.anno_data)
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
-        user_data = load_user_data(self.lang,self.prolific_id)
+        user_data = load_results(self.lang,self.prolific_id,use_cache=new_session)
         if "annos_completed" not in st.session_state:  # check if an annotation is successfull completed. Criterion: for each example, at least one target must be choosen. For each choosen target, a stance must be choosen. 
             st.session_state["annos_completed"] = [False] * self.n_annotation
             if user_data and "completed" in user_data: #load the completion status 
@@ -66,20 +84,24 @@ class SDSurvey:
            
     def set_qp(self):
         """
-        save the query parameters to session state for reuse. 
+        save the query parameters to session state for reuse.
+        return :new_session. If it is a new session or not  
         """
-        
+        new_session = False 
         if "qp" not in st.session_state:
+            new_session = True 
             st.session_state["qp"] = st.query_params.to_dict()  
+            
         if len(st.session_state["qp"]): 
             self.lang = st.session_state["qp"]["LANG"]   
             self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"]
             self.study_id = st.session_state["qp"]["STUDY_ID"]  
         else:
-            self.lang = "English"
-            self.prolific_id = "default_prolific_id"
-            self.study_id = "default_study_id"
+            self.lang = st.session_state["qp"]["LANG"] = "English"
+            self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"] = "default_prolific_id"
+            self.study_id = st.session_state["qp"]["STUDY_ID"]  = "default_study_id"
         st.query_params.from_dict(st.session_state["qp"])     
+        return new_session 
 
     def save_to_mongodb(self):
         """
@@ -127,7 +149,6 @@ class SDSurvey:
         st.title("Stance Detection: Refugee Crisis")
     
         st.header("Welcome to our study!")
-        
         st.write("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.write("If you wish to take a rest, you can push the **save** button to the top-left corner of the annotation page.")
         
