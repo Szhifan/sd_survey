@@ -119,7 +119,6 @@ class StreamlitSurvey:
                 st.session_state[self.data_name] = {}
         
         else:
-          
             if self.data_name not in st.session_state:
                 st.session_state[self.data_name] = data
         data = st.session_state[self.data_name]

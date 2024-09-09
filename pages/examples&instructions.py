@@ -7,7 +7,7 @@ examples = [
 {"text":"To the delusional leftists, Obama, Merkel, the Canadian Prime Minister, Pope Francis, United Nations, and others they say nothing goes wrong even though there are ongoing terrorism problems due to the :red[refugees and illegal aliens] in the EU and other places.","ans":[{"t":"refugees","s":"against","explanation":"The post directly mentions “refugee” and concerns the mass influx of non-EU migrants. Note: “EU institutions” is not a target here because the author merely indicates that the refugees are coming to the “EU”, but the EU here is a place where the issue takes place rather than a political agency."}]},
 {"text":"Salvini refuses to bend, I love it. Italy - Salvini Refuses To Let 177 :red[Migrants Off Ship] Till EU Agrees To Take Them (Video) news","ans":[{"t":"refugees","s":"against","explanation":"Salvini is a right-wing Italian politician holding anti-migrant opinions. The post supports his hard-line policies against refugees thus the post is against the refugees."},{"t":"Mediterranean crossing","s":"none","explanation":"The mentions refugees coming to the EU by boat through the Mediterranean Sea, while no further stance is expressed."}]},
 {"text":"The funny thing about Brexit is that even the racists will be disappointed by it. The UK is not going to expel 2 million :red[EU workers] otherwise economy collapses. & future immigration more likely to come from Africa/Asia as Europeans won’t want to come without guaranteed rights.","ans":[{"t":"economic migrants","s":"favor","explanation":"The post primarily mentions migrants and specifically concerns about the economic consequences of EU migrants leaving UK and acknowledges their contributions to the UK economy. Thus, the post talks about economic migrants from EU/Africa/Asia who come to the UK for career perspectives."}]},
-{"text":"(translated from German)RT @warum_nur74 @Beatrix_vStorch The EU (SPD HrTönnes) wants to do it that way too. :red[Suspend Dublin] and then if a :red[refugee] in Libya says that his relative is in Germany, ;red[he comes straight to Germany. He doesn't need papers]. The word is enough. Sometimes I wish for other times.","ans":[{"t":"refugees","s":"against","explanation":"The author wants a more tightened control of refugees, indicating a against stance toward refugees."},{"t":"Dublin Agreement","s":"favor","explanation":"The author of the post acknowledges the favor effects of the Dublin agreement that it regulates which refugee should be allocated to which EU country. Otherwise, the refugees will pick whatever country they like."},{"t":"asylum procedures","s":"none","explanation":"The author talks about the way and procedures a refugee is allocated to the receiving country (either through the Dublin agreement or depending on their relatives in Germany). But there is no clear stance towards this topic."}]},
+{"text":"(translated from German)RT @warum_nur74 @Beatrix_vStorch The EU (SPD HrTönnes) wants to do it that way too. :red[Suspend Dublin] and then if a :red[refugee] in Libya says that his relative is in Germany, :red[he comes straight to Germany. He doesn't need papers]. The word is enough. Sometimes I wish for other times.","ans":[{"t":"refugees","s":"against","explanation":"The author wants a more tightened control of refugees, indicating a against stance toward refugees."},{"t":"Dublin Agreement","s":"favor","explanation":"The author of the post acknowledges the favor effects of the Dublin agreement that it regulates which refugee should be allocated to which EU country. Otherwise, the refugees will pick whatever country they like."},{"t":"asylum procedures","s":"none","explanation":"The author talks about the way and procedures a refugee is allocated to the receiving country (either through the Dublin agreement or depending on their relatives in Germany). But there is no clear stance towards this topic."}]},
 {"text":"(translated from German)RT @Beatrix_vStorch :red[Migrant distribution] minister Seehofer is failing because of the EU states. Unlike the minister, they are still in their right minds. 110,000 :red[asylum applications] in Germany and he wants to take in even more. Dear CSU, send him into retirement at last. #AfD","ans":[{"t":"asylum seekers","s":"against","explanation":"The author doesn’t want more asylum seekers in Germany."},{"t":"refugee quotas","s":"against","explanation":" The author talks about migrant distribution, which is refugee quotas in this context and criticises that this policy is failing and that Germany cannot take more refugees."}]}
 ]
 
@@ -92,12 +92,13 @@ def example_page(cur_idx:int,data:list):
 def run():
 
     survey = ss.StreamlitSurvey("examples")
-    data = examples
-    pages = survey.pages(len(data),progress_bar=True)
+ 
+    pages = survey.pages(len(examples),progress_bar=True)
  
     with pages:
-        example_page(pages.current,data) 
+        example_page(pages.current,examples) 
 
 if __name__ == "__main__":
+    print(123)
     st.set_page_config(layout="wide")
     run()

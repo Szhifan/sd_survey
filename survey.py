@@ -13,9 +13,7 @@ all_targets = {
 "refugee camps":{"fg_targets":["none","living conditions"],"help":"camps to accommodate refugees"},
 "asylum procedures":{"fg_targets":["none","protection", "compensation", "refugee status", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."},
 } 
-
 stance_options = ["favor","against","none"]
-
 class SDSurvey: 
     def __init__(self) -> None:
         new_session = self.set_qp()
@@ -29,6 +27,7 @@ class SDSurvey:
             if user_data and "completed" in user_data: #load the completion status 
                 st.session_state["annos_completed"] = [i < user_data["completed"] for i in range(self.n_annotation)]
         self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
+        
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         if sum(st.session_state["annos_completed"]):
             self.pages.latest_page = 1 + sum(st.session_state["annos_completed"])
@@ -69,7 +68,6 @@ class SDSurvey:
         col = db[lang2id[self.survey.data["LANG"]]]
         query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"]}
         update = {"$set":self.survey.data}
-
         if not col.find_one(query):
             col.insert_one(self.survey.data)
         else:
@@ -83,9 +81,6 @@ class SDSurvey:
         """
         if "annos_completed" in st.session_state:
             st.session_state["annos_completed"][cur_idx] = (choise!="No selection")
-        
-  
-
     def welcome_page(self):
         """draw the first welcome page"""
         
@@ -94,15 +89,11 @@ class SDSurvey:
     
         st.header("Welcome to our study!")
         st.write("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
-        st.write("If you wish to take a rest, you can click the **save** button to the top-left corner of the annotation page.")
-
-        
-     
+        st.write("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the **jump to latest** button")
     def construct_annotations(self,cur_idx,example_id):
         """
         Display the options
         """
-     
         st.write("Please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance. You can choose up to **three** targets.")
         n_selected_trgt = 0 
         targets = all_targets.keys()
@@ -135,9 +126,6 @@ class SDSurvey:
         cur_idx = n - 1 
         st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")
         
-        btn = st.button("save results",key="save_btn_" + str(cur_idx),help="please click to save the results.")
-        if btn:
-            self.save_to_mongodb()
         
         anno_example = self.anno_data[cur_idx]
        
@@ -147,6 +135,8 @@ class SDSurvey:
             st.subheader(anno_example["fullText"])
         
         self.construct_annotations(cur_idx,anno_example["resourceId"])
+        if st.session_state["annos_completed"][cur_idx]:
+            self.save_to_mongodb()
         
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
 
@@ -156,8 +146,7 @@ class SDSurvey:
         st.write("If you have any have suggestions for our survey. Please feel free to reach out to us on Prolific, your feedback is valuable for us!")
     def submit_func(self):
         if self.save_to_mongodb():
-            st.success("Submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CHCBTBHM) to mark your completion.")
-     
+            st.success("Submission and saving successful! We will mark you as completed after checking your answers.")  
     def run_app(self):
         with self.pages:
             if self.pages.current == 0:

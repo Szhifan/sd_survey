@@ -1,7 +1,5 @@
 import streamlit as st  
-import json 
 import my_streamlit_survey as ss 
-from survey import init_mongo_clinet
 from survey import load_results 
 
 from urllib.parse import urlencode

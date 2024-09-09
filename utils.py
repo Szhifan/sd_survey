@@ -83,12 +83,6 @@ def fetch_from_db():
             rf_data = reformat(item)
             with open(path,"w") as f:
                 json.dump(rf_data,f)
-
-
-
-
-        
-
 if __name__ == "__main__":
     with open("res_example.json","r") as f:
         data = json.load(f)
