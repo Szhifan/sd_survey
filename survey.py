@@ -125,6 +125,8 @@ class SDSurvey:
         Display the annotation page. 
         '''
         cur_idx = n - 1 
+        if cur_idx and st.session_state["annos_completed"][cur_idx -1]:
+            self.save_to_mongodb()
         st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")
         
         
@@ -136,10 +138,10 @@ class SDSurvey:
             st.subheader(anno_example["fullText"])
         
         self.construct_annotations(cur_idx,anno_example["resourceId"])
-        if st.session_state["annos_completed"][cur_idx]:
-            self.save_to_mongodb()
+    
         
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
+        
 
     def conclusion_page(self):
         st.title("Submission")
