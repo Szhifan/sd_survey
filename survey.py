@@ -65,7 +65,7 @@ class SDSurvey:
             self.survey.data["time_spent"] = time.time() - st.session_state["start_time"]
         else:
             self.survey.data["time_spent"] += time.time() - st.session_state["start_time"]
-        
+        st.write(self.survey.data["time_spent"])
         self.survey.data["LANG"] = self.lang
         self.survey.data["PROLIFIC_PID"] = self.prolific_id
         self.survey.data["completed"] = sum(st.session_state["annos_completed"])

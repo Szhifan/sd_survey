@@ -2,7 +2,6 @@ from typing import Union
 
 import streamlit as st
 
-
 class Pages(object):
 
     @staticmethod
