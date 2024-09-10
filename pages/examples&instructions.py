@@ -24,7 +24,8 @@ def construct_annotations(cur_idx,example:dict):
             with l_col: 
                 st.subheader(f"{t}",help=all_targets[t]["help"])
                 t_selected = st.radio("please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,key = f"t_{t}_{cur_idx}")
-
+                if t_selected == "none":
+                    t_selected = t
                 if t_selected != "No selection":
                     n_selected_trgt += 1 
                     if t_selected not in ans_dict.keys():
@@ -84,9 +85,8 @@ def example_page(cur_idx:int,data:list):
     with st.container():
         st.subheader("Please choose the correct options based on the above answers.",divider="red")
         st.write("hint: you do not need to complete every instance as long as you are familiar with the interface")
-        
-        bt = st.button("show options")
-       
+    
+
         construct_annotations(cur_idx,example)
 
 def run():
@@ -99,6 +99,6 @@ def run():
         example_page(pages.current,examples) 
 
 if __name__ == "__main__":
-    print(123)
+
     st.set_page_config(layout="wide")
     run()

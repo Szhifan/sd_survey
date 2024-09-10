@@ -47,8 +47,6 @@ def questions(survey:ss.StreamlitSurvey):
 def get_survey_url(params:dict):
     parsed_params = urlencode(params)
     return survey_link + parsed_params
-
-
 def set_qp():
     
     if "qp" not in st.session_state:
@@ -71,7 +69,7 @@ def main():
     survey = ss.StreamlitSurvey("sd annotation: pre-survey")
     st.title("Pre-annotation survey")
     st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on simpler tweets with simpler question settings, good luck!",divider="red")
-    st.write("Please check the sidebar for explanations and get yourself familiar withe the annotation interface first!")
+    st.write("Please check the sidebar for explanations and get yourself familiar withe the annotation interface first.")
     st.write("Please determine if the following targets appear in these posts, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance.")
     
     score = questions(survey)
