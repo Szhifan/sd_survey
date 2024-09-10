@@ -20,30 +20,30 @@ def init_mongo_clinet() -> MongoClient:
     try:
         client.admin.command('ping')
         return client 
-    except Exception:
-        return None 
+    except Exception as e:
+        st.warning("connection to database failed, please try again.")
+        return e 
 def load_results_no_cache(lang,id):
     client = init_mongo_clinet()
     if not client:
-        st.warning("connection to database failed, please try again.")
-        return None 
+       
+        return dict()
     db = client["anno-results"]
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
     user_data = col.find_one(query)
-    return user_data 
+    return user_data if user_data else dict()
 @st.cache_data(ttl=ttl,show_spinner="loading your previously stored results")
 def load_results_cache(lang,id):
  
     client = init_mongo_clinet()
     if not client:
-        st.warning("connection to database failed, please try again.")
-        return None 
+        return dict() 
     db = client["anno-results"]
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
     user_data = col.find_one(query)
-    return user_data 
+    return user_data if user_data else dict()
 
 def load_results(lang,id,use_cache=False):
     return load_results_no_cache(lang,id) if use_cache else load_results_cache(lang,id)
@@ -52,12 +52,17 @@ def load_results(lang,id,use_cache=False):
 def reformat(data:dict):
     reformated_data = dict()
     regex = r"(.+)_(.+)_(.+)"
+    fg_regex = r"_(.+)_"
     for k in data:
         
         if not re.search(regex,k):
             continue 
         st,target,id = k.split("_")
         if st == "s":
+          
+            mtc = re.search(fg_regex,data[k]["label"]).group(1) 
+            target = target if mtc == "none" else mtc
+           
             if id not in reformated_data:
                 reformated_data[id] = []
                 reformated_data[id].append((target,data[k]["value"]))
@@ -72,7 +77,7 @@ def fetch_from_db():
     root = "anno_results"
     client = init_mongo_clinet()
     if not client:
-        print("connectionto database failed")
+       
         return None 
     db = client["anno-results"]
     for col_name in db.list_collection_names():
@@ -84,6 +89,5 @@ def fetch_from_db():
             with open(path,"w") as f:
                 json.dump(rf_data,f)
 if __name__ == "__main__":
-    with open("res_example.json","r") as f:
-        data = json.load(f)
+
     fetch_from_db()

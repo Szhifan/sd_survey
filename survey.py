@@ -6,14 +6,20 @@ from utils import  *
 import time 
 import json
 all_targets = {
-"migration policies":{"fg_targets":["Turkey Agreement","Dublin Agreement","Refugee Quotas"],"help":"[turkey agreement](https://www.rescue.org/eu/article/what-eu-turkey-deal); [Dublin Agreement](https://en.wikipedia.org/wiki/Dublin_Regulation); refugee quotas: Ratio of refugees assigned to each EU countries during the refugee crisis."},
+"migration policies":{"fg_targets":["policies of a political entity (party, country or politician)","Turkey Agreement","Dublin Agreement","Refugee Quotas"],"help":"[turkey agreement](https://www.rescue.org/eu/article/what-eu-turkey-deal); [Dublin Agreement](https://en.wikipedia.org/wiki/Dublin_Regulation); refugee quotas: Ratio of refugees assigned to each EU countries during the refugee crisis."},
 "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",],"help":None},
 "European Union Institutions":{"fg_targets":["none","European Parliament","European Commission", "European Council","FRONTEX","ECHO"],"help": "FRONTEX: European Border and Coast Guard Agency;ECHO:European Civil Protection and Humanitarian Aid Operations"},
 "refugee pathways":{"fg_targets":["none","boat sinking","Mediterranean crossing","smuggling"],"help":"This includes phenomena occurring during the refugee's journey."},
 "refugee camps":{"fg_targets":["none","living conditions"],"help":"camps to accommodate refugees"},
 "asylum procedures":{"fg_targets":["none","protection", "compensation", "refugee status", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."},
 } 
+completion_url = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
 stance_options = ["favor","against","none"]
+def get_time():
+    if "start_time" not in st.session_state:
+        st.session_state["start_time"] = time.time()
+    return time.time() - st.session_state["start_time"]
+
 class SDSurvey: 
     def __init__(self) -> None:
         new_session = self.set_qp()
@@ -22,19 +28,22 @@ class SDSurvey:
         self.n_annotation = len(self.anno_data)
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
         user_data = load_results(self.lang,self.prolific_id,use_cache=new_session)
+
         if "annos_completed" not in st.session_state:  # check if an annotation is successfull completed. Criterion: for each example, at least one target must be choosen. For each choosen target, a stance must be choosen. 
             st.session_state["annos_completed"] = [False] * self.n_annotation
             if user_data and "completed" in user_data: #load the completion status 
                 st.session_state["annos_completed"] = [i < user_data["completed"] for i in range(self.n_annotation)]
-        if "start_time" not in st.session_state:
-            st.session_state["start_time"] = time.time()
         self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
-        
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         if sum(st.session_state["annos_completed"]):
             self.pages.latest_page = 1 + sum(st.session_state["annos_completed"])
+    
+     
+        if "time_spent" not in self.survey.data:
+            self.survey.data["time_spent"] = 0 
+        
+        
 
-           
     def set_qp(self):
         """
         save the query parameters to session state for reuse.
@@ -61,11 +70,6 @@ class SDSurvey:
         save or update the annotation results based on prolific_id  and language 
         """
         client = init_mongo_clinet()
-        if "time_spent" not in self.survey.data:
-            self.survey.data["time_spent"] = time.time() - st.session_state["start_time"]
-        else:
-            self.survey.data["time_spent"] += time.time() - st.session_state["start_time"]
-      
         self.survey.data["LANG"] = self.lang
         self.survey.data["PROLIFIC_PID"] = self.prolific_id
         self.survey.data["completed"] = sum(st.session_state["annos_completed"])
@@ -91,8 +95,8 @@ class SDSurvey:
             st.session_state["annos_completed"][cur_idx] = (choise!="No selection")
     def welcome_page(self):
         """draw the first welcome page"""
-        
-        st.sidebar.success("have a look at the examples and instructions!")
+        st.write("Please click this [link](https://docs.google.com/document/d/1L_8mu-QaGZ3X3pzMsO_DFDF51bSA5NXmimALregTu10/edit?usp=sharing) to view instructions.")
+        st.sidebar.success("Have a look at the examples and instructions!")
         st.title("Stance Detection: Refugee Crisis")
     
         st.header("Welcome to our study!")
@@ -114,6 +118,8 @@ class SDSurvey:
                     t_selected = self.survey.radio("Please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{example_id}")
                     if t_selected != "No selection":
                         n_selected_trgt += 1 
+                    if t == "migration policies" and t_selected.startswith("p"):
+                        t_selected = self.survey.text_input("What political entity does the post mention?")
                 with r_col:
                     if t_selected != "No selection":
                         s_selected = self.survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{example_id}",help="please choose none if the post doesn't express a clear stance toward the topic.")
@@ -131,32 +137,27 @@ class SDSurvey:
         '''
         Display the annotation page. 
         '''
+        st.write("Please click this [link](https://docs.google.com/document/d/1L_8mu-QaGZ3X3pzMsO_DFDF51bSA5NXmimALregTu10/edit?usp=sharing) to view instructions.")
         cur_idx = n - 1 
         if cur_idx and st.session_state["annos_completed"][cur_idx -1]:
             self.save_to_mongodb()
-        st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")
-        
-        
+        st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")     
         anno_example = self.anno_data[cur_idx]
        
         st.header("Please read the following tweet:",divider="red")
       
         with st.container(border=True):
             st.subheader(anno_example["fullText"])
-        
-        self.construct_annotations(cur_idx,anno_example["resourceId"])
-    
-        
+        self.construct_annotations(cur_idx,anno_example["resourceId"])       
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
-        
-
     def conclusion_page(self):
         st.title("Submission")
         st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
         st.write("If you have any have suggestions for our survey. Please feel free to reach out to us on Prolific, your feedback is valuable for us!")
     def submit_func(self):
+        self.survey.data["time_spent"] = time.time() - self.survey.data["start_time"]
         if self.save_to_mongodb():
-            st.success("Submission and saving successful! We will mark you as completed after checking your answers.")  
+            st.success(f"Submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CHCBTBHM) so that your work will be marked as completed. We will manually check your annotation and reward you accordingly.")  
     def run_app(self):
         with self.pages:
             if self.pages.current == 0:
@@ -166,7 +167,6 @@ class SDSurvey:
             else:
                 self.annotation_page(self.pages.current)
 if __name__ == "__main__":
-    
     st.set_page_config("Stance Detection Annotation",layout="wide")
     sv = SDSurvey()
     sv.run_app()
