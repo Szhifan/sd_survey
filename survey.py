@@ -26,12 +26,14 @@ class SDSurvey:
             st.session_state["annos_completed"] = [False] * self.n_annotation
             if user_data and "completed" in user_data: #load the completion status 
                 st.session_state["annos_completed"] = [i < user_data["completed"] for i in range(self.n_annotation)]
+        if "start_time" not in st.session_state:
+            st.session_state["start_time"] = time.time()
         self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
         
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         if sum(st.session_state["annos_completed"]):
             self.pages.latest_page = 1 + sum(st.session_state["annos_completed"])
-     
+
            
     def set_qp(self):
         """
@@ -59,6 +61,11 @@ class SDSurvey:
         save or update the annotation results based on prolific_id  and language 
         """
         client = init_mongo_clinet()
+        if "time_spent" not in self.survey.data:
+            self.survey.data["time_spent"] = time.time() - st.session_state["start_time"]
+        else:
+            self.survey.data["time_spent"] += time.time() - st.session_state["start_time"]
+        
         self.survey.data["LANG"] = self.lang
         self.survey.data["PROLIFIC_PID"] = self.prolific_id
         self.survey.data["completed"] = sum(st.session_state["annos_completed"])

@@ -13,6 +13,7 @@ class Pages(object):
             on_click=pages.previous,
             disabled=pages.current == 0,
             key=f"{pages.current_page_key}_btn_prev",
+        
         )
 
     @staticmethod
@@ -23,6 +24,7 @@ class Pages(object):
             on_click=pages.next,
             disabled=(pages.current == pages.n_pages - 1) or (not pages.proceed_to_next),
             key=f"{pages.current_page_key}_btn_next",
+
         )
     @staticmethod
     def default_btn_jump(label="jump to latest"):
