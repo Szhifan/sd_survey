@@ -3,7 +3,7 @@ import my_streamlit_survey as ss
 from survey import load_results 
 
 from urllib.parse import urlencode
-survey_link = f"https://sdsurvey-ew4vwqofwonjaw6ojqrmd2.streamlit.app/?"
+survey_link = f"https://sdsurvey-mhermhvefcfupvcnif5swf.streamlit.app/?"
 pre_tests = [
             {"text":"RT @trevdick Farage claims to be uncomfortable with EU migrants not learning English, my exp tells me many more of them speak English than Brits abroad!>","target":["migrants","economic migrants"],"stance":["favor"]},
             {"text":"let the russians have ukraine, if they joined the eu england would have to put up with another million immigrants to give jobs+homes to","target":["migrants","economic migrants"],"stance":["against"]},
