@@ -87,12 +87,7 @@ class SDSurvey:
         st.success("results saved")
         return True
 
-    def set_state(self,cur_idx:int,choise="No selection"):
-        """
-        check if a valid answer is selected
-        """
-        if "annos_completed" in st.session_state:
-            st.session_state["annos_completed"][cur_idx] = (choise!="No selection")
+   
     def welcome_page(self):
         """draw the first welcome page"""
         st.write("Please click this [link](https://docs.google.com/document/d/1L_8mu-QaGZ3X3pzMsO_DFDF51bSA5NXmimALregTu10/edit?usp=sharing) to view instructions.")
@@ -109,6 +104,7 @@ class SDSurvey:
         st.write("Please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance. You can choose up to **three** targets.")
         n_selected_trgt = 0 
         targets = all_targets.keys()
+        st.session_state["annos_completed"][cur_idx] = True
         # random.shuffle(list(targets))
         for t in targets:
             with st.container(border=True):
@@ -119,14 +115,16 @@ class SDSurvey:
                     if t_selected != "No selection":
                         n_selected_trgt += 1 
                     if t == "migration policies" and t_selected.startswith("p"):
-                        t_selected = self.survey.text_input("What political entity does the post mention?")
+                        t_selected = self.survey.text_input("What political entity does the post mention?",id = f"mp_{t}_{example_id}")
+                      
                 with r_col:
                     if t_selected != "No selection":
                         s_selected = self.survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{example_id}",help="please choose none if the post doesn't express a clear stance toward the topic.")
                 
                         if s_selected == "No selection":
+                            st.session_state["annos_completed"][cur_idx] = False
                             st.warning("Please choose a stance.")
-                        self.set_state(cur_idx,s_selected)            
+                             
         if not n_selected_trgt:
             st.session_state["annos_completed"][cur_idx] = False
             st.warning("Please choose at least one target.")
@@ -155,7 +153,7 @@ class SDSurvey:
         st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
         st.write("If you have any have suggestions for our survey. Please feel free to reach out to us on Prolific, your feedback is valuable for us!")
     def submit_func(self):
-        self.survey.data["time_spent"] = time.time() - self.survey.data["start_time"]
+
         if self.save_to_mongodb():
             st.success(f"Submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CHCBTBHM) so that your work will be marked as completed. We will manually check your annotation and reward you accordingly.")  
     def run_app(self):
