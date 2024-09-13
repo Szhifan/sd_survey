@@ -35,7 +35,7 @@ def questions(survey:ss.StreamlitSurvey):
                     
                 with r_col:
                     if t_selected!="No selection":
-                        s_selected = survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{i}",help="please choose none if the post doesn't express a clear stance toward the topic.")
+                        s_selected = survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{i}")
                         if s_selected == "No selection":
                             st.warning("please choose a stance.")
                 if t_selected in item["target"] and s_selected in item["stance"]:
@@ -58,7 +58,6 @@ def set_qp():
     
     st.query_params.from_dict(st.session_state["qp"])           
 def main():
-    
     set_qp()
     used_data = load_results(lang=st.session_state["qp"]["LANG"],id=st.session_state["qp"]["PROLIFIC_PID"])
     anno_url = get_survey_url(st.session_state["qp"])
@@ -69,8 +68,8 @@ def main():
     survey = ss.StreamlitSurvey("sd annotation: pre-survey")
     st.title("Pre-annotation survey")
     st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on simpler tweets with simpler question settings, good luck!",divider="red")
-    st.write("Please check the sidebar for explanations and get yourself familiar withe the annotation interface first.")
-    st.write("Please determine if the following targets appear in these posts, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance.")
+    st.write("Please check the sidebar for explanations and get yourself familiar with the annotation interface first.")
+    st.write("Please determine if the following targets appear in the post, the **question mark** contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (choose **none** if no fine-grained target applies) and the stance (choose **none** if there is no clear stance toward the target). To cancel your selection, please click **No selection**.")
     
     score = questions(survey)
     btn = st.button("finish and submit")

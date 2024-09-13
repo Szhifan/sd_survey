@@ -5,7 +5,7 @@ import streamlit as st
 class Pages(object):
 
     @staticmethod
-    def default_btn_previous(label="Previous"):
+    def default_btn_previous(label="Previous example"):
         return lambda pages: st.button(
             label,
             use_container_width=True,
@@ -16,7 +16,7 @@ class Pages(object):
         )
 
     @staticmethod
-    def default_btn_next(label="Next"):
+    def default_btn_next(label="Next example"):
         return lambda pages: st.button(
             label,
             use_container_width=True,

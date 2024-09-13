@@ -6,15 +6,16 @@ from utils import  *
 import time 
 import json
 all_targets = {
-"migration policies":{"fg_targets":["policies of a political entity (party, country or politician)","Turkey Agreement","Dublin Agreement","Refugee Quotas"],"help":"[turkey agreement](https://www.rescue.org/eu/article/what-eu-turkey-deal); [Dublin Agreement](https://en.wikipedia.org/wiki/Dublin_Regulation); refugee quotas: Ratio of refugees assigned to each EU countries during the refugee crisis."},
+"migration policies":{"fg_targets":["policies of a political entity (party, country or politician)","EU-Turkey refugee return agreement","Dublin Regulation","Refugee Quotas"],"help":"[EU-Turkey refugee return agreement](https://www.rescue.org/eu/article/what-eu-turkey-deal): Turkey agreed to significantly increase border security at its shores and take back all future irregular entrants into Greece (and thereby the EU) from Turkey. ; [Dublin Regulation](https://en.wikipedia.org/wiki/Dublin_Regulation): Country in which the asylum seeker first applies for asylum is responsible for either accepting or rejecting the claim; [https://www.bbc.com/news/world-europe-34329825](refugee quotas): Refugee quotas were a plan to relocate 120,000 asylum seekers over two years from the 'frontline' states Italy, Greece and Hungary to all other EU countries."},
 "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",],"help":None},
 "European Union Institutions":{"fg_targets":["none","European Parliament","European Commission", "European Council","FRONTEX","ECHO"],"help": "FRONTEX: European Border and Coast Guard Agency;ECHO:European Civil Protection and Humanitarian Aid Operations"},
 "refugee pathways":{"fg_targets":["none","boat sinking","Mediterranean crossing","smuggling"],"help":"This includes phenomena occurring during the refugee's journey."},
-"refugee camps":{"fg_targets":["none","living conditions"],"help":"camps to accommodate refugees"},
-"asylum procedures":{"fg_targets":["none","protection", "compensation", "refugee status", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."},
+"reception":{"fg_targets":["none","refugee camps","integration"],"help":"This includes the treatment of refugees in the host country."},
+"asylum procedures":{"fg_targets":["none","protection", "compensation", "legal rights"],"help":"This includes legal procedures and concepts related to asylum application."},
 } 
 completion_url = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
 stance_options = ["favor","against","none"]
+task_description = "Please determine if the following targets appear in the post, the :red[**question mark**] contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (choose :red[**none**] if no fine-grained target applies) and the stance (choose :red[**none**] if there is no clear stance toward the target). To cancel your selection, please click :red[**No**] .You can choose up to :red[**three**] targets."
 def get_time():
     if "start_time" not in st.session_state:
         st.session_state["start_time"] = time.time()
@@ -86,45 +87,49 @@ class SDSurvey:
             col.update_one(query,update)
         st.success("results saved")
         return True
-
-   
     def welcome_page(self):
         """draw the first welcome page"""
-        st.write("Please click this [link](https://docs.google.com/document/d/1L_8mu-QaGZ3X3pzMsO_DFDF51bSA5NXmimALregTu10/edit?usp=sharing) to view instructions.")
         st.sidebar.success("Have a look at the examples and instructions!")
         st.title("Stance Detection: Refugee Crisis")
     
         st.header("Welcome to our study!")
         st.write("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar **examples&instruction** to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.write("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the **jump to latest** button")
-    def construct_annotations(self,cur_idx,example_id):
+    def construct_annotations(self,cur_idx:int,example_id:str,anno_example:str):
         """
         Display the options
         """
-        st.write("Please determine if the following targets appear in the post, the question mark contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (if available) and the stance. You can choose up to **three** targets.")
         n_selected_trgt = 0 
         targets = all_targets.keys()
         st.session_state["annos_completed"][cur_idx] = True
         # random.shuffle(list(targets))
         for t in targets:
             with st.container(border=True):
+                with st.container():
+                    st.subheader(anno_example,divider="orange") 
                 l_col,r_col = st.columns([2,1])
                 with l_col: 
-                    st.subheader(f"{t}",help=all_targets[t]["help"])
-                    t_selected = self.survey.radio("Please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.", options=["No selection"] + all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{example_id}")
-                    if t_selected != "No selection":
-                        n_selected_trgt += 1 
-                    if t == "migration policies" and t_selected.startswith("p"):
-                        t_selected = self.survey.text_input("What political entity does the post mention?",id = f"mp_{t}_{example_id}")
-                      
-                with r_col:
-                    if t_selected != "No selection":
-                        s_selected = self.survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{example_id}",help="please choose none if the post doesn't express a clear stance toward the topic.")
-                
-                        if s_selected == "No selection":
+            
+                    t_exist = self.survey.radio(f"Does target :red[{t}] exist in the post?",options=["No","Yes"],horizontal=True,id=f"e_{t}_{example_id}",help=all_targets[t]["help"])
+                    if t_exist == "No":
+                        continue 
+                    n_selected_trgt += 1
+                    t_selected = self.survey.radio("Please choose a fine-grained target, choose **none** (if applicable) if only broad target exists.", options=all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{example_id}",index=None)
+
+                    if t == "migration policies" and t_selected and t_selected.startswith("p"):
+                        t_selected = self.survey.text_input("What political entity does the post mention? (Please only answer with the entity name.)",id = f"mp_{t}_{example_id}")
+                        if not t_selected:
                             st.session_state["annos_completed"][cur_idx] = False
-                            st.warning("Please choose a stance.")
-                             
+                            st.warning("Please provide a political entity name and press enter.")
+                    if t_selected == "none":
+                         t_selected = t                    
+                with r_col:
+                    if t_selected:
+                        s_selected = self.survey.radio(f"stance toward _:red[{t_selected}]_", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{example_id}",index=None)
+                
+                        if not s_selected:
+                            st.session_state["annos_completed"][cur_idx] = False
+                            st.warning("Please choose a stance.")                          
         if not n_selected_trgt:
             st.session_state["annos_completed"][cur_idx] = False
             st.warning("Please choose at least one target.")
@@ -135,7 +140,7 @@ class SDSurvey:
         '''
         Display the annotation page. 
         '''
-        st.write("Please click this [link](https://docs.google.com/document/d/1L_8mu-QaGZ3X3pzMsO_DFDF51bSA5NXmimALregTu10/edit?usp=sharing) to view instructions.")
+
         cur_idx = n - 1 
         if cur_idx and st.session_state["annos_completed"][cur_idx -1]:
             self.save_to_mongodb()
@@ -143,14 +148,13 @@ class SDSurvey:
         anno_example = self.anno_data[cur_idx]
        
         st.header("Please read the following tweet:",divider="red")
-      
-        with st.container(border=True):
-            st.subheader(anno_example["fullText"])
-        self.construct_annotations(cur_idx,anno_example["resourceId"])       
+        st.write(task_description)
+        self.construct_annotations(cur_idx,anno_example["resourceId"],anno_example["fullText"])
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
     def conclusion_page(self):
         st.title("Submission")
         st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
+        st.write("You can always go back can change your answers after submission.")
         st.write("If you have any have suggestions for our survey. Please feel free to reach out to us on Prolific, your feedback is valuable for us!")
     def submit_func(self):
 

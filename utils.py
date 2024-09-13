@@ -52,14 +52,13 @@ def load_results(lang,id,use_cache=False):
 def reformat(data:dict):
     reformated_data = dict()
     regex = r"(.+)_(.+)_(.+)"
-    fg_regex = r"_(.+)_"
+    fg_regex = r":red\[(.+)\]"
     for k in data:
         
         if not re.search(regex,k):
             continue 
         st,target,id = k.split("_")
-        if st == "s":
-          
+        if st == "s" and data["e" + "_" + target + "_" + id]["value"] == "Yes":
             mtc = re.search(fg_regex,data[k]["label"]).group(1) 
             target = target if mtc == "none" else mtc
            
@@ -68,6 +67,7 @@ def reformat(data:dict):
                 reformated_data[id].append((target,data[k]["value"]))
             else:
                 reformated_data[id].append((target,data[k]["value"]))
+
     return reformated_data
  
 def fetch_from_db():
