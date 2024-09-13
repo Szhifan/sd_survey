@@ -1,6 +1,7 @@
 import streamlit as st
 import my_streamlit_survey as ss 
 from utils import  *
+import random 
 import time 
 class SDSurvey: 
     def __init__(self) -> None:
@@ -80,9 +81,9 @@ class SDSurvey:
         Display the options
         """
         n_selected_trgt = 0 
-        targets = all_targets.keys()
+        targets = list(all_targets.keys()) 
         st.session_state["annos_completed"][cur_idx] = True
-        # random.shuffle(list(targets))
+    
         for t in targets:
             with st.container(border=True):
                 with st.container():

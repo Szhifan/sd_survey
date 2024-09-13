@@ -6,11 +6,11 @@ import os
 from pymongo.mongo_client import MongoClient
 all_targets = {
 "migration policies":{"fg_targets":["policies of a political entity (party, country or politician) or 'concret policy name' (e.g. Brexit)","EU-Turkey refugee return agreement","Dublin Regulation","Refugee Quotas"]},
-"migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",]},
 "European Union Institutions":{"fg_targets":["none","European Parliament","European Commission", "European Council","FRONTEX","ECHO"]},
 "refugee pathways":{"fg_targets":["none","boat sinking","Mediterranean crossing","smuggling"]},
 "reception":{"fg_targets":["none","refugee camps"]},
 "asylum procedures":{"fg_targets":["none","protection", "compensation", "legal rights"]},
+"migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",]}
 } 
 examples = [
 {"text":"Poland, Czech Republic, and Hungary, I advise you to :red[resist the pressure of the EU] to import :red[migrants]. If you need even more motivation, just look at Germany and Sweden.","ans":[{"t":"migrants -> refugees","s":"against","explanation":"The author of the post supports the hard-line asylum policies of Poland, Czechia and Hungary while hinting at the severe consequences of taking up migrants like Germany and Sweden. Although the post only mentions migrants, given the background knowledge of the 2014 refugee crisis the migrants here are the refugees from the Middle East. So the fine-grained target should be refugee."},{"t":"European Union Institutions -> none","s":"against","explanation":"The phrase 'pressure of the EU' indicates, given enough background knowledge, that the EU pressured its member states to accommodate refugees during the refugee. In this case,  'EU' is not merely a place name but a political institution that enacts laws and makes political decisions. Since no specific EU institution name such as EU parliament is mentioned, a fine-grained target is not applicable in this case. Also, the author criticises EU for its policies."}]},
