@@ -159,7 +159,7 @@ def main():
     sv.run_survey()
 if __name__ == "__main__":
 
-    main_page = st.Page(page=main,title="Stance detection annotation",icon="💰")
+    main_page = st.Page(page=main,title="Stance detection annotation",icon="✒️")
     instructions = st.Page(page="stranicy/introduction.py",title="introduction",icon="💡")
     examples = st.Page(page="stranicy/examples.py",title="examples & instructions",icon="📖")
     pg = st.navigation([main_page,instructions,examples])
