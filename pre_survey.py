@@ -10,11 +10,11 @@ pre_tests = [
             {"text":"#Disaster #humanity European Commission Pledges 3.9 Million Euro in Aid to Kobani Refugees - RIA ... http://t.co/isnrtULyBL #HumanRights","target":["European Commission","refugees"],"stance":["favor","none"]}, 
             {"text":"@DrGertJanMulder: Are you fond of English as I do: EU asylum plan presents a threat to our civilisation -UKIP leader Nigel","target":["asylum seekers", "refugees"],"stance":"against"}]
 st.set_page_config(layout="wide")
-targets =  {
+pre_tests_targets =  {
     "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",],"help":None},
     "European Union Institutions":{"fg_targets":["none","European Parliament","European Commission", "European Council","FRONTEX","ECHO"],"help":"FRONTEX:European Border and Coast Guard Agency;ECHO:European Civil Protection and Humanitarian Aid Operations"}}
-def questions(survey:ss.StreamlitSurvey):
 
+def questions(survey:ss.StreamlitSurvey):
     score = 0  
 
     for i,item in enumerate(pre_tests):
@@ -22,11 +22,11 @@ def questions(survey:ss.StreamlitSurvey):
             text = item["text"]
             st.subheader(f"{i+1}: {text}",divider="red")
             n_t_selected = 0 
-            for t in targets:
+            for t in pre_tests_targets:
                 l_col,r_col = st.columns([2,1])
                 with l_col:
-                    st.subheader(f"{t}",help=targets[t]["help"]) 
-                    t_selected = survey.radio("please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.",options=["No selection"] + targets[t]["fg_targets"],horizontal=True,id=f"t_{t}_{i}")
+                    st.subheader(f"{t}",help=pre_tests_targets[t]["help"]) 
+                    t_selected = survey.radio("please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.",options=["No selection"] + pre_tests_targets[t]["fg_targets"],horizontal=True,id=f"t_{t}_{i}")
                     if t_selected != "No selection":
                         n_t_selected += 1
                     if t_selected == "none":
@@ -66,11 +66,13 @@ def main():
         st.success(f"You have passed the test, please click this [link]({anno_url}) to proceed to the annotation.")
         return 
     survey = ss.StreamlitSurvey("sd annotation: pre-survey")
+   
     st.title("Pre-annotation survey")
     st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on simpler tweets with simpler question settings, good luck!",divider="red")
-    st.write("Please check the sidebar for explanations and get yourself familiar with the annotation interface first.")
-    st.write("Please determine if the following targets appear in the post, the **question mark** contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (choose **none** if no fine-grained target applies) and the stance (choose **none** if there is no clear stance toward the target). To cancel your selection, please click **No selection**.")
+    st.write("Please click :green[**introduction**] for more background information and domain knowledge of this task.") 
+    st.write("Before startring the test, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples&instruction**] to the left to get yourself familiar with the interface and the expected answers.")
     
+    st.write("You can always refer to the sidebar for the examples and instructions.") 
     score = questions(survey)
     btn = st.button("finish and submit")
     if btn:
@@ -79,4 +81,9 @@ def main():
         else:
             st.error("Sorry, you didn't pass the test.")
 if __name__ == "__main__":
-    main()
+    
+    main_page = st.Page(page=main,title="Pre-annotation survey",icon=":material/assignment_turned_in:")
+    instructions = st.Page(page="stranicy/introduction.py",title="introduction",icon="💡")
+    examples = st.Page(page="stranicy/examples.py",title="examples & instructions",icon="📖")
+    pg = st.navigation([main_page,instructions,examples])
+    pg.run()
