@@ -22,7 +22,7 @@ examples = [
 ]
 completion_url = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
 stance_options = ["favor","against","none"]
-task_description = "Please determine if the following targets appear in the post, the :red[**question mark**] contains the definition of the target that might be helpful to you. Once you have selected a target, please determine its fine-grained target (choose :red[**none**] if no fine-grained target applies) and the stance (choose :red[**none**] if there is no clear stance toward the target). To cancel your selection, please click :red[**No**] .You can choose up to :red[**three**] targets."
+task_description = "Please determine if the following targets appear in the post, the :red[**question mark**] contains the fine-grained target of each broad target in case you have forgotten. Once you have selected a target, please determine its fine-grained target (choose :red[**none**] if no fine-grained target applies) and the stance (choose :red[**none**] if there is no clear stance toward the target). To cancel your selection, please click :red[**No**] .You can choose up to :red[**from one to three**] targets."
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
 ttl = 1200
 
@@ -54,20 +54,21 @@ def load_results_no_cache(lang,id):
     query = {"PROLIFIC_PID":id}
     user_data = col.find_one(query)
     return user_data if user_data else dict()
-@st.cache_data(ttl=ttl,show_spinner="loading your previously stored results")
-def load_results_cache(lang,id):
- 
+
+def load_results(lang,id,no_cache=False):
     client = init_mongo_clinet()
     if not client:
         return dict() 
     db = client["anno-results"]
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
-    user_data = col.find_one(query)
-    return user_data if user_data else dict()
-
-def load_results(lang,id,use_cache=False):
-    return load_results_no_cache(lang,id) if use_cache else load_results_cache(lang,id)
+    def no_cache():
+        return col.find_one(query)
+    
+    @st.cache_data(ttl=ttl)
+    def cache():
+        return no_cache()
+    return cache() if not no_cache else no_cache()
 
 
 def reformat(data:dict):
@@ -106,9 +107,38 @@ def fetch_from_db():
         col = db[col_name]
         for item in col.find():
             path = os.path.join(root,col_name,item["PROLIFIC_PID"]) + ".json"
-            rf_data = reformat(item)
+            rf_data = {"results":reformat(item)}
             with open(path,"w") as f:
-                json.dump(rf_data,f)
+                json.dump(rf_data,f) 
+    
+def load_anno_result(id:str,lang:str,no_cache:bool):
+    """
+    load the annotation results from the local directory 
+    """
+    root = "anno_results"
+    path = os.path.join(root,lang2id[lang],id) + ".json"
+    def no_cache():
+        with open(path,"r") as f:
+            return json.load(f)
+    @st.cache_data(ttl=ttl)
+    def cache():
+        return no_cache()
+    return cache() if not no_cache else no_cache()
+
+def get_text_by_id(id,lang):
+    """
+    Get the annotation example from the example list by resourceId
+    
+    """
+    path = f"data/{lang2id[lang]}.json"
+    with open(path,"r") as f:
+        data = json.load(f)
+        for item in data:
+            if item["resourceId"] == id:
+                return item["fullText"]
+    return None 
+    
+
 if __name__ == "__main__":
 
     fetch_from_db()

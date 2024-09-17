@@ -1,7 +1,7 @@
 import streamlit as st  
 import my_streamlit_survey as ss 
 from survey import load_results 
-
+from utils import all_targets
 from urllib.parse import urlencode
 survey_link = f"https://sdsurvey-mhermhvefcfupvcnif5swf.streamlit.app/?"
 pre_tests = [
@@ -25,17 +25,21 @@ def questions(survey:ss.StreamlitSurvey):
             for t in pre_tests_targets:
                 l_col,r_col = st.columns([2,1])
                 with l_col:
-                    st.subheader(f"{t}",help=pre_tests_targets[t]["help"]) 
-                    t_selected = survey.radio("please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.",options=["No selection"] + pre_tests_targets[t]["fg_targets"],horizontal=True,id=f"t_{t}_{i}")
-                    if t_selected != "No selection":
-                        n_t_selected += 1
+                    fg_targets = " | ".join(all_targets[t]["fg_targets"])
+                    t_exist = survey.radio(f"Does target :red[{t}] exist in the post?",options=["No","Yes"],horizontal=True,id=f"e_{t}_{i}",help=fg_targets)
+                    if t_exist == "No":
+                        continue 
+                    n_t_selected += 1
+                    t_selected = survey.radio("please choose a fine-grained target, choose 'none' (if applicable) if only broad target exists.",options = pre_tests_targets[t]["fg_targets"],id=f"t_{t}_{i}",horizontal=True,index=None)
+                  
                     if t_selected == "none":
-                        t_selected = t
+                         t_selected = t 
+            
                      
                     
                 with r_col:
                     if t_selected!="No selection":
-                        s_selected = survey.radio(f"stance toward _{t_selected}_", options=["No selection"] + ["favor", "against","none"], horizontal=True,id = f"s_{t}_{i}")
+                        s_selected = survey.radio(f"stance toward _{t_selected}_", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{i}",index=None)
                         if s_selected == "No selection":
                             st.warning("please choose a stance.")
                 if t_selected in item["target"] and s_selected in item["stance"]:
@@ -69,10 +73,10 @@ def main():
    
     st.title("Pre-annotation survey")
     st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on simpler tweets with simpler question settings, good luck!",divider="red")
-    st.write("Please click :green[**introduction**] for more background information and domain knowledge of this task.") 
-    st.write("Before startring the test, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples&instruction**] to the left to get yourself familiar with the interface and the expected answers.")
-    
+    st.write("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
+    st.write("Before starting the test, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples&instruction**] in the sidebar to the left to get yourself familiar with the interface and the expected answers.")
     st.write("You can always refer to the sidebar for the examples and instructions.") 
+    st.write("The question mark icon on next to each question provides you with the fine-grained targets that you can choose from.")
     score = questions(survey)
     btn = st.button("finish and submit")
     if btn:

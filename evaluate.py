@@ -1,13 +1,7 @@
 import streamlit as st 
 import my_streamlit_survey as ss
 from utils import *
-from transformers import MBartForConditionalGeneration, MBart50TokenizerFast
 
-@st.cache_resource
-def load_mbart():
-    model = MBartForConditionalGeneration.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
-    tokenizer = MBart50TokenizerFast.from_pretrained("facebook/mbart-large-50-many-to-many-mmt")
-    return model,tokenizer
 
 
 class EvalSurvey():
@@ -37,7 +31,7 @@ class EvalSurvey():
    
         if sum(self.data["completed"]):
             self.pages.latest_page = sum(self.data["completed"])
-        self.total_score = len(self.data["results"]) * 5
+        self.total_score = len(self.data["results"]) * 4
     def save(self):
 
         path = f"anno_results/{lang2id[self.lang]}/{self.id}.json"
@@ -73,11 +67,11 @@ class EvalSurvey():
             with st.container(border=True):
                 st.write(f"target: {target}")
                 st.write(f"stace: {stace}") 
-        pass_btn = self.survey.radio(label="how do you like it?",options=eval_res,id=cur_example_id,horizontal=True,index=None)
+        pass_btn = self.survey.radio(label="how do you like it?",options=eval_res,id=cur_example_id,horizontal=True)
         score = eval_res.index(pass_btn) 
         st.session_state["score"][page_idx] = score
         st.session_state["completed"][page_idx] = True
-        print(st.session_state['score'])
+      
         self.save()
         # display score 
         st.subheader(f"curent score: {sum(st.session_state['score'])}/{self.total_score}")

@@ -25,7 +25,7 @@ class SDSurvey:
         self.anno_data = get_anno_data(path)
         self.n_annotation = len(self.anno_data)
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
-        user_data = load_results(self.lang,self.prolific_id,use_cache=new_session)
+        user_data = load_results(self.lang,self.prolific_id,new_session)
         if "time_start" not in user_data:
             user_data["time_start"] = time.time()
         if "annos_completed" not in st.session_state:  # check if an annotation is successfull completed. Criterion: for each example, at least one target must be choosen. For each choosen target, a stance must be choosen. 
@@ -88,8 +88,8 @@ class SDSurvey:
         st.title("Stance Detection: Refugee Crisis")
     
         st.header("Welcome to our study!")
-        st.subheader("Please click :green[**introduction**] for more background information and domain knowledge of this task.") 
-        st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & dinstruction**] to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
+        st.subheader("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
+        st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & dinstruction**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button")
     def construct_annotations(self,cur_idx:int,example_id:str,anno_example:str):
         """
@@ -104,8 +104,8 @@ class SDSurvey:
 
                 l_col,r_col = st.columns([2,1])
                 with l_col: 
-            
-                    t_exist = self.survey.radio(f"Does target :red[{t}] exist in the post?",options=["No","Yes"],horizontal=True,id=f"e_{t}_{example_id}")
+                    fg_targets = " | ".join(all_targets[t]["fg_targets"])
+                    t_exist = self.survey.radio(f"Does target :red[{t}] exist in the post?",options=["No","Yes"],horizontal=True,id=f"e_{t}_{example_id}",help=fg_targets)
                     if t_exist == "No":
                         continue 
                     n_selected_trgt += 1
