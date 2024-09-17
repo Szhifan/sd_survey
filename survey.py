@@ -3,6 +3,21 @@ import my_streamlit_survey as ss
 from utils import  *
 import random 
 import time 
+
+text_css =     """
+<style>
+    div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
+        position: sticky;
+        top: 2.875rem;
+        background-color: black;
+        z-index: 999;
+    }
+    .fixed-header {
+        border-bottom: 1px solid black;
+    }
+</style>
+    """
+
 class SDSurvey: 
     def __init__(self) -> None:
         new_session = self.set_qp()
@@ -86,8 +101,7 @@ class SDSurvey:
     
         for t in targets:
             with st.container(border=True):
-                with st.container():
-                    st.subheader(anno_example,divider="orange") 
+
                 l_col,r_col = st.columns([2,1])
                 with l_col: 
             
@@ -127,9 +141,14 @@ class SDSurvey:
             self.save_to_mongodb()
         st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")     
         anno_example = self.anno_data[cur_idx]
-       
         st.header("Please read the following tweet:",divider="red")
-        st.write(task_description)
+
+        header = st.container(border=True)
+        header.subheader(anno_example["fullText"],divider="red")
+        header.write("""<div class='fixed-header'/>""", unsafe_allow_html=True)
+        st.markdown(text_css,unsafe_allow_html=True)
+        header.write(task_description)
+
         self.construct_annotations(cur_idx,anno_example["resourceId"],anno_example["fullText"])
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
     def conclusion_page(self):
