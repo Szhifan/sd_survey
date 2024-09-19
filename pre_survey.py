@@ -1,7 +1,7 @@
 import streamlit as st  
 import my_streamlit_survey as ss 
 from survey import load_results 
-from utils import all_targets
+from utils import all_targets,task_description
 from urllib.parse import urlencode
 survey_link = f"https://sdsurvey-mhermhvefcfupvcnif5swf.streamlit.app/?"
 pre_tests = [
@@ -22,6 +22,8 @@ def questions(survey:ss.StreamlitSurvey):
             text = item["text"]
             st.subheader(f"{i+1}: {text}",divider="red")
             n_t_selected = 0 
+            st.write(task_description)
+
             for t in pre_tests_targets:
                 l_col,r_col = st.columns([2,1])
                 with l_col:
@@ -72,8 +74,8 @@ def main():
     survey = ss.StreamlitSurvey("sd annotation: pre-survey")
    
     st.title("Pre-annotation survey")
-    st.header("Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on simpler tweets with simpler question settings, good luck!",divider="red")
-    st.write("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
+    st.header("Thank you for your interest in taking part in our study! Before proceeding to the actual annotation. We would like to assess your ability to perform target and stance annotation on simpler tweets with simpler question settings, good luck!",divider="red")
+    st.write("Please click :green[**introduction**] in the sidebar for more background information and the domain knowledge of this task.") 
     st.write("Before starting the test, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples&instruction**] in the sidebar to the left to get yourself familiar with the interface and the expected answers.")
     st.write("You can always refer to the sidebar for the examples and instructions.") 
     st.write("The question mark icon on next to each question provides you with the fine-grained targets that you can choose from.")

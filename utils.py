@@ -8,7 +8,7 @@ all_targets = {
 "migration policies":{"fg_targets":["policies of a political entity (party, country or politician) or 'concret policy name' (e.g. Brexit)","EU-Turkey refugee return agreement","Dublin Regulation","Refugee Quotas"]},
 "European Union Institutions":{"fg_targets":["none","European Parliament","European Commission", "European Council","FRONTEX","ECHO"]},
 "refugee pathways":{"fg_targets":["none","boat sinking","Mediterranean crossing","smuggling"]},
-"reception":{"fg_targets":["none","refugee camps"]},
+"reception":{"fg_targets":["none","refugee camps","refugee status"]},
 "asylum procedures":{"fg_targets":["none","protection", "compensation", "legal rights"]},
 "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",]}
 } 
@@ -22,7 +22,11 @@ examples = [
 ]
 completion_url = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
 stance_options = ["favor","against","none"]
-task_description = "Please determine if the following targets appear in the post, the :red[**question mark**] contains the fine-grained target of each broad target in case you have forgotten. Once you have selected a target, please determine its fine-grained target (choose :red[**none**] if no fine-grained target applies) and the stance (choose :red[**none**] if there is no clear stance toward the target). To cancel your selection, please click :red[**No**] .You can choose up to :red[**from one to three**] targets."
+task_description = """
+                    Please determine if the following targets appear in the post, the :red[**question mark**] contains the fine-grained target of each broad target in case you have forgotten. 
+                    Once you have selected a target, 
+                    please determine its fine-grained target (choose :red[**none**] if only the broad target applies) and the stance (choose :red[**none**] 
+                    if there is no clear stance toward the target). To cancel your selection, please click :red[**No**]. You can choose :red[**from one to three**] targets."""
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
 ttl = 1200
 
@@ -63,7 +67,8 @@ def load_results(lang,id,no_cache=False):
     col = db[lang2id[lang]]
     query = {"PROLIFIC_PID":id}
     def no_cache():
-        return col.find_one(query)
+        data = col.find_one(query)
+        return data if data else dict()
     
     @st.cache_data(ttl=ttl)
     def cache():

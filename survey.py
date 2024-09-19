@@ -93,7 +93,7 @@ class SDSurvey:
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button")
     def construct_annotations(self,cur_idx:int,example_id:str,anno_example:str):
         """
-        Display the options
+        Display the options. 
         """
         n_selected_trgt = 0 
         targets = list(all_targets.keys()) 
@@ -165,13 +165,22 @@ class SDSurvey:
         if self.save_to_mongodb():
             st.success(f"Submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CHCBTBHM) so that your work will be marked as completed. We will manually check your annotation and reward you accordingly.")  
     def run_survey(self):
+        
         with self.pages:
             if self.pages.current == 0:
                 self.welcome_page()
+                self.pages.next_button = self.pages.default_btn_next("Start!")
             elif self.pages.current ==self.n_pages-1:
                 self.conclusion_page()
+            elif self.pages.current == self.n_pages - 2:
+                self.annotation_page(self.pages.current)
+                self.pages.next_button = self.pages.default_btn_next("To the conclusion page")
+                self.pages.prev_button = self.pages.default_btn_previous("previous instance")
             else:
                 self.annotation_page(self.pages.current)
+                self.pages.next_button = self.pages.default_btn_next("next instance")
+                self.pages.prev_button = self.pages.default_btn_previous("previous instance")
+                
     
 def main():
     st.set_page_config(layout="wide")

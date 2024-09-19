@@ -2,10 +2,18 @@ from typing import Union
 
 import streamlit as st
 
+js_script_to_top = """
+<script>
+    var body = window.parent.document.querySelector(".main");
+    console.log(body);
+    body.scrollTop = 0;
+</script>
+
+"""
 class Pages(object):
 
     @staticmethod
-    def default_btn_previous(label="Previous example"):
+    def default_btn_previous(label="Previous"):
         return lambda pages: st.button(
             label,
             use_container_width=True,
@@ -16,7 +24,7 @@ class Pages(object):
         )
 
     @staticmethod
-    def default_btn_next(label="Next example"):
+    def default_btn_next(label="Next"):
         return lambda pages: st.button(
             label,
             use_container_width=True,
@@ -218,14 +226,18 @@ class Pages(object):
         submitted = False
         left, _,mid,_, right = st.columns([2,1,2,1, 2])
         with left:
-            self.prev_button
+            prev  = self.prev_button
+            if prev:
+                st.components.v1.html(js_script_to_top)
         with right:
             if self.current == self.n_pages - 1 and self.on_submit is not None:
-                
                 submitted = self.submit_button
+            
             else:
               
-                self.next_button
+                next = self.next_button
+                if next:
+                    st.components.v1.html(js_script_to_top)
         with mid:
             if self.latest_page and self.current == 0:
                 self.jump_button

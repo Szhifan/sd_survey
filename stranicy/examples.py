@@ -2,10 +2,23 @@ import streamlit as st
 import my_streamlit_survey as ss 
 import re
 from utils import * 
+text_css =     """
+<style>
+    div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
+        position: sticky;
+        top: 2.875rem;
+        background-color: black;
+        z-index: 999;
+    }
+    .fixed-header {
+        border-bottom: 1px solid black;
+    }
+</style>
+    """
 
 def construct_annotations(cur_idx,example:dict):
      
-    st.write(task_description)
+   
     n_selected_trgt = 0 
     targets = all_targets.keys()
     open_end_mg = None 
@@ -19,7 +32,7 @@ def construct_annotations(cur_idx,example:dict):
     # random.shuffle(list(targets))
     for t in targets:
         with st.container(border=True):
-            st.subheader(example["text"],divider="orange")
+
             l_col,r_col = st.columns([2,1])
             with l_col: 
                 t_exist = st.radio(f"Does target :red[{t}] exist in the post?",options=["No","Yes"],horizontal=True,key=f"e_{t}_{cur_idx}")
@@ -34,10 +47,7 @@ def construct_annotations(cur_idx,example:dict):
                 if t == "migration policies" and t_selected and t_selected.startswith("poli"):
                     t_selected = st.text_input("What political entity does the post mention? (Please only answer with the entity name.)",key = f"mp_{t}_{cur_idx}",placeholder="plase enter: " + open_end_mg)
                     if not t_selected:
-                        st.warning("Please provide a political entity name and press enter.")
-                
-
-                    
+                        st.warning("Please provide a political entity name and press enter.")            
             with r_col:
        
                 if t_selected:
@@ -62,7 +72,13 @@ def example_page(cur_idx:int,data:list):
     example = data[cur_idx]
     st.title(f"Example and Instructions")
     st.write(f"{cur_idx+1}|{len(data)}")
-    st.header("Please read the example, answers and explanation below.",divider="red")
+    st.header("Please read the post, answers, and explanation.",divider="red")
+    header = st.container(border=True)
+    header.subheader(example["text"],divider="red")
+    
+    header.write("""<div class='fixed-header'/>""", unsafe_allow_html=True)
+    header.markdown(text_css,unsafe_allow_html=True)
+    header.write(task_description)
     lc,rc = st.columns([1,2],vertical_alignment="top")
     with lc:
         st.subheader("Answer and explanation",divider="red")
@@ -95,12 +111,11 @@ def example_page(cur_idx:int,data:list):
                     st.write("Hint: For this target, you should choose **policies of a political entity (party, country or politician)** under **migration policies**, and then enter the corresponding entity name.")
         
     with rc:
-  
-        st.subheader("Please choose the correct options based on the above answers.",divider="red")
+        st.subheader("Please choose the correct options based on the answers and explanations.",divider="red")
         st.write("hint: You do not need to complete every instance as long as you are familiar with the interface.")
-    
 
         construct_annotations(cur_idx,example)
+ 
 
 def main():
 
