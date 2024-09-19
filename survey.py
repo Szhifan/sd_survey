@@ -19,11 +19,11 @@ text_css =     """
     """
 
 class SDSurvey: 
-    def __init__(self) -> None:
+    def __init__(self,n=15) -> None:
         new_session = self.set_qp()
-        path = f"data/{lang2id[self.lang]}.json"
-        self.anno_data = get_anno_data(path)
-        self.n_annotation = len(self.anno_data)
+        path = f"human_data/{lang2id[self.lang]}.json"
+        self.anno_data = get_anno_data(path)[:n]
+        self.n_annotation = n
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
         user_data = load_results(self.lang,self.prolific_id,new_session)
         if "time_start" not in user_data:
@@ -90,7 +90,7 @@ class SDSurvey:
         st.header("Welcome to our study!")
         st.subheader("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
         st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & dinstruction**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
-        st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button")
+        st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
     def construct_annotations(self,cur_idx:int,example_id:str,anno_example:str):
         """
         Display the options. 
