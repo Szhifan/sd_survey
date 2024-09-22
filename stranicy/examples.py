@@ -2,23 +2,9 @@ import streamlit as st
 import my_streamlit_survey as ss 
 import re
 from utils import * 
-text_css =     """
-<style>
-    div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
-        position: sticky;
-        top: 2.875rem;
-        background-color: black;
-        z-index: 999;
-    }
-    .fixed-header {
-        border-bottom: 1px solid black;
-    }
-</style>
-    """
 
-def construct_annotations(cur_idx,example:dict):
-     
-   
+
+def construct_annotations(cur_idx,example:dict): 
     n_selected_trgt = 0 
     targets = all_targets.keys()
     open_end_mg = None 
@@ -75,8 +61,6 @@ def example_page(cur_idx:int,data:list):
     st.header("Please read the post, answers, and explanation.",divider="red")
     header = st.container(border=True)
     header.subheader(example["text"],divider="red")
-    
-    header.write("""<div class='fixed-header'/>""", unsafe_allow_html=True)
     header.markdown(text_css,unsafe_allow_html=True)
     header.write(task_description)
     lc,rc = st.columns([1,2],vertical_alignment="top")

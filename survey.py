@@ -4,19 +4,8 @@ from utils import  *
 import random 
 import time 
 
-text_css =     """
-<style>
-    div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
-        position: sticky;
-        top: 2.875rem;
-        background-color: black;
-        z-index: 999;
-    }
-    .fixed-header {
-        border-bottom: 1px solid black;
-    }
-</style>
-    """
+import streamlit as st
+
 
 class SDSurvey: 
     def __init__(self,n=15) -> None:
@@ -89,7 +78,7 @@ class SDSurvey:
     
         st.header("Welcome to our study!")
         st.subheader("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
-        st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & dinstruction**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
+        st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
     def construct_annotations(self,cur_idx:int,example_id:str,anno_example:str):
         """
@@ -145,9 +134,9 @@ class SDSurvey:
 
         header = st.container(border=True)
         header.subheader(anno_example["fullText"],divider="red")
-        header.write("""<div class='fixed-header'/>""", unsafe_allow_html=True)
+        header.write(task_description, unsafe_allow_html=True)
         st.markdown(text_css,unsafe_allow_html=True)
-        header.write(task_description)
+    
 
         self.construct_annotations(cur_idx,anno_example["resourceId"],anno_example["fullText"])
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]

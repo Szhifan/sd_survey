@@ -6,7 +6,7 @@ st.write("""
 In this study, you will annotate broad and fine-grained targets, along with their corresponding stance, for 100 tweets. For each tweet, you will need to:
          
 1. Identify if one or multiple pre-defined broad targets exist.
-2. If the answer for first question is yes, determine if a fine-grained target (from a predefined list) corresponding to your previously chosen broad target exists.
+2. If the answer for first question is yes, determine if a fine-grained target (from a predefined list) under this broad target exists. If no fine-grained target is mentioned, please choose 'none' (Except for the target 'migration policies', where you have to manually input the name of the political entity mentioned in the tweet).
 3. Select the stance the post expresses toward the selected target.
  
 """)
@@ -79,7 +79,6 @@ st.write(ex_frontex)
 st.write(ex_echo)
 
 st.subheader("Migration Policies",divider="red")
-
 ex_tur_agreement = """
 :green[**EU-Turkey refugee return agreement**]: Turkey agreed to significantly increase border security at its shores and take back all future irregular entrants into Greece (and thereby the EU) from Turkey to the EU. Click this [link](https://www.rescue.org/eu/article/what-eu-turkey-deal) for more information. 
 """
