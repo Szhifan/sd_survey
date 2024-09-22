@@ -13,36 +13,24 @@ all_targets = {
 "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",]}
 } 
 examples = [
-{"text":"Poland, Czech Republic, and Hungary, I advise you to :red[resist the pressure of the EU] to import :red[migrants]. If you need even more motivation, just look at Germany and Sweden.","ans":[{"t":"migrants -> refugees","s":"against","explanation":"The author of the post supports the hard-line asylum policies of Poland, Czechia and Hungary while hinting at the severe consequences of taking up migrants like Germany and Sweden. Although the post only mentions migrants, given the background knowledge of the 2014 refugee crisis the migrants here are the refugees from the Middle East. So the fine-grained target should be refugee."},{"t":"European Union Institutions -> none","s":"against","explanation":"The phrase 'pressure of the EU' indicates, given enough background knowledge, that the EU pressured its member states to accommodate refugees during the refugee. In this case,  'EU' is not merely a place name but a political institution that enacts laws and makes political decisions. Since no specific EU institution name such as EU parliament is mentioned, a fine-grained target is not applicable in this case. Also, the author criticises EU for its policies."}]},
-{"text":":green[Salvini refuses to bend, I love it]. Italy - Salvini :red[Refuses To Let 177 Migrants] :orange[Off Ship] Till EU Agrees To Take Them (Video) news","ans":[{"t":"migrants -> refugees","s":"against","explanation":"Salvini is a right-wing Italian politician holding anti-migrant opinions. The post supports his hard-line policies against refugees thus the post is against the refugees."},{"t":"refugee pathways -> Mediterranean crossing","s":"none","explanation":"The mentions refugees coming to the EU by boat through the Mediterranean Sea, while no further stance is expressed."},{"t":"migration policies -> Salvini","s":"favor","explanation":"The post stongly support the migration policy of Salvini."}]},
-{"text":"The funny thing about :red[Brexit is that even the racists will be disappointed by it]. The UK is not going to expel 2 million :green[EU workers otherwise economy collapses]. & future immigration more likely to come from Africa/Asia as Europeans won’t want to come without guaranteed rights.","ans":[{"t":"migrants -> economic migrants","s":"favor","explanation":"The post primarily mentions migrants and specifically concerns about the economic consequences of EU migrants leaving UK and acknowledges their contributions to the UK economy. Thus, the post talks about economic migrants from EU/Africa/Asia who come to the UK for career perspectives."},{"t":"migration policies -> UK","s":"against","explanation":"The post critizes the economic consequences of Brexit."}]},
-{"text":"(translated from German)RT @warum_nur74 @Beatrix_vStorch The EU (SPD HrTönnes) wants to do it that way too. :green[Suspend Dublin] and then if a :red[refugee] in Libya says that his relative is in Germany, :orange[he comes straight to Germany. He doesn't need papers]. The word is enough. Sometimes I wish for other times.","ans":[{"t":"migrants -> refugees","s":"against","explanation":"The author wants a more tightened control of refugees, indicating a against stance toward refugees."},{"t":"migration policies -> Dublin Regulation","s":"favor","explanation":"The author of the post supports the Dublin Regulation that it regulates which refugee should be allocated to which EU country. Otherwise, the refugees will pick whatever country they like (especially wealthy EU country like Germany). (Migration Policies -> SPD -> against is an alternative answer.)"},{"t":"asylum procedures -> none","s":"none","explanation":"The author talks about the way and procedures a refugee is allocated to the receiving country (either through the Dublin agreement or depending on their relatives in Germany). But there is no clear stance towards this topic."}]},
-{"text":"(translated from German)RT @Beatrix_vStorch :red[Migrant distribution] minister Seehofer is failing because of the EU states. Unlike the minister, they are still in their right minds. 110,000 asylum applications in Germany and he wants to take in even more. :red[Dear CSU, send him into retirement at last]. #AfD","ans":[{"t":"migrants -> asylum seekers","s":"against","explanation":"The author doesn’t want more asylum seekers in Germany."},{"t":"migration policies -> CSU","s":"against","explanation":"The post critizes the migration policy of CSU (AFD -> favor is also an acceptable answer)."}]}
+{"text":"Poland, Czech Republic, and Hungary, I advise you to resist the pressure of the EU to import migrants. If you need even more motivation, just look at Germany and Sweden.","ans":[{"t":"migrants -> refugees","s":"against","explanation":"The author of the post supports the hard-line asylum policies of Poland, Czechia and Hungary while hinting at the severe consequences of taking up migrants like Germany and Sweden. Although the post only mentions migrants, given the background knowledge of the 2014 refugee crisis the migrants here are the refugees from the Middle East. So the fine-grained target should be refugee."},{"t":"European Union Institutions -> none","s":"against","explanation":"The phrase 'pressure of the EU' indicates, given enough background knowledge, that the EU pressured its member states to accommodate refugees during the refugee. In this case,  'EU' is not merely a place name but a political institution that enacts laws and makes political decisions. Since no specific EU institution name such as EU parliament is mentioned, a fine-grained target is not applicable in this case. Also, the author criticises EU for its policies."}]},
+{"text":"Salvini refuses to bend, I love it. Italy - Salvini Refuses To Let 177 Migrants Off Ship Till EU Agrees To Take Them (Video) news","ans":[{"t":"migrants -> refugees","s":"against","explanation":"Salvini is a right-wing Italian politician holding anti-migrant opinions. The post supports his hard-line policies against refugees thus the post is against the refugees."},{"t":"refugee pathways -> Mediterranean crossing","s":"none","explanation":"The mentions refugees coming to the EU by boat through the Mediterranean Sea, while no further stance is expressed."},{"t":"migration policies -> Salvini","s":"favor","explanation":"The post stongly support the migration policy of Salvini."}]},
+{"text":"The funny thing about Brexit is that even the racists will be disappointed by it. The UK is not going to expel 2 million EU workers otherwise economy collapses. & future immigration more likely to come from Africa/Asia as Europeans won’t want to come without guaranteed rights.","ans":[{"t":"migrants -> economic migrants","s":"favor","explanation":"The post primarily mentions migrants and specifically concerns about the economic consequences of EU migrants leaving UK and acknowledges their contributions to the UK economy. Thus, the post talks about economic migrants from EU/Africa/Asia who come to the UK for career perspectives."},{"t":"migration policies -> UK","s":"against","explanation":"The post critizes the economic consequences of Brexit."}]},
+{"text":"(translated from German)RT @warum_nur74 @Beatrix_vStorch The EU (SPD HrTönnes) wants to do it that way too. Suspend Dublin and then if a refugee in Libya says that his relative is in Germany, he comes straight to Germany. He doesn't need papers. The word is enough. Sometimes I wish for other times.","ans":[{"t":"migrants -> refugees","s":"against","explanation":"The author wants a more tightened control of refugees, indicating a against stance toward refugees."},{"t":"migration policies -> Dublin Regulation","s":"favor","explanation":"The author of the post supports the Dublin Regulation that it regulates which refugee should be allocated to which EU country. Otherwise, the refugees will pick whatever country they like (especially wealthy EU country like Germany). (Migration Policies -> SPD -> against is an alternative answer.)"},{"t":"asylum procedures -> none","s":"none","explanation":"The author talks about the way and procedures a refugee is allocated to the receiving country (either through the Dublin agreement or depending on their relatives in Germany). But there is no clear stance towards this topic."}]},
+{"text":"(translated from German)RT @Beatrix_vStorch Migrant distribution minister Seehofer is failing because of the EU states. Unlike the minister, they are still in their right minds. 110,000 asylum applications in Germany and he wants to take in even more. Dear CSU, send him into retirement at last. #AfD","ans":[{"t":"migrants -> asylum seekers","s":"against","explanation":"The author doesn’t want more asylum seekers in Germany."},{"t":"migration policies -> CSU","s":"against","explanation":"The post critizes the migration policy of CSU (AFD -> favor is also an acceptable answer)."}]}
 ]
 completion_url = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
 stance_options = ["favor","against","none"]
 task_description = """
-                    Please determine if the following targets appear in the post, the :red[**question mark**] contains the fine-grained target of each broad target in case you have forgotten. 
+                    Please determine if the following targets appear in the post, the **question mark**] contains the fine-grained target of each broad target in case you have forgotten. 
                     Once you have selected a target, 
-                    please determine its fine-grained target (choose :red[**none**] if only the broad target applies) and the stance (choose :red[**none**] 
-                    if there is no clear stance toward the target). To cancel your selection, please click :red[**No**]. You can choose :red[**from one to three**] targets."""
+                    please determine its fine-grained target (choose **none**] if only the broad target applies) and the stance (choose **none**] 
+                    if there is no clear stance toward the target). To cancel your selection, please click **No**]. You can choose **from one to three**] targets."""
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
 ttl = 1200
 
 text_css = """
 <style>
-    @media (prefers-color-scheme: light) {
-        div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
-            position: sticky;
-            top: 2.875rem;
-            background-color: white;
-            z-index: 999;
-        }
-        .fixed-header {
-            border-bottom: 1px solid white;
-            color: black; /* Text color for light mode */
-        }
-    }
     @media (prefers-color-scheme: dark) {
         div[data-testid="stVerticalBlock"] div:has(div.fixed-header) {
             position: sticky;
@@ -51,12 +39,28 @@ text_css = """
             z-index: 999;
         }
         .fixed-header {
+            background-color: black; /* Black background for dark mode */
+            color: white; /* White text for dark mode */
             border-bottom: 1px solid black;
-            color: white; /* Text color for dark mode */
+            font-size: 24px;
         }
     }
 </style>
 """
+def get_colored_css(color:str):
+    css = f"""
+    <style>
+    .highlight-color {
+        color: {color};
+        font-weight: bold;
+    }
+        </style>
+        """
+    return css 
+
+
+    
+
 
 @st.cache_data(ttl=ttl)
 def get_anno_data(path:str):

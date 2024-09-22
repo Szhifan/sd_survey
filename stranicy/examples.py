@@ -60,14 +60,17 @@ def example_page(cur_idx:int,data:list):
     st.write(f"{cur_idx+1}|{len(data)}")
     st.header("Please read the post, answers, and explanation.",divider="red")
     header = st.container(border=True)
-    header.subheader(example["text"],divider="red")
-    header.markdown(text_css,unsafe_allow_html=True)
-    header.write(task_description)
+    with header:
+        text = example["text"]
+        st.markdown(f"""<div class='fixed-header'>{text}""", unsafe_allow_html=True)
+        st.markdown(text_css,unsafe_allow_html=True)
+        
+       
+
     lc,rc = st.columns([1,2],vertical_alignment="top")
     with lc:
         st.subheader("Answer and explanation",divider="red")
     
-   
         with st.container(border=True):
      
             for i,ans in enumerate(example["ans"]):
@@ -97,7 +100,7 @@ def example_page(cur_idx:int,data:list):
     with rc:
         st.subheader("Please choose the correct options based on the answers and explanations.",divider="red")
         st.write("hint: You do not need to complete every instance as long as you are familiar with the interface.")
-
+        st.write(task_description)
         construct_annotations(cur_idx,example)
  
 

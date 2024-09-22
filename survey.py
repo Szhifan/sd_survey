@@ -3,7 +3,6 @@ import my_streamlit_survey as ss
 from utils import  *
 import random 
 import time 
-
 import streamlit as st
 
 
@@ -131,13 +130,12 @@ class SDSurvey:
         st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")     
         anno_example = self.anno_data[cur_idx]
         st.header("Please read the following tweet:",divider="red")
-
         header = st.container(border=True)
-        header.subheader(anno_example["fullText"],divider="red")
-        header.write(task_description, unsafe_allow_html=True)
-        st.markdown(text_css,unsafe_allow_html=True)
-    
-
+        with header:
+            text = anno_example["fullText"]
+            st.markdown(f"""<div class='fixed-header'>{text}""", unsafe_allow_html=True)
+            st.markdown(text_css,unsafe_allow_html=True)
+        st.write(task_description)
         self.construct_annotations(cur_idx,anno_example["resourceId"],anno_example["fullText"])
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
     def conclusion_page(self):
