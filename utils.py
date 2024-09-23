@@ -22,10 +22,10 @@ examples = [
 completion_url = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
 stance_options = ["favor","against","none"]
 task_description = """
-                    Please determine if the following targets appear in the post, the **question mark**] contains the fine-grained target of each broad target in case you have forgotten. 
+                    Please determine if the following targets appear in the post, the :red[**question mark**] contains the fine-grained target of each broad target in case you have forgotten. 
                     Once you have selected a target, 
-                    please determine its fine-grained target (choose **none**] if only the broad target applies) and the stance (choose **none**] 
-                    if there is no clear stance toward the target). To cancel your selection, please click **No**]. You can choose **from one to three**] targets."""
+                    please determine its fine-grained target (choose **none** if only the broad target applies) and the stance (choose :red[**none**]
+                    if there is no clear stance toward the target, exception: Migration Policies). To cancel your selection, please click :red[**No**]. You can choose :red[**from one to three**] targets."""
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
 ttl = 1200
 
