@@ -72,6 +72,7 @@ class Pages(object):
             labels = list(range(labels))
         self.n_pages = len(labels)
         self.proceed_to_next = True
+        self.allow_submit = False
         self.labels = labels 
         self.current_page_key = key
         self.on_submit = on_submit
@@ -231,10 +232,9 @@ class Pages(object):
                 st.components.v1.html(js_script_to_top)
         with right:
             if self.current == self.n_pages - 1 and self.on_submit is not None:
-                submitted = self.submit_button
-            
+               
+                submitted = self.submit_button if self.allow_submit else None
             else:
-              
                 next = self.next_button
                 if next:
                     st.components.v1.html(js_script_to_top)

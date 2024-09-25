@@ -1,7 +1,6 @@
 import streamlit as st
 import my_streamlit_survey as ss 
 from utils import  *
-import random 
 import time 
 import streamlit as st
 
@@ -9,25 +8,23 @@ import streamlit as st
 class SDSurvey: 
     def __init__(self,n=15) -> None:
         new_session = self.set_qp()
-        path = f"human_data/{lang2id[self.lang]}.json"
-        self.anno_data = get_anno_data(path)[:n]
+        path = f"human_data/{lang2id[self.lang]}.jsonl"
+        self.anno_data = load_anno_data(path)[:n]
         self.n_annotation = n
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
         user_data = load_results(self.lang,self.prolific_id,new_session)
-        if "time_start" not in user_data:
+        if new_session:
             user_data["time_start"] = time.time()
-        if "annos_completed" not in st.session_state:  # check if an annotation is successfull completed. Criterion: for each example, at least one target must be choosen. For each choosen target, a stance must be choosen. 
             st.session_state["annos_completed"] = [False] * self.n_annotation
             if user_data and "completed" in user_data: #load the completion status 
-                st.session_state["annos_completed"] = [i < user_data["completed"] for i in range(self.n_annotation)]
+                st.session_state["annos_completed"] = user_data["completed"]
         self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         if sum(st.session_state["annos_completed"]):
-            self.pages.latest_page = 1 + sum(st.session_state["annos_completed"])
-    
-   
-        
-
+            for page in range(len(st.session_state["annos_completed"])):
+                if not st.session_state["annos_completed"][page]:
+                    break
+            self.pages.latest_page = 1 + page
     def set_qp(self):
         """
         save the query parameters to session state for reuse.
@@ -56,7 +53,7 @@ class SDSurvey:
         client = init_mongo_clinet()
         self.survey.data["LANG"] = self.lang
         self.survey.data["PROLIFIC_PID"] = self.prolific_id
-        self.survey.data["completed"] = sum(st.session_state["annos_completed"])
+        self.survey.data["completed"] = st.session_state["annos_completed"]
         if not client:
             st.error("connection to database failed, please try again.")
             return False
@@ -79,6 +76,8 @@ class SDSurvey:
         st.subheader("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
         st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
+        st.subheader("If you encounter any bugs or problems with the annotation interface, please pause the survey and contact us on prolific.")
+
     def construct_annotations(self,cur_idx:int,example_id:str,anno_example:str):
         """
         Display the options. 
@@ -142,7 +141,16 @@ class SDSurvey:
         st.title("Submission")
         st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
         st.write("You can always go back can change your answers after submission.")
-        st.write("If you have any have suggestions for our survey. Please feel free to reach out to us on Prolific, your feedback is valuable for us!")
+        st.header("Before submitting your annotation, we would like you answer these post-survey questions:")
+
+        #ask the annotator how hard the task is, available options: very easy, easy, neutral, hard, very hard
+        difficulty = self.survey.select_slider(label="1. How hard do you think the task is?",options=["very easy","easy","neutral","hard","very hard"],id="task_difficulty")
+        # ask the annotator how much time they spent on each instance. (in minutes)
+        time = self.survey.number_input("what is the total time you spent on this task? (in minutes)",min_value=0.0,key="time_spent",format="%0.1f",step=0.1)
+        # more comments 
+        other = self.survey.text_area("Any comments or suggestions for this task?",key="comments")
+        if difficulty and time and other:
+            self.pages.allow_submit = True
     def submit_func(self):
         try:
             self.survey.data["time_spent"] = (time.time() - self.survey.data["time_start"]) / 60
