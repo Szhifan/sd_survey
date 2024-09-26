@@ -12,13 +12,15 @@ class SDSurvey:
         self.anno_data = load_anno_data(path)[:n]
         self.n_annotation = n
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
-        user_data = load_results(self.lang,self.prolific_id,new_session)
+        
         if new_session:
+            user_data = load_results(self.lang,self.prolific_id,new_session)
             user_data["time_start"] = time.time()
             st.session_state["annos_completed"] = [False] * self.n_annotation
             if user_data and "completed" in user_data: #load the completion status 
                 st.session_state["annos_completed"] = user_data["completed"]
-        self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
+            self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
+        self.survey = ss.StreamlitSurvey("sd-survey")
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         if sum(st.session_state["annos_completed"]):
             for page in range(len(st.session_state["annos_completed"])):
@@ -78,14 +80,13 @@ class SDSurvey:
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
         st.subheader("If you encounter any bugs or problems with the annotation interface, please pause the survey and contact us on prolific.")
 
-    def construct_annotations(self,cur_idx:int,example_id:str,anno_example:str):
+    def construct_annotations(self,cur_idx:int,example_id:str):
         """
         Display the options. 
         """
         n_selected_trgt = 0 
         targets = list(all_targets.keys()) 
         st.session_state["annos_completed"][cur_idx] = True
-    
         for t in targets:
             with st.container(border=True):
 
@@ -179,7 +180,7 @@ class SDSurvey:
     
 def main():
     st.set_page_config(layout="wide")
-    sv = SDSurvey()
+    sv = SDSurvey(n=100)
     sv.run_survey()
 if __name__ == "__main__":
 
