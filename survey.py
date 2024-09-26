@@ -136,7 +136,7 @@ class SDSurvey:
             st.markdown(f"""<div class='fixed-header'>{text}""", unsafe_allow_html=True)
             st.markdown(text_css,unsafe_allow_html=True)
         st.write(task_description)
-        self.construct_annotations(cur_idx,anno_example["resourceId"],anno_example["fullText"])
+        self.construct_annotations(cur_idx,anno_example["resourceId"])
         self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
     def conclusion_page(self):
         st.title("Submission")
