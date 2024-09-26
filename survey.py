@@ -78,7 +78,7 @@ class SDSurvey:
         st.subheader("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
         st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
-        st.subheader("If you encounter any bugs or problems with the annotation interface, please pause the survey and contact us on prolific.")
+        st.subheader("Please contact us on prolific if you encounter any issues or have any questions.")
 
     def construct_annotations(self,cur_idx:int,example_id:str):
         """
@@ -154,8 +154,7 @@ class SDSurvey:
             self.pages.allow_submit = True
     def submit_func(self):
         try:
-            self.survey.data["time_spent"] = (time.time() - self.survey.data["time_start"]) / 60
-            
+            self.survey.data["time_spent"] = (time.time() - self.survey.data["time_start"]) / 60 
         except KeyError:
             pass 
         if self.save_to_mongodb():

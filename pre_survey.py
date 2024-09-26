@@ -3,12 +3,12 @@ import my_streamlit_survey as ss
 from survey import load_results 
 from utils import all_targets,task_description
 from urllib.parse import urlencode
-survey_link = f"https://sdsurvey-mhermhvefcfupvcnif5swf.streamlit.app/?"
+survey_link = f"https://sdsurvey-actazgy67pazw8zrtg9mx4.streamlit.app/?"
 pre_tests = [
             {"text":"RT @trevdick Farage claims to be uncomfortable with EU migrants not learning English, my exp tells me many more of them speak English than Brits abroad!>","target":["migrants","economic migrants"],"stance":["favor"]},
             {"text":"let the russians have ukraine, if they joined the eu england would have to put up with another million immigrants to give jobs+homes to","target":["migrants","economic migrants"],"stance":["against"]},
             {"text":"#Disaster #humanity European Commission Pledges 3.9 Million Euro in Aid to Kobani Refugees - RIA ... http://t.co/isnrtULyBL #HumanRights","target":["European Commission","refugees"],"stance":["favor","none"]}, 
-            {"text":"@DrGertJanMulder: Are you fond of English as I do: EU asylum plan presents a threat to our civilisation -UKIP leader Nigel","target":["asylum seekers", "refugees"],"stance":"against"}]
+            {"text":"@DrGertJanMulder: Are you fond of English as I do: EU asylum plan presents a threat to our civilisation -UKIP leader Nigel","target":["asylum seekers", "refugees","European Union Institutions"],"stance":["against"]}]
 st.set_page_config(layout="wide")
 pre_tests_targets =  {
     "migrants":{"fg_targets":["none","illegal migrants","refugees","asylum seekers","economic migrants",],"help":None},
@@ -37,15 +37,15 @@ def questions(survey:ss.StreamlitSurvey):
                     if t_selected == "none":
                          t_selected = t 
             
-                     
-                    
-                with r_col:
-                    if t_selected!="No selection":
-                        s_selected = survey.radio(f"stance toward _{t_selected}_", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{i}",index=None)
-                        if s_selected == "No selection":
-                            st.warning("please choose a stance.")
-                if t_selected in item["target"] and s_selected in item["stance"]:
-                    score += 1 
+                if t_selected:
+                        
+                    with r_col:
+                        if t_selected!="No selection":
+                            s_selected = survey.radio(f"stance toward _{t_selected}_", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{i}",index=None)
+                            if not s_selected:
+                                st.warning("please choose a stance.")
+                    if t_selected in item["target"] and s_selected in item["stance"]:
+                        score += 1 
           
             if not n_t_selected:
                 st.warning("please choose at least one target.")
@@ -79,6 +79,7 @@ def main():
     st.write("Before starting the test, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples&instruction**] in the sidebar to the left to get yourself familiar with the interface and the expected answers.")
     st.write("You can always refer to the sidebar for the examples and instructions.") 
     st.write("The question mark icon on next to each question provides you with the fine-grained targets that you can choose from.")
+    st.write("Please contact us on prolific if you encounter any issues or have any questions.")
     score = questions(survey)
     btn = st.button("finish and submit")
     if btn:
