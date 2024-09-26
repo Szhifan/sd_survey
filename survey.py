@@ -180,7 +180,7 @@ class SDSurvey:
     
 def main():
     st.set_page_config(layout="wide")
-    sv = SDSurvey(n=4)
+    sv = SDSurvey(n=100)
     sv.run_survey()
 if __name__ == "__main__":
 

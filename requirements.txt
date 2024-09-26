@@ -1,4 +1,4 @@
 streamlit-survey
 streamlit
-pymongo[srv]
+pymongo
 
