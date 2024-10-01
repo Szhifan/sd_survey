@@ -6,7 +6,7 @@ import streamlit as st
 
 
 class SDSurvey: 
-    def __init__(self,n=15) -> None:
+    def __init__(self,n=100) -> None:
         new_session = self.set_qp()
         path = f"human_data/{lang2id[self.lang]}.jsonl"
         self.anno_data = load_anno_data(path)[:n]
@@ -20,7 +20,7 @@ class SDSurvey:
             st.session_state["annos_completed"] = [False] * self.n_annotation
             if user_data and "completed" in user_data: #load the completion status 
                 st.session_state["annos_completed"] = user_data["completed"]
-            self.survey = ss.StreamlitSurvey("sd-survey",data=user_data)
+            self.survey = ss.StreamlitSurvey("sd-survey",data=user_data) 
         self.survey = ss.StreamlitSurvey("sd-survey")
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         if sum(st.session_state["annos_completed"]):
@@ -99,14 +99,17 @@ class SDSurvey:
                         continue 
                     n_selected_trgt += 1
                     t_selected = self.survey.radio("Please choose a fine-grained target, choose **none** (if applicable) if only broad target exists.", options=all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{example_id}",index=None)
-
+                    
                     if t == "migration policies" and t_selected and t_selected.startswith("p"):
                         t_selected = self.survey.text_input("What political entity does the post mention? (Please only answer with the entity name.)",id = f"mp_{t}_{example_id}")
                         if not t_selected:
                             st.session_state["annos_completed"][cur_idx] = False
                             st.warning("Please provide a political entity name and press enter.")
                     if t_selected == "none":
-                         t_selected = t                    
+                         t_selected = t  
+                    if not t_selected:
+                        st.session_state["annos_completed"][cur_idx] = False
+                        st.warning("Please choose a fine-grained target.")                  
                 with r_col:
                     if t_selected:
                         s_selected = self.survey.radio(f"stance toward _:red[{t_selected}]_", options=["favor", "against","none"], horizontal=True,id = f"s_{t}_{example_id}",index=None)
@@ -126,7 +129,7 @@ class SDSurvey:
         '''
 
         cur_idx = n - 1 
-        if cur_idx and st.session_state["annos_completed"][cur_idx -1]:
+        if cur_idx and st.session_state["annos_completed"][cur_idx -1] and not st.session_state["annos_completed"][cur_idx]:
             self.save_to_mongodb()
         st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")     
         anno_example = self.anno_data[cur_idx]

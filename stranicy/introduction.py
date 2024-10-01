@@ -24,7 +24,7 @@ ex_refugee = """
 :green[**Refugees**]: People who flee their home country due to war, prosecution and other harms. In our dataset, these mainly concern Syrian and Afghan refugees fleeing from their home country to Europe. 
 Other than direct mention, this target can be identified through context. If “migrants” are mentioned, but you can infer from the context that the post actually talks about refugees. 
 
-This target can be selected.
+This target can be selected when the word "refugee", "people fleeing their home country", "people escaping war" or similar terms are mentioned.
 Refugee can be seen both as a legal term (a person that has been granted the legal status of refugee) and as a common parlance term (for everyone who fled their home country because of a conflict, fear or persecution, etc.).
 """
 ex_asylum_seekers = """
@@ -91,7 +91,8 @@ ex_refugee_quotas = """
 """
 ex_open_end_question = """
 :green[**Policies of a political entity (party, country or politician) or 'concrete policy name' (e.g. Brexit)**]: 
-Other than the aforementioned fine-grained targets, many posts comment on the migration policies of their own country and those of other EU countries. This information also indicates the post’s stance toward migrants/refugees and the crisis. 
+Other than the aforementioned fine-grained targets, many posts comment on the migration policies of their own country and those of other EU countries, or on specific politicians or parties. 
+Sometimes, it also involves specific policy names like Brexit.
 :red[For this target, you have to manually input an answer].
 """
 
