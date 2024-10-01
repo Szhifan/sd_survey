@@ -10,7 +10,8 @@ class SDSurvey:
         new_session = self.set_qp()
         path = f"human_data/{lang2id[self.lang]}.jsonl"
         self.anno_data = load_anno_data(path)[:n]
-        self.n_annotation = n
+
+        self.n_annotation = len(self.anno_data)
         self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
         
         if new_session:

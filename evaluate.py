@@ -63,10 +63,12 @@ class EvalSurvey():
             st.header(text)
         for anno in annos:
             target = anno[0]
-            stace = anno[1]
+            fg_target = anno[1]
+            stance = anno[2]
             with st.container(border=True):
                 st.write(f"target: {target}")
-                st.write(f"stace: {stace}") 
+                st.write(f"fg target: {fg_target}")
+                st.write(f"stance: {stance}") 
         pass_btn = self.survey.radio(label="how do you like it?",options=eval_res,id=cur_example_id,horizontal=True)
         score = eval_res.index(pass_btn) 
         st.session_state["score"][page_idx] = score
@@ -101,5 +103,5 @@ class EvalSurvey():
     
 
 if __name__ == "__main__":
-    eval = EvalSurvey("adrwlds","German") 
+    eval = EvalSurvey("ivrkk","English") 
     eval.run()
