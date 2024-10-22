@@ -1,18 +1,19 @@
 import streamlit as st
 import my_streamlit_survey as ss 
-from utils import  *
+from utils import  lang2id,load_anno_data,load_results,init_mongo_clinet,task_description,ALL_TARGETS,text_css
 import time 
 import streamlit as st
 
+    
 
 class SDSurvey: 
-    def __init__(self,n=100) -> None:
+    def __init__(self) -> None:
         new_session = self.set_qp()
         path = f"human_data/{lang2id[self.lang]}.jsonl"
-        self.anno_data = load_anno_data(path)[:n]
+        self.anno_data = load_anno_data(path)
 
         self.n_annotation = len(self.anno_data)
-        self.n_pages =1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
+        self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + example page + annotation page 
         
         if new_session:
             user_data = load_results(self.lang,self.prolific_id,new_session)
@@ -28,6 +29,9 @@ class SDSurvey:
                 if not st.session_state["annos_completed"][page]:
                     break
             self.pages.latest_page = 1 + page
+
+
+
     def set_qp(self):
         """
         save the query parameters to session state for reuse.
@@ -48,7 +52,6 @@ class SDSurvey:
             self.study_id = st.session_state["qp"]["STUDY_ID"]  = "default_study_id"
         st.query_params.from_dict(st.session_state["qp"])     
         return new_session 
-
     def save_to_mongodb(self):
         """
         save or update the annotation results based on prolific_id  and language 
@@ -86,19 +89,18 @@ class SDSurvey:
         Display the options. 
         """
         n_selected_trgt = 0 
-        targets = list(all_targets.keys()) 
+        targets = list(ALL_TARGETS.keys()) 
         st.session_state["annos_completed"][cur_idx] = True
         for t in targets:
             with st.container(border=True):
-
                 l_col,r_col = st.columns([2,1])
                 with l_col: 
-                    fg_targets = " | ".join(all_targets[t]["fg_targets"])
+                    fg_targets = " | ".join(ALL_TARGETS[t]["fg_targets"])
                     t_exist = self.survey.radio(f"Does target :red[{t}] exist in the post?",options=["No","Yes"],horizontal=True,id=f"e_{t}_{example_id}",help=fg_targets)
                     if t_exist == "No":
                         continue 
                     n_selected_trgt += 1
-                    t_selected = self.survey.radio("Please choose a fine-grained target, choose **none** (if applicable) if only broad target exists.", options=all_targets[t]["fg_targets"], horizontal=True,id = f"t_{t}_{example_id}",index=None)
+                    t_selected = self.survey.radio("Please choose a fine-grained target, choose **none** (if applicable) if only broad target exists.", options=ALL_TARGETS[t]["fg_targets"], horizontal=True,id = f"t_{t}_{example_id}",index=None)
                     
                     if t == "migration policies" and t_selected and t_selected.startswith("p"):
                         t_selected = self.survey.text_input("What political entity does the post mention? (Please only answer with the entity name.)",id = f"mp_{t}_{example_id}")
@@ -127,7 +129,6 @@ class SDSurvey:
         '''
         Display the annotation page. 
         '''
-
         cur_idx = n - 1 
         if cur_idx and st.session_state["annos_completed"][cur_idx -1] and not st.session_state["annos_completed"][cur_idx]:
             self.save_to_mongodb()
@@ -141,7 +142,8 @@ class SDSurvey:
             st.markdown(text_css,unsafe_allow_html=True)
         st.write(task_description)
         self.construct_annotations(cur_idx,anno_example["resourceId"])
-        self.pages.proceed_to_next =  st.session_state["annos_completed"][cur_idx]
+        self.pages.proceed_to_next = st.session_state["annos_completed"][cur_idx]
+            
     def conclusion_page(self):
         st.title("Submission")
         st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
@@ -183,7 +185,7 @@ class SDSurvey:
     
 def main():
     st.set_page_config(layout="wide")
-    sv = SDSurvey(n=100)
+    sv = SDSurvey()
     sv.run_survey()
 if __name__ == "__main__":
 
