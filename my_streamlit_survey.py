@@ -22,7 +22,7 @@ from typing import Any, Hashable, List, Optional, Union
 
 import streamlit as st
 
-from my_pages import Pages
+from survey_pages import Pages
 from streamlit_survey.survey_component import (
     CheckBox,
     DateInput,

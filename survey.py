@@ -24,6 +24,7 @@ class SDSurvey:
             self.survey = ss.StreamlitSurvey("sd-survey",data=user_data) 
         self.survey = ss.StreamlitSurvey("sd-survey")
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
+        self.pages.next_func = self.save_to_mongodb
         if sum(st.session_state["annos_completed"]):
             for page in range(len(st.session_state["annos_completed"])):
                 if not st.session_state["annos_completed"][page]:
@@ -130,8 +131,6 @@ class SDSurvey:
         Display the annotation page. 
         '''
         cur_idx = n - 1 
-        if cur_idx and st.session_state["annos_completed"][cur_idx -1] and not st.session_state["annos_completed"][cur_idx]:
-            self.save_to_mongodb()
         st.title(f"Annotation: {cur_idx + 1}|{self.n_annotation}")     
         anno_example = self.anno_data[cur_idx]
         st.header("Please read the following tweet:",divider="red")
@@ -173,14 +172,10 @@ class SDSurvey:
                 self.pages.next_button = self.pages.default_btn_next("Start!")
             elif self.pages.current ==self.n_pages-1:
                 self.conclusion_page()
-            elif self.pages.current == self.n_pages - 2:
-                self.annotation_page(self.pages.current)
-                self.pages.next_button = self.pages.default_btn_next("To the conclusion page")
-                self.pages.prev_button = self.pages.default_btn_previous("previous instance")
             else:
                 self.annotation_page(self.pages.current)
-                self.pages.next_button = self.pages.default_btn_next("next instance")
-                self.pages.prev_button = self.pages.default_btn_previous("previous instance")
+     
+     
                 
     
 def main():
