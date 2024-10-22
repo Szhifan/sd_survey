@@ -30,7 +30,6 @@ task_description = """
                     if there is no clear stance toward the target, exception: Migration Policies). To cancel your selection, please click :red[**No**]. You can choose :red[**from one to three**] targets."""
 lang2id = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv"}
 ttl = 1200
-
 text_css = """
 <style>
     @media (prefers-color-scheme: dark) {
