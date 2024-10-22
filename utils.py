@@ -122,9 +122,18 @@ def reformat(data:dict):
            
             if id not in reformated_data:
                 reformated_data[id] = []
-                reformated_data[id].append((b_target,target,data[k]["value"]))
+                reformated_data[id].append({
+                    "target":b_target,
+                    "fg_target":target,
+                    "stance":data[k]["value"]
+                })
             else:
-                reformated_data[id].append((b_target,target,data[k]["value"]))
+                reformated_data[id].append({
+                    "target":b_target,
+                    "fg_target":target,
+                    "stance":data[k]["value"]
+                }
+                )
 
     return reformated_data
  
@@ -174,8 +183,6 @@ def get_text_by_id(id,lang):
                 return item["fullText"]
     return None 
 
-
-    return bt_agreement, fg_agreement, stance_agreement
 
 
     col.update_one(query,update)

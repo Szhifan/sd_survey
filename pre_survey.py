@@ -1,7 +1,7 @@
 import streamlit as st  
 import my_streamlit_survey as ss 
 from survey import load_results 
-from utils import all_targets,task_description
+from utils import ALL_TARGETS,task_description
 from urllib.parse import urlencode
 survey_link = f"https://sdsurvey-actazgy67pazw8zrtg9mx4.streamlit.app/?"
 pre_tests = [
@@ -27,7 +27,7 @@ def questions(survey:ss.StreamlitSurvey):
             for t in pre_tests_targets:
                 l_col,r_col = st.columns([2,1])
                 with l_col:
-                    fg_targets = " | ".join(all_targets[t]["fg_targets"])
+                    fg_targets = " | ".join(ALL_TARGETS[t]["fg_targets"])
                     t_exist = survey.radio(f"Does target :red[{t}] exist in the post?",options=["No","Yes"],horizontal=True,id=f"e_{t}_{i}",help=fg_targets)
                     if t_exist == "No":
                         continue 

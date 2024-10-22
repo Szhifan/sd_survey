@@ -6,13 +6,13 @@ from utils import *
 
 def construct_annotations(cur_idx,example:dict): 
     n_selected_trgt = 0 
-    targets = all_targets.keys()
+    targets = ALL_TARGETS.keys()
     open_end_mg = None 
     ans_bt = {a["t"].split("->")[0].strip():a["s"] for a in example["ans"]}
     ans_fgt = {a["t"].split("->")[1].strip():a["s"] for a in example["ans"]}
     bt_fgb = {a["t"].split("->")[0].strip():a["t"].split("->")[1].strip() for a in example["ans"]}
 
-    if "migration policies" in ans_bt.keys() and bt_fgb["migration policies"] not in all_targets["migration policies"]["fg_targets"]:
+    if "migration policies" in ans_bt.keys() and bt_fgb["migration policies"] not in ALL_TARGETS["migration policies"]["fg_targets"]:
         open_end_mg = bt_fgb["migration policies"]
 
     # random.shuffle(list(targets))
@@ -29,7 +29,7 @@ def construct_annotations(cur_idx,example:dict):
                     continue
 
                 n_selected_trgt += 1
-                t_selected = st.radio("Please choose a fine-grained target, choose **none** (if applicable) if only broad target exists.", options=all_targets[t]["fg_targets"], horizontal=True,key = f"t_{t}_{cur_idx}",index=None)
+                t_selected = st.radio("Please choose a fine-grained target, choose **none** (if applicable) if only broad target exists.", options=ALL_TARGETS[t]["fg_targets"], horizontal=True,key = f"t_{t}_{cur_idx}",index=None)
                 if t == "migration policies" and t_selected and t_selected.startswith("poli"):
                     t_selected = st.text_input("What political entity does the post mention? (Please only answer with the entity name.)",key = f"mp_{t}_{cur_idx}",placeholder="plase enter: " + open_end_mg)
                     if not t_selected:
@@ -108,9 +108,9 @@ def main():
 
     survey = ss.StreamlitSurvey("examples")
  
-    pages = survey.pages(len(examples),progress_bar=True)
+    pages = survey.pages(len(EXAMPLES),progress_bar=True)
  
     with pages:
-        example_page(pages.current,examples) 
+        example_page(pages.current,EXAMPLES) 
 
 main()
