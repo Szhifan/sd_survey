@@ -93,7 +93,7 @@ ex_open_end_question = """
 :green[**Policies of a political entity (party, country or politician) or 'concrete policy name' (e.g. Brexit)**]: 
 Other than the aforementioned fine-grained targets, many posts comment on the migration policies of their own country and those of other EU countries, or on specific politicians or parties. 
 Sometimes, it also involves specific policy names like Brexit.
-:red[For this target, you have to manually input an answer].
+:red[For this target, you have to manually input an answer]. Note that you only need to input ONE entity name, not a sentence, phrase or multiple names.
 """
 
 st.write(ex_tur_agreement)
