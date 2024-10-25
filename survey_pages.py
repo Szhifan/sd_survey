@@ -240,7 +240,7 @@ class Pages(object):
                     self.next_func()
                     st.components.v1.html(js_script_to_top)
         with mid:
-            if self.latest_page and self.current == 0:
+            if self.latest_page and self.current != self.latest_page:
                 self.jump_button
                 
         if self.progress_bar and self.n_pages > 1:

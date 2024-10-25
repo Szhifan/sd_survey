@@ -151,30 +151,40 @@ def fetch_from_db():
         col = db[col_name]
         for item in col.find():
             path = os.path.join(root,col_name,item["PROLIFIC_PID"]) + ".json"
-            rf_data = {"results":reformat(item)}
+            rf_data = reformat(item)
             with open(path,"w") as f:
                 json.dump(rf_data,f) 
     
-def load_anno_result(id:str,lang:str,no_cache:bool):
+def load_anno_result(id:str,lang_id:str,no_cache:bool,path:str = "anno_results"):
     """
     load the annotation results from the local directory 
     """
-    root = "anno_results"
-    path = os.path.join(root,lang2id[lang],id) + ".json"
+
+    path = os.path.join(path, lang_id, id) + ".json"
+    if not os.path.exists(path):
+        return {}
+
     def no_cache():
-        with open(path,"r") as f:
+        with open(path, "r") as f:
             return json.load(f)
+
     @st.cache_data(ttl=ttl)
     def cache():
         return no_cache()
+
     return cache() if not no_cache else no_cache()
 
-def get_text_by_id(id,lang):
+def get_text_by_id(id,lang_id):
     """
     Get the annotation example from the example list by resourceId
     
     """
-    path = f"human_data/{lang2id[lang]}.jsonl"
+    
+    if lang_id == "en" or lang_id == "de":
+        path = f"human_data/{lang_id}.jsonl" 
+    else: 
+        path = f"human_data_translated/{lang_id}.jsonl"
+
     with open(path, "r") as f:
         for line in f:
             item = json.loads(line)

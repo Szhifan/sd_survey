@@ -166,4 +166,4 @@ test.py
 vscode/.*
 pq.txt
 res_example.json
-anno_results/.* 
+anno_results

@@ -1,107 +1,91 @@
 import streamlit as st 
 import my_streamlit_survey as ss
 from utils import *
-
-
-
+RATING_SCALE = {"crap":0,"bad":1,"ok":2,"good":3,"excellent":4}
 class EvalSurvey():
-    def __init__(self,id,lang) -> None:
-        self.id = id 
-        self.lang = lang
-        
-        if "new_session" not in st.session_state:
-            st.session_state["new_session"] = True
-        else:
-            st.session_state["new_session"] = False
-        self.data = load_anno_result(id,lang,st.session_state["new_session"])
-        if not self.data:
+    def __init__(self,path_to_anno:str) -> None:
+        # path example: anno_results/en/66c8690ad6fdb4de5a2102be.json 
+        self.lang_id = path_to_anno.split("/")[1]
+        self.id = path_to_anno.split("/")[2].split(".")[0]
+        new_session = self.new_session()      
+        res_dir = "eval_results"
+        os.makedirs(res_dir,exist_ok=True)
+        self.data_anno = load_anno_result(self.id,self.lang_id,new_session,path="anno_results")
+        if not self.data_anno:
             st.error("No data found for this language and id")
-        # load completed evaluation example and score. If it is not present, create it.
-        if "completed" not in self.data:    
-            self.data["completed"] = [False] * len(self.data["results"])
-            self.data["score"] = [0] * len(self.data["results"])
+        if new_session:
+            self.data_res = load_anno_result(self.id,self.lang_id,new_session,path=res_dir)
+            self.survey = ss.StreamlitSurvey("evaluation",data=self.data_res)
+        self.survey = ss.StreamlitSurvey("evaluation")
+        self.pages = self.survey.pages(len(self.data_anno),progress_bar=True,on_submit=self.save)
         # put completion and score status to session state if it is not present.
-        if "completed" not in st.session_state:
-            st.session_state["completed"] = self.data["completed"]
-        if "score" not in st.session_state:
-            st.session_state["score"] = self.data["score"]
-        # create a survey object for evaluation.
-        self.survey = ss.StreamlitSurvey("evaluation",data=self.data["survey_state"] if "survey_state" in self.data else None)
-        self.pages = self.survey.pages(len(self.data["results"]) + 1,progress_bar=True,on_submit=self.save)
-   
-        if sum(self.data["completed"]):
-            self.pages.latest_page = sum(self.data["completed"])
-        self.total_score = len(self.data["results"]) * 4
+        self.pages.latest_page = 3
+
+    def new_session(self):
+        """
+        Save the query parameters to session state for reuse.
+        return :new_session. If it is a new session or not  
+        """
+ 
+        return len(st.session_state) == 0   
     def save(self):
 
-        path = f"anno_results/{lang2id[self.lang]}/{self.id}.json"
-        self.data["completed"] = st.session_state["completed"]
-        self.data["score"] = st.session_state["score"]
-        self.data["survey_state"] =  self.survey.data 
-
-        with open(path,"w") as f:
-            json.dump(self.data,f)
+        dir = f"eval_results/{self.lang_id}"
+        os.makedirs(dir,exist_ok=True) 
+        path = os.path.join(dir,self.id) + ".json"
+        self.survey.to_json(path)
         st.success("Data saved successfully")
     def eval_page(self,page_idx):
         """
         Display the evaluation page for the given page index. 
         set the passed status for the given page index to true if the user has passed the evaluation.  
         """
-        results = self.data["results"]
+        results = self.data_anno
         cur_example_id = list(results.keys())[page_idx]
-        text = get_text_by_id(cur_example_id,self.lang)
-        annos = self.data["results"][cur_example_id]
-        eval_res = ["crap","bad","ok","good","excellent"]
+        text = get_text_by_id(cur_example_id,self.lang_id)
+        annos = self.data_anno[cur_example_id]
         
-
-        col_l,col_r = st.columns(2)
+        
+        
+        col_l,col_m,col_r = st.columns(3)
         with col_l:
-            st.header(f"Example {page_idx+1}/{len(results)}")
+            st.subheader(f"Example {page_idx+1}/{len(results)}")
+        with col_m:
+            st.subheader(f"example id: {cur_example_id}")
         with col_r:
-            st.header(f"prolific_id: {self.id}")
+            st.subheader(f"prolific_id: {self.id}")
+        
         with st.container(border=True):
             st.header(text)
         for anno in annos:
-            target = anno[0]
-            fg_target = anno[1]
-            stance = anno[2]
+            target = anno["target"]
+            fg_target = anno["fg_target"]
+            stance = anno["stance"]
             with st.container(border=True):
                 st.write(f"target: {target}")
                 st.write(f"fg target: {fg_target}")
                 st.write(f"stance: {stance}") 
-        pass_btn = self.survey.radio(label="how do you like it?",options=eval_res,id=cur_example_id,horizontal=True)
-        score = eval_res.index(pass_btn) 
-        st.session_state["score"][page_idx] = score
-        st.session_state["completed"][page_idx] = True
-      
+        pass_btn = self.survey.radio(label="how do you like it?",options=RATING_SCALE.keys(),id=cur_example_id,horizontal=True,index=2)
+        total_score = sum([RATING_SCALE[self.survey.data[id]["value"]] for id in self.survey.data.keys()])
+        st.write(f"Total score: {total_score} / {len(self.data_anno) * 4}")
         self.save()
-        # display score 
-        st.subheader(f"curent score: {sum(st.session_state['score'])}/{self.total_score}")
-    def conclusion_page(self):
-        """
-        Display the total score and decide if the answer should be accepted or not. 
-        """
-        total_score = sum(st.session_state["score"])
-        st.header("Evaluation completed")
-        st.subheader(f"Total score: {total_score}/{self.total_score}")
-        pss = self.survey.radio("Accept the evaluation",options=["Yes","No"],id="accept",index=None) 
+
+
         
     def run(self):
         """
         Main function to launch the evaluation interface 
-        """
+        True"""
 
         with self.pages:
-            if self.pages.current < len(self.data["results"]):
-                self.eval_page(self.pages.current)
-            else:
-                self.conclusion_page()
-            
+
+            self.eval_page(self.pages.current)
+      
 
 
 
     
 
 if __name__ == "__main__":
-    eval = EvalSurvey("ivrkk","English") 
+    eval = EvalSurvey("anno_results/pl/5f1b1f4bcd241009e68d764c.json") 
     eval.run()
