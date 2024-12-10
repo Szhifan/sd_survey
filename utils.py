@@ -4,7 +4,9 @@ import streamlit as st
 import json 
 import os 
 from pymongo.mongo_client import MongoClient 
-from interface_utils import ALL_TARGETS,LANG2ID,TTL,ALL_FG_TARGETS
+from interface_utils import ALL_TARGETS,LANG2ID,TTL
+
+
 def get_colored_css(color:str):
     css = f"""
     <style>
@@ -133,6 +135,7 @@ def fetch_from_db(lang:str=None,db_name:str="anno-results"):
                 path = os.path.join(root,col_name,item["PROLIFIC_PID"]) + ".json"
                 os.makedirs(os.path.dirname(path),exist_ok=True)
                 rf_data = reformat(item)
+                rf_data["test_passed"] = item.get("test_passed")
                 with open(path,"w") as f:
                     json.dump(rf_data,f,indent=4) 
         return  
@@ -180,6 +183,4 @@ def get_text_by_id(id,lang_id):
         if item["resourceId"] == id:
             return item["fullText"]
     return None 
-
-
 

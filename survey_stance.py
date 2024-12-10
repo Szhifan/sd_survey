@@ -78,7 +78,7 @@ class SDSurvey:
         st.title("Stance Detection: Refugee Crisis")
         st.header("Welcome to our study!")
         st.subheader("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
-        st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking the sidebar :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
+        st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
         st.subheader("Please contact us on prolific if you encounter any issues or have any questions.")
 
