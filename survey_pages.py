@@ -125,8 +125,6 @@ class Pages(object):
             st.session_state[self.current_page_key] = value
         else:
             raise ValueError("Page index out of range")
-
-
     @property
     def label(self):
         return self.labels[self.current]
@@ -240,9 +238,8 @@ class Pages(object):
                     self.next_func()
                     st.components.v1.html(js_script_to_top)
         with mid:
-            if self.latest_page and self.current != self.latest_page:
+            if self.latest_page:
                 self.jump_button
-                
         if self.progress_bar and self.n_pages > 1:
             st.progress(self.current / (self.n_pages - 1))
         if submitted:

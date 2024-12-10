@@ -14,43 +14,33 @@ In this study, you will annotate broad and fine-grained targets, along with thei
 st.header("Background Information & Terminology Explanation",divider="red")
 st.write("""The targets we are interested in concern some highly specialized concepts in political science. Below we will demonstrate all targets and their fine-grained targets with a brief introduction and instruction. """)
 st.subheader("Migrants",divider="red")
+
 ex_illegal_migrants = """
 :green[**Illegal migrants**]: a person who enters or resides in a country without legal authorization, either by crossing borders without permission or by overstaying a visa or permit. 
-
-This target can be identified through a direct mention or keywords like “illegal”.
-
+This target can be identified through a direct mention or keywords like “illegal”, or inferred from the context.
 """
 ex_refugee = """
-:green[**Refugees**]: People who flee their home country due to war, prosecution and other harms. In our dataset, these mainly concern Syrian and Afghan refugees fleeing from their home country to Europe. 
-Other than direct mention, this target can be identified through context. If “migrants” are mentioned, but you can infer from the context that the post actually talks about refugees. 
-
+:green[**Refugees**]: People who flee their home country due to war, prosecution and other harms. 
 This target can be selected when the word "refugee", "people fleeing their home country", "people escaping war" or similar terms are mentioned.
-Refugee can be seen both as a legal term (a person that has been granted the legal status of refugee) and as a common parlance term (for everyone who fled their home country because of a conflict, fear or persecution, etc.).
 """
 ex_asylum_seekers = """
 :green[**Asylum seekers**]: also people fleeing from their country due to the same reasons as the refugees. The key difference between asylum seekers and refugees
- is that refugees have already been granted legal recognition of their status under international law, 
- while asylum seekers are in the process of having their claims evaluated. If their asylum application is successful, 
- they may be granted refugee status or other forms of protection. However, in the actual online discussions, 
- people may use refugees for those who flee from their home countries regardless of their actual legal status.
-
-This target can be identified through the direct mention of the word “asylum”. 
+is that refugees have already been granted legal recognition of their status under international law, 
+while asylum seekers are in the process of having their claims evaluated.
+This target can be identified :red[only] through the direct mention of the word “asylum”. 
 """
 ex_eco_migrants = """
 :green[**Economic migrants**]: Those who leave their home country for better economic/job opportunities. 
 
 In our dataset, economic migrants often involve EU migrants in the UK in the discussion about Brexit.
-
 """
-
 st.write(ex_illegal_migrants)
 st.write(ex_refugee)
 st.write(ex_asylum_seekers)
 st.write(ex_eco_migrants)
 
-
 st.subheader("European Union Institutions",divider="red")
-st.write("In the tweets, the mention of this target is often signaled by the word “EU”. However, EU institutions should be identified as targets when it is interpreted as a governmental agency, not merely as a place name. The following fine-grained targets of EU institutions could be identified as targets if they are directly mentioned: ")
+st.write("In the tweets, the mention of this target is often signaled by the word “EU”. However, EU institutions should be identified as targets when it is interpreted as a governmental agency, not merely as a place name. The following fine-grained targets of EU institutions could be identified as targets only if they are directly mentioned: ")
 
 ex_eu_commission = """
 :green[**European Commission**]
@@ -91,9 +81,8 @@ ex_refugee_quotas = """
 """
 ex_open_end_question = """
 :green[**Policies of a political entity (party, country or politician) or 'concrete policy name' (e.g. Brexit)**]: 
-Other than the aforementioned fine-grained targets, many posts comment on the migration policies of their own country and those of other EU countries, or on specific politicians or parties. 
-Sometimes, it also involves specific policy names like Brexit.
-:red[For this target, you have to manually input an answer]. Note that you only need to input ONE entity name, not a sentence, phrase or multiple names.
+Other than the predefined targets, the post might discuss the migration policies of a political entity (party, country or politician) or a concrete policy name (e.g. Brexit).
+Choose "none" as the fine-grained target in this case. 
 """
 
 st.write(ex_tur_agreement)

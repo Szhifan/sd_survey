@@ -1,7 +1,7 @@
 import streamlit as st 
 import my_streamlit_survey as ss
 from utils import *
-RATING_SCALE = {"crap":0,"bad":1,"ok":2,"good":3,"excellent":4}
+RATING_SCALE = {"terrible":0,"bad":1,"ok":2,"good":3,"excellent":4}
 class EvalSurvey():
     def __init__(self,path_to_anno:str) -> None:
         # path example: anno_results/en/66c8690ad6fdb4de5a2102be.json 
@@ -19,7 +19,8 @@ class EvalSurvey():
         self.survey = ss.StreamlitSurvey("evaluation")
         self.pages = self.survey.pages(len(self.data_anno),progress_bar=True,on_submit=self.save)
         # put completion and score status to session state if it is not present.
-        self.pages.latest_page = 3
+        self.pages.latest_page = 70
+
 
     def new_session(self):
         """
@@ -69,9 +70,7 @@ class EvalSurvey():
         total_score = sum([RATING_SCALE[self.survey.data[id]["value"]] for id in self.survey.data.keys()])
         st.write(f"Total score: {total_score} / {len(self.data_anno) * 4}")
         self.save()
-
-
-        
+      
     def run(self):
         """
         Main function to launch the evaluation interface 
@@ -80,12 +79,6 @@ class EvalSurvey():
         with self.pages:
 
             self.eval_page(self.pages.current)
-      
-
-
-
-    
-
 if __name__ == "__main__":
-    eval = EvalSurvey("anno_results/pl/5f1b1f4bcd241009e68d764c.json") 
+    eval = EvalSurvey("anno_results/el/602e757b94c5aea0de8a57ca.json") 
     eval.run()

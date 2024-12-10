@@ -1,1 +1,1192 @@
-{"results": {"4e69e8834952f8b34531b08e1805469e": [{"target": "migration policies", "fg_target": "Sweden", "stance": "none"}], "b78155557dc87a91ff8d558ddc6aa02d": [{"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "favor"}], "ada6f93ef790ec42ecbc8e15ffff0dc2": [{"target": "migrants", "fg_target": "asylum seekers", "stance": "none"}], "9fbc1ff489b2de9e419462ce34a1d28b": [{"target": "asylum procedures", "fg_target": "asylum procedures", "stance": "none"}, {"target": "migration policies", "fg_target": "EU", "stance": "none"}], "d2517c832f94142fc4e9223534aa60db": [{"target": "migration policies", "fg_target": "Salvini", "stance": "favor"}, {"target": "migrants", "fg_target": "refugees", "stance": "against"}, {"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "against"}], "4560376949c058c0d2bbb9ffc4a2b440": [{"target": "migrants", "fg_target": "illegal migrants", "stance": "against"}, {"target": "migration policies", "fg_target": "Brexit", "stance": "against"}], "2534a019fe146a7375c5f5cd901415f1": [{"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "none"}], "c5f08aa1d90d7b0140585c5ee64c667a": [{"target": "migrants", "fg_target": "economic migrants", "stance": "favor"}], "b78c67888d5504f8fb7c88654b208808": [{"target": "migrants", "fg_target": "refugees", "stance": "favor"}, {"target": "European Union Institutions", "fg_target": "FRONTEX", "stance": "none"}], "53e796cc21dd9036327232e32a718218": [{"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "against"}, {"target": "migrants", "fg_target": "migrants", "stance": "against"}, {"target": "refugee pathways", "fg_target": "smuggling", "stance": "against"}], "cadcd45f8519098af1ecad48d57cc971": [{"target": "migrants", "fg_target": "refugees", "stance": "favor"}], "9422849b9975596ad88428b52d739ac8": [{"target": "migration policies", "fg_target": "Brexit", "stance": "favor"}, {"target": "migrants", "fg_target": "migrants", "stance": "against"}], "c939e9a8038234b3ae64d9105bb36c8f": [{"target": "migration policies", "fg_target": "EU-Turkey refugee return agreement", "stance": "none"}], "9000bf86f64b81cc210157f047b403e5": [{"target": "migrants", "fg_target": "refugees", "stance": "none"}], "0c538ce5854eb0b5750b9e81ccc6930d": [{"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "against"}, {"target": "migrants", "fg_target": "migrants", "stance": "against"}], "8a8f9edc27e9586922fcf82fbe766705": [{"target": "migration policies", "fg_target": "Brexit", "stance": "against"}], "d215753b55d3b9e479b97e7a03e6fe26": [{"target": "migration policies", "fg_target": "Brexit", "stance": "against"}, {"target": "migrants", "fg_target": "economic migrants", "stance": "favor"}], "fc5b9b9be3e392cb6dcbc578f8a30137": [{"target": "migration policies", "fg_target": "Merkel", "stance": "against"}, {"target": "migrants", "fg_target": "refugees", "stance": "against"}], "5c3767b6da1d095d3edfbf9f50c3f3a8": [{"target": "migrants", "fg_target": "refugees", "stance": "favor"}], "758ca7a191418dfe96fdd02885d740cb": [{"target": "migration policies", "fg_target": "EU", "stance": "against"}, {"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "against"}, {"target": "migrants", "fg_target": "refugees", "stance": "against"}], "82480c549bc1da5795e6b36d76abb1d5": [{"target": "reception", "fg_target": "refugee status", "stance": "against"}], "3577a12750d8b133ebe917d97374db9e": [{"target": "migration policies", "fg_target": "Dublin Regulation", "stance": "against"}], "5e68a51cd76e04c48240ce4d9732727b": [{"target": "reception", "fg_target": "refugee camps", "stance": "against"}], "dc3f51a0e13b7eedad4dff1078b95c92": [{"target": "European Union Institutions", "fg_target": "European Council", "stance": "against"}], "6a4536b6f35b20812b0f3b2cd2df35ef": [{"target": "migration policies", "fg_target": "Dublin Regulation", "stance": "favor"}], "bb924e257adab3225f7796801ba85d80": [{"target": "asylum procedures", "fg_target": "compensation", "stance": "against"}], "808088a526dfe6d323a5d82b074e2183": [{"target": "asylum procedures", "fg_target": "legal rights", "stance": "against"}], "c538ab0374792991fd141cc331409f5e": [{"target": "reception", "fg_target": "refugee camps", "stance": "against"}, {"target": "refugee pathways", "fg_target": "boat sinking", "stance": "against"}], "7819cd22646129eb79d9face8acd2e84": [{"target": "refugee pathways", "fg_target": "boat sinking", "stance": "against"}], "c0ec8eb369a03d326c93048471f143d2": [{"target": "migration policies", "fg_target": "Dublin Regulation", "stance": "against"}, {"target": "reception", "fg_target": "refugee status", "stance": "against"}]}}
+{
+    "4e69e8834952f8b34531b08e1805469e": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "none"
+        },
+        {
+            "target": "reception",
+            "fg_target": "refugee status",
+            "stance": "favor"
+        }
+    ],
+    "b78155557dc87a91ff8d558ddc6aa02d": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        }
+    ],
+    "ada6f93ef790ec42ecbc8e15ffff0dc2": [
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "none"
+        }
+    ],
+    "9fbc1ff489b2de9e419462ce34a1d28b": [
+        {
+            "target": "asylum procedures",
+            "fg_target": "asylum procedures",
+            "stance": "none"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "none"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        }
+    ],
+    "d2517c832f94142fc4e9223534aa60db": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "4560376949c058c0d2bbb9ffc4a2b440": [
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        },
+        {
+            "target": "refugee pathways",
+            "fg_target": "smuggling",
+            "stance": "against"
+        }
+    ],
+    "2534a019fe146a7375c5f5cd901415f1": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        }
+    ],
+    "c5f08aa1d90d7b0140585c5ee64c667a": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "against"
+        }
+    ],
+    "b78c67888d5504f8fb7c88654b208808": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "FRONTEX",
+            "stance": "none"
+        },
+        {
+            "target": "asylum procedures",
+            "fg_target": "protection",
+            "stance": "favor"
+        }
+    ],
+    "53e796cc21dd9036327232e32a718218": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "none"
+        }
+    ],
+    "cadcd45f8519098af1ecad48d57cc971": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        }
+    ],
+    "9422849b9975596ad88428b52d739ac8": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "c939e9a8038234b3ae64d9105bb36c8f": [
+        {
+            "target": "migration policies",
+            "fg_target": "EU-Turkey refugee return agreement",
+            "stance": "none"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        }
+    ],
+    "9000bf86f64b81cc210157f047b403e5": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "none"
+        }
+    ],
+    "0c538ce5854eb0b5750b9e81ccc6930d": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "d215753b55d3b9e479b97e7a03e6fe26": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        }
+    ],
+    "fc5b9b9be3e392cb6dcbc578f8a30137": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "5c3767b6da1d095d3edfbf9f50c3f3a8": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        }
+    ],
+    "758ca7a191418dfe96fdd02885d740cb": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "6a4536b6f35b20812b0f3b2cd2df35ef": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        }
+    ],
+    "bb924e257adab3225f7796801ba85d80": [
+        {
+            "target": "asylum procedures",
+            "fg_target": "protection",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "EU-Turkey refugee return agreement",
+            "stance": "against"
+        }
+    ],
+    "c538ab0374792991fd141cc331409f5e": [
+        {
+            "target": "reception",
+            "fg_target": "reception",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        }
+    ],
+    "c0ec8eb369a03d326c93048471f143d2": [
+        {
+            "target": "reception",
+            "fg_target": "refugee status",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "none"
+        }
+    ],
+    "0bbd9ec7a4fd5e210b6cd44c1f99b983": [
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "against"
+        }
+    ],
+    "f3a1499e61a37ee628af9e0737faa3b0": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        }
+    ],
+    "790a02551b227525f73f41fa42c116bb": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "82480c549bc1da5795e6b36d76abb1d5": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "favor"
+        }
+    ],
+    "5e68a51cd76e04c48240ce4d9732727b": [
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "against"
+        }
+    ],
+    "dc3f51a0e13b7eedad4dff1078b95c92": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "808088a526dfe6d323a5d82b074e2183": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "7819cd22646129eb79d9face8acd2e84": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "46688060f6efee9ae3626aa4778b3da0": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "against"
+        }
+    ],
+    "8dc7f76dc9b90593f571b3b8e5b17aae": [
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "against"
+        }
+    ],
+    "b4e5ca4d274fdb9d28f9e5fe3b45aa24": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "b01e9cdf4952e2e5393bcdfd714a8117": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "767e4b419ea8e1351808df824e3ea629": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        },
+        {
+            "target": "refugee pathways",
+            "fg_target": "boat sinking",
+            "stance": "against"
+        }
+    ],
+    "6f7998888f457e21e9e862624bd036e8": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "a4239abbd764e82289dd8c959867f7c2": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "1fcb7b1041c7dce4cf3bf8917497dc9b": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "9491401822c2e31b1e1a6b30a466c50b": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "none"
+        }
+    ],
+    "930fc1195771be49f6f819f74b63c185": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "favor"
+        }
+    ],
+    "7bd833c1160e9fe5dce03dd903f7fad5": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        }
+    ],
+    "ebb639d4aa0c417376bcaa7bfa261ca0": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        }
+    ],
+    "307e9bf93fd8bd719ea1cb8536d08a2c": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "none"
+        }
+    ],
+    "26aaf72a4bf4c89537d44885ebc3b73c": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "cedbe37a89318d82497d88ba67a9029a": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        }
+    ],
+    "f5c936509de7fd7397a782b16ac8d43f": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "none"
+        }
+    ],
+    "e21b9330bfc8c151e0bf7d90fb0b572c": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "2c9bda5c516bade556252f0b1f39f51f": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "FRONTEX",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        }
+    ],
+    "cea8083d8b28ac5322be53f2a20bf680": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        }
+    ],
+    "b57a5b234128c24a9138553eb4ebb806": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "none"
+        }
+    ],
+    "7581f34dfb715c33e828527d2aa0be65": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "d8b15077529dfc0dca7be1a815b399e6": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "reception",
+            "fg_target": "reception",
+            "stance": "favor"
+        }
+    ],
+    "412da9e99eedcbd936c901b036dad9e2": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "none"
+        }
+    ],
+    "bb5d14d0f608bb62b8f9bd78502a7819": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "918ed7cb54e20dc89109ffe0ed0d25d8": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "d42bd0835b864c57d0762781083601cb": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "cebe0a1e8e060b514668532324e00e3a": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "Refugee Quotas",
+            "stance": "against"
+        }
+    ],
+    "67a3a08fae1cfba580573c97a9b170bd": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "b95fbc01cbbe515459a9de6f834a8466": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "afd8fa2d829ea5b90fcf5bbe5b6680e1": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        },
+        {
+            "target": "reception",
+            "fg_target": "refugee status",
+            "stance": "against"
+        }
+    ],
+    "7cd96ef380a03496f5d316e62458bfee": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        },
+        {
+            "target": "refugee pathways",
+            "fg_target": "boat sinking",
+            "stance": "against"
+        }
+    ],
+    "7d868251971e6e722ece4993733dedf9": [
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "0a3d48d3caebaa7463a85911b3a7b3bd": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "23baa8d61cc83e32de839f8bce96559c": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        }
+    ],
+    "874394455dd620d53d0e787622886988": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "favor"
+        }
+    ],
+    "90098c512f8df619d0b5cfed7b7cc4f5": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "Refugee Quotas",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "8b1f93f8cd136a6af28363426c9958f5": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "a01206dd88bb099a78ce3b4204e1075c": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Council",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "a385399ab917589d84d9caf439670d34": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        }
+    ],
+    "39ccc85415edf16237c1b8a04840ceaa": [
+        {
+            "target": "asylum procedures",
+            "fg_target": "protection",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "favor"
+        }
+    ],
+    "edd82fedd26bb7e96816aeb083a46811": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        }
+    ],
+    "a015958b51e77e5afe46c6554db206e1": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "68b385456c302dc1ebff11c863a9afbe": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        }
+    ],
+    "ea3cb177e84be43511f6cf1965708a20": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "b076ae249de2a0434ee5364aaa299ae9": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Commission",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "b5da6b68cb81470298d2c2d94233ba2d": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        }
+    ],
+    "518d8b753743201dcbe9fa293d8574b7": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "none"
+        }
+    ],
+    "0ff0590fde66ee79e3c041574aad685f": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "none"
+        },
+        {
+            "target": "refugee pathways",
+            "fg_target": "Mediterranean crossing",
+            "stance": "none"
+        }
+    ],
+    "855bf19366fb102aa6241eee30c99aac": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "4c37dfeeff55f704b4250f57e18a91bd": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "EU-Turkey refugee return agreement",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        }
+    ],
+    "0eb3e19be8183cef1f62af0bfafd41bd": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "72a56af974347baec5ad80001c8a8853": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        }
+    ],
+    "ed30578a93ebc7b1b69c5cadcaed51f2": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "b770644bd92dbd8ce70122b92b7d0285": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "ec71015cfb701ea1bbde4abd0fc1f5bc": [
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "none"
+        }
+    ],
+    "d0c393c4bb1a7cc395090b9609ba20dd": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "3010bab2f792305c36a191b9e7b8fb94": [
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        },
+        {
+            "target": "refugee pathways",
+            "fg_target": "boat sinking",
+            "stance": "against"
+        }
+    ],
+    "6c52e154023716e388ad60673f0d4862": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "none"
+        }
+    ],
+    "d3cc6a8829e314ee7727339f704480fb": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        }
+    ],
+    "32b50da06273f9d21abeaf0c6394ce3f": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "against"
+        },
+        {
+            "target": "refugee pathways",
+            "fg_target": "refugee pathways",
+            "stance": "against"
+        }
+    ],
+    "1b5dfbb099c7202989fd9d786127e357": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Commission",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "against"
+        }
+    ],
+    "b1b84ff41a9b87adf9b94bb5d6b86612": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "85fec1604829fd7f2b21b8d65382001d": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "aa7183332814138f72f6d24b60c0fd14": [
+        {
+            "target": "migrants",
+            "fg_target": "refugees",
+            "stance": "none"
+        }
+    ],
+    "162ef5606194c511a12fa04f447a1223": [
+        {
+            "target": "migrants",
+            "fg_target": "economic migrants",
+            "stance": "none"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "migration policies",
+            "stance": "favor"
+        }
+    ],
+    "3577a12750d8b133ebe917d97374db9e": [
+        {
+            "target": "asylum procedures",
+            "fg_target": "asylum procedures",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "none"
+        }
+    ],
+    "afbe5c04a7116edd980f31b05f96d768": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "none"
+        }
+    ],
+    "8a8f9edc27e9586922fcf82fbe766705": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "favor"
+        }
+    ],
+    "86d65ab17782c12265b7c799e12b5f5f": [
+        {
+            "target": "refugee pathways",
+            "fg_target": "smuggling",
+            "stance": "against"
+        }
+    ]
+}

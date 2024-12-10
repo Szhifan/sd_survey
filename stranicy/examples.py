@@ -1,6 +1,7 @@
 import streamlit as st
 import my_streamlit_survey as ss 
 import re
+from interface_utils import TEXT_CSS,EXAMPLES,ALL_TARGETS,TASK_DESCRIPTION
 from utils import * 
 
 
@@ -63,7 +64,7 @@ def example_page(cur_idx:int,data:list):
     with header:
         text = example["text"]
         st.markdown(f"""<div class='fixed-header'>{text}""", unsafe_allow_html=True)
-        st.markdown(text_css,unsafe_allow_html=True)
+        st.markdown(TEXT_CSS,unsafe_allow_html=True)
         
        
 
@@ -100,7 +101,7 @@ def example_page(cur_idx:int,data:list):
     with rc:
         st.subheader("Please choose the correct options based on the answers and explanations.",divider="red")
         st.write("hint: You do not need to complete every instance as long as you are familiar with the interface.")
-        st.write(task_description)
+        st.write(TASK_DESCRIPTION)
         construct_annotations(cur_idx,example)
  
 

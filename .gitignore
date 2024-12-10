@@ -167,3 +167,7 @@ vscode/.*
 pq.txt
 res_example.json
 anno_results
+all_anno_results
+anno-stance
+data_translated
+
