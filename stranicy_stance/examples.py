@@ -12,7 +12,7 @@ def construct_annotations(cur_idx,example:dict):
 
     for i,target_obj in enumerate(target_objs):
         target,fg_target = target_obj["t"].split(" -> ")
-        st.subheader(f"target pair {i+1}|{len(target_objs)}: {target} - {fg_target}",divider="red")
+        st.subheader(f"target pair {i+1}/{len(target_objs)}: {target} - {fg_target}",divider="red")
         ans_relevance,ans_fg_relevance = target_obj["r"].split(" -> ")
         ans_stance = target_obj.get("s")
         l_col,m_col,r_col = st.columns([1,1,1])
