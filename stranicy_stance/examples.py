@@ -66,7 +66,7 @@ def example_page(cur_idx:int,data:list):
     
              
     st.header("Please read the post, and select the correct answers given the explanations.",divider="red")
-    st.write(f"{cur_idx+1}|{len(data)}")
+    st.write(f"{cur_idx+1}/{len(data)}")
     header = st.container(border=True)
     with header:
         text = example["text"]
