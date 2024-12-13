@@ -248,3 +248,13 @@ ATTENTION_TESTS = {
         }
     }
 }
+
+all_targets_match = {
+    "migrants": ["migrants", "illegal migrants", "refugees", "asylum seekers", "economic migrants"],
+    "european union institutions": ["european union institutions", "european parliament", "european commission", "european council", "frontex", "echo"],
+    "migration policies": ["migration policies", "turkey agreement", "dublin regulation", "refugee quotas"],
+    "refugee pathways": ["refugee pathways", "boat sinking", "mediterranean crossing", "smuggling"],
+    "reception": ["reception", "refugee camps", "refugee status"],
+    "asylum procedures": ["asylum procedures", "protection", "compensation", "legal rights"],  
+}
+all_targets = [item for sublist in all_targets_match.values() for item in sublist]

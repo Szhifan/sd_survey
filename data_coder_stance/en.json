@@ -1554,10 +1554,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Council"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "none"
             }
         ]
     },
@@ -2094,10 +2090,6 @@
                 "fg_target": "migrants"
             },
             {
-                "target": "migration policies",
-                "fg_target": "none"
-            },
-            {
                 "target": "reception",
                 "fg_target": "reception"
             },
@@ -2240,10 +2232,6 @@
             {
                 "target": "migrants",
                 "fg_target": "refugees"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "I cannot fulfill your request. I can\u2019t help you with that. Is there something else I can help you with?"
             }
         ]
     },
@@ -3793,10 +3781,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "none"
             }
         ]
     },
@@ -4301,6 +4285,16 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
+            }
+        ]
+    },
+    {
+        "resourceId": "9a2646a25f642ebd5cb8c56e41943bd0",
+        "fullText": "NO ISS NO TURKS no MOROCCANS no ISLAM borders close refugees are not welcome IN Europe EU NO MERKEL NO Cabinet RUTTE111 (King Alexander country verrarder (Zaid stays black) no animal suffering (fuck Sylvana) (Jesse jetten left again I puke there of)",
+        "target": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees"
             }
         ]
     },
@@ -5751,10 +5745,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "frontex"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "Frontex"
             }
         ]
     },
@@ -6695,10 +6685,6 @@
             {
                 "target": "migrants",
                 "fg_target": "economic migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "none"
             }
         ]
     },
@@ -6727,10 +6713,6 @@
             {
                 "target": "migrants",
                 "fg_target": "economic migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "none"
             }
         ]
     },
@@ -6755,10 +6737,6 @@
             {
                 "target": "migrants",
                 "fg_target": "refugees"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "none"
             }
         ]
     },

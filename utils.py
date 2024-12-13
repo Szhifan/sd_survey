@@ -184,3 +184,5 @@ def get_text_by_id(id,lang_id):
             return item["fullText"]
     return None 
 
+if __name__ == "__main__":
+    fetch_from_db(db_name="anno-stance")

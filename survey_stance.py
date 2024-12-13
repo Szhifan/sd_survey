@@ -3,6 +3,7 @@ import my_streamlit_survey as ss
 from utils import  load_anno_data,load_results,init_mongo_clinet
 from interface_utils import LANG2ID,TEXT_CSS,TASK_DESCRIPTION_STANCE,TARGETS_MAP,RELEVANT_CHOICES,STANCE_OPTIONS,ATTENTION_TESTS
 import streamlit as st
+from introduction_stance import display
 
 class SDSurvey: 
     def __init__(self) -> None:
@@ -10,7 +11,7 @@ class SDSurvey:
         path = f"data_coder_stance/{LANG2ID[self.lang]}.json"   
         self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
         self.n_attention_test = len(self.attention_test)
-        self.anno_data = load_anno_data(path)
+        self.anno_data = load_anno_data(path)[:400]
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
         if new_session:
@@ -77,11 +78,11 @@ class SDSurvey:
 
         st.title("Stance Detection: Refugee Crisis")
         st.header("Welcome to our study!")
-        st.subheader("Please click :green[**introduction**] in the sidebar for more background information and domain knowledge of this task.") 
         st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
         st.subheader("Please contact us on prolific if you encounter any issues or have any questions.")
-
+        st.subheader("Before you start, please read the following instructions:")
+        display()
     def construct_annotations(self,cur_idx:int,example_id:str,targets_json:dict):
         """
         Display the options. 
@@ -116,7 +117,7 @@ class SDSurvey:
                     stance = self.survey.radio("Stance:",options=STANCE_OPTIONS,id=f"st_{target}_{example_id}",index=None) 
             test = self.attention_test.get(example_id)
             if test and target == test["target"]:
-                st.session_state["test_passed"][test["index"]] = (relevance != "irrelevant" and relevance_fg != "irrelevant" and stance == test["stance"])
+                st.session_state["test_passed"][test["index"]] = (relevance != "irrelevant" and stance == test["stance"])
             if relevance == "irrelevant":
                 n_selected += 1 
             elif relevance and relevance_fg == "irrelevant":
@@ -150,12 +151,7 @@ class SDSurvey:
         st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
         st.write("You can always go back can change your answers after submission.")
         st.header("Before submitting your annotation, we would like you answer these post-survey questions:")
-        # check if the coder passed the attention test
-        attention_test_scores = sum(1 if passed else 0 for passed in st.session_state["test_passed"])
-        if attention_test_scores < self.n_attention_test - 1:
-            st.warning(f"You failed at too many attention tests. ({attention_test_scores}/{self.n_attention_test}) Please go back and check your answers.")
-            self.pages.allow_submit = False
-            return
+
         #ask the annotator how hard the task is, available options: very easy, easy, neutral, hard, very hard
         difficulty = self.survey.select_slider(label="1. How hard do you think the task is?",options=["very easy","easy","neutral","hard","very hard"],id="task_difficulty")
         # ask the annotator how much time they spent on each instance. (in minutes)
@@ -163,8 +159,6 @@ class SDSurvey:
         # more comments 
         other = self.survey.text_area("Any comments or suggestions for this task?",key="comments")
         self.survey.data["difficulty"] = difficulty
-        self.survey.data["time_spent"] = time
-        self.survey.data["comments"] = other
         if difficulty and time and other:
             self.pages.allow_submit = True
     def submit_func(self):
@@ -186,7 +180,6 @@ def main():
 if __name__ == "__main__":
 
     main_page = st.Page(page=main,title="Stance detection annotation",icon="✒️")
-    instructions = st.Page(page="stranicy_stance/introduction.py",title="introduction",icon="💡")
     examples = st.Page(page="stranicy_stance/examples.py",title="examples & instructions",icon="📖")
-    pg = st.navigation([main_page,instructions,examples])
+    pg = st.navigation([main_page,examples])
     pg.run()
