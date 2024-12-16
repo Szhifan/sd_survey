@@ -117,7 +117,7 @@ def reformat_stance(data:dict):
     return results
 
  
-def fetch_from_db(lang:str=None,db_name:str="anno-results"):
+def fetch_from_db(lang:str=None,db_name:str="anno-results",explude_ids:list=[]):
     """
     fetch the mongo db database to local and reformat the answers 
     """
@@ -133,6 +133,8 @@ def fetch_from_db(lang:str=None,db_name:str="anno-results"):
             col = db[col_name]
             for item in col.find():
                 path = os.path.join(root,col_name,item["PROLIFIC_PID"]) + ".json"
+                if item["PROLIFIC_PID"] in explude_ids:
+                    continue
                 os.makedirs(os.path.dirname(path),exist_ok=True)
                 rf_data = reformat(item)
                 rf_data["test_passed"] = item.get("test_passed")
@@ -185,4 +187,5 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db(db_name="anno-stance")
+    exclude_ids = ["665dd746f5ea0c66ebd85edb","6028e8deb16a4524f12629de","66636487e56c2cc87923ce01","66636487e56c2cc87923ce01","6759e2f078adf16208010692"]
+    fetch_from_db(db_name="anno-stance",lang="en",explude_ids=exclude_ids)

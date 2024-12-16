@@ -8,10 +8,6 @@
                 "fg_target": "refugees"
             },
             {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
                 "target": "migration policies",
                 "fg_target": "EU"
             }
@@ -476,10 +472,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -494,10 +486,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Commission"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -566,10 +554,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "frontex"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -664,10 +648,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -682,10 +662,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             },
             {
                 "target": "asylum procedures",
@@ -1028,10 +1004,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -1074,10 +1046,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -1260,10 +1228,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -1396,10 +1360,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "reception",
                 "fg_target": "reception"
             },
@@ -1518,10 +1478,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "asylum procedures",
                 "fg_target": "legal rights"
             }
@@ -1626,10 +1582,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "reception",
                 "fg_target": "reception"
             },
@@ -1668,10 +1620,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -1864,10 +1812,6 @@
                 "fg_target": "frontex"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "reception",
                 "fg_target": "reception"
             },
@@ -1920,10 +1864,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "reception",
                 "fg_target": "reception"
             },
@@ -1946,11 +1886,6 @@
                 "fg_target": "mediterranean crossing"
             }
         ]
-    },
-    {
-        "resourceId": "cdb96181dfbca60f5e2626bdfc28f063",
-        "fullText": "#EU Kommissar f\u00fcr Migration @Avramopoulos sollte wegen seiner \u00c4usserungen zu #Ezadeen umgehend zur\u00fccktreten. Er ist f Europa nicht tragbar.",
-        "target_items": []
     },
     {
         "resourceId": "ce048f0896e3d26f65912a35927073b6",
@@ -2097,10 +2032,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -2593,11 +2524,6 @@
         ]
     },
     {
-        "resourceId": "a1b7a34562bb7e99455d4267c45fe340",
-        "fullText": "#AfD und #Pegida bitte wegh\u00f6ren! Ein Deutscher mit Migrationshintergrund schie\u00dft Deutschland in F\u00fchrung! #MesutOzil #GERITA #EURO2016",
-        "target_items": []
-    },
-    {
         "resourceId": "707a90ef948724dd2b4e6eac3d1e20d8",
         "fullText": "2017 geht der Ringelpiez weiter: Frontex bringt rein. Deutschland gibt den Asylanten mind. 6 Monate Schnupperkurs, wie es sich hier lebt.",
         "target_items": [
@@ -2648,10 +2574,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -2808,10 +2730,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "asylum procedures",
                 "fg_target": "protection"
             },
@@ -2922,10 +2840,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -2954,10 +2868,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -3218,10 +3128,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             },
             {
                 "target": "asylum procedures",
@@ -4104,10 +4010,6 @@
                 "fg_target": "European Commission"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "asylum procedures",
                 "fg_target": "asylum procedures"
             }
@@ -4134,10 +4036,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -4334,10 +4232,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -4524,10 +4418,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "asylum procedures",
                 "fg_target": "legal rights"
             }
@@ -4702,10 +4592,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             },
             {
                 "target": "refugee pathways",
@@ -5076,10 +4962,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "reception",
                 "fg_target": "refugee camps"
             }
@@ -5144,10 +5026,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Parliament"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -5302,11 +5180,6 @@
         ]
     },
     {
-        "resourceId": "d8a585f11e7f981b471221c4f213a08f",
-        "fullText": "Nun Frau Bundeskanzlerin, geht's nicht um Migration sondern um etwas sehr wichtig f\u00fcr die EU. Die EU soll keine Transferunion, sehr gut. Dabei die Unterschiede zwischen Borden und S\u00fcden scheinen unabwindbar. Wie hat Deutschland erreicht zur Innovation und Wohlstand zu gelangen ?",
-        "target_items": []
-    },
-    {
         "resourceId": "1bf5ef7327cfc4bfcec81ad9b36f1e17",
         "fullText": "\u00dcberall in der EU gibt es EU-Politiker/in in Parlamenten der EU Mitgliedstaaten au\u00dfer in Deutschland!BRD verhindert die politische Aktivit\u00e4t, den Einstieg von EU Politiker/innen in Parlament bundesweit!Skandal\u00f6s!Migrant/innen in Politik werden vom Staat,Parteien stark gebremst!",
         "target_items": [
@@ -5317,10 +5190,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Parliament"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -5363,10 +5232,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Parliament"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -5623,10 +5488,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -5717,10 +5578,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "asylum procedures",
                 "fg_target": "asylum procedures"
             },
@@ -5741,10 +5598,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             },
             {
                 "target": "reception",
@@ -5831,10 +5684,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "refugee pathways",
                 "fg_target": "boat sinking"
             }
@@ -5893,10 +5742,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -6089,10 +5934,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -6221,10 +6062,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "reception",
                 "fg_target": "reception"
             }
@@ -6339,10 +6176,6 @@
                 "fg_target": "European Union Institutions"
             },
             {
-                "target": "migration policies",
-                "fg_target": "EU"
-            },
-            {
                 "target": "refugee pathways",
                 "fg_target": "mediterranean crossing"
             }
@@ -6361,11 +6194,6 @@
                 "fg_target": "European Union Institutions"
             }
         ]
-    },
-    {
-        "resourceId": "99669e2715833f125c415e57dc8e3b2a",
-        "fullText": "Wo w\u00e4ren wir ohne die #Eurokraten? Vergesst #Klimawandel, #migration, #Eurokrise, #Bankenkrise hier ist das wirkliche Problem, welches die #EU l\u00f6sen will. Unternehmen zu zwingen Produkte und Leistungen kostenlos zur Verf\u00fcgung zu stellen.",
-        "target_items": []
     },
     {
         "resourceId": "abc2391692787e12c3ae7ff658a217ed",
@@ -6432,10 +6260,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             },
             {
                 "target": "asylum procedures",
@@ -6622,10 +6446,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "frontex"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -6678,10 +6498,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -7380,11 +7196,6 @@
         ]
     },
     {
-        "resourceId": "e8927bbdd38f4288554a9cdd18cebfec",
-        "fullText": "#Sobotka warnt davor, dass durch die fehlende L\u00f6sung der Migrationsprobleme die EU-skeptische Stimmung in #Europa gef\u00f6rdert werde.",
-        "target_items": []
-    },
-    {
         "resourceId": "3c100ba29faa3170f757d7df3df30f0a",
         "fullText": "@welt @SZ PRIORIT\u00c4T,K\u00d6LN-DOM LAANGE DEBAT.(KEINE TOTE)! 10.000,FL\u00dcCHTLINGSKINDER IN EUROPA VERMISST(KEINE DEBAT)WG.GERINGF\u00dcGIGKEIT? EU OK???",
         "target_items": [
@@ -7499,10 +7310,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -7609,11 +7416,6 @@
                 "fg_target": "European Union Institutions"
             }
         ]
-    },
-    {
-        "resourceId": "177d5b2b7639fd6943d1d885f807c24d",
-        "fullText": "Die EU bekommt die Migrationsfrage nicht in den Griff das wissen wir alle.. was ist das bitte f\u00fcr eine Aussage einer Moderatorin #orfsg18",
-        "target_items": []
     },
     {
         "resourceId": "7592a54900fadd1dbb55c6c81ff7e2e1",

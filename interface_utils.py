@@ -246,6 +246,25 @@ ATTENTION_TESTS = {
         "stance":"negative",
         "index":4
         }
+    },
+
+    "de": {
+        "ddd92e3180b6ecdb253ec7c95df055f1": {
+            "target": "migrants",
+            "stance": "positive",
+            "index": 0
+        },
+        "20d10483ab9e7e0a70e26530f8c03052": {
+            "target":"migrants",
+            "stance":"negative",
+            "index":1
+        },
+        "ca931346cb084f0f8a212f4f78734c59":{
+        "target":"migrants",
+        "stance":"negative",
+        "index":2
+        }
+
     }
 }
 

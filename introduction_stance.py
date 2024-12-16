@@ -79,6 +79,7 @@ def display():
     stance_eu = """
     \n:green[**positive stance**]: The text expresses a welcoming attitude towards the EU institutions, e.g. by emphasizing their :red-background[positive contribution to the country or positive role] in the refugee crisis.
     \n:red[**negative stance**]: The text expresses a hostile attitude towards the EU institutions, e.g. by emphasizing their :red-background[negative impact on the country (most notably Brexit)] or :red-background[negative role in the refugee crisis].
+    For example, the EU is criticized for not doing enough to help the refugees. (from pro-migrant perspective). Or it is criticized for facilitating the influx of refugees into the country. (from anti-migrant perspective).
     """
     st.write("**Fine-grained targets**")
     st.write(ex_eu_commission)
@@ -105,8 +106,8 @@ def display():
     """
     ex_open_end_question = """
     :blue[**Policies of a political entity (party, country/government or politician) or 'concrete policy name' (e.g. Brexit)**]: 
-    Other than the predefined targets, the post might discuss the migration policies of a political entity (party, country or politician) or a concrete policy name (e.g. Brexit).
-    :red-background[This target can be identified through direct mention of the political entity or policy name.]
+    Other than the predefined targets, the post might discuss the migration policies of a political entity or a concrete policy name (e.g. Brexit).
+    :red-background[This target can be identified through direct mention of the political entity or policy name. However, please note when the name of a political actor is mentioned it might not be related to migration policies.]
     """
     stance_migration_policies = """
     \n:green[**positive stance**]: The text expresses a welcoming attitude towards the migration policies, e.g. by emphasizing their :red-background[positive contribution] to the host country or :red-background[positive role] in the refugee crisis.

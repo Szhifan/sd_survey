@@ -134,7 +134,7 @@ class SDSurvey:
         cur_idx = n - 1 
         st.title(f"Annotation: {cur_idx + 1}/{self.n_annotation}")     
         anno_example = self.anno_data[cur_idx]
-        targets_json = anno_example["target"]
+        targets_json = anno_example["target_items"]
     
         st.header("Please read the following tweet:",divider="red")
         header = st.container(border=True)
