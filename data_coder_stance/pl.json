@@ -520,20 +520,6 @@
         ]
     },
     {
-        "resourceId": "deb138dc152f27c2d77a2311d318f138",
-        "fullText": "Podoba mi si\u0119 film Morawiecki i Cud w Brukseli [ UE ]: Tusk popiera rz\u0105d, Juncker kocha Polsk\u0119. Sukces z Imigrantami w @YouTube \u2013",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "Morawiecki"
-            }
-        ]
-    },
-    {
         "resourceId": "5c1c4b7086c9fa6a8e71eb4138221eb2",
         "fullText": "komisarz ds. migracji: UE jest zbyt bia\u0142a :soroszowe judaszowe srebrniki tak mieszaja w t\u0119pych \u0142bach, wojna w syrii sko\u0144czy\u0142a si\u0119 ..niech wracaja do odbudowy kraju !!! jak przyjechali tak niech wracaja ..wp\u0142aw ..dla zdrowia, jak ci bia\u0142a nie pasi wyjedz do afryki szmondaku",
         "target_items": [
@@ -2516,20 +2502,6 @@
             {
                 "target": "reception",
                 "fg_target": "reception"
-            }
-        ]
-    },
-    {
-        "resourceId": "5ff0faf7ee8f19a21fd9d6c01e7ba548",
-        "fullText": "Podoba mi si\u0119 film Morawiecki i Cud w Brukseli [ UE ]: Tusk popiera rz\u0105d, Juncker kocha Polsk\u0119. Sukces z Imigrantami w @YouTube \u2013",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "Morawiecki"
             }
         ]
     },

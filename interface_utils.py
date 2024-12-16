@@ -224,7 +224,7 @@ ATTENTION_TESTS = {
         },
         "fc1d3f0591eb6e9a232de8149397b8a0":
         {
-        "target":"migrant",
+        "target":"migrants",
         "stance":"negative",
         "index":1
         },
@@ -262,11 +262,70 @@ ATTENTION_TESTS = {
         "ca931346cb084f0f8a212f4f78734c59":{
         "target":"migrants",
         "stance":"negative",
+        "index":2},
+        "e2b3d0fff978d51ad9bfd1efa3a146be":{
+        "target":"migrants",
+        "stance":"negative",
+        "index":3
+        },
+        "d6730e29c4947d1e7937743085ce4eaa":{
+        "target":"migrants",
+        "stance":"neutral",
+        "index":4} 
+    },
+    "pl": {
+        "5f60f7d43410669d2d8c38f5361ef6d9":{
+        "target":"migrants",
+        "stance":"negative",
+        "index":0
+        },
+        "15ffad20c9fa69fcc7301e062a6abc09":{
+            "target": "migrants",
+            "stance": "negative",
+            "index": 1
+        },
+        "61b067a075a6de55c8bce25b55f3c46f":{
+        "target":"migrants",
+        "stance":"negative",
         "index":2
+        },
+        "a24881757d15104690b0930ce8fd5b5a":{
+        "target":"migrants",
+        "stance":"negative",
+        "index":3
+        },
+        "0403c4cf8a40b6c5fda60f8cd4236345":{
+        "target":"migrants",
+        "stance":"negative",
+        "index":4
         }
-
-    }
-}
+        },
+    "it": {
+        "6e5cd55f920ae270ad14f5f93b9d7a4e":{
+        "target":"migrants",
+        "stance":"negative",
+        "index":0
+        },
+        "6e5cd55f920ae270ad14f5f93b9d7a4e":{
+            "target": "migrants",
+            "stance": "negative",
+            "index": 1},
+        "d629c04fbc8bbdbe1d7441cce977de7e":{
+            "target": "migrants",
+            "stance": "positive",
+            "index": 2
+        },
+        "b1a62b2d9fa75b8ac5103eaf7a832c9a":{
+            "target": "migrants",
+            "stance": "negative",
+            "index": 3
+        },
+        "cc62cbedba736f70eba998611120449a":{
+            "target": "migrants",
+            "stance": "negative",
+            "index": 4
+        }
+}} 
 
 all_targets_match = {
     "migrants": ["migrants", "illegal migrants", "refugees", "asylum seekers", "economic migrants"],

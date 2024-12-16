@@ -117,7 +117,7 @@ def reformat_stance(data:dict):
     return results
 
  
-def fetch_from_db(lang:str=None,db_name:str="anno-results",explude_ids:list=[]):
+def fetch_from_db(lang:str,id:str,db_name:str="anno-results"):
     """
     fetch the mongo db database to local and reformat the answers 
     """
@@ -126,29 +126,19 @@ def fetch_from_db(lang:str=None,db_name:str="anno-results",explude_ids:list=[]):
     client = init_mongo_clinet()
     if not client:
         return None 
-    if not lang:
-        db = client[db_name]
-        for col_name in db.list_collection_names():
-            os.makedirs(root + "/" + col_name,exist_ok=True)
-            col = db[col_name]
-            for item in col.find():
-                path = os.path.join(root,col_name,item["PROLIFIC_PID"]) + ".json"
-                if item["PROLIFIC_PID"] in explude_ids:
-                    continue
-                os.makedirs(os.path.dirname(path),exist_ok=True)
-                rf_data = reformat(item)
-                rf_data["test_passed"] = item.get("test_passed")
-                with open(path,"w") as f:
-                    json.dump(rf_data,f,indent=4) 
-        return  
+
     db = client[db_name]
+
     col = db[lang]
     for item in col.find():
         path = os.path.join(root,lang,item["PROLIFIC_PID"]) + ".json"
-        os.makedirs(os.path.dirname(path),exist_ok=True)
-        rf_data = reformat(item)
-        with open(path,"w") as f:
-            json.dump(rf_data,f,indent=4)
+        if item["PROLIFIC_PID"] == id:
+            os.makedirs(os.path.dirname(path),exist_ok=True)
+            rf_data = reformat(item)
+            rf_data["test_passed"] = item.get("test_passed")
+            with open(path,"w") as f:
+                json.dump(rf_data,f,indent=4) 
+
     
 def load_anno_result(id:str,lang_id:str,no_cache:bool,path:str = "anno_results"):
     """
@@ -187,5 +177,5 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    exclude_ids = ["665dd746f5ea0c66ebd85edb","6028e8deb16a4524f12629de","66636487e56c2cc87923ce01","66636487e56c2cc87923ce01","6759e2f078adf16208010692"]
-    fetch_from_db(db_name="anno-stance",lang="en",explude_ids=exclude_ids)
+
+    fetch_from_db("en","5641193817bdbe00122a0f23",db_name="anno-stance")

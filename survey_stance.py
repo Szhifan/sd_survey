@@ -9,6 +9,10 @@ class SDSurvey:
     def __init__(self) -> None:
         new_session = self.set_qp()
         path = f"data_coder_stance/{LANG2ID[self.lang]}.json"   
+        if self.lang not in ["English","German"]:
+            path_translated = "data_translated/" + LANG2ID[self.lang] + ".json"
+            self.data_translated = load_anno_data(path_translated)
+
         self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
         self.n_attention_test = len(self.attention_test)
         self.anno_data = load_anno_data(path)[:400]
@@ -90,7 +94,7 @@ class SDSurvey:
         n_selected = 0 
         st.session_state["annos_completed"][cur_idx] = True
         for i,target_item in enumerate(targets_json):
-            
+
             target = target_item["target"]
             fg_target = target_item["fg_target"]
             target_disply = TARGETS_MAP.get(target,target)
@@ -116,7 +120,9 @@ class SDSurvey:
                     st.write(f"Please choose the stance of the tweet towards the target: :red[{target_stance}]")
                     stance = self.survey.radio("Stance:",options=STANCE_OPTIONS,id=f"st_{target}_{example_id}",index=None) 
             test = self.attention_test.get(example_id)
+    
             if test and target == test["target"]:
+             
                 st.session_state["test_passed"][test["index"]] = (relevance != "irrelevant" and stance == test["stance"])
             if relevance == "irrelevant":
                 n_selected += 1 
@@ -139,7 +145,12 @@ class SDSurvey:
         st.header("Please read the following tweet:",divider="red")
         header = st.container(border=True)
         with header:
+
             text = anno_example["fullText"]
+            if self.lang not in ["English","German"]:
+                show_original = st.checkbox("Show original text", value=False)
+                if show_original:
+                    text = self.data_translated[anno_example["resourceId"]]["fullText"]
             st.markdown(f"""<div class='fixed-header'>{text}""", unsafe_allow_html=True)
             st.markdown(TEXT_CSS,unsafe_allow_html=True)
         st.write(TASK_DESCRIPTION_STANCE)
