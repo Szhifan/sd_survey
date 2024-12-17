@@ -15,7 +15,7 @@ class SDSurvey:
 
         self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
         self.n_attention_test = len(self.attention_test)
-        self.anno_data = load_anno_data(path,partition=self.partition)
+        self.anno_data = load_anno_data(path,n=400,partition=self.partition)
    
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
