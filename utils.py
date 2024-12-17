@@ -24,9 +24,9 @@ def load_anno_data(path:str,n=None,partition=None):
         if not n and not partition:
             return data
         data = data[:n]
-        if partition == 1:
+        if partition == "1":
             return data[:n//2]
-        elif partition == 0:
+        elif partition == "0":
             return data
         else:
             return data[n//2:]

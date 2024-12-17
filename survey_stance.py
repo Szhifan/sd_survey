@@ -156,7 +156,6 @@ class SDSurvey:
         st.write(TASK_DESCRIPTION_STANCE)
         self.construct_annotations(cur_idx,anno_example["resourceId"],targets_json)
         self.pages.proceed_to_next = st.session_state["annos_completed"][cur_idx] if self.prolific_id != "default_prolific_id" else True # allow the coder to proceed to the next page if the prolific_id is default
-
     def conclusion_page(self):
         st.title("Submission")
         st.write("You have successfully completed our study. Please click the submission button below to save your answers and get your **completion code**.")
@@ -189,7 +188,6 @@ def main():
     sv = SDSurvey()
     sv.run_survey()
 if __name__ == "__main__":
-
     main_page = st.Page(page=main,title="Stance detection annotation",icon="✒️")
     examples = st.Page(page="stranicy_stance/examples.py",title="examples & instructions",icon="📖")
     pg = st.navigation([main_page,examples])
