@@ -13,7 +13,7 @@ def display():
     st.write("""
     In this study, you will be presented with a post and the target - fine-grained target pairs of the post annotated by the LLM. Note that for some posts, only the broad target is available; in this case, the target and fine-grained target will be the same.
     Your task is to:
-    \n1: Choose how relevant the target and the fine-grained target are with respect to the post respectively. You may choose: :red-background[{irrelevant, somehow relevant, relevant}]. For targets that are directly visible in the text, you should choose "relevant". For targets that are not directly visible but can be inferred from the context, you should choose "somehow relevant". Otherwise, choose "irrelevant".\n
+    \n1: Choose how relevant the target and the fine-grained target are with respect to the post respectively. You may choose: :red-background[{irrelevant, somehow relevant, relevant}]. For targets that are directly visible in the text, you should choose "relevant". For targets that are not directly visible but can be inferred from the context, you should choose "somehow relevant". Otherwise, choose "irrelevant". \n
     \n2: If the targets are relevant/somehow relevant, you should annotate the stance of the post towards the targets. The available stances are: :red-background[{positive, negative, neutral}]. Neutral is selected when the post does not take a clear stance towards the target, e.g. news report. 
 
     """)

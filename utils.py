@@ -18,9 +18,14 @@ def get_colored_css(color:str):
         """
     return css 
 @st.cache_data(ttl=TTL)
-def load_anno_data(path:str):
+def load_anno_data(path:str,n=400,partition=1):
     with open(path, "r") as f:
-        return json.load(f)
+        data = json.load(f)
+        data = data[:n]
+        if partition == 1:
+            return data[:n//2]
+        else:
+            return data[n//2:]
 
 @st.cache_resource(ttl=TTL)
 def init_mongo_clinet() -> MongoClient:
