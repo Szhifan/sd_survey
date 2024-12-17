@@ -148,8 +148,8 @@ class SDSurvey:
 
             text = anno_example["fullText"]
             if self.lang not in ["English","German"]:
-                show_original = st.checkbox("Show original text", value=False)
-                if show_original:
+                show_translation = st.checkbox("Show English translation", value=False)
+                if show_translation:
                     text = self.data_translated[anno_example["resourceId"]]["fullText"]
             st.markdown(f"""<div class='fixed-header'>{text}""", unsafe_allow_html=True)
             st.markdown(TEXT_CSS,unsafe_allow_html=True)
