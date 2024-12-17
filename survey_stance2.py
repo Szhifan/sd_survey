@@ -1,10 +1,10 @@
 import streamlit as st
 import my_streamlit_survey as ss 
-from utils import  load_anno_data,load_results,init_mongo_clinet
+from utils import  load_anno_data,load_results,init_mongo_clinet,load_anno_data_parition
 from interface_utils import LANG2ID,TEXT_CSS,TASK_DESCRIPTION_STANCE,TARGETS_MAP,RELEVANT_CHOICES,STANCE_OPTIONS,ATTENTION_TESTS
 import streamlit as st
 from introduction_stance import display
-
+# version two partition the data into two parts.
 class SDSurvey: 
     def __init__(self) -> None:
         new_session = self.set_qp()
@@ -15,7 +15,7 @@ class SDSurvey:
 
         self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
         self.n_attention_test = len(self.attention_test)
-        self.anno_data = load_anno_data(path,n=400,partition=self.partition)
+        self.anno_data = load_anno_data_parition(path,n=400,partition=self.partition)
 
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
