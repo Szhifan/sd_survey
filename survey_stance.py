@@ -55,7 +55,7 @@ class SDSurvey:
             self.lang = st.session_state["qp"]["LANG"] = "English"
             self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"] = "default_prolific_id"
             self.study_id = st.session_state["qp"]["STUDY_ID"]  = "default_study_id"
-            self.partition = st.session_state["qp"]["PARTITION"] = 1 
+            self.partition = st.session_state["qp"]["PARTITION"] = 0
         st.query_params.from_dict(st.session_state["qp"])     
         return new_session 
     def save_to_mongodb(self):

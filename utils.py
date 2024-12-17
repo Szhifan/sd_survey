@@ -18,12 +18,14 @@ def get_colored_css(color:str):
         """
     return css 
 @st.cache_data(ttl=TTL)
-def load_anno_data(path:str,n=400,partition=1):
+def load_anno_data(path:str,n=400,partition=0):
     with open(path, "r") as f:
         data = json.load(f)
         data = data[:n]
         if partition == 1:
             return data[:n//2]
+        elif partition == 0:
+            return data
         else:
             return data[n//2:]
 
