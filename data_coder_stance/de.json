@@ -216,20 +216,6 @@
         ]
     },
     {
-        "resourceId": "b30afd6553a4b85ba74ea7aa8234bddf",
-        "fullText": "Sogenannte \"Fl\u00fcchtlinge\", die mit Booten in die EU \u00fcbersetzen wollen, sind keine Schiffbr\u00fcchigen. Ein Schiffbruch ist ein Ungl\u00fccksfall. \"Fl\u00fcchtlinge\" setzen unter Inkaufnahme ihrer Notlage auf See \u00fcber, um ein teuer bezahltes, illegales Einwanderungsrecht in die EU zu erzwingen!",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "refugees"
-            },
-            {
-                "target": "refugee pathways",
-                "fg_target": "mediterranean crossing"
-            }
-        ]
-    },
-    {
         "resourceId": "68a929f2ad3c792a6e2b075976effa50",
         "fullText": "Frontex versenken, Grenzen aufmachen, Dublin II in die Tonne treten. Keine weiteren toten Fl\u00fcchtlinge.",
         "target_items": [
@@ -262,20 +248,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
-        "resourceId": "f785c89ee170a9a93ddf6889cb459933",
-        "fullText": "Sogenannte \"Fl\u00fcchtlinge\", die mit Booten in die EU \u00fcbersetzen wollen, sind keine Schiffbr\u00fcchigen. Ein Schiffbruch ist ein Ungl\u00fccksfall. \"Fl\u00fcchtlinge\" setzen unter Inkaufnahme ihrer Notlage auf See \u00fcber, um ein teuer bezahltes, illegales Einwanderungsrecht in die EU zu erzwingen!",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "refugees"
-            },
-            {
-                "target": "refugee pathways",
-                "fg_target": "mediterranean crossing"
             }
         ]
     },
@@ -2602,16 +2574,6 @@
         ]
     },
     {
-        "resourceId": "fe17e8bc1dd18d7fc511404c95b5075c",
-        "fullText": "EuGH Europ\u00e4ischer #gerichtshof Wethelet Generalanwalt #massenzuwanderung Armutseinwanderung Hartz 4 Hartz IV Einwanderer Deutschland",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "economic migrants"
-            }
-        ]
-    },
-    {
         "resourceId": "6b2bb364bf4a38f479883d0bc5fe3d1b",
         "fullText": "Die \u201cSeenotrettung\u201d + der Transport von Migranten in die EU ist Bestandteil des Gesch\u00e4ftsmodells der Schleuser-Mafia. NGO-Schlepperboote wie Sewatch3 sind Komplizen der Schleuser-Mafia (kassieren 4000$ p. Migrant), weil SIE die Leistungen f\u00fcr die Schleuser-Mafia erbringen!",
         "target_items": [
@@ -2840,20 +2802,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
-        "resourceId": "d5f8524613f5f591faef08a218d348ea",
-        "fullText": "Sogenannte \"Fl\u00fcchtlinge\", die mit Booten in die EU \u00fcbersetzen wollen, sind keine Schiffbr\u00fcchigen. Ein Schiffbruch ist ein Ungl\u00fccksfall. \"Fl\u00fcchtlinge\" setzen unter Inkaufnahme ihrer Notlage auf See \u00fcber, um ein teuer bezahltes, illegales Einwanderungsrecht in die EU zu erzwingen!",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "refugees"
-            },
-            {
-                "target": "refugee pathways",
-                "fg_target": "mediterranean crossing"
             }
         ]
     },
@@ -5176,20 +5124,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "refugee quotas"
-            }
-        ]
-    },
-    {
-        "resourceId": "1bf5ef7327cfc4bfcec81ad9b36f1e17",
-        "fullText": "\u00dcberall in der EU gibt es EU-Politiker/in in Parlamenten der EU Mitgliedstaaten au\u00dfer in Deutschland!BRD verhindert die politische Aktivit\u00e4t, den Einstieg von EU Politiker/innen in Parlament bundesweit!Skandal\u00f6s!Migrant/innen in Politik werden vom Staat,Parteien stark gebremst!",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Parliament"
             }
         ]
     },

@@ -169,3 +169,7 @@ res_example.json
 anno_results
 anno-stance
 analysis.py
+final_data*
+plot_figures.py
+figures*
+stats*

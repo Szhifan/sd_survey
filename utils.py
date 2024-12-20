@@ -18,7 +18,7 @@ def get_colored_css(color:str):
         """
     return css 
 @st.cache_data(ttl=TTL)
-def load_anno_data_parition(path:str,n=None,partition=None):
+def load_anno_data_partition(path:str,n=None,partition=None):
     with open(path, "r") as f:
         data = json.load(f)
         if not n and not partition:
@@ -48,13 +48,15 @@ def init_mongo_clinet() -> MongoClient:
     except Exception as e:
         st.warning("connection to database failed, please try again.")
         return e 
-def load_results(lang,id,no_cache=False,db_name="anno-results"):
+def load_results(lang,id,no_cache=False,db_name="anno-results",partition=None):
     client = init_mongo_clinet()
     if not client:
         return dict() 
     db = client[db_name]
     col = db[LANG2ID[lang]]
     query = {"PROLIFIC_PID":id}
+    if partition:
+        query["partition"] = partition
     def no_cache():
         data = col.find_one(query)
         return data if data else dict()
@@ -145,14 +147,15 @@ def fetch_from_db(lang:str,id:str,db_name:str="anno-results"):
     db = client[db_name]
 
     col = db[lang]
+    rf_data = {}
     for item in col.find():
         path = os.path.join(root,lang,item["PROLIFIC_PID"]) + ".json"
         if item["PROLIFIC_PID"] == id:
             os.makedirs(os.path.dirname(path),exist_ok=True)
-            rf_data = reformat(item)
+            rf_data.update(reformat(item))
             rf_data["test_passed"] = item.get("test_passed")
-            with open(path,"w") as f:
-                json.dump(rf_data,f,indent=4) 
+    with open(path,"w") as f:
+        json.dump(rf_data,f,indent=4) 
 
     
 def load_anno_result(id:str,lang_id:str,no_cache:bool,path:str = "anno_results"):
@@ -192,5 +195,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-
-    fetch_from_db("en","5641193817bdbe00122a0f23",db_name="anno-stance")
+    fetch_from_db("de","5e47c3608b051d26181ccf1c",db_name="anno-stance")

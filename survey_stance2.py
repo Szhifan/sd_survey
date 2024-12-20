@@ -1,6 +1,6 @@
 import streamlit as st
 import my_streamlit_survey as ss 
-from utils import  load_anno_data,load_results,init_mongo_clinet,load_anno_data_parition
+from utils import  load_anno_data,load_results,init_mongo_clinet,load_anno_data_partition
 from interface_utils import LANG2ID,TEXT_CSS,TASK_DESCRIPTION_STANCE,TARGETS_MAP,RELEVANT_CHOICES,STANCE_OPTIONS,ATTENTION_TESTS
 import streamlit as st
 from introduction_stance import display
@@ -15,12 +15,12 @@ class SDSurvey:
 
         self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
         self.n_attention_test = len(self.attention_test)
-        self.anno_data = load_anno_data_parition(path,n=400,partition=self.partition)
+        self.anno_data = load_anno_data_partition(path,n=400,partition=self.partition)
 
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
         if new_session:
-            user_data = load_results(self.lang,self.prolific_id,new_session,db_name="anno-stance")
+            user_data = load_results(self.lang,self.prolific_id,new_session,db_name="anno-stance",partition=self.partition)
             st.session_state["annos_completed"] = [False] * self.n_annotation
             st.session_state["test_passed"] = [False] * self.n_attention_test
             if user_data and "completed" in user_data: #load the completion status 
@@ -74,7 +74,7 @@ class SDSurvey:
             return False
         db = client["anno-stance"]
         col = db[LANG2ID[self.survey.data["LANG"]]]
-        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"]}
+        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"partition":self.partition}
         update = {"$set":self.survey.data}
         if not col.find_one(query):
             col.insert_one(self.survey.data)

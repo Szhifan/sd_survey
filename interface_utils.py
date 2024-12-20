@@ -329,7 +329,7 @@ ATTENTION_TESTS = {
 
 all_targets_match = {
     "migrants": ["migrants", "illegal migrants", "refugees", "asylum seekers", "economic migrants"],
-    "european union institutions": ["european union institutions", "european parliament", "european commission", "european council", "frontex", "echo"],
+    "European Union Institutions": ["European Union Institutions", "European Parliament", "European Commission", "European Council", "FRONTEX", "ECHO"],
     "migration policies": ["migration policies", "turkey agreement", "dublin regulation", "refugee quotas"],
     "refugee pathways": ["refugee pathways", "boat sinking", "mediterranean crossing", "smuggling"],
     "reception": ["reception", "refugee camps", "refugee status"],
