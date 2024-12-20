@@ -31,11 +31,14 @@ class SDSurvey:
         self.survey = ss.StreamlitSurvey("sd-survey")
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         self.pages.next_func = self.save_to_mongodb
+        
         if sum(st.session_state["annos_completed"]):
             for page in range(len(st.session_state["annos_completed"])-1):
                 if not st.session_state["annos_completed"][page]:
+
                     break
-            self.pages.latest_page = 1 + page
+            
+            self.pages.latest_page = page
     def set_qp(self):
         """
         save the query parameters to session state for reuse.
@@ -74,7 +77,7 @@ class SDSurvey:
             return False
         db = client["anno-stance"]
         col = db[LANG2ID[self.survey.data["LANG"]]]
-        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"STUDY_ID":self.partition}
+        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"STUDY_ID":self.study_id}
         update = {"$set":self.survey.data}
         if not col.find_one(query):
             col.insert_one(self.survey.data)
