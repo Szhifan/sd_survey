@@ -20,7 +20,7 @@ class SDSurvey:
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
         if new_session:
-            user_data = load_results(self.lang,self.prolific_id,new_session,db_name="anno-stance",partition=self.partition)
+            user_data = load_results(self.lang,self.prolific_id,new_session,db_name="anno-stance",study_id=self.study_id)
             st.session_state["annos_completed"] = [False] * self.n_annotation
             st.session_state["test_passed"] = [False] * self.n_attention_test
             if user_data and "completed" in user_data: #load the completion status 
@@ -74,7 +74,7 @@ class SDSurvey:
             return False
         db = client["anno-stance"]
         col = db[LANG2ID[self.survey.data["LANG"]]]
-        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"partition":self.partition}
+        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"STUDY_ID":self.partition}
         update = {"$set":self.survey.data}
         if not col.find_one(query):
             col.insert_one(self.survey.data)

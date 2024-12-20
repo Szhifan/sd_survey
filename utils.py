@@ -48,15 +48,15 @@ def init_mongo_clinet() -> MongoClient:
     except Exception as e:
         st.warning("connection to database failed, please try again.")
         return e 
-def load_results(lang,id,no_cache=False,db_name="anno-results",partition=None):
+def load_results(lang,id,no_cache=False,db_name="anno-results",study_id=None):
     client = init_mongo_clinet()
     if not client:
         return dict() 
     db = client[db_name]
     col = db[LANG2ID[lang]]
     query = {"PROLIFIC_PID":id}
-    if partition:
-        query["partition"] = partition
+    if study_id:
+        query["STUDY_ID"] = study_id
     def no_cache():
         data = col.find_one(query)
         return data if data else dict()
@@ -148,13 +148,13 @@ def fetch_from_db(lang:str,id:str,db_name:str="anno-results"):
 
     col = db[lang]
     rf_data = {}
+    path_save = os.path.join(root,lang,id) + ".json"
     for item in col.find():
-        path = os.path.join(root,lang,item["PROLIFIC_PID"]) + ".json"
         if item["PROLIFIC_PID"] == id:
-            os.makedirs(os.path.dirname(path),exist_ok=True)
+
             rf_data.update(reformat(item))
             rf_data["test_passed"] = item.get("test_passed")
-    with open(path,"w") as f:
+    with open(path_save,"w") as f:
         json.dump(rf_data,f,indent=4) 
 
     
@@ -195,4 +195,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db("de","5e47c3608b051d26181ccf1c",db_name="anno-stance")
+    fetch_from_db("de","63c08fa9f3882764b4e8e7dd",db_name="anno-stance")
