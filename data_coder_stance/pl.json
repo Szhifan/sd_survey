@@ -113,7 +113,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "Orban"
+                "fg_target": "Viktor Orban"
             }
         ]
     },
@@ -763,7 +763,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "Orban"
+                "fg_target": "Viktor Orban"
             }
         ]
     },
@@ -1407,7 +1407,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "Viktor"
+                "fg_target": "Viktor Orban"
             }
         ]
     },
@@ -2045,7 +2045,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "Orban"
+                "fg_target": "Viktor Orban"
             }
         ]
     },
@@ -2293,7 +2293,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "Orban"
+                "fg_target": "Viktor Orban"
             }
         ]
     },
@@ -3243,7 +3243,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "The migration policy mentioned in the post is about Poland."
+                "fg_target": "Polska"
             }
         ]
     },
@@ -5101,7 +5101,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "PiS (Law and Justice)"
+                "fg_target": "PiS"
             }
         ]
     },
@@ -5595,7 +5595,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "Duda"
+                "fg_target": "Andrzej Duda" 
             }
         ]
     },

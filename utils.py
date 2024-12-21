@@ -56,7 +56,7 @@ def load_results(lang,id,no_cache=False,db_name="anno-results",study_id=None):
     col = db[LANG2ID[lang]]
     query = {"PROLIFIC_PID":id}
     if study_id:
-        query["STUDY_ID"] = study_id
+        query["study_id"] = study_id
     def no_cache():
         data = col.find_one(query)
         return data if data else dict()
@@ -195,4 +195,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db("de","63c08fa9f3882764b4e8e7dd",db_name="anno-stance")
+    fetch_from_db("pl","5beb0d9d7569230001f88b7c",db_name="anno-stance")

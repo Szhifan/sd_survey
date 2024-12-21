@@ -173,6 +173,7 @@ class SDSurvey:
             self.pages.allow_submit = True
     def submit_func(self):
         if self.save_to_mongodb():
+            completion_link = "https://app.prolific.com/submissions/complete?cc=CHCBTBHM"
             st.success(f"Submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CHCBTBHM) so that your work will be marked as completed. We will manually check your annotation and reward you accordingly.")  
     def run_survey(self): 
         with self.pages:

@@ -31,7 +31,6 @@ class SDSurvey:
         self.survey = ss.StreamlitSurvey("sd-survey")
         self.pages = self.survey.pages(self.n_pages,progress_bar=True,on_submit=self.submit_func)
         self.pages.next_func = self.save_to_mongodb
-        
         if sum(st.session_state["annos_completed"]):
             for page in range(len(st.session_state["annos_completed"])-1):
                 if not st.session_state["annos_completed"][page]:
@@ -77,12 +76,17 @@ class SDSurvey:
             return False
         db = client["anno-stance"]
         col = db[LANG2ID[self.survey.data["LANG"]]]
-        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"STUDY_ID":self.study_id}
+        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"study_id":self.survey.data["study_id"]}
         update = {"$set":self.survey.data}
-        if not col.find_one(query):
-            col.insert_one(self.survey.data)
-        else:
-            col.update_one(query,update)
+        querried = col.find_one(query)
+        try:
+            if not querried:
+                col.insert_one(self.survey.data)
+            else:
+                col.update_one(query,update)
+        except Exception as e:
+            st.error(f"Error saving results: {e}")
+            return False
         st.success("results saved")
         return True
     def welcome_page(self):
@@ -153,7 +157,6 @@ class SDSurvey:
         st.header("Please read the following tweet:",divider="red")
         header = st.container(border=True)
         with header:
-
             text = anno_example["fullText"]
             if self.lang not in ["English","German"]:
                 show_translation = st.checkbox("Show English translation", value=False)
@@ -182,7 +185,8 @@ class SDSurvey:
             self.pages.allow_submit = True
     def submit_func(self):
         if self.save_to_mongodb():
-            st.success(f"Submission and saving successful! Please click the [completion link](https://app.prolific.com/submissions/complete?cc=CUQ0M4VC) so that your work will be marked as completed. We will manually check your annotation and reward you accordingly.")  
+            completion_link = st.secrets["completion_link"]
+            st.success(f"Submission and saving successful! Please click the [completion link]({completion_link}) so that your work will be marked as completed. We will manually check your annotation and reward you accordingly.")  
     def run_survey(self): 
         with self.pages:
             if self.pages.current == 0:
@@ -197,7 +201,6 @@ def main():
     sv = SDSurvey()
     sv.run_survey()
 if __name__ == "__main__":
-
     main_page = st.Page(page=main,title="Stance detection annotation",icon="✒️")
     examples = st.Page(page="stranicy_stance/examples.py",title="examples & instructions",icon="📖")
     pg = st.navigation([main_page,examples])
