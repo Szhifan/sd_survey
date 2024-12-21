@@ -96,7 +96,7 @@ class SDSurvey:
         st.header("Welcome to our study!")
         st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
-        st.subheader("Please contact us on prolific if you encounter any issues or have any questions.")
+        st.subheader("Please contact us on prolific immediately if you encounter any bugs.")
         st.subheader("Before you start, please read the following instructions:")
         display()
     def construct_annotations(self,cur_idx:int,example_id:str,targets_json:dict):

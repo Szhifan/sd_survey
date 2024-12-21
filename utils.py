@@ -129,6 +129,8 @@ def reformat_stance(data:dict):
             results[id][target]["target_relevance"] = data[key]["value"]
         elif task == "rft":
             results[id][target]["fg_target_relevance"] = data[key]["value"]
+            if not results[id][target]["fg_target_relevance"]:
+                results[id][target]["fg_target_relevance"] = results[id][target]["target_relevance"]
         elif task == "st":
             results[id][target]["stance"] = data[key]["value"]
     return results
@@ -195,4 +197,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db("pl","5beb0d9d7569230001f88b7c",db_name="anno-stance")
+    fetch_from_db("de","66c8690ad6fdb4de5a2102be",db_name="anno-stance")
