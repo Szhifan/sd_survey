@@ -235,7 +235,10 @@ class Pages(object):
             else:
                 next = self.next_button
                 if next:
-                    self.next_func()
+                    proceed = self.next_func()
+                    # if not proceed:
+                    #     self.proceed_to_next = False
+
                     st.components.v1.html(js_script_to_top)
         with mid:
             if self.latest_page:

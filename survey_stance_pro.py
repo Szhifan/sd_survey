@@ -8,11 +8,10 @@ from introduction_stance import display
 class SDSurvey: 
     def __init__(self) -> None:
         new_session = self.set_qp()
-        path = f"data_coder_stance/{LANG2ID[self.lang]}.json"   
-        if self.lang not in ["English","German"]:
-            path_translated = "data_translated/" + LANG2ID[self.lang] + ".json"
-            self.data_translated = load_anno_data(path_translated)
-
+   
+        path = f"data_coder_stance/{LANG2ID[self.lang]}.json"  
+        path_translated = "data_coder_stance/translated.json"
+        self.data_translated = load_anno_data(path_translated)
         self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
         self.n_attention_test = len(self.attention_test)
         self.anno_data = load_anno_data_partition(path,n=400,partition=self.partition)
@@ -34,9 +33,7 @@ class SDSurvey:
         if sum(st.session_state["annos_completed"]):
             for page in range(len(st.session_state["annos_completed"])-1):
                 if not st.session_state["annos_completed"][page]:
-
                     break
-            
             self.pages.latest_page = page
     def set_qp(self):
         """
@@ -76,7 +73,10 @@ class SDSurvey:
             return False
         db = client["anno-stance"]
         col = db[LANG2ID[self.survey.data["LANG"]]]
-        query = {"PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],"study_id":self.survey.data["study_id"]}
+        query = {
+                "PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],
+                "study_id":self.survey.data["study_id"]
+                }
         update = {"$set":self.survey.data}
         querried = col.find_one(query)
         try:
@@ -158,7 +158,8 @@ class SDSurvey:
         header = st.container(border=True)
         with header:
             text = anno_example["fullText"]
-            if self.lang not in ["English","German"]:
+
+            if self.lang not in ["English","German","multiling"]:
                 show_translation = st.checkbox("Show English translation", value=False)
                 if show_translation:
                     text = self.data_translated[anno_example["resourceId"]]["fullText"]

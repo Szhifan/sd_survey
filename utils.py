@@ -133,6 +133,13 @@ def reformat_stance(data:dict):
                 results[id][target]["fg_target_relevance"] = results[id][target]["target_relevance"]
         elif task == "st":
             results[id][target]["stance"] = data[key]["value"]
+    # fetch other fileds
+    results["completed"] = len(results)
+    completed = results["completed"]
+    prolific_id = data.get("PROLIFIC_PID")
+    print(f"id: {prolific_id} has completed {completed} tasks")
+    results["test_passed"] = data.get("test_passed")
+    results["partition"] = data.get("partition")
     return results
 
  
@@ -151,11 +158,11 @@ def fetch_from_db(lang:str,id:str,db_name:str="anno-results"):
     col = db[lang]
     rf_data = {}
     path_save = os.path.join(root,lang,id) + ".json"
+    os.makedirs(os.path.dirname(path_save),exist_ok=True)
     for item in col.find():
         if item["PROLIFIC_PID"] == id:
 
             rf_data.update(reformat(item))
-            rf_data["test_passed"] = item.get("test_passed")
     with open(path_save,"w") as f:
         json.dump(rf_data,f,indent=4) 
 
@@ -197,4 +204,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db("de","66c8690ad6fdb4de5a2102be",db_name="anno-stance")
+    fetch_from_db("multiling","default_prolific_id","anno-stance")
