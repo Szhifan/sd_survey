@@ -159,7 +159,7 @@ class SDSurvey:
         with header:
             text = anno_example["fullText"]
 
-            if self.lang not in ["English","German","multiling"]:
+            if self.lang not in ["English","multiling"]:
                 show_translation = st.checkbox("Show English translation", value=False)
                 if show_translation:
                     text = self.data_translated[anno_example["resourceId"]]["fullText"]

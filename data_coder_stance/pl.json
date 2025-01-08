@@ -160,28 +160,6 @@
         ]
     },
     {
-        "resourceId": "18d984d0817e4ef83db75bb2495b9aba",
-        "fullText": "W 2016 roku gdy wszyscy cieszyli si\u0119, \u017ce polubownie (tj. pieni\u0119dzmi przekazanymi Ankarze) UE uda\u0142o si\u0119 przytamowa\u0107 nieco przerzut imigrant\u00f3w z Turcji - ostrzega\u0142em. M\u00f3wi\u0142em, \u017ce Erdogan b\u0119dzie ten pistolet wci\u0105\u017c trzyma\u0142. \u017be tylko zdecydowana obrona granic jest metod\u0105. C\u00f3\u017c...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "illegal migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "turkey agreement"
-            },
-            {
-                "target": "refugee pathways",
-                "fg_target": "refugee pathways"
-            }
-        ]
-    },
-    {
         "resourceId": "6ad43e65ad39b9c7e2e60e8c1050c08e",
         "fullText": "Pani Gersdorf okazuje si\u0119 by\u0107 najwa\u017cniejsz\u0105 osob\u0105 w unii. Jej niech\u0119ci\u0105 do przej\u015bcia na emerytur\u0119, opr\u00f3cz totalnych, zajmuje si\u0119 KE z samym decydentem co do Polski F.Timmermansem prezydent, rz\u0105d. Jak \"kwotowaniem\" imigrant\u00f3w. #mine\u0142a8",
         "target_items": [
@@ -370,20 +348,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
-        "resourceId": "afcd29408dd528826d6c6648fc5a33cd",
-        "fullText": "Jaki\u015b dr Mengele ma wp\u0142yw na decyzje o przesiedleniach muzu\u0142ma\u0144skich imigrant\u00f3w z Niemiec do innych kraj\u00f3w UE...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "illegal migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "refugee quotas"
             }
         ]
     },
@@ -662,20 +626,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "refugee quotas"
-            }
-        ]
-    },
-    {
-        "resourceId": "44befb390a663d6a790ccfa9c4393911",
-        "fullText": "W korytarzach i 7 tysi\u0105cach \"najlepsze\" jest to, \u017ce UE chodzi o kas\u0119 z Polski a nie o \u017cadnych migrant\u00f3w. To po kiego si\u0119 Polakom nara\u017ca\u0107? Pytam, bo politykiem nie jestem, to mam prawo nie kuma\u0107...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "EU"
             }
         ]
     },
@@ -1060,24 +1010,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "Brexit"
-            }
-        ]
-    },
-    {
-        "resourceId": "9fb5733d6f60980f0a41b01fc6401a3a",
-        "fullText": "Turcja trzymaj\u0105ca rek\u0119 na kurku z uchod\u017acami mo\u017ce pozwoli\u0107 sobie na wiele... Jest pytanie czy US, UE i NATO pozwol\u0105 jej na wszystko...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "refugees"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "turkey agreement"
             }
         ]
     },
@@ -1672,28 +1604,6 @@
         ]
     },
     {
-        "resourceId": "68466832fb4f0a8d5ea51e40f629c909",
-        "fullText": "Kraje, kt\u00f3re zaprosi\u0142y do siebie kozojebc\u00f3w oznajmi\u0142y, i\u017c pa\u0144stwa UE kt\u00f3re nie chc\u0105 imigrant\u00f3w, zostan\u0105 zmuszeni do go\u015bciny si\u0142\u0105...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "illegal migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "refugee quotas"
-            },
-            {
-                "target": "reception",
-                "fg_target": "reception"
-            }
-        ]
-    },
-    {
         "resourceId": "8b30e7d88abb061e3b265ff5dd3642dd",
         "fullText": "Interesuj\u0105cy w\u0105tek w ciszy Wsp\u00f3lne wojsko, armia UE. Doskona\u0142a okazja przy \"spontanicznej\" migracji. Ryzyko: nigdy nie zostanie rozwi\u0105zana",
         "target_items": [
@@ -2096,24 +2006,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "PiS"
-            }
-        ]
-    },
-    {
-        "resourceId": "babdc3a3c3c641bb5edefbc5b0e3574f",
-        "fullText": "Sukcesy Pana Tuska w UE: Brexit, \u015bci\u0105ganie migrant\u00f3w z Afryki i Azji do Europy, podzia\u0142 UE na dwie pr\u0119dko\u015bci, a klakierzy bij\u0105 brawo...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "Tusk"
             }
         ]
     },
@@ -2910,20 +2802,6 @@
         ]
     },
     {
-        "resourceId": "1ee4b9d35bba665430950d479e70c46a",
-        "fullText": "Czy Polska wzorem Niemiec czy Francji dostaje z UE dop\u0142aty do ukrai\u0144skich imigrant\u00f3w? Kto\u015b, co\u015b?...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "asylum procedures",
-                "fg_target": "compensation"
-            }
-        ]
-    },
-    {
         "resourceId": "42819b8c1e99c5749d899ce263180b42",
         "fullText": "Hiszpania zwr\u00f3ci\u0142a si\u0119 do KE o pomoc w zwi\u0105zku z tym masowym nap\u0142ywem \"imigrant\u00f3w\". A kto ich qrwa zaprasza\u0142 do Hiszpanii jak nie hiszpa\u0144ski rz\u0105d? Pieprzony komuna dzielnie walczy z problemami, kt\u00f3re sama stwarza. #JPRDL",
         "target_items": [
@@ -3114,24 +2992,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "turkey agreement"
-            }
-        ]
-    },
-    {
-        "resourceId": "aaf938474c8e6d26c7122d70128f2f23",
-        "fullText": "UE: Polska, Czechy i S\u0142owacj\u0105 b\u0119d\u0105 przyjmowa\u0107 \u0142\u0105cznie 84 imigrant\u00f3w miesi\u0119cznie.....CZY KTOS NAS PYTA\u0141, NAS OBYWATELI TEGO KRAJU...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "refugee quotas"
-            },
-            {
-                "target": "reception",
-                "fg_target": "reception"
             }
         ]
     },
@@ -3384,20 +3244,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "migration policies"
-            }
-        ]
-    },
-    {
-        "resourceId": "f70a19ff73ae2b1a6cb8fd8b0f2b6479",
-        "fullText": "Nie rozumiem spo\u0142ecznego oburzenia dotycz\u0105cego imigrant\u00f3w, kt\u00f3rych przy\u015ble na UE - nikt z nich i tak w Polsce nie zostanie...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "refugee quotas"
             }
         ]
     },
@@ -3672,16 +3518,6 @@
         ]
     },
     {
-        "resourceId": "6f5e9cca212f1799f4ed4622b77ba191",
-        "fullText": "Angole opuszczaj\u0105 UE bo boj\u0105 si\u0119 imigrant\u00f3w.Ale wi\u0119kszo\u015b\u0107 pi\u0142karzy reprezentacji w pi\u0142ce no\u017cnej ma korzenie z odleg\u0142ych kraj\u00f3w !!!!To im jako\u015b nie przeszkadza,bo czerpi\u0105 z tego korzy\u015bci ....",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            }
-        ]
-    },
-    {
         "resourceId": "7d6c8d42f29f7c7483b0803cc33acfe1",
         "fullText": "Andrea Leadsom: \"Nasza polityka migracyjna b\u0119dzie sprawiedliwa dla [imigrant\u00f3w z] ca\u0142ego \u015bwiata, zamiast otwartego, swobodnego dost\u0119pu do \u015bwiadcze\u0144, miejsc pracy i przyjazdu do UK bez zatrudnienia dla obywateli UE, gdy dost\u0119p ten jest ograniczony dla reszty \u015bwiata\" #r4today",
         "target_items": [
@@ -3752,16 +3588,6 @@
             {
                 "target": "refugee pathways",
                 "fg_target": "mediterranean crossing"
-            }
-        ]
-    },
-    {
-        "resourceId": "dafe76261be06bc4fd2232584ef0b161",
-        "fullText": "Rozpocz\u0119\u0142o si\u0119 wyci\u0105ganie wniosk\u00f3w z eurowybor\u00f3w. Londyn chce wyrzuca\u0107 z kraju bezrobotnych imigrant\u00f3w z UE, a Pary\u017c obni\u017cy podatki...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "economic migrants"
             }
         ]
     },
@@ -4988,20 +4814,6 @@
         ]
     },
     {
-        "resourceId": "6d88f06ccbf21fa3d3ec7d0475b0fbf3",
-        "fullText": "Celem powo\u0142anego \u201eCentrum Sprawdzonych Informacji\u201d przez @trzaskowski_ przypuszczam, \u017ce b\u0119dzie manipulacja: - nazywanie prawdy @PatrykJaki k\u0142amstwem; - nazywanie k\u0142amstwa @trzaskowski_ prawd\u0105. PO jest mistrzem manipulacji i k\u0142amstwa,np. w donoszeniu do UE,w sprawie imigrant\u00f3w...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "Patryk Jaki"
-            }
-        ]
-    },
-    {
         "resourceId": "c70b19e9bf16083dab68dce953e0b1ee",
         "fullText": "Hiszpanie prosz\u0105 UE o pomoc w sprawie migrant\u00f3w,r\u00f3wnocze\u015bnie zwo\u017c\u0105c ich statkami do swego kraju.Abstrhuj\u0105c od ocen moralnych,takie w\u0142a\u015bnie post\u0119powanie,zach\u0119ca migrant\u00f3w. Mo\u017ce trzeba ich odwozi\u0107 do miejsc,z kt\u00f3rych wyp\u0142yn\u0119li?",
         "target_items": [
@@ -5595,7 +5407,7 @@
             },
             {
                 "target": "migration policies",
-                "fg_target": "Andrzej Duda" 
+                "fg_target": "Andrzej Duda"
             }
         ]
     },
@@ -6382,20 +6194,6 @@
         ]
     },
     {
-        "resourceId": "f5b46c5260ac567d1b92f79742acfad0",
-        "fullText": "By\u0142y komisarz UE broni stanowiska Polski ws. przyjmowania imigrant\u00f3w! \"To jest zupe\u0142nie niesprawiedliwe, \u017ceby obwinia\u0107 Polsk\u0119\" /wpolityce.pl/...Jeden to niestety za ma\u0142o...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
         "resourceId": "7f210469b5600bfba0f4857be63dd079",
         "fullText": "Sankcje s\u0105 lepsze i ta\u0144sze ni\u017c ugiecie si\u0119 UE; dzi\u015b s\u0105dy, jutro milion imigrant\u00f3w, pojutrze zakaz chodzenia do ko\u015bcio\u0142a. .NIE! #Woronicza17",
         "target_items": [
@@ -6700,16 +6498,6 @@
         ]
     },
     {
-        "resourceId": "e1f9e356d6a21b2458fd6ad471cd77b4",
-        "fullText": "\ud83d\udc4d\ud83d\udc4f\ud83d\udc4f\ud83d\udc4f W takim kierunku zmierzaj\u0105 m\u0105dre kraje UE !!! Bezmyslne wpuszczenie migrant\u00f3w to uwstecznienie i krok ku upadkowi...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            }
-        ]
-    },
-    {
         "resourceId": "5bb1d1517a3724d28f3da6a27e739b84",
         "fullText": "Nacjo-dzbany mowia: - po co imigranci!- zrobi sie depopulacja i beda roboty Aha czyli kurcz\u0105ca si\u0119 Polska b\u0119dzie importowa\u0107 roboty zrobione przez imigrantow w innych krajach. Prosz\u0119 Was @JacekWilkPL @Kulesza_pl @ArturDziambor dajcie sobie spok\u00f3j z tymi nacjoluchami po wyb, PE.",
         "target_items": [
@@ -6990,16 +6778,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "Poland"
-            }
-        ]
-    },
-    {
-        "resourceId": "b039be480f2fd5c4d10cb4de0cf3456c",
-        "fullText": "Bzdura. W prawie nie ma \"prawie\" ani \"jakby\". Nie ma \"lewackich dorozumie\u0144\". A ju\u017c na pewno Polak nie jest imigrantem w UE. Na jakich kursach wieczorowych posiad\u0142 Pan tak\u0105 \"wiedz\u0119\"? Wsp\u00f3\u0142czuj\u0119...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
             }
         ]
     },
@@ -7376,20 +7154,6 @@
         ]
     },
     {
-        "resourceId": "8d3bed8548df594bd630c59e3dd1d47c",
-        "fullText": "Komisja Europejska po tym jak rozwi\u0105za\u0142a problem imigrant\u00f3w oraz Grecji mo\u017ce si\u0119 spokojnie zaj\u0105\u0107 Polsk\u0105...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Commission"
-            }
-        ]
-    },
-    {
         "resourceId": "8e5dec6ed4b939fa832ea66ac9dcde0d",
         "fullText": "Dlaczego Komisja Europejska nie zajmie si\u0119 \u0142amaniem standard\u00f3w demokracji przez nielegalnych imigrant\u00f3w? #Uchod\u017acy #UE #fuckoff",
         "target_items": [
@@ -7490,20 +7254,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "refugee quotas"
-            }
-        ]
-    },
-    {
-        "resourceId": "1695b221b58d61214d2171e9a0833349",
-        "fullText": "Czy PO w swojej ch\u0119ci podlizywania si\u0119 mo\u017cnym UE naprawde chce do PL sprowadzi\u0107 imigrant\u00f3w z Afryki? Ale, co, na si\u0142\u0119 ich b\u0119da zwozi\u0107?...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "PO"
             }
         ]
     },

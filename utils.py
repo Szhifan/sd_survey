@@ -31,9 +31,11 @@ def load_anno_data_partition(path:str,n=None,partition=None):
         else:
             return data[n//2:]
 @st.cache_data(ttl=TTL)
-def load_anno_data(path:str,n=None):
+def load_anno_data(path:str,n=None,include_id:list=None):
     with open(path, "r") as f:
         data = json.load(f)
+        if include_id:
+            data = [item for item in data if item["resourceId"] in include_id]
         if not n:
             return data
         return data[:n]
@@ -103,6 +105,10 @@ def reformat_target(data:dict):
                     "stance":data[k]["value"]
                 }
                 )
+
+
+    reformated_data["time_spent"] = data.get("time_spent")
+   
     return reformated_data
 
 def reformat_stance(data:dict):
@@ -140,6 +146,9 @@ def reformat_stance(data:dict):
     print(f"id: {prolific_id} has completed {completed} tasks")
     results["test_passed"] = data.get("test_passed")
     results["partition"] = data.get("partition")
+    time_spent = data.get("what is the total time you spent on this task? (in minutes)")
+    if time_spent:
+        results["time_spent"] = time_spent["value"]
     return results
 
  
@@ -161,7 +170,8 @@ def fetch_from_db(lang:str,id:str,db_name:str="anno-results"):
     os.makedirs(os.path.dirname(path_save),exist_ok=True)
     for item in col.find():
         if item["PROLIFIC_PID"] == id:
-
+            reformat_item = reformat(item)
+            
             rf_data.update(reformat(item))
     with open(path_save,"w") as f:
         json.dump(rf_data,f,indent=4) 
@@ -204,4 +214,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db("multiling","default_prolific_id","anno-stance")
+    fetch_from_db("de","default_prolific_id","anno-stance")

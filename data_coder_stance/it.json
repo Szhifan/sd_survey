@@ -1724,28 +1724,6 @@
         ]
     },
     {
-        "resourceId": "abab6a89a0ada4fa8dedbbbb9d3f12a7",
-        "fullText": "Effetto domino dopo Brexit:2 ottobre in Ungheria referendum x decidere se accogliere profughi secondo direttiva UE oppure\"disobbedire\"......",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "refugees"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "refugee quotas"
-            },
-            {
-                "target": "reception",
-                "fg_target": "reception"
-            }
-        ]
-    },
-    {
         "resourceId": "1ee629ad04293e7dc47ff961c596d9be",
         "fullText": "400 #immigrati nel cargo #EZADEEN a Crotone. qualcuno avverta @angealfa che #frontex \u00e8 un fallimento come #marenostrum, arrivano da soli!",
         "target_items": [
@@ -2854,20 +2832,6 @@
         ]
     },
     {
-        "resourceId": "606d933ff777b13bfe65769ccc05cd05",
-        "fullText": "#Ue insulta l'Italia volgarmente.. stiamo qui a pietire gli zerovirgola e pupparci caterve di migranti per questi? Facciamo un'italexit...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
         "resourceId": "242c4f85eb4dfbf07ee82b9e8d4baad1",
         "fullText": "A #Bruxelles, i ministri dell'Interno #Ue discutono di #migranti. Ne manca uno, che \u00e8 a #Potenza per la campagna elettorale. Cosa vuoi di pi\u00f9 dalla vita? Un lucano. #noicontrosalvini #FacciamoRete #salvinirispondi",
         "target_items": [
@@ -3500,20 +3464,6 @@
             {
                 "target": "reception",
                 "fg_target": "reception"
-            }
-        ]
-    },
-    {
-        "resourceId": "6ffb7e76ae1a2b8ac6e195adde2ae87b",
-        "fullText": "DEVE FINIRE IN UN MODO O NELL'ALTRO QUESTA AGGRESSIONE CONTRO L'ITALIA...PREFERISCONO IL PD AL GOVERNO....PERCHE CI OBBLIGAVANO A FARE TUTTO QUELLO CHE VOLEVANO...PRNSATE CHE IL 70% DEI MIGRANTI ENTRATI IN UE SONO ENTRATI IN ITALIA E RIMASTI...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "Italy"
             }
         ]
     },
@@ -4560,28 +4510,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
-        "resourceId": "78c54ee5e7e7621f4d539a0d54922fea",
-        "fullText": "#migranti @matteorenzi e @FedericaMog vostre richieste non ascoltate da #UE. Intanto qui continuano #sbarchi. Grande peso internazionale...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "Matteo Renzi and Federica Mogherini"
-            },
-            {
-                "target": "refugee pathways",
-                "fg_target": "refugee pathways"
             }
         ]
     },
@@ -5644,20 +5572,6 @@
         ]
     },
     {
-        "resourceId": "2674a1cda8b972dbf9066832a066436e",
-        "fullText": "@OmnibusLa7 questa UE ci vuole schiavi ed il governo deve difenderci dal pi\u00f9 tasse, austerit\u00e0,pi\u00f9 migranti che fanno PIL(sic!!!!)........",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
         "resourceId": "b96a9445342e0b98f0e78dad19165618",
         "fullText": "Ma gay d #crimea sottoposti a violenze causa leggi russe anti scientifiche antistoriche etc potranno avere asilo politico in #ue ?",
         "target_items": [
@@ -5852,24 +5766,6 @@
         ]
     },
     {
-        "resourceId": "a95284c62ea59dc20731c07cb1c1b0f7",
-        "fullText": "Referendum in Ungheria il 2 ottobre sul sistema UE di ripartizione dei rifugiati con quote obbligatorie. Bah...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "refugees"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "refugee quotas"
-            }
-        ]
-    },
-    {
         "resourceId": "1b6c161d473e2ec9d87a371f5effda30",
         "fullText": "#Ue procedura d'infrazione contro #Italia per aver lasciato entrare profughi senza schedarli Inviate tutto a #renzi e cazzari al seguito",
         "target_items": [
@@ -5968,24 +5864,6 @@
             {
                 "target": "migration policies",
                 "fg_target": "turkey agreement"
-            }
-        ]
-    },
-    {
-        "resourceId": "5121ddaf65260302bf0f71b1a2c442ab",
-        "fullText": "#COISP: Migranti, Frontex: in 7 mesi salvati 31.402 diretti in Italia...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "frontex"
-            },
-            {
-                "target": "refugee pathways",
-                "fg_target": "mediterranean crossing"
             }
         ]
     },
@@ -7120,20 +6998,6 @@
         ]
     },
     {
-        "resourceId": "8a450d9a6d0acdd09d45292aeaea4afc",
-        "fullText": "Altri mille immigrati sbarcati a Palermo; venghino, siori, venghino, che tanto l'UE ci manda a cacare!...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
-            },
-            {
-                "target": "refugee pathways",
-                "fg_target": "mediterranean crossing"
-            }
-        ]
-    },
-    {
         "resourceId": "0cac9084ae8dc9b4360f0bb48e83eb94",
         "fullText": "Salvini non sa per chi gufare: contro i belgi perch\u00e8 Bruxelles gli ricorda l'UE o contro l'Algeria che ricorda gli immigrati? #BelgioAlgeria",
         "target_items": [
@@ -7444,20 +7308,6 @@
         ]
     },
     {
-        "resourceId": "a0b2ec0d7389d226fe30f39b1657cda1",
-        "fullText": "Ecco i mass-media e il \"razzismo\"... deliberato che NON si devono pi\u00f9 riportare notizie sui migranti che delinquono... Razzismo verso gli italiani, dittatura anche con un governo scomodo alla UE (che presto troveranno il modo per far cadere)...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "illegal migrants"
-            },
-            {
-                "target": "European Union Institutions",
-                "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
         "resourceId": "d5d2703f71edf3f7a6247b522100c9e3",
         "fullText": "#lariachetiraestate #lariachetirala7 dalla UE ci fanno sapere che a GIUGNO sono in calo le domande di asilo. Bravo Minniti! Ah no! Giugno 2018.",
         "target_items": [
@@ -7468,24 +7318,6 @@
             {
                 "target": "European Union Institutions",
                 "fg_target": "European Union Institutions"
-            }
-        ]
-    },
-    {
-        "resourceId": "ab3c8ae1ae3e605d86d1d32ceea9b8a6",
-        "fullText": "\ud83d\udc4dChe provino la felicit\u00e0 di accogliere profughi ...ed \u00e8 solo l inizio per loro !! Qualche nave anche alla Francia? Se si definiscono UE e ne sono membri....",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "refugees"
-            },
-            {
-                "target": "migration policies",
-                "fg_target": "refugee quotas"
-            },
-            {
-                "target": "reception",
-                "fg_target": "reception"
             }
         ]
     },
@@ -7940,16 +7772,6 @@
             {
                 "target": "refugee pathways",
                 "fg_target": "refugee pathways"
-            }
-        ]
-    },
-    {
-        "resourceId": "4fb6b9a4a52c32e201873301cb232e02",
-        "fullText": "Israele che in un solo giorno spara sui manifestanti a Gaza e sbologna a'a UE 16 mila migranti \u00e8 ancora preoccupata pa'a deriva fascista attorno ar 4% che ciavemo avuto in Italia? No perch\u00e9 adesso me comincio a preoccupamme puro io...",
-        "target_items": [
-            {
-                "target": "migrants",
-                "fg_target": "migrants"
             }
         ]
     },

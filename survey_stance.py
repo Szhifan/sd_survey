@@ -4,18 +4,21 @@ from utils import  load_anno_data,load_results,init_mongo_clinet
 from interface_utils import LANG2ID,TEXT_CSS,TASK_DESCRIPTION_STANCE,TARGETS_MAP,RELEVANT_CHOICES,STANCE_OPTIONS,ATTENTION_TESTS
 import streamlit as st
 from introduction_stance import display
+import pickle
+with open("ambi_ids.pkl","rb") as f:
+    AMBI_IDS = pickle.load(f)
 
 class SDSurvey: 
     def __init__(self) -> None:
+        
         new_session = self.set_qp()
         path = f"data_coder_stance/{LANG2ID[self.lang]}.json"   
-        if self.lang not in ["English","German"]:
-            path_translated = "data_translated/" + LANG2ID[self.lang] + ".json"
-            self.data_translated = load_anno_data(path_translated)
+        path_translated = "data_coder_stance/translated.json"
+        self.data_translated = load_anno_data(path_translated)
 
         self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
         self.n_attention_test = len(self.attention_test)
-        self.anno_data = load_anno_data(path,n=400)
+        self.anno_data = load_anno_data(path,n=400,include_id=AMBI_IDS) 
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
         if new_session:
@@ -147,7 +150,7 @@ class SDSurvey:
         with header:
 
             text = anno_example["fullText"]
-            if self.lang not in ["English","German"]:
+            if self.lang not in ["English","multiling"]:
                 show_translation = st.checkbox("Show English translation", value=False)
                 if show_translation:
                     text = self.data_translated[anno_example["resourceId"]]["fullText"]

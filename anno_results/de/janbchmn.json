@@ -1,1 +1,138 @@
-{"2a7553dc43c7f6959c8bc94091c9a03e": [{"target": "migrants", "fg_target": "asylum seekers", "stance": "none"}], "499fafe91f8901daee72e7ae68542e74": [{"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "none"}, {"target": "migrants", "fg_target": "migrants", "stance": "against"}, {"target": "migration policies", "fg_target": "Germany", "stance": "none"}], "20d2b0790cce305910979e80c79941af": [{"target": "migrants", "fg_target": "illegal migrants", "stance": "against"}], "ca94f74618b75e38c5aab4f32de0e9d3": [{"target": "migration policies", "fg_target": "EU", "stance": "none"}, {"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "none"}], "5e3de5e8d4ef96ea20c0fa151ce884f7": [{"target": "migration policies", "fg_target": "EU-Turkey refugee return agreement", "stance": "against"}], "c5782b1966c16a10f8f91c9c5e06fe8d": [{"target": "migrants", "fg_target": "asylum seekers", "stance": "against"}], "afeccb88c14981cc312b04041f9d9305": [{"target": "migration policies", "fg_target": "EU", "stance": "none"}, {"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "none"}], "f97890401ff61fca9563d28abf55e2d4": [{"target": "migration policies", "fg_target": "unclear", "stance": "none"}], "2a2582dd7424bcba476a812394d8a92d": [{"target": "migrants", "fg_target": "asylum seekers", "stance": "none"}], "c5125449e551269ee3ae82afb59d8697": [{"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "none"}, {"target": "migrants", "fg_target": "asylum seekers", "stance": "none"}], "d1f205a8b14a50efdd93690257d5c6ac": [{"target": "migration policies", "fg_target": "EU-Turkey refugee return agreement", "stance": "against"}, {"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "against"}], "fae7cfd5e01f067cb50fbc0739277a55": [{"target": "European Union Institutions", "fg_target": "European Union Institutions", "stance": "none"}], "d975b33b682f5cca76a257dd5aa56a6c": [{"target": "migrants", "fg_target": "asylum seekers", "stance": "none"}], "8d84d3540086577a7a7db58aa1281a65": [{"target": "migrants", "fg_target": "asylum seekers", "stance": "none"}], "4cf60e7811a48e6fc5bf51e525ff527b": [{"target": "European Union Institutions", "fg_target": "FRONTEX", "stance": "against"}]}
+{
+    "2a7553dc43c7f6959c8bc94091c9a03e": [
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "none"
+        }
+    ],
+    "499fafe91f8901daee72e7ae68542e74": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "migrants",
+            "stance": "against"
+        },
+        {
+            "target": "migration policies",
+            "fg_target": "Germany",
+            "stance": "none"
+        }
+    ],
+    "20d2b0790cce305910979e80c79941af": [
+        {
+            "target": "migrants",
+            "fg_target": "illegal migrants",
+            "stance": "against"
+        }
+    ],
+    "ca94f74618b75e38c5aab4f32de0e9d3": [
+        {
+            "target": "migration policies",
+            "fg_target": "EU",
+            "stance": "none"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        }
+    ],
+    "5e3de5e8d4ef96ea20c0fa151ce884f7": [
+        {
+            "target": "migration policies",
+            "fg_target": "EU-Turkey refugee return agreement",
+            "stance": "against"
+        }
+    ],
+    "c5782b1966c16a10f8f91c9c5e06fe8d": [
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "against"
+        }
+    ],
+    "afeccb88c14981cc312b04041f9d9305": [
+        {
+            "target": "migration policies",
+            "fg_target": "EU",
+            "stance": "none"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        }
+    ],
+    "f97890401ff61fca9563d28abf55e2d4": [
+        {
+            "target": "migration policies",
+            "fg_target": "unclear",
+            "stance": "none"
+        }
+    ],
+    "2a2582dd7424bcba476a812394d8a92d": [
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "none"
+        }
+    ],
+    "c5125449e551269ee3ae82afb59d8697": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        },
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "none"
+        }
+    ],
+    "d1f205a8b14a50efdd93690257d5c6ac": [
+        {
+            "target": "migration policies",
+            "fg_target": "EU-Turkey refugee return agreement",
+            "stance": "against"
+        },
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "against"
+        }
+    ],
+    "fae7cfd5e01f067cb50fbc0739277a55": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "European Union Institutions",
+            "stance": "none"
+        }
+    ],
+    "d975b33b682f5cca76a257dd5aa56a6c": [
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "none"
+        }
+    ],
+    "8d84d3540086577a7a7db58aa1281a65": [
+        {
+            "target": "migrants",
+            "fg_target": "asylum seekers",
+            "stance": "none"
+        }
+    ],
+    "4cf60e7811a48e6fc5bf51e525ff527b": [
+        {
+            "target": "European Union Institutions",
+            "fg_target": "FRONTEX",
+            "stance": "against"
+        }
+    ],
+    "time_spent": 5458.634273989996
+}
