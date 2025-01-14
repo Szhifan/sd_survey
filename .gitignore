@@ -168,6 +168,7 @@ pq.txt
 res_example.json
 anno_results
 anno-stance
+anno-xculture/* 
 analysis.py
 final_data*
 plot_figures.py

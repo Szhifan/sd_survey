@@ -17,7 +17,7 @@ class SDSurvey:
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
         if new_session:
-            user_data = load_results(self.lang,self.prolific_id,new_session,db_name="anno-stance",study_id=self.study_id)
+            user_data = load_results(self.lang,self.prolific_id,new_session,db_name="anno-xculture",study_id=self.study_id)
             st.session_state["annos_completed"] = [False] * self.n_annotation
             st.session_state["test_passed"] = [False] * self.n_attention_test
             if user_data and "completed" in user_data: #load the completion status 
@@ -47,12 +47,10 @@ class SDSurvey:
             self.lang = st.session_state["qp"]["LANG"]   
             self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"]
             self.study_id = st.session_state["qp"]["STUDY_ID"]  
-            self.partition = st.session_state["qp"]["PARTITION"]
         else:
             self.lang = st.session_state["qp"]["LANG"] = "en2pl"
             self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"] = "default_prolific_id"
             self.study_id = st.session_state["qp"]["STUDY_ID"]  = "default_study_id"
-            self.partition = st.session_state["qp"]["PARTITION"] = 0
         st.query_params.from_dict(st.session_state["qp"])     
         return new_session 
     def save_to_mongodb(self):
@@ -65,7 +63,6 @@ class SDSurvey:
         self.survey.data["completed"] = st.session_state["annos_completed"]
         self.survey.data["test_passed"] = st.session_state["test_passed"]
         self.survey.data["study_id"] = self.study_id
-        self.survey.data["partition"] = self.partition
         if not client:
             st.error("connection to database failed, please try again.")
             return False
