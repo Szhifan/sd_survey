@@ -194,6 +194,9 @@ TASK_DESCRIPTION_STANCE = """
                       Please determine how relevant are the demonstrated targets and its fine-grained targets in the post respectively. If the target and the fine-grained target are the same, you do not need to determine the relevance of the fine-grained target.
                       If the answer is relevant or somehow relevant, please determine the stance of the target in the post. 
 """
+TASK_DESCRIPTION_STANCE_2 = """
+Please determine the stance of the post towards the target. 
+"""
 LANG2ID = {"English":"en","German":"de","Greek":"el","Spanish":"es","French":"fr","Hungarian":"hu","Italian":"it","Dutch":"nl","Polish":"pl","Slovak":"sk","Swedish":"sv","multiling":"multiling"}
 TTL = 1200
 TEXT_CSS = """

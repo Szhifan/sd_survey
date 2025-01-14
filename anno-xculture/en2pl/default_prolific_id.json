@@ -1,0 +1,26 @@
+{
+    "692bcd3628b7cbfe88beda65975cfe3c": {
+        "migrants": {
+            "stance": "positive"
+        }
+    },
+    "c0f53621d399118cde59635443ce34f9": {
+        "migrants": {
+            "stance": "negative"
+        }
+    },
+    "e72cc5a85fc57e4d4376c6dc3f5ff10a": {
+        "migrants": {
+            "stance": null
+        }
+    },
+    "completed": 3,
+    "test_passed": [
+        false,
+        false,
+        false,
+        false,
+        false
+    ],
+    "partition": 0
+}

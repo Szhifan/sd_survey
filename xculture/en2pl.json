@@ -1,0 +1,2396 @@
+[
+    {
+        "resourceId": "692bcd3628b7cbfe88beda65975cfe3c",
+        "fullText": "Zastanawiam si\u0119, czy biurokraci i politycy z UE, kt\u00f3rzy poparli 'brak ratowania imigrant\u00f3w' z \u0142odzi na Morzu \u015ar\u00f3dziemnym, s\u0105 dzi\u015b z siebie dumni!!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "c0f53621d399118cde59635443ce34f9",
+        "fullText": "Szefowa UE nalega, aby pracownicy migracyjni MUSIELI mie\u0107 dost\u0119p do brytyjskich \u015bwiadcze\u0144.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "e72cc5a85fc57e4d4376c6dc3f5ff10a",
+        "fullText": "Czy kryzys uchod\u017aczy w UE to wina Obamy i Hilary? Gdyby powstrzyma\u0142 dru\u017cyn\u0119 JV, czy kryzys uchod\u017aczy by istnia\u0142?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "5e354c50356baa66231ba1fc3bd86bc7",
+        "fullText": "@meeshellchen: 2500 #imigrant\u00f3w zgin\u0119\u0142o na morzu w drodze do Fortecy Europa. Ile jeszcze, zanim #UE zareaguje? t.co/KvRM1Op36",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "4411400d7f9e87708f1eab49e07b5d49",
+        "fullText": "Pytanie: Jak to mo\u017cliwe, \u017ce Wielka Brytania NIE STA\u0141A SI\u0118 BARDZIEJ DOSTATNIM KRAJEM po BREXICIE?? Bez PASO\u017bYT\u00d3W Z UE LUB MIGRANT\u00d3W Z UE, KT\u00d3RZY NAS WYSYSAJ\u0104!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.5,
+                "stance_5": "rather negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "145def5b51cbe16cd849d7be5d026764",
+        "fullText": "Ksenofobia nie mo\u017ce by\u0107 antyrasistowska. Mam do\u015b\u0107 Lexitowc\u00f3w, kt\u00f3rzy tak bardzo staraj\u0105 si\u0119 przeciwstawia\u0107 migrant\u00f3w z UE tym spoza UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "4bb1af1340ed5eb785893d1e797da7ca",
+        "fullText": "#Neokolonializm i \"kryzys migracyjny\" Od #USA po #UE, \"kryzys migrant\u00f3w\" wywo\u0142uje powa\u017cne krajowe i mi\u0119dzynarodowe debaty na temat polityk potrzebnych do zarz\u0105dzania przep\u0142ywami migracyjnymi. Wsz\u0119dzie jednak s\u0105 one przedstawiane jako \"klisza\", kt\u00f3ra odwraca rzeczywisto\u015b\u0107:",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1a96fa013e4c098e1c115f8dd019ea78",
+        "fullText": "UKIP: \"Brak g\u0142os\u00f3w dla m\u0142odych lub migrant\u00f3w w referendum UE\" \ud83d\ude02 No to niespodzianka, kurwa",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "resourceId": "f6e1bdea87f27eb129192a95edbbdf09",
+        "fullText": "Oko\u0142o 150 polskich migrant\u00f3w zgromadzonych wok\u00f3\u0142 polskiej flagi na Shepherds Bush Green. Barwny uliczny m\u00f3wca anty-UE przemawia do t\u0142umu.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "cb02fd9a57e3ea375054cca84af0d389",
+        "fullText": "Od ciebie wspieraj\u0105cego TAK KAMPANI\u0118 w #greferendum, nie s\u0142ysza\u0142em \u017cadnych wezwa\u0144 do UE, aby okaza\u0142a solidarno\u015b\u0107 w sprawie #kryzysuchod\u017ac\u00f3w. Teraz wiem, kt\u00f3r\u0105 UE popierasz.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.5,
+                "stance_5": "rather positive",
+                "relevant_score": 0.333
+            }
+        ]
+    },
+    {
+        "resourceId": "62bbe929d3354af8cb28004856189dd4",
+        "fullText": "@EU_Commission podw\u00f3jny dyskurs na temat #prawpodstawowych, zatrzymywanie nieletnich migrant\u00f3w bez opieki jest cz\u0119\u015bci\u0105 podstawowych warto\u015bci?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "28156b3efb1098f52074ebf1b841c923",
+        "fullText": "Zmniejszony priorytet w portach, \u015bwie\u017ca \u017cywno\u015b\u0107 gnij\u0105ca w kolejkach w portach, sezonowi pracownicy migruj\u0105cy z UE niedost\u0119pni do zbierania krajowych produkt\u00f3w (?) ... Projekt Strach? Tak, dlaczego nie.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.167,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "d754132dd3ad4cdf159fd23e5a8c9da5",
+        "fullText": "G. Feldman m\u00f3wi, \u017ce systemy informatyczne UE dotycz\u0105ce migracji zosta\u0142y opracowane w celu udost\u0119pniania informacji o 'przest\u0119pcach, terrorystach, szpiegach i #uchod\u017acach'.. wymowna r\u00f3wnanie!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "c3e0086e5e71592499aac86a46a38040",
+        "fullText": "@Nigel_Farage - Nowe has\u0142o @LibDems. Brytyjskie g\u0142osy dla migrant\u00f3w z UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "resourceId": "efea9b320cae26c1c0635d3dc05c6864",
+        "fullText": "Ludzie pr\u00f3buj\u0105 sugerowa\u0107, \u017ce ta szara, ch\u0142odna pogoda jest zwi\u0105zana z \"porami roku\". Daily Mail zna prawd\u0119. To imigranci, narkotyki i UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "37e0b662080b7be40e950e096012753c",
+        "fullText": "@HardemanHildeML @mariannethyssen @EU_Justice moja rodzina i kilku przyjaci\u00f3\u0142, kt\u00f3rzy do\u015bwiadczyli naszych trudno\u015bci w #UE dot. podatk\u00f3w, transgranicznych problem\u00f3w, zw\u0142aszcza sprawiedliwo\u015bci, rodziny, polityki imigracyjnej, \u017ceby wymieni\u0107 tylko kilka, s\u0105 jak oszustwa. Polityki te zabijaj\u0105 motywacj\u0119 ludzi do pracy lub budowania rodziny.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.833,
+                "stance_5": "negative",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "resourceId": "91ca3d8ffa42045342e87d788f6fdad7",
+        "fullText": "O, sp\u00f3jrz.....to nowy ruch aria\u0144ski!! S\u0142ysze\u0107 te s\u0142owa od dziecka imigrant\u00f3w jest odra\u017caj\u0105ce! Nadal odmawiaj\u0105 przyznania, \u017ce migracja netto jest gorsza dla ludzi z Wielkiej Brytanii do UE. Nie wspominajmy o kosztach sprowadzenia emeryt\u00f3w z powrotem!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "9651c88d00dccd26ba69475689a9cd46",
+        "fullText": "#RT Specjalny raport RT na 2015: Wzrost ISIS, Rosja nie taka izolowana, kryzys migracyjny w UE (WIDEO) @FollowNewsNow",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "resourceId": "9770c25ae1b98c695e3703d51ab24814",
+        "fullText": ".@SolheimDAC Jakie dzia\u0142ania podj\u0119\u0142a #UE przeciwko swojemu cz\u0142onkowi Turcji za zmuszanie syryjskich uchod\u017ac\u00f3w do powrotu? To jest niezgodne z prawem.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "9e49fd91d1130b185e02d36ab56be615",
+        "fullText": "@theresa_may Je\u015bli mamy pozwoli\u0107 na nieograniczon\u0105 migracj\u0119 z UE w okresie przej\u015bciowym, jakie b\u0119d\u0105 zabezpieczenia przed tym, aby jakikolwiek kraj UE wydawa\u0142 paszporty nielegalnym migrantom, o ile zamierzaj\u0105 oni uda\u0107 si\u0119 do Wielkiej Brytanii?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "f1f06d68f31bb5e8b86fa4449e8789a6",
+        "fullText": "Cho\u0107 to niefortunne, dla wi\u0119kszo\u015bci uchod\u017ac\u00f3w (zw\u0142aszcza doros\u0142ych) b\u0119dzie niemo\u017cliwe zaakceptowanie, szanowanie lub bycie cz\u0119\u015bci\u0105 stylu \u017cycia w #UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.5,
+                "stance_5": "rather negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "12c60fd7140a0b245cf33b99135aafdf",
+        "fullText": "Szcz\u0119\u015bliwego Nowego Roku! W pierwszym @bbcbreakfast w 2014 roku: rozmowy o nowych migrantach z UE, styczniu bez alkoholu i The Rosie Project z @GraemeSimison",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "a70a0c79e9970c4326e8e45dd5e7bf27",
+        "fullText": "Zwolnieni migranci z UE powinni otrzyma\u0107 jednorazowy zasi\u0142ek socjalny i wr\u00f3ci\u0107 do domu #rethinkEU",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "d6e773fa030c371a23c0df48f123e5b0",
+        "fullText": "David Cameron i jego polski odpowiednik Donald Tusk staraj\u0105 si\u0119 z\u0142agodzi\u0107 napi\u0119cia w zwi\u0105zku ze sporem dotycz\u0105cym \u015bwiadcze\u0144 dla migrant\u00f3w z UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.5,
+                "stance_5": "rather positive",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "e3b82de509509c61875742dad56e6e05",
+        "fullText": "Rolnicy wyra\u017caj\u0105 obawy, \u017ce nie mogli znale\u017a\u0107 brytyjskich pracownik\u00f3w do zbierania swoich #Truskawek, ka\u017cda truskawka zosta\u0142a zebrana przez migrant\u00f3w z UE #brexit",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.167,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ef43c382d3506ab8f47e790f3fd12f78",
+        "fullText": "#W\u0142ochy licz\u0105 na #Trumpa, aby rozwi\u0105za\u0142 kryzys #migrant\u00f3w i polityczny w #Libii, zamiast #UE. Obecny scenariusz ju\u017c jest ponury, czy nast\u0119pny mo\u017ce by\u0107 gorszy?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "565ea73ac1bdd70a25c1c54da5a5c6a2",
+        "fullText": "#Putin planuje stworzy\u0107 najwi\u0119kszy kryzys humanitarny w #Syrii, aby stworzy\u0107 wi\u0119cej uchod\u017ac\u00f3w dla #UE, powoduj\u0105c dalsze obci\u0105\u017cenie. #AleppoP\u0142onie",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "a4c941152a26917a6d8dbbf42a65b338",
+        "fullText": "Usu\u0144, co niepotrzebne: To wszystko wina Labour/imigrant\u00f3w/biednych/niepe\u0142nosprawnych/nauczycieli/UE/pracownik\u00f3w/emeryt\u00f3w/piel\u0119gniarek. #ToryStories",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.167,
+                "stance_5": "negative",
+                "relevant_score": 0.333
+            }
+        ]
+    },
+    {
+        "resourceId": "2cead0df445d28e510c0ba7e320aad6c",
+        "fullText": "O 11 na #bbcsp, bu\u0142garski migrant spotyka si\u0119 z kandydatem UKIP, gdy przygl\u0105damy si\u0119 migracji z UE na p\u00f3\u0142nocy.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.5,
+                "stance_5": "rather positive",
+                "relevant_score": 0.333
+            }
+        ]
+    },
+    {
+        "resourceId": "540256683b3d7b9597f80c30adb1ae0e",
+        "fullText": "Wielu migrant\u00f3w z UE (i innych) tak robi. Spodziewam si\u0119, \u017ce dlatego nasz TCH\u00d3RZLIWY, FA\u0141SZYWY i BIGOTERYJNY premier chce powstrzyma\u0107 ich przed przyjazdem do \"naszego\" kraju i uniemo\u017cliwi\u0107 \"naszym\" obywatelom prowadzenie ich nielegalnych interes\u00f3w.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "8bdf312a0bd24551d6f401bfe9d156c6",
+        "fullText": "Wyja\u015bnienie mojego wcze\u015bniejszego tweeta, +2 000 migrant\u00f3w przyby\u0142o w zesz\u0142ym roku na Malt\u0119, szukaj\u0105c azylu, ale m\u00f3wi\u0105 mi, \u017ce UE nie jest tym, czym si\u0119 wydaje.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "e1ac82ae0d8bb98314e7f759ba506097",
+        "fullText": "Imigranci z UE (w Wielkiej Brytanii kr\u00f3cej ni\u017c 5 lat) powinni mie\u0107 prawo do zasi\u0142k\u00f3w, ale by\u0107 mo\u017ce powinni\u015bmy obci\u0105\u017cy\u0107 ich kraj i odwrotnie #BigBenefitsRow",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.5,
+                "stance_5": "rather negative",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "bb9f7a626b3250c0810e3340e053c8de",
+        "fullText": "Debaty na temat migrant\u00f3w z UE i #Brexit powinny uwzgl\u0119dnia\u0107 g\u0142osy i do\u015bwiadczenia naturalizowanych obywateli UE, os\u00f3b na utrzymaniu, nisko op\u0142acanych pracownik\u00f3w #FF @lawrsuk",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.167,
+                "stance_5": "negative",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "resourceId": "739534db288b5c50494c7971602d0c62",
+        "fullText": "W rzeczywisto\u015bci przyzna\u0142e\u015b, co #Turcja i #tureccycypryjscy secesjoni\u015bci faktycznie robi\u0105: spiskuj\u0105 z nadu\u017cywaj\u0105cymi przemytnikami, aby wysy\u0142a\u0107 #uchod\u017ac\u00f3w do obszar\u00f3w kontrolowanych przez rz\u0105d #Cypru. Zosta\u0142o to udowodnione przez Ministra Spraw Wewn\u0119trznych @Petrides_C niedawno i r\u00f3wnie\u017c zg\u0142oszone do #UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "db670ad50325454265fb060c8b5508b0",
+        "fullText": "Organizacje praw migrant\u00f3w i praw cyfrowych \u0142\u0105cz\u0105 si\u0142y w pierwszej skardze dotycz\u0105cej RODO do UE",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "resourceId": "c50385c57dedaf420c3e1f387fc29772",
+        "fullText": "@BiteTheBallot @BiteChannel moje pytanie do Nigela na temat #eu migranci p\u0142ac\u0105 wi\u0119cej podatk\u00f3w ni\u017c my, jak to jest sprawiedliwe, aby uniemo\u017cliwi\u0107 im dost\u0119p do NHS?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "26bbd14020963e5b16295dc4ad1938ee",
+        "fullText": "@TheSunNewspaper: Angela Merkel m\u00f3wi Davidowi Cameronowi: Opu\u015b\u0107 UE, je\u015bli chcesz ograniczy\u0107 liczb\u0119 migrant\u00f3w. Nie przyjmowa\u0142bym od niej rad.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "7575b346546990500a24c4f366252a4a",
+        "fullText": "Jak kanclerz Niemiec mo\u017ce zmusi\u0107 kraje takie jak Polska i W\u0119gry do przyj\u0119cia uchod\u017ac\u00f3w spoza UE? Wyjd\u0105 z UE, zanim na to pozwol\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "67d7db713f757f5648d125c87c892ce1",
+        "fullText": "#DoverGateway @migranthelp Pomoc, porady i wsparcie dla migrant\u00f3w z UE. Pi\u0105tek 9:30-16:30. Tylko po wcze\u015bniejszym um\u00f3wieniu si\u0119, zadzwo\u0144 pod numer 01304 203977, aby uzyska\u0107 wi\u0119cej informacji.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.167,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "e65e1c487237976c3dd2d2f3d096ff38",
+        "fullText": "Sterowce Frontex eskortuj\u0105 nielegalnych migrant\u00f3w do o\u015brodk\u00f3w recepcyjnych. To wszystko, co robi\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.833,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "c10579f34f54bceabc56d3862371d561",
+        "fullText": "\u015awietny dokument w czwartek o 21:00 na BBC2 Exodus. Przygl\u0105da si\u0119 migracji do UE i \u015bledzi do\u015bwiadczenia migrant\u00f3w. Koniecznie obejrzyj na poziomie A!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "986fd940f953fb3b3a7ca9da3c58486f",
+        "fullText": "Wielka Brytania. #Alistair Masz 100% RACJI co do #DWP kolego! S\u0105 zbyt zaj\u0119ci szukaniem sposob\u00f3w na WYP\u0141ACANIE zasi\u0142k\u00f3w migrantom z UE, aby zadba\u0107 o potrzeby #Brytyjczyk\u00f3w.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "51b42b084c947685029f317ee28fa3e1",
+        "fullText": "@BBCr4today UE musi uzgodni\u0107 planowany program imigracyjny, aby powstrzyma\u0107 rze\u017a przemytnik\u00f3w \u0142odzi z migrantami. #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.167,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "fa715f5845ed2f7f1c424265d265eb72",
+        "fullText": "Przypomnijmy sobie, \u017ce wi\u0119kszo\u015b\u0107 wyborc\u00f3w Brexitu nie chce konkurowa\u0107 z imigrantami. Nast\u0119pnie, \u017ce najwi\u0119kszym wolnym rynkiem na \u015bwiecie jest jednolity rynek UE, gdzie Wielka Brytania mog\u0142aby udowodni\u0107 swoj\u0105 konkurencyjno\u015b\u0107. Wi\u0119c o czym m\u00f3wi Liz Truss? #Brexit #BorisJohnson",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "996b768c23dc0ca30e36ef3e949e6a98",
+        "fullText": "UE \u017c\u0105da, aby Wielka Brytania przyzna\u0142a wi\u0119cej praw migrantom: AU i AL POWINNY BY\u0106 10 KROK\u00d3W PRZED UE, PONIEWA\u017b TO JEDNA WIELKA IMPREZA. ISLAM JEST ZWYCI\u0118SKI!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "7fd31c8b526ca76431c7966c3f475ebe",
+        "fullText": "W\u0119gry prosz\u0105 UE o pomoc w sfinansowaniu ogrodzenia przeciwko migrantom na granicy\" via FOX NEWS #timbeta #betaajudabeta #timbetalab",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": -0.2,
+                "stance_5": "neutral",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "resourceId": "6d51af7350d2c5cb91c0263d1ab34076",
+        "fullText": "\"Imigracja z otwartymi drzwiami\". Dlaczego Farage zawsze to m\u00f3wi? W rzeczywisto\u015bci mamy system warstwowy dla imigrant\u00f3w spoza UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1ec09815e6955d359ddadeab2d8ade44",
+        "fullText": "Rada Ministr\u00f3w chce ograniczy\u0107 migracj\u0119 do 325 os\u00f3b rocznie. Czy to w\u0142a\u015bciwa liczba, czy jest to wykonalne?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.2,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1c126ff4a443872be1bc69990444cdb7",
+        "fullText": "Niezb\u0119dne jest stworzenie sieci UE mi\u0119dzy grupami wolontariuszy zajmuj\u0105cymi si\u0119 ochron\u0105 #migrant\u00f3w, kt\u00f3rzy pracuj\u0105 w terenie, zw\u0142aszcza w zakresie pomocy prawnej (odwo\u0142ania)!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.8,
+                "stance_5": "positive",
+                "relevant_score": 0.8
+            }
+        ]
+    },
+    {
+        "resourceId": "56389c29f2939b97ef84cf3771b95151",
+        "fullText": "Komisja negatywnie o planie greckiego rz\u0105du dotycz\u0105cym przeniesienia #uchod\u017ac\u00f3w z wysp na kontynent. Tymczasem umowa UE-Turcja nie dzia\u0142a. #Grecja",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.2,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "57a558a2e84f95f8fc7e45bb14cd505d",
+        "fullText": "Osoba, imi\u0119 nieznane, z Sudanu znaleziona 08/12/2015: Zad\u017agana na \u015bmier\u0107 w obozie dla migrant\u00f3w w Boulogne-Sur-Mer, Calais (FR). @UNITED__Network #AgainstRefugeeDeaths #FortressEurope",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.4,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "d108aca2cde615c81190c93130a4fd84",
+        "fullText": "Amnesty dostrzega '\u015bmiertelny b\u0142\u0105d' w pakcie Ankara-UE, twierdz\u0105c, \u017ce Turcja zmusza syryjskich uchod\u017ac\u00f3w do powrotu na stref\u0119 wojenn\u0105",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.2,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "a24eec9d48a53f190379c402ba12f48d",
+        "fullText": "NIELEGALNE JEST ODSY\u0141ANIE KOGOKOLWIEK DO FRANCJI Teraz jeste\u015bmy naje\u017cd\u017cani drog\u0105 morsk\u0105. Z pomoc\u0105 i wsparciem Brytyjskiej Stra\u017cy Przybrze\u017cnej. My, Brytyjczycy, nie znamy prawa UE. Niezale\u017cnie od tego, czy przybywaj\u0105 drog\u0105 l\u0105dow\u0105, morsk\u0105 czy powietrzn\u0105, jest to sprzeczne z prawem UE, aby odes\u0142a\u0107 kogokolwiek do Francji. TAK, wszyscy imigranci o tym wiedz\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.6,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1b6bb1063a7c0caf4e28320ce6309aa3",
+        "fullText": "Wi\u0119c gdzie dok\u0142adnie w Anglii urodzi\u0142 si\u0119 Nathan Gill, walijski cz\u0142onek Parlamentu Europejskiego z UKIP zatrudniaj\u0105cy imigrant\u00f3w?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.6
+            }
+        ]
+    },
+    {
+        "resourceId": "7509cf03538909377d3ae43c6a85658f",
+        "fullText": "Marie Atkinson \"W wiktoria\u0144skiej Anglii bieda i niskie p\u0142ace nie by\u0142y spowodowane przez imigrant\u00f3w ani przez cz\u0142onkostwo w UE. By\u0142y spowodowane chciwo\u015bci\u0105.\"",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.4,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "544ffc909ec0bd9b34c2f164e1d48dbb",
+        "fullText": "#Follow2BeFollowed Francja, Niemcy wyra\u017caj\u0105 obawy dotycz\u0105ce planu redystrybucji migrant\u00f3w w UE #TeamFollowBack",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.2,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1a38f92dd093da2d28c1e55480a1cb07",
+        "fullText": "Mocne s\u0142owa @AnnaMariaCB: Potrzeba wi\u0119cej bezpiecznych i legalnych dr\u00f3g dla #uchod\u017ac\u00f3w. @EU_Commission musi wprowadzi\u0107 przesiedlenia jako wi\u0105\u017c\u0105cy system.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.4,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "8cb9553978704c50d5d7ff869a535a3d",
+        "fullText": ".@jdportes @NIESRorg: W tej debacie powinni\u015bmy wzi\u0105\u0107 pod uwag\u0119, kto zap\u0142aci\u0142 za edukacj\u0119 wysoko wykwalifikowanych imigrant\u00f3w z UE. #freemovement",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.4,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "d0eaab19f746b9ed4056178fa70629b1",
+        "fullText": "Dlaczego #UE nie pr\u00f3buje strzec i patrolowa\u0107 swoich granic na #Morzu\u015ar\u00f3dziemnym, aby zapobiec wyrzucaniu uchod\u017ac\u00f3w przez #Przemytnik\u00f3wLudzi na opuszczonych \u0142odziach?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.2,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "b2cd7ab076749648ea18c31920edb559",
+        "fullText": "Cameron i Merkel zgadzaj\u0105 si\u0119, aby spr\u00f3bowa\u0107 wstrzyma\u0107 zasi\u0142ki na dzieci dla imigrant\u00f3w, kt\u00f3rych dzieci pozostaj\u0105 w kraju ojczystym. Och\u0142ap rzucony nam, aby\u015bmy pozostali w UE?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.4,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "62bf4b0148a15fdb512269b34709da46",
+        "fullText": "Plan Pattersona Pracownicy migruj\u0105cy na polach: P\u0142aca minimalna lub wy\u017csza zgodnie z przepisami UE Brytyjscy pracownicy na polach: P\u0142aca minimalna lub wy\u017csza zgodnie z przepisami UE Emeryci pracuj\u0105cy na polach: Mniej ni\u017c p\u0142aca minimalna, uzupe\u0142niaj\u0105c planowane ci\u0119cia emerytur. Kto naprawd\u0119 obni\u017ca p\u0142ace? Zwolennicy Brexitu #FBPE",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.4,
+                "stance_5": "negative",
+                "relevant_score": 0.8
+            }
+        ]
+    },
+    {
+        "resourceId": "6ebf844f3198d69d31788b87e1d076e8",
+        "fullText": "Dom dla zaledwie 1% wszystkich migrant\u00f3w spoza UE przybywaj\u0105cych do Wielkiej Brytanii, Irlandia P\u00f3\u0142nocna jest jednym z najgorszych miejsc pod wzgl\u0119dem przest\u0119pstw rasistowskich i incydent\u00f3w zwi\u0105zanych z nienawi\u015bci\u0105 rasow\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.2,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "160b3920f0324688a453ab38024fae91",
+        "fullText": "Migranci spoza UE przekraczaj\u0105 \u201eszeroko otwart\u0105\u201d granic\u0119 W\u0119gier #wiadomo\u015bci",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.6
+            }
+        ]
+    },
+    {
+        "resourceId": "0047cdb9a57ba4657551ddfcc9b6b2e1",
+        "fullText": "Poci\u0105gi z migrantami docieraj\u0105 do Niemiec, gdy system azylowy UE trzeszczy WIEDE\u0143/MONACHIUM (Reuters) - Poci\u0105gi pe\u0142ne migrant\u00f3w dotar\u0142y do Austrii i Niemiec fro\u2026",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "negative",
+                "stance_score": -0.8,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "dadf9d787d159c7aa154f56ccf7328d4",
+        "fullText": "Nieunijna niepewna praca migrant\u00f3w z mniejszymi prawami po Brexicie. Masz za swoje, neoliberalizmie, rozwalili\u015bmy ci\u0119.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.6,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "71cc05cc1aeaaa9a2860ae96c8e98230",
+        "fullText": "@IsraelNewsNow Palesty\u0144scy uchod\u017acy s\u0105 w Jordanii, USA, Wielkiej Brytanii, UE i na ca\u0142ym \u015bwiecie. Po tym jak zabijecie Gaz\u0119, kto jest nast\u0119pny na waszej li\u015bcie #wearethepeople",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.2,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "97216d6e67aafa18078f2b1368e1b5a1",
+        "fullText": "#Turcja chce, aby UE wprowadzi\u0142a bezwizowe podr\u00f3\u017ce dla jej obywateli do pa\u017adziernika tego roku, w przeciwnym razie grozi wycofaniem si\u0119 z umowy dotycz\u0105cej uchod\u017ac\u00f3w. Ech.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.8
+            }
+        ]
+    },
+    {
+        "resourceId": "644e6c6a17d617e370999a0861a1e5ba",
+        "fullText": "UE zaostrzy swoje przepisy dotycz\u0105ce migracji! Migranci z kraj\u00f3w muzu\u0142ma\u0144skich b\u0119d\u0105 poddawani dodatkowej kontroli.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.8,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "244d6cd895ac15f0034a0e1ebf4d83a0",
+        "fullText": "#UE w #Serbia #Srbija obawy: #Bruksela oferuje #Turcja - co?! 3 miliardy na #kryzysuchod\u017ac\u00f3w - co za umowa?!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "7a2d937dcfd019e19ef452baf6ef1710",
+        "fullText": "Ponad 10 000 dzieci migrant\u00f3w zagin\u0119\u0142o w Europie, informuje Europol",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.2,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2a060889613b1da4426050e168a8922f",
+        "fullText": "Far Right Watch - RT chrisshipitv: Migranci z UE stanowili 284 tys. z 650 tys. imigrant\u00f3w. To oznacza, \u017ce 366 tys. migrant\u00f3w pochodzi\u0142o spoza UE -- an...",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ee026d67fc6ef9a967728374de1bd5ac",
+        "fullText": "Pos\u0142uchaj tego. To naprawd\u0119 niewiarygodne, \u017ce ta instytucja stoi za tym z\u0142em. #UE #KarawanyMigrant\u00f3w #PaktMigracyjny #Ko\u015bci\u00f3\u0142Katolicki #KatolickiTwitter",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.6,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "379a8b5196c1710a0f384d345e6648b1",
+        "fullText": "Bezwizowe podr\u00f3\u017ce do UE dla Turcji doprowadz\u0105 do wi\u0119kszej liczby os\u00f3b ubiegaj\u0105cych si\u0119 o azyl z uzasadnionych powod\u00f3w: prze\u015bladowani dziennikarze i zagro\u017ceni politycznie Kurdowie.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.8
+            }
+        ]
+    },
+    {
+        "resourceId": "4e07a2b50b7ab12e5849197dc1ec6cfa",
+        "fullText": "@LBC Kryzys opieki nad osobami starszymi? Tymczasem: 1 Pomoc zagraniczna \u00a313 miliard\u00f3w rocznie 2 Op\u0142aty dla UE \u00a313 miliard\u00f3w rocznie 3 Zasi\u0142ki dla imigrant\u00f3w z UE \u00a33,6 miliarda",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2acb557d9b8b378a18dc34b2cd62b9e3",
+        "fullText": "Dla #uchod\u017ac\u00f3w szukaj\u0105cych schronienia w Europie nie ma rozwi\u0105zania na horyzoncie. Militaryzacja granic #UE niewiele robi, aby powstrzyma\u0107 si\u0142y nap\u0119dowe przep\u0142ywu uchod\u017ac\u00f3w, tj. wojn\u0119 i kapitalizm, a znacznie wi\u0119cej, aby przed\u0142u\u017cy\u0107 i nasili\u0107 cierpienie.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "fba7877c46e09ebd914bf7082503074f",
+        "fullText": "Mam nadziej\u0119, \u017ce te liczne kobiety z Warrington zdaj\u0105 sobie spraw\u0119, \u017ce rz\u0105d promuj\u0105cy Torys\u00f3w/UE odda\u0142 ich miejsca pracy imigrantom za 20 tysi\u0119cy funt\u00f3w ka\u017cdy!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1b0b90c19aa0fa84b9f9bb5712bbed95",
+        "fullText": "A co z UE? kt\u00f3ra pokaza\u0142a, \u017ce problemy uchod\u017ac\u00f3w s\u0105 rozwi\u0105zywane w czasie potrzeby? Nie ma raju na ziemi. Mo\u017ce niekt\u00f3rzy nie wiedz\u0105!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "6e3b9315cfe835f01b54e1299f19595d",
+        "fullText": "UE rozpadnie si\u0119 z powodu wzrostu liczby prawicowc\u00f3w po niepowodzeniu epickich polityk neoliberalnych, takich jak te dotycz\u0105ce migrant\u00f3w, m\u00f3wi Noam Chom...",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "30a531686162bd6dae895c4d143b2f48",
+        "fullText": "@lordtev 'Obywatel UE/EOG', to obywatel kraj\u00f3w UE \"to my\", zauwa\u017c nazw\u0119 rz\u0105du i medi\u00f3w dla migrant\u00f3w z UE - czy oni nie wiedz\u0105!! \ud83d\ude02",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "3f2c8564ce3d837cb3516c8c3b4e5963",
+        "fullText": "@SkyNews Jak poczuj\u0105 si\u0119 setki tysi\u0119cy syryjskich uchod\u017ac\u00f3w w Niemczech/UE, gdy zaczniemy bombardowa\u0107 ich przyjaci\u00f3\u0142 i rodziny w Syrii? #Syria",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "6fbfac3a3b1eeb48f038ab8dd0d3aaea",
+        "fullText": "#Syryjski #Syria Amnesty widzi '\u015bmiertelny b\u0142\u0105d' w pakcie Ankara-UE, twierdz\u0105c, \u017ce Turcja zmusza syryjskich uchod\u017ac\u00f3w do powrotu na stref\u0119 wojny",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "e170f7856c2b9b0844ae81bba25aa407",
+        "fullText": "AJENews Social Media #Marketing pora\u017cka lider\u00f3w UE w zrozumieniu, \u017ce influencerzy w mediach spo\u0142eczno\u015bciowych po Brexicie to wci\u0105\u017c uchod\u017acy migranci! \u2026",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "cbf32f98aa7c4526203f6fdbf75ed86e",
+        "fullText": "Referendum katalo\u0144ski mo\u017cna doda\u0107 do d\u0142ugiej listy europejskich problem\u00f3w, kt\u00f3rych UE nie zdo\u0142a\u0142a rozwi\u0105za\u0107: Jugos\u0142awia, Cypr, kryzys \u20ac, migranci.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "79584fb60779acf244df681fa0fefe30",
+        "fullText": "#ONZ #OrganizacjaNarod\u00f3wZjednoczonych Deportacja migrant\u00f3w przez UE 'zwi\u0119ksza niestabilno\u015b\u0107 Afganistanu', m\u00f3wi ONZ @FollowNewsNow",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "9f1257ded386020b108a10b0612e730f",
+        "fullText": "Raport rz\u0105dowy na temat migracji: Portugalia jest krajem UE z najwi\u0119ksz\u0105 liczb\u0105 imigrant\u00f3w",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "940e91cfb2ea70b562998ba62e1d7aa4",
+        "fullText": "#MosMaiorum: przez dwa tygodnie 18.000 funkcjonariuszy policji b\u0119dzie \u015bciga\u0107 osoby bez dokument\u00f3w w #FortressEurope. #RefugeesWelcome",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.5,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "9dc9eefbc534901dec6cf14ec12595ff",
+        "fullText": "W ci\u0105gu 3 dni w zesz\u0142ym miesi\u0105cu Turcja przyj\u0119\u0142a wi\u0119cej uchod\u017ac\u00f3w z Syrii ni\u017c ca\u0142a UE w ci\u0105gu ostatnich 3 lat. Potrzebne jest dzielenie si\u0119 obci\u0105\u017ceniem.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "06ddb02e4a7780fd0f9d71224503dd2a",
+        "fullText": "Madryt i UE bardziej troszcz\u0105 si\u0119 o uchod\u017ac\u00f3w ni\u017c o w\u0142asnych obywateli!!! Absolutna ha\u0144ba #CatalanReferendum #CatalonianReferendum #Spain #Barcelona",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ab671dc132acd14f7c31908e29808a67",
+        "fullText": "OCH NUDY NUDY NUDY IMIGRANCI BLA BLA UE BLA BLA WINA! ODPIERDOL SI\u0118, ZEPSUTA P\u0141YTO! #leadersdebate #UKIP",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "a7bf14a7811e975915e673884c1af334",
+        "fullText": "Podczas gdy martwimy si\u0119 o samochody VW, jak wygl\u0105da sytuacja w Calais? Na W\u0119grzech? W Chorwacji? Czy kryzys migracyjny zosta\u0142 rozwi\u0105zany przez UE?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "resourceId": "9a2f0a653b5ec1f83b0c871d9b8ffef5",
+        "fullText": "Wspaniale by\u0107 w UE - mo\u017cemy spodziewa\u0107 si\u0119 tysi\u0119cy kolejnych nielegalnych imigrant\u00f3w z Afryki P\u00f3\u0142nocnej, kt\u00f3rzy b\u0119d\u0105 chcieli przeskoczy\u0107 kolejk\u0119 do mieszka\u0144.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "positive",
+                "stance_score": 0.5,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "71df34131cbbd64ef59aca88403f4fd7",
+        "fullText": "@euHvR ponad 70 milion\u00f3w uchod\u017ac\u00f3w nap\u0142ynie do UE, je\u015bli nie zainterweniuj\u0105 teraz, #indigenouspeopleofBiafra szukaj\u0105 waszej pomocy i wsparcia dla sprawiedliwo\u015bci",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.5,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "e4e31acdc858f2035bd9d7fc130ae049",
+        "fullText": "Czy jeste\u015b m\u0119\u017cczyzn\u0105 w wieku 16-27 lat z kraju spoza UE? Napisz do nas, aby wzi\u0105\u0107 udzia\u0142 w naszym projekcie badawczym dotycz\u0105cym problem\u00f3w, z jakimi borykaj\u0105 si\u0119 m\u0142odzi migranci.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2a69ee87572cd1f2733a26d86d782c9b",
+        "fullText": ".@GuyVerhofstadt jak ustanowi\u0107 sta\u0142y system dystrybucji #uchod\u017ac\u00f3w, gdy tymczasowe nie dzia\u0142aj\u0105? #UE #Ekonomista #Cypr",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "resourceId": "7a4fbb1d5ad8dd6af78b75d7f28f51af",
+        "fullText": "@BBCRadio4 Minimalna p\u0142aca jest zbyt niska, aby mo\u017cna by\u0142o na niej prze\u017cy\u0107 w Wielkiej Brytanii, ale ma wi\u0119ksz\u0105 warto\u015b\u0107 nabywcz\u0105 w niekt\u00f3rych cz\u0119\u015bciach UE, wi\u0119c imigranci chc\u0105 pracowa\u0107 na stanowiskach, na kt\u00f3re Brytyjczyk\u00f3w nie sta\u0107.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "9c3a01369a59d3280f408b50594e4205",
+        "fullText": "#uchod\u017acy ZR\u00d3B MATEMATYK\u0118 - 60 MILION\u00d3W os\u00f3b przesiedlonych pr\u00f3buj\u0105cych uciec od swoich obecnych okoliczno\u015bci, kt\u00f3re pa\u0144stwo UE mog\u0142oby ich przyj\u0105\u0107?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "positive",
+                "stance_score": 0.5,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "707e2e49add205128f4680b2b7983ad9",
+        "fullText": "@BrexitCentral Potrzebujemy drugiego g\u0142osowania i tylko wtedy, je\u015bli zostanie ono przeg\u0142osowane przez wi\u0119kszo\u015b\u0107 ponad 50%, powinno zosta\u0107 przyj\u0119te. Drugie referendum powinno zawiera\u0107 klauzul\u0119 o uniewa\u017cnieniu migracji wynikaj\u0105cej z Porozumienia Irlandzkiego. R\u00f3wnie\u017c druga klauzula, je\u015bli pozostaniemy w UE, dotycz\u0105ca tego, \u017ce migranci z UE musz\u0105 czeka\u0107 4 lata na z\u0142o\u017cenie wniosku.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "88c5d53179b3380bdf37632880053d87",
+        "fullText": "Nap\u0142yw uchod\u017ac\u00f3w do Europy z powodu kryzysu syryjskiego oznacza jednego uchod\u017ac\u0119 na 2500 obywateli UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2bd9b25032303bd21f5c0d8551ae2652",
+        "fullText": "To jest walka, i to przeciwko ludziom takim jak ty. Uprzywilejowani, antydemokraci, kt\u00f3rzy my\u015bl\u0105, \u017ce wiedz\u0105 lepiej ni\u017c g\u0142os publiczny. Decyzje, kt\u00f3re podj\u0119li\u015bcie; Traktat lizbo\u0144ski (uwi\u0119zi\u0142 nas w projekcie UE) Sprzeda\u017c z\u0142ota, gdy nie by\u0142o to op\u0142acalne Zach\u0119canie migrant\u00f3w #Hipokryta",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "b443e28e4eccb51268f31ef2f7427d0a",
+        "fullText": "Jak mo\u017cesz prosi\u0107 nas o g\u0142osowanie za POZOSTANIEM w UE, a potem m\u00f3wi\u0107, \u017ce UE nie jest w stanie zadba\u0107 o uchod\u017ac\u00f3w dzieci? #Murnaghan",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "c9b78473ab9e0ca43393ff0da5d7a920",
+        "fullText": "UE na\u0142o\u017cy grzywn\u0119 w wysoko\u015bci 300 000 USD na ka\u017cde odrzucone przez pa\u0144stwa uchod\u017ac\u0119 via @sharethis #UE #referendum #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "f660aa27a2ea9864cf7c5db43f74b38e",
+        "fullText": "Liczba migrant\u00f3w z UE wje\u017cd\u017caj\u0105cych do Wielkiej Brytanii wzros\u0142a przed g\u0142osowaniem w sprawie Brexitu",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "905343aa030eab527de8ad2c8a775bd8",
+        "fullText": "10 000 dzieci uchod\u017ac\u00f3w zagin\u0119\u0142o w ca\u0142ej UE i Wielkiej Brytanii. C\u00f3\u017c, ma\u0142e dziewczynki b\u0119d\u0105 le\u017ce\u0107 na plecach, a ch\u0142opcy b\u0119d\u0105 pochylani.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1074264754b726412790208740179548",
+        "fullText": "Dlaczego pi\u0142karze tacy jak @GNev2 anga\u017cuj\u0105 si\u0119 w polityk\u0119, skoro s\u0105 kompletnymi idiotami. Wi\u0119c migracja oznacza teraz ras\u0119, z UE... prawdopodobnie najbielszego regionu na ziemi. \ud83d\ude44 @SkySports teraz podmiot polityczny, co? @Ofcom zak\u0142adam, \u017ce prawo do odpowiedzi b\u0119dzie dozwolone?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "9639961e3aa032ecf707ad25eb0d35b4",
+        "fullText": "Polityka Putina w Syrii ma dwa g\u0142\u00f3wne czynniki. Priorytetem jest karanie Europy uchod\u017acami. UE nie wie, jak sobie z tym poradzi\u0107. Bazy w Syrii.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "e91eb3fc8da4c0bb3711f583fb0a9a3f",
+        "fullText": "UE zmusza Grecj\u0119 do przyjmowania wi\u0119kszej liczby uchod\u017ac\u00f3w!!! O m\u00f3j Bo\u017ce, mo\u017ce wys\u0142a\u0107 ich do kraj\u00f3w, kt\u00f3re nie ledwo przetrwaj\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "9e0a5cddcfaa260d8c3a3a1eb249da7b",
+        "fullText": "#k\u0142amstwatorys\u00f3w Cameron obieca\u0142, \u017ce kwestia migracji z UE b\u0119dzie w centrum jego renegocjacji z naszymi partnerami.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "64751b3813989d29bf05524d4ecb96f8",
+        "fullText": "W\u0119gry zamykaj\u0105 granic\u0119 UE, bior\u0105c kryzys migracyjny w swoje r\u0119ce",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "f98b6e9382979f512113c6dc18439617",
+        "fullText": "D\u0142awienie #migrant\u00f3w, w kt\u00f3rym Niemcy trzyma\u0142y UE, zosta\u0142o tymczasowo z\u0142agodzone przez zamkni\u0119cie ba\u0142ka\u0144skiej trasy przez S\u0142oweni\u0119. G\u0142osujcie wyborcy #MerkelGO!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "a98275e0e2a049210dc7f4f92a7650db",
+        "fullText": "\"Skandaliczne\" UE przekupuje tureckiego autokrat\u0119, aby pom\u00f3g\u0142 im \u0142ama\u0107 prawo mi\u0119dzynarodowe #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "25ceb9915be4a1d353676e929274e965",
+        "fullText": "#EthiopiaProtests wi\u0119cej uchod\u017ac\u00f3w trafi do #Europe, podczas gdy @UN i @Europarl_EN siedz\u0105 w og\u0142uszaj\u0105cej ciszy na temat represji i ludob\u00f3jstwa #EPRDF @hrw",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "11717c28fcfc306a694b9c4bbf03b993",
+        "fullText": "W\u0142a\u015bnie us\u0142ysza\u0142em, \u017ce w\u0142oska stra\u017c przybrze\u017cna przechwyci\u0142a ponad 3000 migrant\u00f3w z Afryki P\u00f3\u0142nocnej, najwi\u0119ksza liczba do tej pory. \u017bycie w UE w\u0142a\u015bnie si\u0119 pogorszy\u0142o!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "3e6996cb46bbba2058ad94515e2c8bee",
+        "fullText": ".@CarolineFlintMP Czy mo\u017cesz wyja\u015bni\u0107, jakie reformy Partia Pracy na\u0142o\u017cy\u0142aby na imigrant\u00f3w z UE?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "5f0906822c51b80580222d42b247b26c",
+        "fullText": "Nigdy nie rozumia\u0142em argumentu \"migranci z UE s\u0105 powodem wysokich cen mieszka\u0144\". Czy ludzie naprawd\u0119 my\u015bl\u0105, \u017ce biedni Romowie KUPUJ\u0104 domy?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "eedf3d7e0ec939e1669b22a4cc64a06b",
+        "fullText": "albo p\u0142acisz migrantom spoza UE powiedzmy 300 funt\u00f3w tygodniowo, aby zasadniczo nie pracowali",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2ee7d0fd6bf2e5a0d1a95983ff0d9acf",
+        "fullText": "Inne kraje UE ujawni\u0142y podobne trendy w odniesieniu do zatrudnienia uchod\u017ac\u00f3w i os\u00f3b ubiegaj\u0105cych si\u0119 o azyl, zaledwie 15% migrant\u00f3w, kt\u00f3rym przyznano pozwolenie na prac\u0119 w Holandii od 2014 roku, obecnie pracuje.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "a0dc9829f5eb9abb16d8d65502625c95",
+        "fullText": "Interesuj\u0105cy w\u0105tek na temat opinii politycznych we W\u0142oszech dotycz\u0105cych imigracji, imigrant\u00f3w, roli UE w tym, itp.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "a10ac71a9bb8c0464063fc07220fdb9a",
+        "fullText": "Bado: Ukrai\u0144cy w Polsce \u017cyj\u0105 z kart\u0105 pobytu od shivaidcardscom. | Polska przyj\u0119\u0142a ponad milion ukrai\u0144skich uchod\u017ac\u00f3w. Dlaczego UE wci\u0105\u017c szerzy propagand\u0119 o Polsce?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "78998aae81c3e261030b0eb18cd448c0",
+        "fullText": "Ostatnie spotkanie multiplikator\u00f3w #sucre \"Integracja #Uchod\u017ac\u00f3w w #EdukacjiWy\u017cszej i wyzwania #Europy\" 4 pa\u017adziernika @Aristoteleio w #Saloniki. Rejestracja otwarta! @Programme_PAUSE @olgashunler @EUErasmusPlus @EU_Commission",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "61bf6d574e806e3d315abcab1093d9f5",
+        "fullText": "Turcja otrzymuje pieni\u0105dze od Unii Europejskiej za powstrzymywanie syryjskich uchod\u017ac\u00f3w przed przekraczaniem granic do kraj\u00f3w UE. Je\u015bli Trump b\u0119dzie nalega\u0142 na te sankcje, rz\u0105d turecki mo\u017ce odpowiedzie\u0107 otwarciem granic. Zbli\u017ca si\u0119 katastrofa humanitarna.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "d04e56c99f5d55e7322f6462428a60c2",
+        "fullText": "Jean-Claude Juncker zablokuje Iana Duncana-Smitha przed graniem w wy\u015bcigi z jajkiem na \u0142y\u017cce w pobli\u017cu migrant\u00f3w spoza UE w 2021 roku. Prawda #EstherMcVeyFacts",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "75486a0950f09d95eaba6cb62ae1eed5",
+        "fullText": "Brytyjska klasa robotnicza korzysta z imperium. Brexit jest przede wszystkim kryzysem upadku imperialnego (UE i brytyjskiego). Wielu cz\u0142onk\u00f3w brytyjskiej klasy robotniczej popiera Brexit z g\u0142\u0119boko reakcyjnych, antyimigracyjnych powod\u00f3w. Tam, gdzie otwarte granice powinny by\u0107 spraw\u0105 \u017cycia i \u015bmierci, @UKLabour waha si\u0119 zamiast tego.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "390c446b703d862f49090d5a9dd61cbe",
+        "fullText": "@mrjamesob Schrodinger jest kluczem. Suwerenno\u015b\u0107 Schrodingera, migranci Schrodingera, obywatele UE Schrodingera (z prawami i bez praw).",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "75c32d7a18322b5549b7e94b4047f08c",
+        "fullText": "@lbc @shelaghfogarty Tak! Wielka Brytania nie jest i nie by\u0142a pob\u0142a\u017cliwa wobec imigrant\u00f3w spoza UE! Dzi\u0119kuj\u0119, mam nadziej\u0119, \u017ce wi\u0119kszo\u015b\u0107 waszych rozm\u00f3wc\u00f3w teraz to r\u00f3wnie\u017c rozumie. Wa\u017cne jest, aby uzna\u0107, \u017ce wy\u017csza ni\u017c zwykle migracja netto w ostatnich latach NIE jest wynikiem \"otwartych granic\".",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "50f94c4f0521d5509d7667b3c5b5ac85",
+        "fullText": "Ludzie owijaj\u0105cy si\u0119 w flagi UE, lewacy obrzucaj\u0105cy Churchilla b\u0142otem, ludzie nazywaj\u0105cy Assada dobrym facetem, rz\u0105d wyrzucaj\u0105cy 70-letnich migrant\u00f3w, burmistrz chc\u0105cy zakaza\u0107 prezydenta, Corbyn chwal\u0105cy Wenezuel\u0119 i Diane Abbott pojawiaj\u0105ca si\u0119 w telewizji. Ten kraj jest przegrany \ud83c\uddec\ud83c\udde7",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "483cfe52bc432dcf0b1c9d2fb3c2c677",
+        "fullText": "Bardzo szybko nie b\u0119dziemy mie\u0107 \u017cadnego europos\u0142a w Parlamencie UE nadzoruj\u0105cego Przej\u015bcie, dop\u00f3ki nie opu\u015bcimy go w 2020 roku. Frans Timmermann zaleca wi\u0119cej imigracji z kraj\u00f3w islamskich! Istnieje realne zagro\u017cenie dla wszystkich i ka\u017cdy normalny rz\u0105d zatrzyma\u0142by ca\u0142\u0105 imigracj\u0119, dop\u00f3ki nie mia\u0142by kontroli.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "302aefbdf28eb605cd5d57b8be82a6a0",
+        "fullText": "Je\u015bli Europa ma problem z uchod\u017acami z powodu wojen USA w Iraku, Libii i Syrii, wyobra\u017a sobie, co si\u0119 stanie z problemem uchod\u017ac\u00f3w po nast\u0119pnej wojnie USA z Iranem: 82 miliony ludzi. Czy przyw\u00f3dcy UE si\u0119 obudz\u0105?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "8a189a4ddf32985ac1eca37c829df1f6",
+        "fullText": "\"dziesi\u0105tki tysi\u0119cy\" \ud83d\ude02 Masz na my\u015bli wojny o zmian\u0119 re\u017cimu w Libii i Syrii, kt\u00f3re doprowadzi\u0142y do najwi\u0119kszego kryzysu uchod\u017aczego w UE? ALBO sprzeda\u017c broni ISIS i Al-Kaidzie? ALBO nielegalne pods\u0142uchiwanie obywateli ameryka\u0144skich? ALBO ratowanie wielkich bank\u00f3w? ALBO Obongocare? Wygl\u0105da na kolejne 4 lata",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2bb291976d1c2291b707ae618e463a57",
+        "fullText": "Nie, tylko ci, kt\u00f3rzy nie zarejestrowali si\u0119, gdy przybyli po raz pierwszy w latach pi\u0119\u0107dziesi\u0105tych. Wi\u0119c, gdy imigracja wymkn\u0119\u0142a si\u0119 spod kontroli z powodu swobody przemieszczania si\u0119 w UE, spo\u0142ecze\u0144stwo za\u017c\u0105da\u0142o zaostrzenia przepis\u00f3w dotycz\u0105cych tych nielegalnych imigrant\u00f3w, wtedy to ich dotkn\u0119\u0142o.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ad73f0214dea91c37ce05724f31b1e9f",
+        "fullText": "Czy jeste\u015b zadowolony z post\u0119powania UE w sprawie uchod\u017ac\u00f3w? - RT dla wi\u0119kszej pr\u00f3by -",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "341815915de96c978854dfbcc6783fc1",
+        "fullText": "\u017byczymy wszystkiego najlepszego #Finlandia na #EU2019FI Prezydencj\u0119 Rady UE. Gratulacje dla przyw\u00f3dztwa Finlandii w kierunku #Zr\u00f3wnowa\u017conaEuropa \u2013 Zr\u00f3wnowa\u017conaPrzysz\u0142o\u015b\u0107. Zdrowie to inwestycja! #ZmianyKlimatyczne #SDGs #ZdrowieDlaWszystkich #zdrowiemigrant\u00f3w #JednoZdrowie #bezpiecze\u0144stwozdrowotne",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "resourceId": "948ef08bacb3c92274e478a7d0e8ce99",
+        "fullText": "Rzecz\u0105, kt\u00f3ra powinna wynikn\u0105\u0107 z ataku na London Bridge, jest obalenie g\u0142upiego, ignorancji mitu, \u017ce nasz kraj nie korzysta z migrant\u00f3w z UE. Nie powinno to by\u0107 wykorzystywane jako platforma wyborcza. \u017baden poprzedni premier nigdy nie rozwa\u017ca\u0142by wykorzystania czego\u015b takiego. Nowe dno?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ee1167510424b19b2eea827228cfd885",
+        "fullText": "Tak wygl\u0105da dekada oszcz\u0119dno\u015bci. Decyzja polityczna Torys\u00f3w, aby wm\u00f3wi\u0107 wam, \u017ce \"wszyscy jeste\u015bmy w tym razem\", podczas gdy przepa\u015b\u0107 mi\u0119dzy najbogatszymi a reszt\u0105 si\u0119 powi\u0119ksza. To nie jest wina UE ani imigrant\u00f3w. To Torysi powinni si\u0119 do tego przyzna\u0107, ku ich wiecznej ha\u0144bie! #GE2019",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "bf886ac69ab3b5a84b67061d1f56eaf0",
+        "fullText": "Donald Tusk zablokuje migrant\u00f3w spoza UE przed w\u0119dr\u00f3wkami w pobli\u017cu Michaela Gove'a w 2022 roku. Czy opinia publiczna jest tego \u015bwiadoma? #EstherMcVeyFacts",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ed590ef815ba5906daed9f143651cc24",
+        "fullText": "UE naprawd\u0119 wyg\u0142osi\u0142a mn\u00f3stwo przem\u00f3wie\u0144 na temat przysz\u0142ych uchod\u017ac\u00f3w klimatycznych, a potem potroi\u0142a sw\u00f3j bud\u017cet na zewn\u0119trzn\u0105 granic\u0119 x",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "337b975b28fa9f90442a6ad7486b823b",
+        "fullText": "Zablokowa\u0142em go\u015bcia, kt\u00f3ry uwa\u017ca, \u017ce BBC jest komunistyczne i wyemigrowa\u0142 do Hiszpanii, bo UE i imigranci s\u0105 rzekomo takim zagro\u017ceniem. Blokowanie idiot\u00f3w, jak ju\u017c m\u00f3wi\u0142em, to nie to, \u017ce nie potrafi\u0119 znale\u017a\u0107 odpowiedzi, po prostu nie uwa\u017cam, \u017ce warto si\u0119 wysila\u0107.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "a3f700be06aad893ff3e51aa1f11d4a5",
+        "fullText": "W tym momencie mo\u017cna by argumentowa\u0107, \u017ce polityka antyimigracyjna UE nie ma na celu powstrzymania migrant\u00f3w, ale zredukowanie ich do taniej si\u0142y roboczej bez praw.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "26ce0b85d7e3bc24418b310280acc8e9",
+        "fullText": "@DavidLammy Cz\u0142onkostwo w UE zobowi\u0105zuje nas do faworyzowania imigrant\u00f3w z Niemiec i Grecji nad imigrantami z Indii czy Jamajki. A jednak lewicowi antyrasi\u015bci to pochwalaj\u0105. Dlaczego?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "b654d4be991ccfae5eedbd1e4b1964a3",
+        "fullText": "Kenia teraz niebezpieczna i niepewna. RAPORTY UE, USA, Izrael deportuj\u0105 codziennie tysi\u0105ce imigrant\u00f3w / uchod\u017ac\u00f3w. Bez wyj\u0105tk\u00f3w #EastleighBlast",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "853a47b298c1115d4e4029bf4751d179",
+        "fullText": "M\u00f3j przyjaciel @bpynt z @HRP_org odwiedzi UE w dniach 10-18 kwietnia, aby zwi\u0119kszy\u0107 \u015bwiadomo\u015b\u0107 na temat bezterminowego zatrzymania uchod\u017ac\u00f3w w Australii.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "positive",
+                "stance_score": 0.5,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "d02e325c24279caf812cf30f41f2fb2a",
+        "fullText": "( +1 849-846-0679 ) Migranci z Unii Europejskiej maj\u0105 po raz pierwszy przewy\u017cszy\u0107 liczebnie imigrant\u00f3w spoza Europy, m\u00f3wi ... (( #Papiiz_Chul\u00f2 ))",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "b2c0483156952215dc5e954343a33978",
+        "fullText": "Zawsze ciesz\u0119 si\u0119 z raport\u00f3w, kt\u00f3re por\u00f3wnuj\u0105 wp\u0142yw na miejsce: Szko\u0142y publiczne maj\u0105 wp\u0142yw na Liverpool + migranci z UE b\u0119d\u0105 kolejnym Manchesterem, jak si\u0119 okazuje.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ca1411d7ab80fd8649926feccd4b382b",
+        "fullText": "@BBCr4today Czy nie mogliby\u015bcie zapyta\u0107 polskich migrant\u00f3w, ilu migrant\u00f3w z UE i innych kraj\u00f3w zosta\u0142o przyj\u0119tych przez polski rz\u0105d?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "75536b4205574fc63059f5a1d55ed95d",
+        "fullText": "Specjalny raport: Dlaczego W\u0119gry wywr\u00f3c\u0105 polityczny krajobraz UE do g\u00f3ry nogami, m\u00f3wi\u0105c \"nie\" migrantom:",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "ac87286b5a477e17a3ec776b1ed8c17c",
+        "fullText": "@SkyNews Nie przyjmowali\u015bmy 1 000 000 netto migrant\u00f3w z UE w czasach Ugandy!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "013c623daeb4e103cacde19be8386406",
+        "fullText": "A oto kolejny wstydliwy sekret: Zamiast przyjmowa\u0107 1,5 miliona migrant\u00f3w do Niemiec spoza UE, dlaczego Merkel nie zaapelowa\u0142a do wszystkich tych bezrobotnych m\u0142odych ludzi w Grecji, Hiszpanii i W\u0142oszech, aby przyjechali zamiast nich? Czy\u017c nie o to chodzi\u0142o w swobodnym przep\u0142ywie os\u00f3b w UE? Czy media w og\u00f3le zapyta\u0142y dlaczego?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "a181a027348009605fb190174d459f3f",
+        "fullText": "@LabourSJ Wys\u0142a\u0142em wam e-maila na temat r\u00f3\u017cnicy mi\u0119dzy liczb\u0105 migrant\u00f3w z UE a tymi spoza UE. Usuni\u0119cie FOM przez premiera jest nieproduktywne, poniewa\u017c odbiera nam nasze FOM.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "1b9909687118ff845350931c9f869292",
+        "fullText": "Dla tych, kt\u00f3rzy szukaj\u0105 dodatkowych dowod\u00f3w na wsp\u00f3\u0142udzia\u0142 UE i pa\u0144stw cz\u0142onkowskich w naruszeniach praw cz\u0142owieka i prawa uchod\u017aczego_",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "54e48ea823de238022af8fb66ae63f84",
+        "fullText": "Podczas gdy rz\u0105d k\u0142\u00f3ci\u0142 si\u0119 o imigrant\u00f3w z innych kraj\u00f3w europejskich w UE (co zmniejszy\u0142o si\u0119 do niewielkiej liczby), imigracja z Azji wzros\u0142a do 260 000, co z czasem zapewni gabinet pe\u0142en Sajid\u00f3w Javid\u00f3w. Obywatele UE wr\u00f3cili do swoich ojczyzn, poniewa\u017c liczba miejsc pracy w Wielkiej Brytanii spada.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "26c61770c9cf6581d0ca96758c7894dc",
+        "fullText": "Najwyra\u017aniej odkryli\u015bmy spisek UKIP, aby sk\u0142oni\u0107 nas, imigrant\u00f3w z UE, do g\u0142osowania na nich, a indyki do g\u0142osowania na Bo\u017ce Narodzenie.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "8b039e9808ba622cfe4c9da2eb15fd6c",
+        "fullText": "Najnowsze dane Obserwatorium Migracji Uniwersytetu Oksfordzkiego pokazuj\u0105, \u017ce 1,06 mln Brytyjczyk\u00f3w mieszka i pracuje w Europie, a 2,6 mln migrant\u00f3w urodzonych w UE przebywa w Wielkiej Brytanii.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "f9521d77d2a233d88076ab258337a2d2",
+        "fullText": "Dosta\u0142em ulotk\u0119 antyimigracyjn\u0105 od UKIP. Zaadresowan\u0105 do mnie, na adres, kt\u00f3ry uzyskali z rejestru wyborc\u00f3w, gdzie jestem zarejestrowany jako \"wyborca z UE\".",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "b4d343c402406f0415332e36b65ce1bd",
+        "fullText": "Dosta\u0142em ulotk\u0119 od #UKIP informuj\u0105c\u0105 mnie o \"problemie\" z migrantami z UE, zak\u0142adam, \u017ce wybrali mnie ze wzgl\u0119du na moje angielskie nazwisko.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "resourceId": "fe2f7767f1d23e93d49f721fe56d208d",
+        "fullText": "Mamy masow\u0105 imigracj\u0119 z otwartymi drzwiami, ale odrzucamy wnioskodawc\u00f3w o azyl spoza UE - teraz kto jest rasist\u0105 - g\u0142osuj #UKIP",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "positive",
+                "stance_score": 0.5,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "f8d33764e9c63578f9b7b0fbf7efbad3",
+        "fullText": "Nigel Farrage: \u017bonaty z Niemk\u0105, sam niezbyt brytyjski. Chce pozby\u0107 si\u0119 imigrant\u00f3w i UE? Tak, cokolwiek kolego!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "d94c5975417d83fe406ae521276427e8",
+        "fullText": "Putin pom\u00f3g\u0142 wywo\u0142a\u0107 kryzys uchod\u017aczy w Syrii, maj\u0105c nadziej\u0119, \u017ce zdestabilizuje on UE poprzez wzrost bia\u0142ego nacjonalizmu. Trump d\u0105\u017cy do stworzenia kryzysu w krajach na po\u0142udnie od Meksyku, oczekuj\u0105c, \u017ce podobna fala uchod\u017ac\u00f3w zapewni mu reelekcj\u0119 w 2020 roku.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "eadcb0fd9e1705c7c6fa2e5d1f40bb42",
+        "fullText": "#ONZ #OrganizacjaNarod\u00f3wZjednoczonych Deportacja migrant\u00f3w przez UE 'zwi\u0119ksza niestabilno\u015b\u0107 Afganistanu', m\u00f3wi ONZ",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "bc6cc7b219ae3116c539cf6fe842dc3b",
+        "fullText": "Szczerze mam nadziej\u0119, \u017ce tragiczna \u015bmier\u0107 #AliceGross sk\u0142oni rz\u0105d do ponownego negocjowania kryteri\u00f3w wjazdu imigrant\u00f3w do Wielkiej Brytanii z UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "3abf6622819daf6e557db781de748f9f",
+        "fullText": "7 aresztowanych w Grecji w zwi\u0105zku z przemytem migrant\u00f3w: 7 aresztowanych w Grecji w grupie wysy\u0142aj\u0105cej migrant\u00f3w do kraj\u00f3w UE na sfa\u0142szowanych dokumentach",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "f71d282313a8eb94d92fccd2c4e0997b",
+        "fullText": "#CIPD Badanie rynku pracy w Wielkiej Brytanii: Migranci z UE wspieraj\u0105 rozw\u00f3j biznesu via @socializeWP #UE #migranci #cpc14 #CPC2014",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "4aba240278ae19a371f61a023f4a9db8",
+        "fullText": "Edward Snowden m\u00f3wi Parlamentowi Europejskiemu, \u017ce chce azylu w Europie",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "8167ee97452d11da43d258943cdfa67d",
+        "fullText": "W\u0142ochy, przewodnicz\u0105cy @EUCouncil, rozpoczynaj\u0105 og\u00f3lnoeuropejsk\u0105 operacj\u0119 antyimigracyjn\u0105 #MosMaiorum z Europolem i Frontexem htt\u2026",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "90781e3795f7e239e37bda5d6a041847",
+        "fullText": "Czy migranci z UE s\u0105 przepytywani do materia\u0142u o brytyjskich domach? #newsnight",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "07c4fa24d4a01bc543864265e7fc6907",
+        "fullText": "Brawo @BBCr4today za przeprowadzenie wywiad\u00f3w z innymi migrantami z UE. Po raz pierwszy #Rumuni i #Bu\u0142garzy nie zostali wspomniani podczas dyskusji o #imigracji.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "0a224195fe259188c9ffd3eede1187c1",
+        "fullText": "Syria: pop. 24 miliony, 2 miliony uchod\u017ac\u00f3w uciekaj\u0105cych przed wojn\u0105. Ukraina: pop. 44 miliony. Je\u015bli wybuchnie wojna, czy UE poradzi sobie z takim kryzysem uchod\u017aczym? #Ukraina",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "885a4d8ffaa5288e3fe5f6df772d1200",
+        "fullText": "Morin: 20% #ESF jest przeznaczone na w\u0142\u0105czenie spo\u0142eczne, co mo\u017ce zatem zwi\u0119kszy\u0107 integracj\u0119 migrant\u00f3w wewn\u0105trz #UE. #controversies14",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2a65217ed23eaf11539238fde1bbaedb",
+        "fullText": "UE musia\u0142aby nalega\u0107, aby uchod\u017acy z Syrii nosili europejskie stroje. Obowi\u0105zki zwi\u0105zane z bezpiecze\u0144stwem nie mog\u0105 by\u0107 naruszane.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "61ae320fe8228b987ab3fe2d708f39ce",
+        "fullText": "W\u0142ochy i Niemcy sygnalizuj\u0105 twardsze stanowisko UE wobec os\u00f3b ubiegaj\u0105cych si\u0119 o azyl",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "2a0a5132d7024d9b78838a1a62bfeee3",
+        "fullText": "Mark Reckless z UKIP: imigranci mog\u0105 zosta\u0107 poproszeni o opuszczenie kraju, je\u015bli Wielka Brytania opu\u015bci UE",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "98642efc4054d8c107de1b7fecfdb163",
+        "fullText": "A teraz TY TE\u017b mo\u017cesz pisa\u0107 ALARMUJ\u0104CE tre\u015bci jak Daily Mail, PO PROSTU kapitalizuj\u0105c STRASZNE s\u0142owa, takie jak IMIGRANCI i UE",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "resourceId": "787281f6be634f8e504795fc83abcc78",
+        "fullText": "Z jakich kraj\u00f3w wyp\u0142ywaj\u0105 do\u015b\u0107 du\u017ce statki z biednymi migrantami? Czy UE odgrywa jak\u0105\u015b rol\u0119? Jak dot\u0105d jest nieobecna. W\u0142ochy same...",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    }
+]

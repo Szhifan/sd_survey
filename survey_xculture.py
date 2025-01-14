@@ -1,20 +1,18 @@
 import streamlit as st
 import my_streamlit_survey as ss 
-from utils import  load_anno_data,load_results,init_mongo_clinet,load_anno_data_partition
-from interface_utils import LANG2ID,TEXT_CSS,TASK_DESCRIPTION_STANCE,TARGETS_MAP,RELEVANT_CHOICES,STANCE_OPTIONS,ATTENTION_TESTS
+from utils import  load_anno_data,load_results,init_mongo_clinet
+from interface_utils import TEXT_CSS,TASK_DESCRIPTION_STANCE_2,TARGETS_MAP,STANCE_OPTIONS,ATTENTION_TESTS
 import streamlit as st
-from introduction_stance import display
+from introduction_xculture import display
 # version two partition the data into two parts.
 class SDSurvey: 
     def __init__(self) -> None:
         new_session = self.set_qp()
-        path = f"data_coder_stance/{LANG2ID[self.lang]}.json"  
-        path_translated = "data_coder_stance/translated.json"
-        
-        self.data_translated = load_anno_data(path_translated)
-        self.attention_test = ATTENTION_TESTS[LANG2ID[self.lang]]
+        path = f"xculture/{self.lang}.json"  
+        src_lang = self.lang.split("2")[0]
+        self.attention_test = ATTENTION_TESTS[src_lang]
         self.n_attention_test = len(self.attention_test)
-        self.anno_data = load_anno_data_partition(path,n=400,partition=self.partition)
+        self.anno_data = load_anno_data(path,n=200)
 
         self.n_annotation = len(self.anno_data)
         self.n_pages = 1 + self.n_annotation + 1 # intro page + conclusion page + annotation page 
@@ -34,7 +32,7 @@ class SDSurvey:
             for page in range(len(st.session_state["annos_completed"])-1):
                 if not st.session_state["annos_completed"][page]:
                     break
-            self.pages.latest_page = 190
+            self.pages.latest_page = page
     def set_qp(self):
         """
         save the query parameters to session state for reuse.
@@ -51,7 +49,7 @@ class SDSurvey:
             self.study_id = st.session_state["qp"]["STUDY_ID"]  
             self.partition = st.session_state["qp"]["PARTITION"]
         else:
-            self.lang = st.session_state["qp"]["LANG"] = "English"
+            self.lang = st.session_state["qp"]["LANG"] = "en2pl"
             self.prolific_id = st.session_state["qp"]["PROLIFIC_PID"] = "default_prolific_id"
             self.study_id = st.session_state["qp"]["STUDY_ID"]  = "default_study_id"
             self.partition = st.session_state["qp"]["PARTITION"] = 0
@@ -71,8 +69,8 @@ class SDSurvey:
         if not client:
             st.error("connection to database failed, please try again.")
             return False
-        db = client["anno-stance"]
-        col = db[LANG2ID[self.survey.data["LANG"]]]
+        db = client["anno-xculture"]
+        col = db[self.survey.data["LANG"]]
         query = {
                 "PROLIFIC_PID":self.survey.data["PROLIFIC_PID"],
                 "study_id":self.survey.data["study_id"]
@@ -94,57 +92,35 @@ class SDSurvey:
 
         st.title("Stance Detection: Refugee Crisis")
         st.header("Welcome to our study!")
-        st.subheader("Before proceeding to the annotation, it is strongly suggested that you go through the examples by clicking :green[**examples & introdcution**] in the sidebar to the left to get yourself familiar with the interface and the expected answers. You can also refer to it when you annotate.")
         st.subheader("Your answer is automatically saved when you proceed to the next instance. You can exit the survey at anytime and resume to your lastly finished instance by clicking the :green[jump to latest] button.")
         st.subheader("Please contact us on prolific immediately if you encounter any bugs.")
         st.subheader("Before you start, please read the following instructions:")
         display()
-    def construct_annotations(self,cur_idx:int,example_id:str,targets_json:dict):
+    def construct_annotations(self, cur_idx: int, example_id: str, targets_json: dict):
         """
-        Display the options. 
+        Display the options for stance annotation only.
         """
-        n_selected = 0 
+        n_selected = 0
         st.session_state["annos_completed"][cur_idx] = True
-        for i,target_item in enumerate(targets_json):
-
+        for i, target_item in enumerate(targets_json):
             target = target_item["target"]
             fg_target = target_item["fg_target"]
-            target_disply = TARGETS_MAP.get(target,target)
-            fg_target_disply = TARGETS_MAP.get(fg_target,fg_target)
-            st.subheader(f"target pair {i+1}/{len(targets_json)}: {target_disply} - {fg_target_disply}",divider="red")
-            l_col,m_col,r_col = st.columns(3)
+            target_display = TARGETS_MAP.get(target, target)
+            fg_target_display = TARGETS_MAP.get(fg_target, fg_target)
+            st.subheader(f"Target pair {i + 1}/{len(targets_json)}: {target_display} - {fg_target_display}", divider="red")
+            l_col, r_col = st.columns(2)
             with l_col:
-                st.subheader("target: ")
-                st.write(f"Please choose how relevant the following target is toward the tweet: :red[{target_disply}]")             
-                relevance = self.survey.radio("Relevance:",options=RELEVANT_CHOICES,horizontal=True,id=f"r_{target}_{example_id}",index=None)  
-            if relevance and relevance != "irrelevant":
-                with m_col:
-                    if relevance:
-                        index_prev = RELEVANT_CHOICES.index(relevance)
-                    else:
-                        index_prev = None
-                    st.subheader("fine-grained target: ")
-                    st.write(f"Please choose the stance of the tweet towards the fine-grained target: :red[{fg_target_disply}]")
-                    relevance_fg = self.survey.radio("Relevance:",options=RELEVANT_CHOICES,id=f"rft_{target}_{example_id}",index=None if fg_target != target else index_prev,disabled=(fg_target == target)) 
-                with r_col:
-                    target_stance = fg_target if relevance_fg != "irrelevant" else target
-                    st.subheader("stance: ")
-                    st.write(f"Please choose the stance of the tweet towards the target: :red[{target_stance}]")
-                    stance = self.survey.radio("Stance:",options=STANCE_OPTIONS,id=f"st_{target}_{example_id}",index=None) 
+                st.subheader("Target:")
+                st.write(f"Please choose the stance of the tweet towards the target: :red[{target_display}]")
+                stance = self.survey.radio("Stance:", options=STANCE_OPTIONS, id=f"st_{target}_{example_id}", index=None)
             test = self.attention_test.get(example_id)
-    
             if test and target == test["target"]:
-             
-                st.session_state["test_passed"][test["index"]] = (relevance != "irrelevant" and stance == test["stance"])
-            if relevance == "irrelevant":
-                n_selected += 1 
-            elif relevance and relevance_fg == "irrelevant":
-                n_selected += 1
-            elif relevance and stance:
+                st.session_state["test_passed"][test["index"]] = (stance == test["stance"])
+            if stance:
                 n_selected += 1
         if n_selected < len(targets_json):
             st.session_state["annos_completed"][cur_idx] = False
-            st.warning("Please select the relevance and stance for all targets before proceeding to the next instance.")
+            st.warning("Please select the stance for all targets before proceeding to the next instance.")
     def annotation_page(self,n:int):
         '''
         Display the annotation page. 
@@ -158,16 +134,11 @@ class SDSurvey:
         header = st.container(border=True)
         with header:
             text = anno_example["fullText"]
-
-            if self.lang not in ["English","multiling"]:
-                show_translation = st.checkbox("Show English translation", value=False)
-                if show_translation:
-                    text = self.data_translated[anno_example["resourceId"]]["fullText"]
             st.markdown(f"""<div class='fixed-header'>{text}""", unsafe_allow_html=True)
             st.markdown(TEXT_CSS,unsafe_allow_html=True)
-        st.write(TASK_DESCRIPTION_STANCE)
+        st.write(TASK_DESCRIPTION_STANCE_2)
         self.construct_annotations(cur_idx,anno_example["resourceId"],targets_json)
-        self.pages.proceed_to_next = st.session_state["annos_completed"][cur_idx] if self.prolific_id != "default_prolific_id" else True # allow the coder to proceed to the next page if the prolific_id is default
+        self.pages.proceed_to_next = st.session_state["annos_completed"][cur_idx]
 
     def conclusion_page(self):
         st.title("Submission")
@@ -204,5 +175,5 @@ def main():
 if __name__ == "__main__":
     main_page = st.Page(page=main,title="Stance detection annotation",icon="✒️")
     examples = st.Page(page="stranicy_stance/examples.py",title="examples & instructions",icon="📖")
-    pg = st.navigation([main_page,examples])
+    pg = st.navigation([main_page])
     pg.run()

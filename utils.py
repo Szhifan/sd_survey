@@ -55,7 +55,7 @@ def load_results(lang,id,no_cache=False,db_name="anno-results",study_id=None):
     if not client:
         return dict() 
     db = client[db_name]
-    col = db[LANG2ID[lang]]
+    col = db[LANG2ID.get(lang,lang)]
     query = {"PROLIFIC_PID":id}
     if study_id:
         query["study_id"] = study_id
@@ -170,8 +170,6 @@ def fetch_from_db(lang:str,id:str,db_name:str="anno-results"):
     os.makedirs(os.path.dirname(path_save),exist_ok=True)
     for item in col.find():
         if item["PROLIFIC_PID"] == id:
-            reformat_item = reformat(item)
-            
             rf_data.update(reformat(item))
     with open(path_save,"w") as f:
         json.dump(rf_data,f,indent=4) 
@@ -214,4 +212,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db("de","default_prolific_id","anno-stance")
+    fetch_from_db("en2pl","default_prolific_id","anno-xculture")

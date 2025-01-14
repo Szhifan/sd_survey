@@ -1,0 +1,46 @@
+{
+    "en": {
+        "migrants": 0.5968137254901961,
+        "European Union Institutions": 0.6440677966101694,
+        "migration policies": 0.5308641975308642,
+        "refugee pathways": 0.6515151515151515,
+        "reception": 0.5757575757575757,
+        "asylum procedures": 0.4487179487179487,
+        "overall": 0.5904139433551198
+    },
+    "de": {
+        "migrants": 0.6422413793103449,
+        "European Union Institutions": 0.6351351351351351,
+        "migration policies": 0.6349206349206349,
+        "refugee pathways": 0.6749999999999999,
+        "reception": 0.5340909090909091,
+        "asylum procedures": 0.48214285714285715,
+        "overall": 0.6252976190476189
+    },
+    "it": {
+        "migrants": 0.6356589147286821,
+        "European Union Institutions": 0.6242840778923253,
+        "migration policies": 0.6114232209737828,
+        "refugee pathways": 0.4655172413793102,
+        "reception": 0.5224719101123595,
+        "asylum procedures": 0.425,
+        "overall": 0.6011505273250239
+    },
+    "pl": {
+        "migrants": 0.6814914645103324,
+        "European Union Institutions": 0.685495118549512,
+        "migration policies": 0.7369207772795215,
+        "refugee pathways": 0.5808080808080808,
+        "reception": 0.6666666666666666,
+        "asylum procedures": 0.46666666666666673,
+        "overall": 0.6869393613204163
+    },
+    "avg": {
+        "migrants": 0.6390513710098888,
+        "European Union Institutions": 0.6472455320467855,
+        "migration policies": 0.6285322076762009,
+        "refugee pathways": 0.5932101184256356,
+        "reception": 0.5747467654068777,
+        "asylum procedures": 0.4556318681318682
+    }
+}
