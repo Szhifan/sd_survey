@@ -1,6 +1,5 @@
 [
     {
-        "id": "281e4cb24b46aa2eef297f946be44f45",
         "text": "Well, @dominikacosic, usually fairly neutral, today in a standup from Paris is going 1000% with the PiS narrative, ignoring reality and complaining that she \"felt the brutality of the police firsthand.\" A great introduction to TubySzewczak's material with hate on Macron, \"immigrants and EU elites.\"",
         "target_items": [
             {
@@ -11,10 +10,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "281e4cb24b46aa2eef297f946be44f45",
+        "fullText": "Well, @dominikacosic, usually fairly neutral, today in a standup from Paris is going 1000% with the PiS narrative, ignoring reality and complaining that she \"felt the brutality of the police firsthand.\" A great introduction to TubySzewczak's material with hate on Macron, \"immigrants and EU elites.\""
     },
     {
-        "id": "debb2f8b5b652d02cc26787621f14d21",
         "text": "Such utterly foolish immigration policy, as conducted by the EU, has its terrible price. Are the people who allow this not ashamed today?",
         "target_items": [
             {
@@ -25,10 +25,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "debb2f8b5b652d02cc26787621f14d21",
+        "fullText": "Such utterly foolish immigration policy, as conducted by the EU, has its terrible price. Are the people who allow this not ashamed today?"
     },
     {
-        "id": "912c674956d4c9983e3d43ff83dedd45",
         "text": "@miller @sldpoland: our problems are not paramount (...), the issue of immigration may lead to the disintegration of the EU",
         "target_items": [
             {
@@ -39,10 +40,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.333
             }
-        ]
+        ],
+        "resourceId": "912c674956d4c9983e3d43ff83dedd45",
+        "fullText": "@miller @sldpoland: our problems are not paramount (...), the issue of immigration may lead to the disintegration of the EU"
     },
     {
-        "id": "20aad9b042d31cf425cd3daa29c7ac55",
         "text": "I recommend supporters of the current EU migration policy to get acquainted with the figure of Fridtjof Nansen, who helped real refugees.",
         "target_items": [
             {
@@ -53,10 +55,11 @@
                 "stance_5": "positive",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "20aad9b042d31cf425cd3daa29c7ac55",
+        "fullText": "I recommend supporters of the current EU migration policy to get acquainted with the figure of Fridtjof Nansen, who helped real refugees."
     },
     {
-        "id": "44bd17f4b60a43c34b0e24f195611d61",
         "text": "I have a new video on the playlist on @YouTube: Sienkiewicz on the issue of immigrants to the EU: The problem lies outside Europe and that's where we should look.",
         "target_items": [
             {
@@ -67,10 +70,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "44bd17f4b60a43c34b0e24f195611d61",
+        "fullText": "I have a new video on the playlist on @YouTube: Sienkiewicz on the issue of immigrants to the EU: The problem lies outside Europe and that's where we should look."
     },
     {
-        "id": "0a0e48463e5e6c471f01677a7ea87b0d",
         "text": "The conclusions of the EU-Turkey summit are half the success in managing the influx of migrants. The other half will be effective control of the Greek border.",
         "target_items": [
             {
@@ -81,10 +85,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "0a0e48463e5e6c471f01677a7ea87b0d",
+        "fullText": "The conclusions of the EU-Turkey summit are half the success in managing the influx of migrants. The other half will be effective control of the Greek border."
     },
     {
-        "id": "310bd0322d85c9e967412709b50e5201",
         "text": "Orban in the EP: EU treaties cannot force us to accept immigrants in Hungary. G. Soros plans to introduce one million immigrants every year.",
         "target_items": [
             {
@@ -95,10 +100,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "310bd0322d85c9e967412709b50e5201",
+        "fullText": "Orban in the EP: EU treaties cannot force us to accept immigrants in Hungary. G. Soros plans to introduce one million immigrants every year."
     },
     {
-        "id": "40208d6788d1e637995a263a7ed68b63",
         "text": "Constant problems with ships off the coast of Europe with immigrants. What is Frontex for, what are they getting paid for, maybe some resignations from those cushy positions?",
         "target_items": [
             {
@@ -109,10 +115,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "40208d6788d1e637995a263a7ed68b63",
+        "fullText": "Constant problems with ships off the coast of Europe with immigrants. What is Frontex for, what are they getting paid for, maybe some resignations from those cushy positions?"
     },
     {
-        "id": "587f2fb09b87a54d8df2286b96d08bf6",
         "text": "In line, a refugee with an iPad. Definitely - it's not poor people fleeing to the EU, the poor can't afford it.",
         "target_items": [
             {
@@ -123,10 +130,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "587f2fb09b87a54d8df2286b96d08bf6",
+        "fullText": "In line, a refugee with an iPad. Definitely - it's not poor people fleeing to the EU, the poor can't afford it."
     },
     {
-        "id": "4f352a8a7bee46425432e4fbd43c6762",
         "text": "In 2-3 years, the EU will be skeptical towards immigrants. In Poland, .N, PO, SLD, etc. will be against the intruders. They will gather a lot of floating electorate with this.",
         "target_items": [
             {
@@ -137,10 +145,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "4f352a8a7bee46425432e4fbd43c6762",
+        "fullText": "In 2-3 years, the EU will be skeptical towards immigrants. In Poland, .N, PO, SLD, etc. will be against the intruders. They will gather a lot of floating electorate with this."
     },
     {
-        "id": "c62da7fca539ef3cbdb3b3ded205bbfc",
         "text": "Let's just hope the European Commission doesn't propose an exchange: Poland takes immigrants from the old EU, and it takes celebrities fleeing from PiS. It would be tempting ;)",
         "target_items": [
             {
@@ -151,10 +160,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "c62da7fca539ef3cbdb3b3ded205bbfc",
+        "fullText": "Let's just hope the European Commission doesn't propose an exchange: Poland takes immigrants from the old EU, and it takes celebrities fleeing from PiS. It would be tempting ;)"
     },
     {
-        "id": "056adb0e76229745fc15d3c733dffb3b",
         "text": "Ultimatum for Hungary and Poland: Either you accept the migrant quotas, or you leave the EU - DziennikNarodowy.PL",
         "target_items": [
             {
@@ -165,10 +175,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "056adb0e76229745fc15d3c733dffb3b",
+        "fullText": "Ultimatum for Hungary and Poland: Either you accept the migrant quotas, or you leave the EU - DziennikNarodowy.PL"
     },
     {
-        "id": "a66ebb93d3c45d344de0b6d06f432111",
         "text": "#Minela20 hello, hello sir, spring is starting, a million immigrants are waiting off the coast of Libya - let's see how the EU has dealt with the crisis",
         "target_items": [
             {
@@ -179,10 +190,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "a66ebb93d3c45d344de0b6d06f432111",
+        "fullText": "#Minela20 hello, hello sir, spring is starting, a million immigrants are waiting off the coast of Libya - let's see how the EU has dealt with the crisis"
     },
     {
-        "id": "2862b5937e817516b1958d7b5e76d679",
         "text": "Vice President of the #USA Mike #Pence assured that the USA will honor the agreement to accept 1250 refugees seeking asylum in #Australia",
         "target_items": [
             {
@@ -193,10 +205,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2862b5937e817516b1958d7b5e76d679",
+        "fullText": "Vice President of the #USA Mike #Pence assured that the USA will honor the agreement to accept 1250 refugees seeking asylum in #Australia"
     },
     {
-        "id": "8a60e2e4821ec3905a8da5cf58b6cb80",
         "text": "PBS: Brexit is the result of the EU's flawed migration policy. The Polish Prime Minister probably doesn't realize that he is talking about Polish economic migrants.",
         "target_items": [
             {
@@ -207,10 +220,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "8a60e2e4821ec3905a8da5cf58b6cb80",
+        "fullText": "PBS: Brexit is the result of the EU's flawed migration policy. The Polish Prime Minister probably doesn't realize that he is talking about Polish economic migrants."
     },
     {
-        "id": "325fda6d11b2c6d624944cdebbf0d4be",
         "text": "I like the film Wapniak at Rola's, sharply about immigrants, freedom, taxes, religion, libertarianism, and the fall of the EU! on @YouTube \u2013",
         "target_items": [
             {
@@ -221,10 +235,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "325fda6d11b2c6d624944cdebbf0d4be",
+        "fullText": "I like the film Wapniak at Rola's, sharply about immigrants, freedom, taxes, religion, libertarianism, and the fall of the EU! on @YouTube \u2013"
     },
     {
-        "id": "2a33be1affb56a6c758395131d7a6232",
         "text": "Tusk writes to the leaders of EU countries that the mandatory refugee quotas have proven to be ineffective, instead causing divisions. He asks whether to continue seeking consensus in the asylum reform. If it is not achieved by June 2018, Tusk will propose HIS OWN VERSION of the reform (he doesn't write this, but without quotas) // eusources",
         "target_items": [
             {
@@ -235,10 +250,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2a33be1affb56a6c758395131d7a6232",
+        "fullText": "Tusk writes to the leaders of EU countries that the mandatory refugee quotas have proven to be ineffective, instead causing divisions. He asks whether to continue seeking consensus in the asylum reform. If it is not achieved by June 2018, Tusk will propose HIS OWN VERSION of the reform (he doesn't write this, but without quotas) // eusources"
     },
     {
-        "id": "2aaa9faf4cbcb2cc18ffdbf048b187db",
         "text": "Uncompromising attack by the Greek Commissioner for Migration on Tusk for his document on abandoning the mandatory distribution of refugees. It is \"unacceptable,\" \"anti-European,\" and \"undermines the fundamental principle of the EU - solidarity.\" A heated EU Summit is expected. Will Morawiecki defend Tusk? :)",
         "target_items": [
             {
@@ -249,10 +265,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "2aaa9faf4cbcb2cc18ffdbf048b187db",
+        "fullText": "Uncompromising attack by the Greek Commissioner for Migration on Tusk for his document on abandoning the mandatory distribution of refugees. It is \"unacceptable,\" \"anti-European,\" and \"undermines the fundamental principle of the EU - solidarity.\" A heated EU Summit is expected. Will Morawiecki defend Tusk? :)"
     },
     {
-        "id": "5f6f8329aef52c4d8b04bd467e983fc7",
         "text": ".@Andruszkiewicz1 on #Min\u0119\u0142a8: @eucopresident Donald #Tusk often changes his mind regarding migrants, but I think he will manage with @EU_Commission #wieszwiecej",
         "target_items": [
             {
@@ -263,10 +280,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "5f6f8329aef52c4d8b04bd467e983fc7",
+        "fullText": ".@Andruszkiewicz1 on #Min\u0119\u0142a8: @eucopresident Donald #Tusk often changes his mind regarding migrants, but I think he will manage with @EU_Commission #wieszwiecej"
     },
     {
-        "id": "82bf1710f213a108347dd79aa8400f67",
         "text": "Mazurek: perhaps the EC's decision is a result of the fact that the PiS government does not want to accept immigrants - Muslims out of concern for the safety of Poles",
         "target_items": [
             {
@@ -277,10 +295,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "82bf1710f213a108347dd79aa8400f67",
+        "fullText": "Mazurek: perhaps the EC's decision is a result of the fact that the PiS government does not want to accept immigrants - Muslims out of concern for the safety of Poles"
     },
     {
-        "id": "285ec1e7420910d8a0aa62c1e8ae53ef",
         "text": "Poland does not help the EU powers in accepting immigrants, meanwhile, did the EU powers share with Poland the prosperity brought from the colonies, the homelands of the immigrants?",
         "target_items": [
             {
@@ -291,10 +310,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "285ec1e7420910d8a0aa62c1e8ae53ef",
+        "fullText": "Poland does not help the EU powers in accepting immigrants, meanwhile, did the EU powers share with Poland the prosperity brought from the colonies, the homelands of the immigrants?"
     },
     {
-        "id": "2d4bc529cd249f94b803680680d118c2",
         "text": "#Grabiec: The European Union has dealt with the immigration crisis. Hit of the day!!!!!!!!!!!!!! #Woronicza17",
         "target_items": [
             {
@@ -305,10 +325,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "2d4bc529cd249f94b803680680d118c2",
+        "fullText": "#Grabiec: The European Union has dealt with the immigration crisis. Hit of the day!!!!!!!!!!!!!! #Woronicza17"
     },
     {
-        "id": "1802b2f31ac8e8bff322e3741ca00033",
         "text": "They ask Duda about immigrants from Africa and their relocation in the EU, and he talks about exiles from the former USSR? What does that have to do with anything?",
         "target_items": [
             {
@@ -319,10 +340,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "1802b2f31ac8e8bff322e3741ca00033",
+        "fullText": "They ask Duda about immigrants from Africa and their relocation in the EU, and he talks about exiles from the former USSR? What does that have to do with anything?"
     },
     {
-        "id": "48c1122a723f3a554d6351f907c0d04e",
         "text": "Maybe some serious Polish politician will tell the EU that Poland is already accepting immigrants and therefore they should leave us alone!",
         "target_items": [
             {
@@ -333,10 +355,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "48c1122a723f3a554d6351f907c0d04e",
+        "fullText": "Maybe some serious Polish politician will tell the EU that Poland is already accepting immigrants and therefore they should leave us alone!"
     },
     {
-        "id": "a24881757d15104690b0930ce8fd5b5a",
         "text": "Hungarians don't want forced immigrants. That Orban really has guts. #EU",
         "target_items": [
             {
@@ -347,10 +370,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "a24881757d15104690b0930ce8fd5b5a",
+        "fullText": "Hungarians don't want forced immigrants. That Orban really has guts. #EU"
     },
     {
-        "id": "30dc6a0326ff3e672b9645612072542f",
         "text": "Lewandowski calls for solidarity in the EU regarding the crisis in Ukraine - crises in North Africa/immigration. Economic crisis is the erosion of solidarity.",
         "target_items": [
             {
@@ -361,10 +385,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "30dc6a0326ff3e672b9645612072542f",
+        "fullText": "Lewandowski calls for solidarity in the EU regarding the crisis in Ukraine - crises in North Africa/immigration. Economic crisis is the erosion of solidarity."
     },
     {
-        "id": "c8ea38a8b776ec8faf67e92be3e34f0b",
         "text": "I am curious what the candidates think about the EU imposing on us the acceptance of immigrants from Africa? @AndrzejDuda @Komorowski @prezydentpl",
         "target_items": [
             {
@@ -375,10 +400,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c8ea38a8b776ec8faf67e92be3e34f0b",
+        "fullText": "I am curious what the candidates think about the EU imposing on us the acceptance of immigrants from Africa? @AndrzejDuda @Komorowski @prezydentpl"
     },
     {
-        "id": "4681c348d9bbdac13aec751343318d4d",
         "text": "F. Timmermans talks in the European Parliament about distributing immigrants across Europe, but D. Tusk \u2013 to oppose the violation of Council agreements \u2013 is not there. On the campaign trail?",
         "target_items": [
             {
@@ -389,10 +415,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "4681c348d9bbdac13aec751343318d4d",
+        "fullText": "F. Timmermans talks in the European Parliament about distributing immigrants across Europe, but D. Tusk \u2013 to oppose the violation of Council agreements \u2013 is not there. On the campaign trail?"
     },
     {
-        "id": "1a7ebae9a66792cec990812c364b35e4",
         "text": "#EP debated today the issue of dealing with the influx of migrants trying to enter the territory of the #EU.",
         "target_items": [
             {
@@ -403,10 +430,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "1a7ebae9a66792cec990812c364b35e4",
+        "fullText": "#EP debated today the issue of dealing with the influx of migrants trying to enter the territory of the #EU."
     },
     {
-        "id": "4456131f8a1cc64f65e5ca07ed05ba65",
         "text": "I have a very simple solution for immigrants from Africa... all the colonial countries of the EU that have been robbing Africa for years should now make amends!",
         "target_items": [
             {
@@ -417,10 +445,11 @@
                 "stance_5": "positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "4456131f8a1cc64f65e5ca07ed05ba65",
+        "fullText": "I have a very simple solution for immigrants from Africa... all the colonial countries of the EU that have been robbing Africa for years should now make amends!"
     },
     {
-        "id": "c9fbf07e91dbdade4c2952d5e469cb57",
         "text": "Mo\u015bcicka-Dendys: Neighborhood policy - southern and eastern - will be one of the bigger challenges facing the #EU (e.g. migrations).",
         "target_items": [
             {
@@ -431,10 +460,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "c9fbf07e91dbdade4c2952d5e469cb57",
+        "fullText": "Mo\u015bcicka-Dendys: Neighborhood policy - southern and eastern - will be one of the bigger challenges facing the #EU (e.g. migrations)."
     },
     {
-        "id": "eb3afafc81f013ff73b48ffbc20c908d",
         "text": "#Keller points out that during this debate a broad consensus emerged on immigration and the free movement of people within the #EU. #RockEurope",
         "target_items": [
             {
@@ -445,10 +475,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "eb3afafc81f013ff73b48ffbc20c908d",
+        "fullText": "#Keller points out that during this debate a broad consensus emerged on immigration and the free movement of people within the #EU. #RockEurope"
     },
     {
-        "id": "708b1426ceaf91bc09c838d8fd3a2bcb",
         "text": "Komorowski: In other EU countries, the migration problem is bigger, here it's 10-15%, Lithuania and Estonia have it worse. Those who didn't succeed are coming back.",
         "target_items": [
             {
@@ -459,10 +490,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "708b1426ceaf91bc09c838d8fd3a2bcb",
+        "fullText": "Komorowski: In other EU countries, the migration problem is bigger, here it's 10-15%, Lithuania and Estonia have it worse. Those who didn't succeed are coming back."
     },
     {
-        "id": "c8d344ab98fe4963e6f029d7682f965b",
         "text": "It turns out that no one, especially Farage, wants to expel legal immigrants - EU citizens from the UK.",
         "target_items": [
             {
@@ -473,10 +505,11 @@
                 "stance_5": "positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c8d344ab98fe4963e6f029d7682f965b",
+        "fullText": "It turns out that no one, especially Farage, wants to expel legal immigrants - EU citizens from the UK."
     },
     {
-        "id": "beab74bac9176a954d11db3d0c820f32",
         "text": "I wonder if the EU will grant asylum to political refugees from Turkey.",
         "target_items": [
             {
@@ -487,10 +520,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "beab74bac9176a954d11db3d0c820f32",
+        "fullText": "I wonder if the EU will grant asylum to political refugees from Turkey."
     },
     {
-        "id": "80d574a368cbb4b9b2714cdb897767d1",
         "text": "Prime Minister of the United Kingdom: In talks with the EU, we will ensure control over immigration.",
         "target_items": [
             {
@@ -501,10 +535,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "80d574a368cbb4b9b2714cdb897767d1",
+        "fullText": "Prime Minister of the United Kingdom: In talks with the EU, we will ensure control over immigration."
     },
     {
-        "id": "c775b160bbca56c87ed8bd602940032c",
         "text": "The Prime Minister of Bulgaria warns: a new wave of migration from Turkey is possible. The EU-Turkey agreement is practically not being observed.",
         "target_items": [
             {
@@ -515,10 +550,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c775b160bbca56c87ed8bd602940032c",
+        "fullText": "The Prime Minister of Bulgaria warns: a new wave of migration from Turkey is possible. The EU-Turkey agreement is practically not being observed."
     },
     {
-        "id": "fc201b0cc7cebb30cd0b878df0b9da5b",
         "text": "ETS: limiting social benefits for immigrants in EU countries is not contrary to the directive on the free movement of citizens in the EU.",
         "target_items": [
             {
@@ -529,10 +565,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "fc201b0cc7cebb30cd0b878df0b9da5b",
+        "fullText": "ETS: limiting social benefits for immigrants in EU countries is not contrary to the directive on the free movement of citizens in the EU."
     },
     {
-        "id": "e780f1332f2fa705ccd125454376d56f",
         "text": "On the front page of today's The Sunday Times: Cameron - I intend to eliminate benefits for EU immigrants.",
         "target_items": [
             {
@@ -543,10 +580,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "e780f1332f2fa705ccd125454376d56f",
+        "fullText": "On the front page of today's The Sunday Times: Cameron - I intend to eliminate benefits for EU immigrants."
     },
     {
-        "id": "18a313aec27bc18e9a99fc8e911d5d5b",
         "text": "According to the newspaper, all four aforementioned countries are ready to conclude bilateral agreements with Germany regarding the return of these immigrants to their territory. It concerns immigrants who were registered in one of the EU countries, then made their way to Germany, where they reapplied.",
         "target_items": [
             {
@@ -557,10 +595,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "18a313aec27bc18e9a99fc8e911d5d5b",
+        "fullText": "According to the newspaper, all four aforementioned countries are ready to conclude bilateral agreements with Germany regarding the return of these immigrants to their territory. It concerns immigrants who were registered in one of the EU countries, then made their way to Germany, where they reapplied."
     },
     {
-        "id": "e0170cab0410dde64df5389fa074233a",
         "text": "I don't know if it's just me, but the EU's problem with immigrants didn't just start out of nowhere, but as a result of the actions of those for whom the EU is a thorn in their side and who can't handle it without breaking its unity. The most interested parties are Putin and Trump, who want to break it up.",
         "target_items": [
             {
@@ -571,10 +610,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "e0170cab0410dde64df5389fa074233a",
+        "fullText": "I don't know if it's just me, but the EU's problem with immigrants didn't just start out of nowhere, but as a result of the actions of those for whom the EU is a thorn in their side and who can't handle it without breaking its unity. The most interested parties are Putin and Trump, who want to break it up."
     },
     {
-        "id": "87f547427a85ecd97e727942417a88eb",
         "text": "Will Theresa May be able to deport immigrants from EU countries who came to the UK before Brexit?",
         "target_items": [
             {
@@ -585,10 +625,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "87f547427a85ecd97e727942417a88eb",
+        "fullText": "Will Theresa May be able to deport immigrants from EU countries who came to the UK before Brexit?"
     },
     {
-        "id": "778cbf7527dfa9d6ccec361f191527f0",
         "text": "Prime Minister @MorawieckiM in #London: The recent crises, especially the migration crisis, have shown that the external border of the #EU must be strong, stable, secure, and well-protected. This is in the interest of our countries and the entire European Union.",
         "target_items": [
             {
@@ -599,10 +640,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "778cbf7527dfa9d6ccec361f191527f0",
+        "fullText": "Prime Minister @MorawieckiM in #London: The recent crises, especially the migration crisis, have shown that the external border of the #EU must be strong, stable, secure, and well-protected. This is in the interest of our countries and the entire European Union."
     },
     {
-        "id": "ee0a0207a8a507e7fdcdbfaf670d71a7",
         "text": "If anyone thinks that the immigration crisis came out of nowhere, they are greatly mistaken or unable to soberly assess the current situation in the EU. Look who benefits from this problem: undoubtedly Russia and, in a certain sense, Trump, who is bothered by a united and strong European Union.",
         "target_items": [
             {
@@ -613,10 +655,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "ee0a0207a8a507e7fdcdbfaf670d71a7",
+        "fullText": "If anyone thinks that the immigration crisis came out of nowhere, they are greatly mistaken or unable to soberly assess the current situation in the EU. Look who benefits from this problem: undoubtedly Russia and, in a certain sense, Trump, who is bothered by a united and strong European Union."
     },
     {
-        "id": "1c018fafd202cbf23d82e85d0dab5b59",
         "text": "Spain and Portugal are the next two EU countries that have declared their readiness to accept 50 migrants each from two vessels that are stationed in the waters off the coast of Sicily.",
         "target_items": [
             {
@@ -627,10 +670,11 @@
                 "stance_5": "rather positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "1c018fafd202cbf23d82e85d0dab5b59",
+        "fullText": "Spain and Portugal are the next two EU countries that have declared their readiness to accept 50 migrants each from two vessels that are stationed in the waters off the coast of Sicily."
     },
     {
-        "id": "f3df599770763a7786c420b3d7e15e74",
         "text": "British statistical office ONS: migration from European Union countries has fallen to the lowest level since 2013. Last year, the number of EU citizens living in the United Kingdom increased by 101,000.",
         "target_items": [
             {
@@ -641,10 +685,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "f3df599770763a7786c420b3d7e15e74",
+        "fullText": "British statistical office ONS: migration from European Union countries has fallen to the lowest level since 2013. Last year, the number of EU citizens living in the United Kingdom increased by 101,000."
     },
     {
-        "id": "251021d4e77ee12faf29079c38faf22b",
         "text": "Change in trends #migration in the Mediterranean Sea. In the first half of the year, a decrease in the number of arrivals by sea compared to the previous year. This is mainly due to the decline of the \"central route,\" meaning to Italy. But the number of people on the \"western route\" to Spain is increasing - @Frontex. 1/3",
         "target_items": [
             {
@@ -655,10 +700,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "251021d4e77ee12faf29079c38faf22b",
+        "fullText": "Change in trends #migration in the Mediterranean Sea. In the first half of the year, a decrease in the number of arrivals by sea compared to the previous year. This is mainly due to the decline of the \"central route,\" meaning to Italy. But the number of people on the \"western route\" to Spain is increasing - @Frontex. 1/3"
     },
     {
-        "id": "5a26411aa00c3114ef7a5735aca381a0",
         "text": "1/2 Shitstorm about the lowest unemployment rate in nearly 30 years. -Lemming: That's BS! people are not registering! Dear lemming... the employment rate is about 71.5% and for the first time is at the EU average level. Surprisingly, it doesn't stop people from shouting we want immigrants! Enrichment! etc.",
         "target_items": [
             {
@@ -669,10 +715,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "5a26411aa00c3114ef7a5735aca381a0",
+        "fullText": "1/2 Shitstorm about the lowest unemployment rate in nearly 30 years. -Lemming: That's BS! people are not registering! Dear lemming... the employment rate is about 71.5% and for the first time is at the EU average level. Surprisingly, it doesn't stop people from shouting we want immigrants! Enrichment! etc."
     },
     {
-        "id": "54af00e578fb92b17fa26330b8be6098",
         "text": "The European Commission has decided to refer Hungary to the Court of Justice of the EU, considering that the country's law on asylum and the return of migrants to their countries of origin is contrary to EU regulations. #TOKFM",
         "target_items": [
             {
@@ -683,10 +730,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "54af00e578fb92b17fa26330b8be6098",
+        "fullText": "The European Commission has decided to refer Hungary to the Court of Justice of the EU, considering that the country's law on asylum and the return of migrants to their countries of origin is contrary to EU regulations. #TOKFM"
     },
     {
-        "id": "0ce47567ca9a697736240c465f270d9c",
         "text": "Austria no longer wants to process asylum applications within the EU? New plans of the Austrian government cause a crisis in internal relations with EU partners.",
         "target_items": [
             {
@@ -697,10 +745,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "0ce47567ca9a697736240c465f270d9c",
+        "fullText": "Austria no longer wants to process asylum applications within the EU? New plans of the Austrian government cause a crisis in internal relations with EU partners."
     },
     {
-        "id": "6c4b6ef6361e7ca05dce72a96a7c4c15",
         "text": "WiadomosciTVP accuse the European Commission of breaking the law by allowing immigrants in. They are also outraged by the penalty for Hungary. Allegedly, Europe has Christian roots. In that case, where is the help for our neighbor?",
         "target_items": [
             {
@@ -711,10 +760,11 @@
                 "stance_5": "positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "6c4b6ef6361e7ca05dce72a96a7c4c15",
+        "fullText": "WiadomosciTVP accuse the European Commission of breaking the law by allowing immigrants in. They are also outraged by the penalty for Hungary. Allegedly, Europe has Christian roots. In that case, where is the help for our neighbor?"
     },
     {
-        "id": "0403c4cf8a40b6c5fda60f8cd4236345",
         "text": "Viktor speaks wisely...! The EU should punish those who allow millions of migrants into Europe in violation of EU regulations.",
         "target_items": [
             {
@@ -725,10 +775,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "0403c4cf8a40b6c5fda60f8cd4236345",
+        "fullText": "Viktor speaks wisely...! The EU should punish those who allow millions of migrants into Europe in violation of EU regulations."
     },
     {
-        "id": "5d498c84a075f2cac3ba75a0b0a439b3",
         "text": "I believe that @EU_Commission & @TimmermansEU will draw strict consequences against @AngelaMerkeICDU - responsible for the electoral victory of PiS \ud83d\ude09 Since in #Germany they already know that \"Angela Merkel's migration policy was a mistake (...) and brought disastrous international consequences, including the success of PiS\"",
         "target_items": [
             {
@@ -739,10 +790,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "5d498c84a075f2cac3ba75a0b0a439b3",
+        "fullText": "I believe that @EU_Commission & @TimmermansEU will draw strict consequences against @AngelaMerkeICDU - responsible for the electoral victory of PiS \ud83d\ude09 Since in #Germany they already know that \"Angela Merkel's migration policy was a mistake (...) and brought disastrous international consequences, including the success of PiS\""
     },
     {
-        "id": "1e273b1b2fb994432da840e39f93304d",
         "text": "Unemployment in August in Spain 13.8%, Italy 9.5%, France 8.5%, not to mention 17% in Greece, and the EU wants to accept more immigrants. Interesting where they will work?",
         "target_items": [
             {
@@ -753,10 +805,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "1e273b1b2fb994432da840e39f93304d",
+        "fullText": "Unemployment in August in Spain 13.8%, Italy 9.5%, France 8.5%, not to mention 17% in Greece, and the EU wants to accept more immigrants. Interesting where they will work?"
     },
     {
-        "id": "89567d92d63331fdc383063583f77d91",
         "text": "\ud83c\uddeb\ud83c\uddf7 Macron's MP: \"We must accept the fact that migration will be part of our future. The key is to prepare France and the EU for this phenomenon. We must deconstruct fear and calm it.\"",
         "target_items": [
             {
@@ -767,10 +820,11 @@
                 "stance_5": "positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "89567d92d63331fdc383063583f77d91",
+        "fullText": "\ud83c\uddeb\ud83c\uddf7 Macron's MP: \"We must accept the fact that migration will be part of our future. The key is to prepare France and the EU for this phenomenon. We must deconstruct fear and calm it.\""
     },
     {
-        "id": "b8d471155cef5d995efd2b1954d6c624",
         "text": "Trump (withdrawal of troops and exposing the Kurds to attack) - Erdogan (offensive) - EU (outrage and possibly sanctions) - Erdogan (opening borders and flow of refugees) - Poland (we love Trump and count on the alliance with American troops, and the EU is bad because it can't handle the refugees)",
         "target_items": [
             {
@@ -781,10 +835,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "b8d471155cef5d995efd2b1954d6c624",
+        "fullText": "Trump (withdrawal of troops and exposing the Kurds to attack) - Erdogan (offensive) - EU (outrage and possibly sanctions) - Erdogan (opening borders and flow of refugees) - Poland (we love Trump and count on the alliance with American troops, and the EU is bad because it can't handle the refugees)"
     },
     {
-        "id": "3c65794f425203181b192a75d8b8f4c6",
         "text": "Poland, a country of immigration: in 2018, Poland was the EU country that issued the most residence permits to non-EU citizens.",
         "target_items": [
             {
@@ -795,10 +850,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "3c65794f425203181b192a75d8b8f4c6",
+        "fullText": "Poland, a country of immigration: in 2018, Poland was the EU country that issued the most residence permits to non-EU citizens."
     },
     {
-        "id": "1694238ad8c3227f9e1fb1a43add6c8b",
         "text": "Year 2050:\n-thanks to research on DNA and RNA, all diseases have been eradicated\n-80 million immigrants have already arrived in Europe\n-artificial intelligence equal to human intelligence has been created in the USA\n-China has sent a manned mission to Mars\n-the UK has applied to the EU for a 7-month extension of Brexit",
         "target_items": [
             {
@@ -809,10 +865,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "1694238ad8c3227f9e1fb1a43add6c8b",
+        "fullText": "Year 2050:\n-thanks to research on DNA and RNA, all diseases have been eradicated\n-80 million immigrants have already arrived in Europe\n-artificial intelligence equal to human intelligence has been created in the USA\n-China has sent a manned mission to Mars\n-the UK has applied to the EU for a 7-month extension of Brexit"
     },
     {
-        "id": "f0fd23ab97496f7d996752597e6a5f0f",
         "text": "But this hearing is no longer valid. The Polish government under PiS has accepted the most immigrants in the entire EU. But that's nothing, it will accept another million refugees, now there will be an explanation that #CJEU ordered it.",
         "target_items": [
             {
@@ -823,10 +880,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "f0fd23ab97496f7d996752597e6a5f0f",
+        "fullText": "But this hearing is no longer valid. The Polish government under PiS has accepted the most immigrants in the entire EU. But that's nothing, it will accept another million refugees, now there will be an explanation that #CJEU ordered it."
     },
     {
-        "id": "f2258846ee3bed2c2c780f1c41be9bd8",
         "text": "Good visit of Sejm deputies to the LIBE Committee. MEPs from Central Europe and Polish deputies speak with one voice on immigration.",
         "target_items": [
             {
@@ -837,10 +895,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "f2258846ee3bed2c2c780f1c41be9bd8",
+        "fullText": "Good visit of Sejm deputies to the LIBE Committee. MEPs from Central Europe and Polish deputies speak with one voice on immigration."
     },
     {
-        "id": "b5d0028116c9c5b956b2fe9b1910565d",
         "text": ".@mblaszczak in #RozmowaRMF: The V4 group speaks with one voice \u2013 we oppose the distribution of immigrants called refugees to EU countries",
         "target_items": [
             {
@@ -851,10 +910,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "b5d0028116c9c5b956b2fe9b1910565d",
+        "fullText": ".@mblaszczak in #RozmowaRMF: The V4 group speaks with one voice \u2013 we oppose the distribution of immigrants called refugees to EU countries"
     },
     {
-        "id": "06597518c144c7c3e56f0048854c9649",
         "text": "Min. @mblaszczak on @Rozmowa_RMF: The #V4 group unanimously opposes the automatic distribution of immigrants to EU countries",
         "target_items": [
             {
@@ -865,10 +925,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "06597518c144c7c3e56f0048854c9649",
+        "fullText": "Min. @mblaszczak on @Rozmowa_RMF: The #V4 group unanimously opposes the automatic distribution of immigrants to EU countries"
     },
     {
-        "id": "11c53a235075102d5f52e8b6e1c286fa",
         "text": "FRONTEX is not an Agency and certainly not for Immigrants, I recommend getting educated. @tvp_info",
         "target_items": [
             {
@@ -879,10 +940,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "11c53a235075102d5f52e8b6e1c286fa",
+        "fullText": "FRONTEX is not an Agency and certainly not for Immigrants, I recommend getting educated. @tvp_info"
     },
     {
-        "id": "282ccb43f0859dfda629437508f8a655",
         "text": "The European Commission wants to take over decision-making powers from member states regarding the granting of asylum status to immigrants.",
         "target_items": [
             {
@@ -893,10 +955,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "282ccb43f0859dfda629437508f8a655",
+        "fullText": "The European Commission wants to take over decision-making powers from member states regarding the granting of asylum status to immigrants."
     },
     {
-        "id": "3b14ce7d2891fd77e26c168474f37748",
         "text": "In its proposal, the European Commission also recommends standardizing asylum procedures so that potential refugees do not choose a country... benefits too?",
         "target_items": [
             {
@@ -907,10 +970,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "3b14ce7d2891fd77e26c168474f37748",
+        "fullText": "In its proposal, the European Commission also recommends standardizing asylum procedures so that potential refugees do not choose a country... benefits too?"
     },
     {
-        "id": "3756e54b771f40ff36daf3685d716b06",
         "text": "I like the film The European Union shows its totalitarian face - Brussels will grant asylum in Poland on @YouTube from",
         "target_items": [
             {
@@ -921,10 +985,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "3756e54b771f40ff36daf3685d716b06",
+        "fullText": "I like the film The European Union shows its totalitarian face - Brussels will grant asylum in Poland on @YouTube from"
     },
     {
-        "id": "460325367285d9d3acb487605ffffa09",
         "text": "MT @EP_President: I welcome Italy's proposals to strengthen the #EU's response to the refugee and migration crisis. The only solution is joint action.",
         "target_items": [
             {
@@ -935,10 +1000,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "460325367285d9d3acb487605ffffa09",
+        "fullText": "MT @EP_President: I welcome Italy's proposals to strengthen the #EU's response to the refugee and migration crisis. The only solution is joint action."
     },
     {
-        "id": "7dcc41bcae8a38c602a92854cb9c62e3",
         "text": ".@JSaryuszWolski on #PR24: if it weren't for the policy of inviting immigrants (...), the United Kingdom would not have decided on #Brexit. #EuropeanUnion",
         "target_items": [
             {
@@ -949,10 +1015,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "7dcc41bcae8a38c602a92854cb9c62e3",
+        "fullText": ".@JSaryuszWolski on #PR24: if it weren't for the policy of inviting immigrants (...), the United Kingdom would not have decided on #Brexit. #EuropeanUnion"
     },
     {
-        "id": "b25788c00ab43d9e472793e55a14de50",
         "text": "Well, there you go! They shot a mentally ill person, not socially adapted to the role of the elite of a leading EU country - a migrant, emigrant, refugee - (choose the correct definition yourself). Because for some, it makes no difference anyway. brrr #knowmore or know NOTHING.",
         "target_items": [
             {
@@ -963,10 +1030,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "b25788c00ab43d9e472793e55a14de50",
+        "fullText": "Well, there you go! They shot a mentally ill person, not socially adapted to the role of the elite of a leading EU country - a migrant, emigrant, refugee - (choose the correct definition yourself). Because for some, it makes no difference anyway. brrr #knowmore or know NOTHING."
     },
     {
-        "id": "b90f256e9b43267a8f18bfd4ae932bf7",
         "text": "\"Gazeta Wyborcza\" is pushing the narrative to its readers that the UN global migration pact does not obligate its signatories to anything. GW deceived Poles in the same way before joining the EU - claiming that in internal matters, such as cultural issues, Poland would remain completely sovereign.",
         "target_items": [
             {
@@ -977,10 +1045,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "b90f256e9b43267a8f18bfd4ae932bf7",
+        "fullText": "\"Gazeta Wyborcza\" is pushing the narrative to its readers that the UN global migration pact does not obligate its signatories to anything. GW deceived Poles in the same way before joining the EU - claiming that in internal matters, such as cultural issues, Poland would remain completely sovereign."
     },
     {
-        "id": "f49152c00650dc8e4ae1b7d89c824836",
         "text": "Interesting: Siemoniak and Schetyna distanced themselves from the EC's decision on refugees. Only the foolish Ewka takes everything on herself, after the elections they will finish her off.",
         "target_items": [
             {
@@ -991,10 +1060,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "f49152c00650dc8e4ae1b7d89c824836",
+        "fullText": "Interesting: Siemoniak and Schetyna distanced themselves from the EC's decision on refugees. Only the foolish Ewka takes everything on herself, after the elections they will finish her off."
     },
     {
-        "id": "2bf00dcf3f4f87e9bb66f0fce39c6953",
         "text": "President @AndrzejDuda on the question of the possibility of changing the Polish government's stance on immigrants: It is the EU that must start an effective policy #V4 @RepublikaTV",
         "target_items": [
             {
@@ -1005,10 +1075,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2bf00dcf3f4f87e9bb66f0fce39c6953",
+        "fullText": "President @AndrzejDuda on the question of the possibility of changing the Polish government's stance on immigrants: It is the EU that must start an effective policy #V4 @RepublikaTV"
     },
     {
-        "id": "6d9f85132ef651f24373e7079a5e1791",
         "text": "The main curiosity is that the entire family protection model, including national consultations, is based on the idea that Brussels wants to solve demographic problems through mass migration, and therefore a jab at the European Commission will still go.",
         "target_items": [
             {
@@ -1019,10 +1090,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "6d9f85132ef651f24373e7079a5e1791",
+        "fullText": "The main curiosity is that the entire family protection model, including national consultations, is based on the idea that Brussels wants to solve demographic problems through mass migration, and therefore a jab at the European Commission will still go."
     },
     {
-        "id": "6ffcd07b82b770251f6e0723a03495a9",
         "text": "A very good thread about how EU countries are limiting patrols in the Mediterranean Sea to avoid having to take in migrant shipwreck survivors. The toll of these omissions is already over 900 victims in 2019.",
         "target_items": [
             {
@@ -1033,10 +1105,11 @@
                 "stance_5": "positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "6ffcd07b82b770251f6e0723a03495a9",
+        "fullText": "A very good thread about how EU countries are limiting patrols in the Mediterranean Sea to avoid having to take in migrant shipwreck survivors. The toll of these omissions is already over 900 victims in 2019."
     },
     {
-        "id": "f56ae21f057b9b7cb2c4ebdc5ca0b969",
         "text": "I doubt it! The EU's problems are not only the threat from the east by Russia. There are also the migration and Greek crises. All are equally important!",
         "target_items": [
             {
@@ -1047,10 +1120,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "f56ae21f057b9b7cb2c4ebdc5ca0b969",
+        "fullText": "I doubt it! The EU's problems are not only the threat from the east by Russia. There are also the migration and Greek crises. All are equally important!"
     },
     {
-        "id": "04bafcfd26c94da3a8678b910a6d0398",
         "text": "As far as I know, there are bigger problems than someone writing fanfiction or recording covers. Maybe the EU should deal with immigrants, the unemployed, or homeless animals instead of doing something like this #SaveYourInternet",
         "target_items": [
             {
@@ -1061,10 +1135,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "04bafcfd26c94da3a8678b910a6d0398",
+        "fullText": "As far as I know, there are bigger problems than someone writing fanfiction or recording covers. Maybe the EU should deal with immigrants, the unemployed, or homeless animals instead of doing something like this #SaveYourInternet"
     },
     {
-        "id": "82a07e35c1ae4c821423e206adb29636",
         "text": "Brexit - the effect of the EU focusing on Poland and the Constitutional Tribunal instead of the problem of immigrants and moods in the UK #woronicza17",
         "target_items": [
             {
@@ -1075,10 +1150,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "82a07e35c1ae4c821423e206adb29636",
+        "fullText": "Brexit - the effect of the EU focusing on Poland and the Constitutional Tribunal instead of the problem of immigrants and moods in the UK #woronicza17"
     },
     {
-        "id": "90d5e1d5fab03d793ea79a23dd7c2310",
         "text": "When the EU resolves economic issues like NordStream2 in solidarity with Poland, we will address immigrant problems in solidarity #Woronicza17",
         "target_items": [
             {
@@ -1089,10 +1165,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "90d5e1d5fab03d793ea79a23dd7c2310",
+        "fullText": "When the EU resolves economic issues like NordStream2 in solidarity with Poland, we will address immigrant problems in solidarity #Woronicza17"
     },
     {
-        "id": "cb64bad8527131e732c35c7942c31159",
         "text": "I recommend this thread to everyone who is concerned about the rise in crime in Poland. If we don't want to repeat the mistakes of the West, we need to understand the cause, which is the loss of government control over migration policy. Poland is today a dream target for dishonest people from outside the EU. \ud83d\udc47",
         "target_items": [
             {
@@ -1103,10 +1180,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "cb64bad8527131e732c35c7942c31159",
+        "fullText": "I recommend this thread to everyone who is concerned about the rise in crime in Poland. If we don't want to repeat the mistakes of the West, we need to understand the cause, which is the loss of government control over migration policy. Poland is today a dream target for dishonest people from outside the EU. \ud83d\udc47"
     },
     {
-        "id": "913ebbe95ddb7a6f02b133e53cd60b6a",
         "text": "In connection with the potential EU ultimatum towards PL and Hungary - either we accept immigrants or leave the EU - are you in favor of:",
         "target_items": [
             {
@@ -1117,10 +1195,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "913ebbe95ddb7a6f02b133e53cd60b6a",
+        "fullText": "In connection with the potential EU ultimatum towards PL and Hungary - either we accept immigrants or leave the EU - are you in favor of:"
     },
     {
-        "id": "37e25d568217d6a9dcab356c4ec5741a",
         "text": "Penalties for Poland? \"We can also stop paying\" to the EU budget Marek Jakubiak on the refusal to accept migrants.\ud83d\udc4d",
         "target_items": [
             {
@@ -1131,10 +1210,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "37e25d568217d6a9dcab356c4ec5741a",
+        "fullText": "Penalties for Poland? \"We can also stop paying\" to the EU budget Marek Jakubiak on the refusal to accept migrants.\ud83d\udc4d"
     },
     {
-        "id": "a5af2ea4f1d6af4711fabea9fc6e2016",
         "text": ".ZbigniewKuzmiuk: smugglers inform NGOs about rafts with people. These in the EU receive money for taking care of immigrants",
         "target_items": [
             {
@@ -1145,10 +1225,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "a5af2ea4f1d6af4711fabea9fc6e2016",
+        "fullText": ".ZbigniewKuzmiuk: smugglers inform NGOs about rafts with people. These in the EU receive money for taking care of immigrants"
     },
     {
-        "id": "f081b4c2598ea0186f168a166592541f",
         "text": "#NoRetouch If the EU continues to treat Islamic immigrants as a workforce, not seeing the threat in Islam itself, it will be the end of the EU",
         "target_items": [
             {
@@ -1159,10 +1240,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "f081b4c2598ea0186f168a166592541f",
+        "fullText": "#NoRetouch If the EU continues to treat Islamic immigrants as a workforce, not seeing the threat in Islam itself, it will be the end of the EU"
     },
     {
-        "id": "48a20b294a38324f7cea88a5cc941a94",
         "text": "Germany: The minister presented rules for immigrants. Now, after two years of Merkel's foolishness in ruining Germany and the EU?",
         "target_items": [
             {
@@ -1173,10 +1255,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "48a20b294a38324f7cea88a5cc941a94",
+        "fullText": "Germany: The minister presented rules for immigrants. Now, after two years of Merkel's foolishness in ruining Germany and the EU?"
     },
     {
-        "id": "2c66e146eeff160b5beb635dd0d167c0",
         "text": "#Forum @JacekZalek: The relocation system imposed by the #EU does not have the tools to control immigrants - we should not bring in people who cannot be verified in any way #wieszwiecej",
         "target_items": [
             {
@@ -1187,10 +1270,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2c66e146eeff160b5beb635dd0d167c0",
+        "fullText": "#Forum @JacekZalek: The relocation system imposed by the #EU does not have the tools to control immigrants - we should not bring in people who cannot be verified in any way #wieszwiecej"
     },
     {
-        "id": "39148b59cf7f4e48c47e47632af32253",
         "text": "Czech Prime Minister Andrej Babis rejected the permanent mechanism for distributing immigrants among member states included in the EU asylum system reform project. He warned that maintaining the quota system threatens new tensions in the EU and the potential exit of more countries.",
         "target_items": [
             {
@@ -1201,10 +1285,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "39148b59cf7f4e48c47e47632af32253",
+        "fullText": "Czech Prime Minister Andrej Babis rejected the permanent mechanism for distributing immigrants among member states included in the EU asylum system reform project. He warned that maintaining the quota system threatens new tensions in the EU and the potential exit of more countries."
     },
     {
-        "id": "479b8864bb697368dc737759acef6a0e",
         "text": "The mechanism of forced relocation of immigrants is the most racist invention of the European Union. Immigrants are not objects that can be tossed around the entire EU. Since immigrants dream of living in Germany, it is the duty of the EU, which talks so much about freedom, to make this possible for them.",
         "target_items": [
             {
@@ -1215,10 +1300,11 @@
                 "stance_5": "positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "479b8864bb697368dc737759acef6a0e",
+        "fullText": "The mechanism of forced relocation of immigrants is the most racist invention of the European Union. Immigrants are not objects that can be tossed around the entire EU. Since immigrants dream of living in Germany, it is the duty of the EU, which talks so much about freedom, to make this possible for them."
     },
     {
-        "id": "c00c273474d39bcff3b017d729d72216",
         "text": "And again, that the EU is dealing with us instead of immigrants \ud83d\ude0d.",
         "target_items": [
             {
@@ -1229,10 +1315,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c00c273474d39bcff3b017d729d72216",
+        "fullText": "And again, that the EU is dealing with us instead of immigrants \ud83d\ude0d."
     },
     {
-        "id": "da8207087137c5dca488263719f5f3d0",
         "text": "Let's be honest, two things infuriate the European mainstream: Poland's refusal to agree to the quota mechanism for relocating Islamic immigrants and Poland's refusal to join the eurozone. Therefore, @ZiobroPL is right that the activation of Article 7 by the European Commission is simply politics.",
         "target_items": [
             {
@@ -1243,10 +1330,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "da8207087137c5dca488263719f5f3d0",
+        "fullText": "Let's be honest, two things infuriate the European mainstream: Poland's refusal to agree to the quota mechanism for relocating Islamic immigrants and Poland's refusal to join the eurozone. Therefore, @ZiobroPL is right that the activation of Article 7 by the European Commission is simply politics."
     },
     {
-        "id": "a576e22f371da15c7f4c99cd44160b21",
         "text": ".@Jaroslaw_Gowin: the best proof of double standards is that regarding immigrants, almost none of the old European countries have implemented the European Council's decisions #EU @Porozumienie__ #Article7 #EuropeanCommission",
         "target_items": [
             {
@@ -1257,10 +1345,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "a576e22f371da15c7f4c99cd44160b21",
+        "fullText": ".@Jaroslaw_Gowin: the best proof of double standards is that regarding immigrants, almost none of the old European countries have implemented the European Council's decisions #EU @Porozumienie__ #Article7 #EuropeanCommission"
     },
     {
-        "id": "efc1641f8777aca5a7bbb5bdf3609e0f",
         "text": "Richard (his real name) Czarnecki, the dumbest MEP in the history of the EU, shouts in Fakt that the sanctions are retaliation for not accepting a few thousand immigrants. How could they send an IDIOT to BRX?",
         "target_items": [
             {
@@ -1271,10 +1360,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "efc1641f8777aca5a7bbb5bdf3609e0f",
+        "fullText": "Richard (his real name) Czarnecki, the dumbest MEP in the history of the EU, shouts in Fakt that the sanctions are retaliation for not accepting a few thousand immigrants. How could they send an IDIOT to BRX?"
     },
     {
-        "id": "525b22adc92c88777e1582440470a844",
         "text": "MP Grabiec says that the EU has dealt with the wave of immigrants. @michalrachon's expression is priceless... #Woronicza17",
         "target_items": [
             {
@@ -1285,10 +1375,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "525b22adc92c88777e1582440470a844",
+        "fullText": "MP Grabiec says that the EU has dealt with the wave of immigrants. @michalrachon's expression is priceless... #Woronicza17"
     },
     {
-        "id": "49241fc21c8e818d77ed73458f921d67",
         "text": "Poland is surprised by the EC's proposal regarding mandatory quotas for accepting immigrants - Minister @trzaskowski_ Unfortunately, we don't have an opt-out like the UK",
         "target_items": [
             {
@@ -1299,10 +1390,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "49241fc21c8e818d77ed73458f921d67",
+        "fullText": "Poland is surprised by the EC's proposal regarding mandatory quotas for accepting immigrants - Minister @trzaskowski_ Unfortunately, we don't have an opt-out like the UK"
     },
     {
-        "id": "c776b28b2ba0f6b99f5f2fab1dae8ef7",
         "text": "-Mr. President, people are fleeing from Poland!!!\n-Together with the EU, we are working to fill these gaps with refugees.\n#WhatDoYouSayBronek",
         "target_items": [
             {
@@ -1313,10 +1405,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c776b28b2ba0f6b99f5f2fab1dae8ef7",
+        "fullText": "-Mr. President, people are fleeing from Poland!!!\n-Together with the EU, we are working to fill these gaps with refugees.\n#WhatDoYouSayBronek"
     },
     {
-        "id": "38a106e846a6ea8feeeeff8fde25a246",
         "text": "Next week, protests will be held across Poland against the EU-imposed obligation to accept immigrants from outside the continent.",
         "target_items": [
             {
@@ -1327,10 +1420,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "38a106e846a6ea8feeeeff8fde25a246",
+        "fullText": "Next week, protests will be held across Poland against the EU-imposed obligation to accept immigrants from outside the continent."
     },
     {
-        "id": "d1038dfdb24536bb0eb6052f9ce3172e",
         "text": "The Cameron government approved today the holding of a referendum in 2017 regarding the UK's exit from the EU. No voting rights for immigrants.",
         "target_items": [
             {
@@ -1341,10 +1435,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "d1038dfdb24536bb0eb6052f9ce3172e",
+        "fullText": "The Cameron government approved today the holding of a referendum in 2017 regarding the UK's exit from the EU. No voting rights for immigrants."
     },
     {
-        "id": "aacbfb3d81349ab561bb3b4343fb9056",
         "text": "#Hungary will hold a nationwide #referendum on the planned #EU rules for the relocation of #immigrants. The vote will take place on 2.10.",
         "target_items": [
             {
@@ -1355,10 +1450,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "aacbfb3d81349ab561bb3b4343fb9056",
+        "fullText": "#Hungary will hold a nationwide #referendum on the planned #EU rules for the relocation of #immigrants. The vote will take place on 2.10."
     },
     {
-        "id": "79ce7ac6b11df21c683809395cce3ab3",
         "text": "EU leaders supported Erdogan - a politician who has long been blackmailing the Union regarding the \"flood of Europe\" with waves of immigrants and refugees.",
         "target_items": [
             {
@@ -1369,10 +1465,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "79ce7ac6b11df21c683809395cce3ab3",
+        "fullText": "EU leaders supported Erdogan - a politician who has long been blackmailing the Union regarding the \"flood of Europe\" with waves of immigrants and refugees."
     },
     {
-        "id": "6dd20b0108bd1f6ede812fbc20d0d00d",
         "text": "Another wave of migration? Bulgaria asks Frontex for help in protecting the border with Turkey.",
         "target_items": [
             {
@@ -1383,10 +1480,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "6dd20b0108bd1f6ede812fbc20d0d00d",
+        "fullText": "Another wave of migration? Bulgaria asks Frontex for help in protecting the border with Turkey."
     },
     {
-        "id": "29706a1adbe28d5b04b4bc4a1d7711a7",
         "text": "@Evelllynee: Ruling of the European Court: Germany can deny social benefits to immigrants (citizens of EU countries).",
         "target_items": [
             {
@@ -1397,10 +1495,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "29706a1adbe28d5b04b4bc4a1d7711a7",
+        "fullText": "@Evelllynee: Ruling of the European Court: Germany can deny social benefits to immigrants (citizens of EU countries)."
     },
     {
-        "id": "56607345bb8b5960486c8d934dc1fc46",
         "text": "#Germany does not have to pay social benefits to immigrants who came here for work - ruling of the Court of Justice of the EU",
         "target_items": [
             {
@@ -1411,10 +1510,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "56607345bb8b5960486c8d934dc1fc46",
+        "fullText": "#Germany does not have to pay social benefits to immigrants who came here for work - ruling of the Court of Justice of the EU"
     },
     {
-        "id": "2f0952d6c4830386401b81c3197397a3",
         "text": "From what the Pope said yesterday in the European Parliament, it follows that Europe should spend more on social purposes and accept more immigrants.",
         "target_items": [
             {
@@ -1425,10 +1525,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "2f0952d6c4830386401b81c3197397a3",
+        "fullText": "From what the Pope said yesterday in the European Parliament, it follows that Europe should spend more on social purposes and accept more immigrants."
     },
     {
-        "id": "9255d00e49670a2f1fa30e1dfc74776b",
         "text": "The government crisis in Berlin is deepening - the German Minister of the Interior rejects the migration agreement reached at the EU summit. According to Seehofer, the Union's proposals will increase the influx of immigrants instead of curbing it.",
         "target_items": [
             {
@@ -1439,10 +1540,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "9255d00e49670a2f1fa30e1dfc74776b",
+        "fullText": "The government crisis in Berlin is deepening - the German Minister of the Interior rejects the migration agreement reached at the EU summit. According to Seehofer, the Union's proposals will increase the influx of immigrants instead of curbing it."
     },
     {
-        "id": "00cdcaa8457723d32a9a8252edaede6b",
         "text": "Liberadzki claims that since everyone in the EU talks about the necessity of judges completing their terms, they should be listened to. Everyone also talked about accepting immigrants, and now they are starting to change their minds #Woronicza17",
         "target_items": [
             {
@@ -1453,10 +1555,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "00cdcaa8457723d32a9a8252edaede6b",
+        "fullText": "Liberadzki claims that since everyone in the EU talks about the necessity of judges completing their terms, they should be listened to. Everyone also talked about accepting immigrants, and now they are starting to change their minds #Woronicza17"
     },
     {
-        "id": "a08d59bc4a189087e8e24ed4b15412a5",
         "text": "\ud83c\uddee\ud83c\uddf9 Salvini responds to the EU's proposal of a \u20ac6000 subsidy for each accepted illegal immigrant under the relocation system: \"It's not about the money, it's about dignity. If the European Commission wants to give money, let them give it to other countries. Italy does not need charity.\"",
         "target_items": [
             {
@@ -1467,10 +1570,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "a08d59bc4a189087e8e24ed4b15412a5",
+        "fullText": "\ud83c\uddee\ud83c\uddf9 Salvini responds to the EU's proposal of a \u20ac6000 subsidy for each accepted illegal immigrant under the relocation system: \"It's not about the money, it's about dignity. If the European Commission wants to give money, let them give it to other countries. Italy does not need charity.\""
     },
     {
-        "id": "17ba014d3bbf6d37c128d31950740d55",
         "text": "@Europarl_EN What does Poland contribute to the EU? Borders have disappeared but they are isolating themselves, the movement of goods has accelerated but they are slowing down the movement of migrants, competition is pressing but they are monopolizing the country.",
         "target_items": [
             {
@@ -1481,10 +1585,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "17ba014d3bbf6d37c128d31950740d55",
+        "fullText": "@Europarl_EN What does Poland contribute to the EU? Borders have disappeared but they are isolating themselves, the movement of goods has accelerated but they are slowing down the movement of migrants, competition is pressing but they are monopolizing the country."
     },
     {
-        "id": "9f9953c10619c184725ee06666a5e963",
         "text": "And where are the electric cars? Where are the apartments? And why did we accept more immigrants than the USA and any EU country? PiS only manages to reach into the taxpayer's pocket and turn it into an inflation+ program.",
         "target_items": [
             {
@@ -1495,10 +1600,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "9f9953c10619c184725ee06666a5e963",
+        "fullText": "And where are the electric cars? Where are the apartments? And why did we accept more immigrants than the USA and any EU country? PiS only manages to reach into the taxpayer's pocket and turn it into an inflation+ program."
     },
     {
-        "id": "b9698c7c77ec7ae4cecc0367231230df",
         "text": "\ud83c\uddea\ud83c\uddfa From the beginning of the year to the end of August, 456,000 migrants have applied for international protection in EU+ countries. This is less than Poland accepts in a year, which in 2017 accepted the most in the world - over 1.1 million, out of 5 million worldwide, more than the USA.",
         "target_items": [
             {
@@ -1509,10 +1615,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "b9698c7c77ec7ae4cecc0367231230df",
+        "fullText": "\ud83c\uddea\ud83c\uddfa From the beginning of the year to the end of August, 456,000 migrants have applied for international protection in EU+ countries. This is less than Poland accepts in a year, which in 2017 accepted the most in the world - over 1.1 million, out of 5 million worldwide, more than the USA."
     },
     {
-        "id": "df1bb5fa271a77f3cd103274824850b8",
         "text": "Interesting that Hitler's daughter Merkel did not foresee that Turkey would blackmail the EU with immigrants???? What shortsightedness????",
         "target_items": [
             {
@@ -1523,10 +1630,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "df1bb5fa271a77f3cd103274824850b8",
+        "fullText": "Interesting that Hitler's daughter Merkel did not foresee that Turkey would blackmail the EU with immigrants???? What shortsightedness????"
     },
     {
-        "id": "a4e3638ccde8423cba096c69222a5f13",
         "text": "Victory of eurorealists, return to the roots of the EU of nation-states, rechristianization, cutting off today's EU establishment from funds and decision-making power, breaking up global corporations, closing borders, expulsion of immigrants who do not want to assimilate.",
         "target_items": [
             {
@@ -1537,10 +1645,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "a4e3638ccde8423cba096c69222a5f13",
+        "fullText": "Victory of eurorealists, return to the roots of the EU of nation-states, rechristianization, cutting off today's EU establishment from funds and decision-making power, breaking up global corporations, closing borders, expulsion of immigrants who do not want to assimilate."
     },
     {
-        "id": "fcac5be2479d9677dc23bcf051db526a",
         "text": "The commander of the Libyan coast guard tells a journalist that he witnessed cooperation between European NGOs and smugglers who bring African migrants to #Italy. #FerryService #Salvini #PortiChiusi @EU_Commission ???",
         "target_items": [
             {
@@ -1551,10 +1660,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "fcac5be2479d9677dc23bcf051db526a",
+        "fullText": "The commander of the Libyan coast guard tells a journalist that he witnessed cooperation between European NGOs and smugglers who bring African migrants to #Italy. #FerryService #Salvini #PortiChiusi @EU_Commission ???"
     },
     {
-        "id": "d668b72575c81d8520255b1277cfa888",
         "text": "From time to time, the @pisorgpl government propagandistically reactivates the project of sealing the borders against immigrants. Meanwhile, Poland accepts the most foreigners in the #EU! More than Germany, the United Kingdom, and France. Nearly 1/4 of residence permits in the entire European Union were issued in Poland.",
         "target_items": [
             {
@@ -1565,10 +1675,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "d668b72575c81d8520255b1277cfa888",
+        "fullText": "From time to time, the @pisorgpl government propagandistically reactivates the project of sealing the borders against immigrants. Meanwhile, Poland accepts the most foreigners in the #EU! More than Germany, the United Kingdom, and France. Nearly 1/4 of residence permits in the entire European Union were issued in Poland."
     },
     {
-        "id": "0fb5ee6ebdfe7a2c9d55fdf36f18a6e5",
         "text": "At least the immigration policy in Europe will change, because the domino effect is around the corner. Unless the EU orders a repeat of the elections ;)",
         "target_items": [
             {
@@ -1579,10 +1690,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.333
             }
-        ]
+        ],
+        "resourceId": "0fb5ee6ebdfe7a2c9d55fdf36f18a6e5",
+        "fullText": "At least the immigration policy in Europe will change, because the domino effect is around the corner. Unless the EU orders a repeat of the elections ;)"
     },
     {
-        "id": "a03e39793778d0b1d8998713e598dc5a",
         "text": "Echoes of history: a few years ago, the EU halted accession negotiations with Turkey. Fearing a wave of immigrants, they weakened the democratization of the country.",
         "target_items": [
             {
@@ -1593,10 +1705,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "a03e39793778d0b1d8998713e598dc5a",
+        "fullText": "Echoes of history: a few years ago, the EU halted accession negotiations with Turkey. Fearing a wave of immigrants, they weakened the democratization of the country."
     },
     {
-        "id": "d19b69c73437713f30ce41e835b49e27",
         "text": "@RT_Erdogan: #Turkey will not take back Syrian migrants from Europe if the EU does not fulfill its obligations.",
         "target_items": [
             {
@@ -1607,10 +1720,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "d19b69c73437713f30ce41e835b49e27",
+        "fullText": "@RT_Erdogan: #Turkey will not take back Syrian migrants from Europe if the EU does not fulfill its obligations."
     },
     {
-        "id": "2bc593619cad98c8f8cc3cbc7c22c09b",
         "text": "Romanian Minister of Internal Affairs: \"We agreed to take in 6200 immigrants. We went to pick up the first 100 people. They fled when they found out they were supposed to come to us.\"",
         "target_items": [
             {
@@ -1621,10 +1735,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2bc593619cad98c8f8cc3cbc7c22c09b",
+        "fullText": "Romanian Minister of Internal Affairs: \"We agreed to take in 6200 immigrants. We went to pick up the first 100 people. They fled when they found out they were supposed to come to us.\""
     },
     {
-        "id": "3686d7aadf0b3e9523ceea3fdfc7222b",
         "text": "3 years after the elections, the opposition still talks about themselves or the bad PiS. Zero program for Poles except that they repeatedly questioned the #500Plus program, supported accepting immigrants under EU quotas, and don't like the fight against VAT or reprivatization mafias.",
         "target_items": [
             {
@@ -1635,10 +1750,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "3686d7aadf0b3e9523ceea3fdfc7222b",
+        "fullText": "3 years after the elections, the opposition still talks about themselves or the bad PiS. Zero program for Poles except that they repeatedly questioned the #500Plus program, supported accepting immigrants under EU quotas, and don't like the fight against VAT or reprivatization mafias."
     },
     {
-        "id": "c9fe494a7b42145171c8c675424eacec",
         "text": "So in what way is this government defiant? - Communists are returning to the courts - Communists are returning as street patrons - Poland accepted the most immigrants in the entire EU in 2017! Where is this defiance? #PiSacceptsIMMIGRANTS #IPPTV",
         "target_items": [
             {
@@ -1649,10 +1765,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c9fe494a7b42145171c8c675424eacec",
+        "fullText": "So in what way is this government defiant? - Communists are returning to the courts - Communists are returning as street patrons - Poland accepted the most immigrants in the entire EU in 2017! Where is this defiance? #PiSacceptsIMMIGRANTS #IPPTV"
     },
     {
-        "id": "dca844facc8422b59fd03705c43cdef0",
         "text": "The new law providing for the reduction of formal barriers for labor immigrants from non-EU countries is set to come into effect on January 1, 2020, and will be in force until June 30, 2022. This gives Polish companies some time and does not mean an exodus of Ukrainians in 2019 #labormarket",
         "target_items": [
             {
@@ -1663,10 +1780,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "dca844facc8422b59fd03705c43cdef0",
+        "fullText": "The new law providing for the reduction of formal barriers for labor immigrants from non-EU countries is set to come into effect on January 1, 2020, and will be in force until June 30, 2022. This gives Polish companies some time and does not mean an exodus of Ukrainians in 2019 #labormarket"
     },
     {
-        "id": "17747ca115038023ff230210869f103d",
         "text": "Deputy Minister for Civil Defense of Greece, Giorgos Koumoutsakos, warned on Friday that his country has already exhausted its capacity to receive migrants and called on Turkey and the EU to find a solution to the problem of their increased influx to the Greek shores.",
         "target_items": [
             {
@@ -1677,10 +1795,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "17747ca115038023ff230210869f103d",
+        "fullText": "Deputy Minister for Civil Defense of Greece, Giorgos Koumoutsakos, warned on Friday that his country has already exhausted its capacity to receive migrants and called on Turkey and the EU to find a solution to the problem of their increased influx to the Greek shores."
     },
     {
-        "id": "01510df0bc132d350183c734ced74f42",
         "text": "From the material, it sounds like the problem is solely Salvini, but that's not the case. The previous \"enlightened\" government already started combating humanitarian organizations, and there are fewer immigrants because the EU bought ships for Libya and started paying for their capture. No one here has the moral high ground.",
         "target_items": [
             {
@@ -1691,10 +1810,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "01510df0bc132d350183c734ced74f42",
+        "fullText": "From the material, it sounds like the problem is solely Salvini, but that's not the case. The previous \"enlightened\" government already started combating humanitarian organizations, and there are fewer immigrants because the EU bought ships for Libya and started paying for their capture. No one here has the moral high ground."
     },
     {
-        "id": "6a8caa7f8e8142432cd788182d324cce",
         "text": "Once again, I have to step in for the Government's press office. Let me explain: there is not a single immigrant in Poland in the sense of those in other EU countries. However, there is a shortage of workers, with around 1.5 million economic emigrants. Mr. Prime Minister, please get those slackers from the press office moving.",
         "target_items": [
             {
@@ -1705,10 +1825,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "6a8caa7f8e8142432cd788182d324cce",
+        "fullText": "Once again, I have to step in for the Government's press office. Let me explain: there is not a single immigrant in Poland in the sense of those in other EU countries. However, there is a shortage of workers, with around 1.5 million economic emigrants. Mr. Prime Minister, please get those slackers from the press office moving."
     },
     {
-        "id": "4cb55d80ab19d10ebd871c1b6f897da7",
         "text": "The number of immigrants who reached the EU borders in July exceeds 107 thousand. This is a record, reports Frontex. NEWS_TOKFM.",
         "target_items": [
             {
@@ -1719,10 +1840,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "4cb55d80ab19d10ebd871c1b6f897da7",
+        "fullText": "The number of immigrants who reached the EU borders in July exceeds 107 thousand. This is a record, reports Frontex. NEWS_TOKFM."
     },
     {
-        "id": "2870923be7054262be5dc67277068fbb",
         "text": "I am in favor of making everyone happy and sending immigrants to Ukraine. There is a shortage of hands/people for work, and the EU is sponsoring Poroshenko anyway.",
         "target_items": [
             {
@@ -1733,10 +1855,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2870923be7054262be5dc67277068fbb",
+        "fullText": "I am in favor of making everyone happy and sending immigrants to Ukraine. There is a shortage of hands/people for work, and the EU is sponsoring Poroshenko anyway."
     },
     {
-        "id": "2f21939051f6a0f14d219b744c6679d7",
         "text": "The German Minister of the Interior wants the EU to share the refugees seeking asylum in the EU. Poland will also have to accept them. #WHAT?",
         "target_items": [
             {
@@ -1747,10 +1870,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2f21939051f6a0f14d219b744c6679d7",
+        "fullText": "The German Minister of the Interior wants the EU to share the refugees seeking asylum in the EU. Poland will also have to accept them. #WHAT?"
     },
     {
-        "id": "b9d228c2015e643b86faae4ccdc7cd3f",
         "text": "#EP is working on adopting new, improved regulations aimed at protecting the lives and rights of migrants.",
         "target_items": [
             {
@@ -1761,10 +1885,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "b9d228c2015e643b86faae4ccdc7cd3f",
+        "fullText": "#EP is working on adopting new, improved regulations aimed at protecting the lives and rights of migrants."
     },
     {
-        "id": "81f51a8c54b7748a8dd7c9b40873d674",
         "text": "Min #Waszczykowski: Poland is not opposed to immigrants. In 2016, #Poland issued 1.26 million visas for Ukrainians. Half of all visas issued by the EU.",
         "target_items": [
             {
@@ -1775,10 +1900,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "81f51a8c54b7748a8dd7c9b40873d674",
+        "fullText": "Min #Waszczykowski: Poland is not opposed to immigrants. In 2016, #Poland issued 1.26 million visas for Ukrainians. Half of all visas issued by the EU."
     },
     {
-        "id": "65b17b53c65161054885cdec7424f98f",
         "text": "An important day for immigrants in the UK. A major strike of newcomers from other EU countries across the country. In the House of Commons - a debate on the approval of Brexit.",
         "target_items": [
             {
@@ -1789,10 +1915,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "65b17b53c65161054885cdec7424f98f",
+        "fullText": "An important day for immigrants in the UK. A major strike of newcomers from other EU countries across the country. In the House of Commons - a debate on the approval of Brexit."
     },
     {
-        "id": "b5131606a929af3affc0136ec3a5237a",
         "text": "According to V. Orb\u00e1n, as a result of a \"secret agreement\" between the EU and Turkey, Europe is to accept 500,000 migrants. This is to \"be revealed soon.\" #Hungary #kropka_hu",
         "target_items": [
             {
@@ -1803,10 +1930,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "b5131606a929af3affc0136ec3a5237a",
+        "fullText": "According to V. Orb\u00e1n, as a result of a \"secret agreement\" between the EU and Turkey, Europe is to accept 500,000 migrants. This is to \"be revealed soon.\" #Hungary #kropka_hu"
     },
     {
-        "id": "c92ee4f982ac31921baadccf2fc265b8",
         "text": "How is it that Minister B\u0142aszczak, whose government removes EU flags and does not want immigrants, demands the preservation of the Schengen area as a \"common good\"?",
         "target_items": [
             {
@@ -1817,10 +1945,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c92ee4f982ac31921baadccf2fc265b8",
+        "fullText": "How is it that Minister B\u0142aszczak, whose government removes EU flags and does not want immigrants, demands the preservation of the Schengen area as a \"common good\"?"
     },
     {
-        "id": "3b5d77ee7a88a74f6caeb7a1a23330df",
         "text": "Remind me: did the European Parliament call Angela Merkel to account when she started breaking EU law on immigrants?",
         "target_items": [
             {
@@ -1831,10 +1960,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "3b5d77ee7a88a74f6caeb7a1a23330df",
+        "fullText": "Remind me: did the European Parliament call Angela Merkel to account when she started breaking EU law on immigrants?"
     },
     {
-        "id": "45aff206d18ce5f639d2205fbf6c776b",
         "text": "Italian Prime Minister: We can manage without the Union.. You think.. ITA wants to leave the EU! \ud83d\ude31 Chill out. \"We can handle the refugees\" here is the full statement. #TVN",
         "target_items": [
             {
@@ -1845,10 +1975,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "45aff206d18ce5f639d2205fbf6c776b",
+        "fullText": "Italian Prime Minister: We can manage without the Union.. You think.. ITA wants to leave the EU! \ud83d\ude31 Chill out. \"We can handle the refugees\" here is the full statement. #TVN"
     },
     {
-        "id": "e43a5a911f8ec274341f48acf8abd1aa",
         "text": "GoscRadiaZET #Olejnik: I ask about the Tribunal, and you again about refugees. ZiobroPL: I am explaining the context. The EU did not protest when PO was doing ...",
         "target_items": [
             {
@@ -1859,10 +1990,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "e43a5a911f8ec274341f48acf8abd1aa",
+        "fullText": "GoscRadiaZET #Olejnik: I ask about the Tribunal, and you again about refugees. ZiobroPL: I am explaining the context. The EU did not protest when PO was doing ..."
     },
     {
-        "id": "b75b13f43918697cc49bfba53ee16a73",
         "text": "-Would you accept the forced relocation of immigrants?\n-Because you don't want to.!!\n-Would you accept it or not?\n-Because you are against the EU!!!\n-Would you accept it?\n-Because you manipulate!!\n-Tell the Poles finally..\n-People need help!\n-So would you accept it?\n-You lie! #Kropiwnicki",
         "target_items": [
             {
@@ -1873,10 +2005,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "b75b13f43918697cc49bfba53ee16a73",
+        "fullText": "-Would you accept the forced relocation of immigrants?\n-Because you don't want to.!!\n-Would you accept it or not?\n-Because you are against the EU!!!\n-Would you accept it?\n-Because you manipulate!!\n-Tell the Poles finally..\n-People need help!\n-So would you accept it?\n-You lie! #Kropiwnicki"
     },
     {
-        "id": "7d6c8d42f29f7c7483b0803cc33acfe1",
         "text": "Andrea Leadsom: \"Our migration policy will be fair to [immigrants from] the whole world, instead of open, free access to benefits, jobs, and entry to the UK without employment for EU citizens, when this access is restricted for the rest of the world\" #r4today",
         "target_items": [
             {
@@ -1887,10 +2020,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "7d6c8d42f29f7c7483b0803cc33acfe1",
+        "fullText": "Andrea Leadsom: \"Our migration policy will be fair to [immigrants from] the whole world, instead of open, free access to benefits, jobs, and entry to the UK without employment for EU citizens, when this access is restricted for the rest of the world\" #r4today"
     },
     {
-        "id": "533f38004d1ef080f8f5a280cf527239",
         "text": "Leadsom and PK didn't even mention that according to EU rules, if an EU immigrant-citizen doesn't find a job within 3 months, they can be asked to leave. Such a regulation doesn't exist at all in the consciousness of the British.",
         "target_items": [
             {
@@ -1901,10 +2035,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "533f38004d1ef080f8f5a280cf527239",
+        "fullText": "Leadsom and PK didn't even mention that according to EU rules, if an EU immigrant-citizen doesn't find a job within 3 months, they can be asked to leave. Such a regulation doesn't exist at all in the consciousness of the British."
     },
     {
-        "id": "61b067a075a6de55c8bce25b55f3c46f",
         "text": "Hundreds of millions of people, mainly from Africa and Asia, want to move to the EU. Smuggling people into the EU is a more profitable business today than drug trafficking. Especially since it is almost unpunished. Poland admits the most migrants from outside the EU among OECD countries: 2016 670,000 2017 1.1 million",
         "target_items": [
             {
@@ -1915,10 +2050,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "61b067a075a6de55c8bce25b55f3c46f",
+        "fullText": "Hundreds of millions of people, mainly from Africa and Asia, want to move to the EU. Smuggling people into the EU is a more profitable business today than drug trafficking. Especially since it is almost unpunished. Poland admits the most migrants from outside the EU among OECD countries: 2016 670,000 2017 1.1 million"
     },
     {
-        "id": "7774ffe47e50020c4cd176760be1220c",
         "text": "#Keller: When #Italy decides to rescue refugees, the EU #FRONTEX warns of an \"immigration threat\". It can't be like this!",
         "target_items": [
             {
@@ -1929,10 +2065,11 @@
                 "stance_5": "positive",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "7774ffe47e50020c4cd176760be1220c",
+        "fullText": "#Keller: When #Italy decides to rescue refugees, the EU #FRONTEX warns of an \"immigration threat\". It can't be like this!"
     },
     {
-        "id": "5d3822b7353604680aad9409f3e021ec",
         "text": "L\u00e1z\u00e1r-szef KPRM: #Hungary in the matter of immigrants will not exceed the boundaries of EU law by a centimeter #Hungary",
         "target_items": [
             {
@@ -1943,10 +2080,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "5d3822b7353604680aad9409f3e021ec",
+        "fullText": "L\u00e1z\u00e1r-szef KPRM: #Hungary in the matter of immigrants will not exceed the boundaries of EU law by a centimeter #Hungary"
     },
     {
-        "id": "3878931b611ead3d8d444dc0dd70b773",
         "text": "Today on @WiadomosciTVP about the most serious current problem in Europe, the refugee issue. What will the EU do and what will Poland do? More at 19:30 on #tvp1",
         "target_items": [
             {
@@ -1957,10 +2095,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "3878931b611ead3d8d444dc0dd70b773",
+        "fullText": "Today on @WiadomosciTVP about the most serious current problem in Europe, the refugee issue. What will the EU do and what will Poland do? More at 19:30 on #tvp1"
     },
     {
-        "id": "15ffad20c9fa69fcc7301e062a6abc09",
         "text": "How many immigrants has the EU sent back from Europe? None! Conclusion for economic immigrants: come.",
         "target_items": [
             {
@@ -1971,10 +2110,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "15ffad20c9fa69fcc7301e062a6abc09",
+        "fullText": "How many immigrants has the EU sent back from Europe? None! Conclusion for economic immigrants: come."
     },
     {
-        "id": "89bebeaedd4249de20bd845f5ee03e11",
         "text": "Today on @DzienNaSwiecie on @PolsatNews2 I will be talking about refugees, the #EU's reaction, and Prime Minister Orban's visit to Brussels. Starting at 21:00.",
         "target_items": [
             {
@@ -1985,10 +2125,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "89bebeaedd4249de20bd845f5ee03e11",
+        "fullText": "Today on @DzienNaSwiecie on @PolsatNews2 I will be talking about refugees, the #EU's reaction, and Prime Minister Orban's visit to Brussels. Starting at 21:00."
     },
     {
-        "id": "a062b1e57922b4aa89c61c7afc6077d0",
         "text": "@eucopresident proposes that EU countries accept 100,000 immigrants - will Poland declare more than 2,000? @trzaskowski_ Mr. Minister?",
         "target_items": [
             {
@@ -1999,10 +2140,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "a062b1e57922b4aa89c61c7afc6077d0",
+        "fullText": "@eucopresident proposes that EU countries accept 100,000 immigrants - will Poland declare more than 2,000? @trzaskowski_ Mr. Minister?"
     },
     {
-        "id": "6cc0bb9a42878bc88a4a46249ab5a2e7",
         "text": "Who in the EU made the decision that we should accept immigrants/refugees from Muslim countries? What mechanism was at work? Was there a vote?",
         "target_items": [
             {
@@ -2013,10 +2155,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "6cc0bb9a42878bc88a4a46249ab5a2e7",
+        "fullText": "Who in the EU made the decision that we should accept immigrants/refugees from Muslim countries? What mechanism was at work? Was there a vote?"
     },
     {
-        "id": "493bb3b8a8bff850472fca8e7d141dae",
         "text": "#Schetyna: 10,000 immigrants? For now, there is no talk of numbers. This is a big problem and a challenge for EU solidarity.",
         "target_items": [
             {
@@ -2027,10 +2170,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "493bb3b8a8bff850472fca8e7d141dae",
+        "fullText": "#Schetyna: 10,000 immigrants? For now, there is no talk of numbers. This is a big problem and a challenge for EU solidarity."
     },
     {
-        "id": "6491db151badcd9676ce6d0dfc20c1ca",
         "text": "Wait, is it the same West that wants us to fully open up to immigrants, which set employment limits for Poles after joining the EU?",
         "target_items": [
             {
@@ -2041,10 +2185,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "6491db151badcd9676ce6d0dfc20c1ca",
+        "fullText": "Wait, is it the same West that wants us to fully open up to immigrants, which set employment limits for Poles after joining the EU?"
     },
     {
-        "id": "9357345fcc652382a8f423d6a6d7733e",
         "text": "Why the backwater of Western EU doesn't want immigrants. They should take an example from Poland. Poland for the rest of the World!",
         "target_items": [
             {
@@ -2055,10 +2200,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "9357345fcc652382a8f423d6a6d7733e",
+        "fullText": "Why the backwater of Western EU doesn't want immigrants. They should take an example from Poland. Poland for the rest of the World!"
     },
     {
-        "id": "33a4aeeab5f4b8ec2377c17012418ba8",
         "text": "In the face of the new enemy of PiS #LGBT, I ask: What about pedophilia in the Church? What about the #Srebrna and #PCK scandals? What about the dismantling of education? And what about the old enemy, the refugees? Is there already a plague in the EU from these protozoa?",
         "target_items": [
             {
@@ -2069,10 +2215,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "33a4aeeab5f4b8ec2377c17012418ba8",
+        "fullText": "In the face of the new enemy of PiS #LGBT, I ask: What about pedophilia in the Church? What about the #Srebrna and #PCK scandals? What about the dismantling of education? And what about the old enemy, the refugees? Is there already a plague in the EU from these protozoa?"
     },
     {
-        "id": "6bc94cf229a09f296f035ea33bc91b13",
         "text": "Bravo Sikorski! Cameron is insolent! Let him pick on other nationalities, less efficient than Poles, and on immigrants from outside the EU.",
         "target_items": [
             {
@@ -2083,10 +2230,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "6bc94cf229a09f296f035ea33bc91b13",
+        "fullText": "Bravo Sikorski! Cameron is insolent! Let him pick on other nationalities, less efficient than Poles, and on immigrants from outside the EU."
     },
     {
-        "id": "d634e6ad9aae9793f53340f5121f10d0",
         "text": "The idea of restricting immigrant rights + possible EP resolution condemning @David_Cameron = byebyeUEin2017? #politics #Poland #EU",
         "target_items": [
             {
@@ -2097,10 +2245,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "d634e6ad9aae9793f53340f5121f10d0",
+        "fullText": "The idea of restricting immigrant rights + possible EP resolution condemning @David_Cameron = byebyeUEin2017? #politics #Poland #EU"
     },
     {
-        "id": "8ddd7a1e77ccae88bce4259597b9c098",
         "text": "Commissioner Andor: #EC will not agree to changes in the rules for paying family benefits to immigrants #EU, contrary to the principle of non-discrimination.",
         "target_items": [
             {
@@ -2111,10 +2260,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "8ddd7a1e77ccae88bce4259597b9c098",
+        "fullText": "Commissioner Andor: #EC will not agree to changes in the rules for paying family benefits to immigrants #EU, contrary to the principle of non-discrimination."
     },
     {
-        "id": "5f60f7d43410669d2d8c38f5361ef6d9",
         "text": "PiS did not accept 6,000 immigrants, which PO agreed to accept under the EU mechanism - they are shouting about it everywhere. But at the same time, they issued residence permits in Poland to a much larger number of immigrants from outside Europe - in the regular procedure. This is deceiving Poles.",
         "target_items": [
             {
@@ -2125,10 +2275,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "5f60f7d43410669d2d8c38f5361ef6d9",
+        "fullText": "PiS did not accept 6,000 immigrants, which PO agreed to accept under the EU mechanism - they are shouting about it everywhere. But at the same time, they issued residence permits in Poland to a much larger number of immigrants from outside Europe - in the regular procedure. This is deceiving Poles."
     },
     {
-        "id": "2cae7585bcbf356a8b66c7f26ef6dfb1",
         "text": "@JSaryuszWolski on @RadiowaJedynka: we want solidarity in the EU regarding immigrants to be the same for everyone or voluntary acceptance of them",
         "target_items": [
             {
@@ -2139,10 +2290,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "2cae7585bcbf356a8b66c7f26ef6dfb1",
+        "fullText": "@JSaryuszWolski on @RadiowaJedynka: we want solidarity in the EU regarding immigrants to be the same for everyone or voluntary acceptance of them"
     },
     {
-        "id": "9045971560b7ad763c25f1e0ad79272c",
         "text": "#Slovakia: The Visegrad Group against the EC's proposal on immigrants. It concerns the relocation of 40,000 immigrants in EU countries.",
         "target_items": [
             {
@@ -2153,10 +2305,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "9045971560b7ad763c25f1e0ad79272c",
+        "fullText": "#Slovakia: The Visegrad Group against the EC's proposal on immigrants. It concerns the relocation of 40,000 immigrants in EU countries."
     },
     {
-        "id": "9278742bedc8c59a897e9bc1802d8c9b",
         "text": "At the EU summit, a fierce dispute over accepting immigrants. On the barricade, Renzi and Juncker against Grybauskaite and Tusk #EUCO",
         "target_items": [
             {
@@ -2167,10 +2320,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "9278742bedc8c59a897e9bc1802d8c9b",
+        "fullText": "At the EU summit, a fierce dispute over accepting immigrants. On the barricade, Renzi and Juncker against Grybauskaite and Tusk #EUCO"
     },
     {
-        "id": "d63610c931302b473fca00faa44afb51",
         "text": "The average salary in PL is lower than the unemployment benefit in some EU countries. This protects us from immigrants ;)",
         "target_items": [
             {
@@ -2181,10 +2335,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "d63610c931302b473fca00faa44afb51",
+        "fullText": "The average salary in PL is lower than the unemployment benefit in some EU countries. This protects us from immigrants ;)"
     },
     {
-        "id": "3b15b7f5c1a04145a8b2f22355005872",
         "text": "@KosiniakKamysz the EU addressed the issue of refugees and migrants too late. There is no country that can decipher every intention #debatakulisy24",
         "target_items": [
             {
@@ -2195,10 +2350,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "3b15b7f5c1a04145a8b2f22355005872",
+        "fullText": "@KosiniakKamysz the EU addressed the issue of refugees and migrants too late. There is no country that can decipher every intention #debatakulisy24"
     },
     {
-        "id": "5b64eeb3f5f42b29d7267114a8eb0bde",
         "text": "Codename Sofia: #EU begins a new operation in the Mediterranean Sea against migrant smugglers from the Middle East and North Africa.",
         "target_items": [
             {
@@ -2209,10 +2365,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "5b64eeb3f5f42b29d7267114a8eb0bde",
+        "fullText": "Codename Sofia: #EU begins a new operation in the Mediterranean Sea against migrant smugglers from the Middle East and North Africa."
     },
     {
-        "id": "625278c433530f803ba234937348a588",
         "text": "From January to September, 710 thousand immigrants crossed the borders of the Union - #report @FrontexEU. (In all of 2014 - 282 thousand.) #refugees #immigrants",
         "target_items": [
             {
@@ -2223,10 +2380,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "625278c433530f803ba234937348a588",
+        "fullText": "From January to September, 710 thousand immigrants crossed the borders of the Union - #report @FrontexEU. (In all of 2014 - 282 thousand.) #refugees #immigrants"
     },
     {
-        "id": "b9a53c236a9881117cbc39c14f576ebf",
         "text": "Did you know that before we receive anything for immigrants, we have to pay contributions to the UNHCR and the EU Trust Fund?",
         "target_items": [
             {
@@ -2237,10 +2395,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "b9a53c236a9881117cbc39c14f576ebf",
+        "fullText": "Did you know that before we receive anything for immigrants, we have to pay contributions to the UNHCR and the EU Trust Fund?"
     },
     {
-        "id": "5b6fb80a9f600f6db5068783e8808322",
         "text": "Merkel offered Turkey financial aid and faster accession to the EU in exchange for help in controlling the influx of migrants to Europe.",
         "target_items": [
             {
@@ -2251,10 +2410,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "5b6fb80a9f600f6db5068783e8808322",
+        "fullText": "Merkel offered Turkey financial aid and faster accession to the EU in exchange for help in controlling the influx of migrants to Europe."
     },
     {
-        "id": "99860c993a5b82912c826e274096c9ed",
         "text": "Our position in the EU is strong. Really? And what about the immigrant quotas? #PEK #debate",
         "target_items": [
             {
@@ -2265,10 +2425,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "99860c993a5b82912c826e274096c9ed",
+        "fullText": "Our position in the EU is strong. Really? And what about the immigrant quotas? #PEK #debate"
     },
     {
-        "id": "504f18b0fc76d3f398a8d32078e7e820",
         "text": "I wouldn't let economic immigrants into my own home. #debate #PEK",
         "target_items": [
             {
@@ -2279,10 +2440,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "504f18b0fc76d3f398a8d32078e7e820",
+        "fullText": "I wouldn't let economic immigrants into my own home. #debate #PEK"
     },
     {
-        "id": "93cd01ce81d8dcdef0b0460e7fa0fb4d",
         "text": "Szyd\u0142o plays on fears, scares with refugees. PiS despises people. Kukiz knows nothing about the EU, Syria (embarrassment). #TimeForDecision, #debate.",
         "target_items": [
             {
@@ -2293,10 +2455,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "93cd01ce81d8dcdef0b0460e7fa0fb4d",
+        "fullText": "Szyd\u0142o plays on fears, scares with refugees. PiS despises people. Kukiz knows nothing about the EU, Syria (embarrassment). #TimeForDecision, #debate."
     },
     {
-        "id": "281e463e7403a77ce78e42b30c60050b",
         "text": "Skwiecinski sees the reaction of EU governments, including Germany, to the influx of immigrants. Sharp eyesight.",
         "target_items": [
             {
@@ -2307,10 +2470,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "281e463e7403a77ce78e42b30c60050b",
+        "fullText": "Skwiecinski sees the reaction of EU governments, including Germany, to the influx of immigrants. Sharp eyesight."
     },
     {
-        "id": "d5a13d74700aadaf308d7d13e50b3fde",
         "text": "Merkel on refugees: \"It is important that we do not back down because a small group of people is shouting.\" Thank you for such an EU!!! Pass it on",
         "target_items": [
             {
@@ -2321,10 +2485,11 @@
                 "stance_5": "positive",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "d5a13d74700aadaf308d7d13e50b3fde",
+        "fullText": "Merkel on refugees: \"It is important that we do not back down because a small group of people is shouting.\" Thank you for such an EU!!! Pass it on"
     },
     {
-        "id": "1139363903545462d0f88c7029d66c57",
         "text": "Germany's plan was to bring in a few million immigrants, select the best ones for work in their own country, and distribute the rest across the EU, letting others worry about them.",
         "target_items": [
             {
@@ -2335,10 +2500,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "1139363903545462d0f88c7029d66c57",
+        "fullText": "Germany's plan was to bring in a few million immigrants, select the best ones for work in their own country, and distribute the rest across the EU, letting others worry about them."
     },
     {
-        "id": "58c4f6622a33c7eed4e909fb96ca6f3f",
         "text": "Can someone explain to me... Did Merkel invite immigrants as the Chancellor of Germany or as the owner of the EU? AND BY WHAT RIGHT DOES SHE ORDER POLAND TO DO ANYTHING?",
         "target_items": [
             {
@@ -2349,10 +2515,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "58c4f6622a33c7eed4e909fb96ca6f3f",
+        "fullText": "Can someone explain to me... Did Merkel invite immigrants as the Chancellor of Germany or as the owner of the EU? AND BY WHAT RIGHT DOES SHE ORDER POLAND TO DO ANYTHING?"
     },
     {
-        "id": "5e687737e99de100626e0eff496ee3a5",
         "text": "Freedom of speech about immigrants in the EU is threatened by political correctness! #wtylewizji",
         "target_items": [
             {
@@ -2363,10 +2530,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "5e687737e99de100626e0eff496ee3a5",
+        "fullText": "Freedom of speech about immigrants in the EU is threatened by political correctness! #wtylewizji"
     },
     {
-        "id": "737ab28ed2a8fe6443bb7ef35cd131ba",
         "text": "#EuropeanCommission Are the principles of freedom and democracy being violated in Germany and the EU due to the influx of immigrants?",
         "target_items": [
             {
@@ -2377,10 +2545,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "737ab28ed2a8fe6443bb7ef35cd131ba",
+        "fullText": "#EuropeanCommission Are the principles of freedom and democracy being violated in Germany and the EU due to the influx of immigrants?"
     },
     {
-        "id": "cd6888a2fbcc5cdb78e2e1335ac28d9d",
         "text": "I like the film Wapniak at Rola's, sharply about immigrants, freedom, libertarianism, taxes, religion, and the fall of the EU! on @YouTube \u2013",
         "target_items": [
             {
@@ -2391,10 +2560,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "cd6888a2fbcc5cdb78e2e1335ac28d9d",
+        "fullText": "I like the film Wapniak at Rola's, sharply about immigrants, freedom, libertarianism, taxes, religion, and the fall of the EU! on @YouTube \u2013"
     },
     {
-        "id": "b25766a3fc15c0a07d09399e199e15d4",
         "text": "Min. @mblaszczak on @tvp_info: I have repeatedly urged my partners in the EU to adopt methods such as those used by Australia regarding immigrants.",
         "target_items": [
             {
@@ -2405,10 +2575,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "b25766a3fc15c0a07d09399e199e15d4",
+        "fullText": "Min. @mblaszczak on @tvp_info: I have repeatedly urged my partners in the EU to adopt methods such as those used by Australia regarding immigrants."
     },
     {
-        "id": "e9d91018e242b635380a3dbb99c7fc10",
         "text": ".@r_czarnecki on #PR24: A lot of criticism in the country fell on the Polish authorities when #President #Erdogan came to us. However, it was the #EU, not the dwarfs, that signed the agreement with #Ankara (...), promising substantial money so that #Turkey would start to stop the \"invasion\" of Islamic immigrants.",
         "target_items": [
             {
@@ -2419,10 +2590,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "e9d91018e242b635380a3dbb99c7fc10",
+        "fullText": ".@r_czarnecki on #PR24: A lot of criticism in the country fell on the Polish authorities when #President #Erdogan came to us. However, it was the #EU, not the dwarfs, that signed the agreement with #Ankara (...), promising substantial money so that #Turkey would start to stop the \"invasion\" of Islamic immigrants."
     },
     {
-        "id": "d3b6ffb54fefd7a2bcd23439f613889f",
         "text": "In the #EP not everyone liked @JunckerEU's proposal to regulate legal immigration like the #USA and #Canada = selection of immigrants according to needs",
         "target_items": [
             {
@@ -2433,10 +2605,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "d3b6ffb54fefd7a2bcd23439f613889f",
+        "fullText": "In the #EP not everyone liked @JunckerEU's proposal to regulate legal immigration like the #USA and #Canada = selection of immigrants according to needs"
     },
     {
-        "id": "678306375478d20f7dee1846f60e3f9c",
         "text": "On the OMP blog and the usa-ue.pl website, the second part of the conversation about the troubles the EU is facing. @mmagierowski talks about the issue of immigrants.",
         "target_items": [
             {
@@ -2447,10 +2620,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "678306375478d20f7dee1846f60e3f9c",
+        "fullText": "On the OMP blog and the usa-ue.pl website, the second part of the conversation about the troubles the EU is facing. @mmagierowski talks about the issue of immigrants."
     },
     {
-        "id": "7b5e9a79b8f6c394c24de88a1e0bea65",
         "text": "EU countries are to voluntarily share the number of 40,000 immigrants. It is not working. There are too few declarations. Poland says 1000, the EC wanted 2600.",
         "target_items": [
             {
@@ -2461,10 +2635,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "7b5e9a79b8f6c394c24de88a1e0bea65",
+        "fullText": "EU countries are to voluntarily share the number of 40,000 immigrants. It is not working. There are too few declarations. Poland says 1000, the EC wanted 2600."
     },
     {
-        "id": "304e63be8f5675f6c9007aa126ef915c",
         "text": "help or not to help - when I read about the amounts allocated by the EU for one immigrant 6,000 \u20ac, I start to wonder, what",
         "target_items": [
             {
@@ -2475,10 +2650,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "304e63be8f5675f6c9007aa126ef915c",
+        "fullText": "help or not to help - when I read about the amounts allocated by the EU for one immigrant 6,000 \u20ac, I start to wonder, what"
     },
     {
-        "id": "af2d7415fda83e871a5019db79b2a046",
         "text": "PEK promises, as always, that the EU will cover the stay of immigrants from Africa in Poland - but as for Poles, only the holy ground will cover them!",
         "target_items": [
             {
@@ -2489,10 +2665,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "af2d7415fda83e871a5019db79b2a046",
+        "fullText": "PEK promises, as always, that the EU will cover the stay of immigrants from Africa in Poland - but as for Poles, only the holy ground will cover them!"
     },
     {
-        "id": "b49364801a7020e4137b000fae95aeb5",
         "text": "We have accepted over 1 million immigrants from Ukraine - why don't we share? Ukrainian and Islamic - immigration from outside the EU. #forum",
         "target_items": [
             {
@@ -2503,10 +2680,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "b49364801a7020e4137b000fae95aeb5",
+        "fullText": "We have accepted over 1 million immigrants from Ukraine - why don't we share? Ukrainian and Islamic - immigration from outside the EU. #forum"
     },
     {
-        "id": "0a95e765c02c7af6fe03f2eb5dd2b0c8",
         "text": "The fact that the European Union is interested in Poland is a mistake, EU officials force their members to do things like accepting immigrants.",
         "target_items": [
             {
@@ -2517,10 +2695,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "0a95e765c02c7af6fe03f2eb5dd2b0c8",
+        "fullText": "The fact that the European Union is interested in Poland is a mistake, EU officials force their members to do things like accepting immigrants."
     },
     {
-        "id": "2305f941a79f7c222b9047665bcb1c02",
         "text": "The right wing has a problem with #Rotterdam. They want to hit the EU and inflame the conflict under the success of #Wilders, but they would have to support Turkish immigrants.",
         "target_items": [
             {
@@ -2531,10 +2710,11 @@
                 "stance_5": "rather negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "2305f941a79f7c222b9047665bcb1c02",
+        "fullText": "The right wing has a problem with #Rotterdam. They want to hit the EU and inflame the conflict under the success of #Wilders, but they would have to support Turkish immigrants."
     },
     {
-        "id": "5dc6a1c3f2544ffa4016e87aa2bf28ac",
         "text": "Eurostat: Poland is the second country in the EU in terms of immigrants received in 2015 - 541.5 thousand UK 630.0 thousand France 226.6 thousand Germany 194.8 thousand",
         "target_items": [
             {
@@ -2545,10 +2725,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "5dc6a1c3f2544ffa4016e87aa2bf28ac",
+        "fullText": "Eurostat: Poland is the second country in the EU in terms of immigrants received in 2015 - 541.5 thousand UK 630.0 thousand France 226.6 thousand Germany 194.8 thousand"
     },
     {
-        "id": "fe3a3533533c41ab553d6ee58cf6e923",
         "text": "Turkey is playing the EU like children by blackmailing with refugees. It would be cheaper to build a wall, but leftists don't have the guts.",
         "target_items": [
             {
@@ -2559,10 +2740,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "fe3a3533533c41ab553d6ee58cf6e923",
+        "fullText": "Turkey is playing the EU like children by blackmailing with refugees. It would be cheaper to build a wall, but leftists don't have the guts."
     },
     {
-        "id": "14cffa4df202b1c23242c82d8e3dd779",
         "text": "\"The Times\" reported on Wednesday that the British government is seriously considering introducing work permits and visas for immigrants from the EU.",
         "target_items": [
             {
@@ -2573,10 +2755,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "14cffa4df202b1c23242c82d8e3dd779",
+        "fullText": "\"The Times\" reported on Wednesday that the British government is seriously considering introducing work permits and visas for immigrants from the EU."
     },
     {
-        "id": "6b8eee1332c7eefb7f0097ec1a655711",
         "text": "We are now seeing how the countries that accepted immigrants are taking responsibility. As usual, it is the opposite of what the EU said.",
         "target_items": [
             {
@@ -2587,10 +2770,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "6b8eee1332c7eefb7f0097ec1a655711",
+        "fullText": "We are now seeing how the countries that accepted immigrants are taking responsibility. As usual, it is the opposite of what the EU said."
     },
     {
-        "id": "a6567aeceddf6ed3a381dab15cd8259d",
         "text": "Go Against the Tide Leaflet campaign by IPP clubs from Northern Ireland and the #IPP #Dublin club: The PiS government has accepted the MOST immigrants in the #EU! #IPPTV #PiSacceptsIMMIGRANTS #November11Movement #MPGA The campaign started at the German embassy in Dublin and attracted the interest of compatriots!",
         "target_items": [
             {
@@ -2601,10 +2785,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "a6567aeceddf6ed3a381dab15cd8259d",
+        "fullText": "Go Against the Tide Leaflet campaign by IPP clubs from Northern Ireland and the #IPP #Dublin club: The PiS government has accepted the MOST immigrants in the #EU! #IPPTV #PiSacceptsIMMIGRANTS #November11Movement #MPGA The campaign started at the German embassy in Dublin and attracted the interest of compatriots!"
     },
     {
-        "id": "86b4861ceae39a5616940d79931efdd0",
         "text": "Scaring with refugees by PiS is still relevant! When I listen to the arguments from the KE side, I come to the conclusion that the majority of these people are refugees. They simply pass for idiots in company. #Don'tBeARefugee!",
         "target_items": [
             {
@@ -2615,10 +2800,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "86b4861ceae39a5616940d79931efdd0",
+        "fullText": "Scaring with refugees by PiS is still relevant! When I listen to the arguments from the KE side, I come to the conclusion that the majority of these people are refugees. They simply pass for idiots in company. #Don'tBeARefugee!"
     },
     {
-        "id": "71c1e68895307aa56d46d54a63d737f9",
         "text": "President of @pisorgpl, J. #Kaczy\u0144ski at #KonwencjaPiS in #Wielu\u0144: \"Families must be defended fiercely. Borders must be defended, not only of Poland, but also of the EU. The #LGBT propaganda didn't work, so #PiS returns to scaring with refugees. The \"civilizational war\" returns again. Small, evil people.",
         "target_items": [
             {
@@ -2629,10 +2815,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "71c1e68895307aa56d46d54a63d737f9",
+        "fullText": "President of @pisorgpl, J. #Kaczy\u0144ski at #KonwencjaPiS in #Wielu\u0144: \"Families must be defended fiercely. Borders must be defended, not only of Poland, but also of the EU. The #LGBT propaganda didn't work, so #PiS returns to scaring with refugees. The \"civilizational war\" returns again. Small, evil people."
     },
     {
-        "id": "8b2bc496f65bf44f175bab22b9d6e714",
         "text": "Looking at the 2nd generation of immigrants in the EU, I think we need to come up with an assimilation/assistance program for Ukrainians and their children 1/2",
         "target_items": [
             {
@@ -2643,10 +2830,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "8b2bc496f65bf44f175bab22b9d6e714",
+        "fullText": "Looking at the 2nd generation of immigrants in the EU, I think we need to come up with an assimilation/assistance program for Ukrainians and their children 1/2"
     },
     {
-        "id": "9b93f3d914e2b0f7abbc090b33852113",
         "text": "This is exactly the issue that annoyed me during the migration crisis. The fact that #refugees are not sufficiently checked and that we missed the moment when #Frontex could have been seriously needed. We need to help, but also check thoroughly. #Merkel #Germany #MigrationCrisis #Syria",
         "target_items": [
             {
@@ -2657,10 +2845,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "9b93f3d914e2b0f7abbc090b33852113",
+        "fullText": "This is exactly the issue that annoyed me during the migration crisis. The fact that #refugees are not sufficiently checked and that we missed the moment when #Frontex could have been seriously needed. We need to help, but also check thoroughly. #Merkel #Germany #MigrationCrisis #Syria"
     },
     {
-        "id": "4d530508d08143f827b65c5569bcef60",
         "text": "The data is alarming. We should bring Poles back to the homeland. This is the task of the ruling authorities. Not bringing in immigrants! #Poland #EU #PiS",
         "target_items": [
             {
@@ -2671,10 +2860,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "4d530508d08143f827b65c5569bcef60",
+        "fullText": "The data is alarming. We should bring Poles back to the homeland. This is the task of the ruling authorities. Not bringing in immigrants! #Poland #EU #PiS"
     },
     {
-        "id": "04cd82497f774fd6dd3ac01f83b1f325",
         "text": ".@r_czarnecki: the future EP will be different than it is now. The trend in individual EU countries is the same. Eurosceptic groups, reluctant to Muslim immigrants, which lean towards the concept of a Europe of nations, are winning.",
         "target_items": [
             {
@@ -2685,10 +2875,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "04cd82497f774fd6dd3ac01f83b1f325",
+        "fullText": ".@r_czarnecki: the future EP will be different than it is now. The trend in individual EU countries is the same. Eurosceptic groups, reluctant to Muslim immigrants, which lean towards the concept of a Europe of nations, are winning."
     },
     {
-        "id": "ad41f5c3f0807f3650f4554b1d864407",
         "text": "The Austrian chancellor proposes closing all EU ports to ships carrying migrants.",
         "target_items": [
             {
@@ -2699,10 +2890,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "ad41f5c3f0807f3650f4554b1d864407",
+        "fullText": "The Austrian chancellor proposes closing all EU ports to ships carrying migrants."
     },
     {
-        "id": "54d8f778ca50b5eb70ee802350b24862",
         "text": "With whom? And you PiS scum, have you already secured a place for millions of economic immigrants from the EU? And from the USA? Shut up, you trolling scum. Shut up. When they come back, they won't want to write either.",
         "target_items": [
             {
@@ -2713,10 +2905,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "54d8f778ca50b5eb70ee802350b24862",
+        "fullText": "With whom? And you PiS scum, have you already secured a place for millions of economic immigrants from the EU? And from the USA? Shut up, you trolling scum. Shut up. When they come back, they won't want to write either."
     },
     {
-        "id": "6a241b2c8f341a861ed9851e07b233e6",
         "text": "Mrs. Kidawa-B\u0142o\u0144ska can count on enormous support from the EU, especially from the Germans. They can't wait to relocate their immigrants.",
         "target_items": [
             {
@@ -2727,10 +2920,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "6a241b2c8f341a861ed9851e07b233e6",
+        "fullText": "Mrs. Kidawa-B\u0142o\u0144ska can count on enormous support from the EU, especially from the Germans. They can't wait to relocate their immigrants."
     },
     {
-        "id": "d7c8f70dd9d8fbb2465933bc1195dfd7",
         "text": "Interesting thesis - so why then the EU's retaliatory measures against Poland? Or maybe it's about Ukrainian citizens? But they are not MUSLIM refugees from Syria, Libya, or another Senegal. Often they are descendants of Poles from before World War II, and usually professionals.",
         "target_items": [
             {
@@ -2741,10 +2935,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "d7c8f70dd9d8fbb2465933bc1195dfd7",
+        "fullText": "Interesting thesis - so why then the EU's retaliatory measures against Poland? Or maybe it's about Ukrainian citizens? But they are not MUSLIM refugees from Syria, Libya, or another Senegal. Often they are descendants of Poles from before World War II, and usually professionals."
     },
     {
-        "id": "f58a478228827ac8389bd05b3f0e9015",
         "text": "In recent years, Poland has accepted the largest number of non-EU migrants among EU countries, all who wanted to come, despite only 12% of Poles believing it is beneficial. Can someone explain to me why? Slave mentality? Masochism? Insanity? Other?",
         "target_items": [
             {
@@ -2755,10 +2950,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "f58a478228827ac8389bd05b3f0e9015",
+        "fullText": "In recent years, Poland has accepted the largest number of non-EU migrants among EU countries, all who wanted to come, despite only 12% of Poles believing it is beneficial. Can someone explain to me why? Slave mentality? Masochism? Insanity? Other?"
     },
     {
-        "id": "43049f02f2ee6bff1d9f6f4506fea945",
         "text": "Law and Justice of foreign state interests: - submission to Israel: the IPN law in one day SEJM, SENATE, PRESIDENT - Russian coal 13.5 million tons in 2018 - Ukrainization of Poland: over 3 million immigrants - new elites of Gowin - record in the EU in accepting immigrants #GoodTimePL?",
         "target_items": [
             {
@@ -2769,10 +2965,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "43049f02f2ee6bff1d9f6f4506fea945",
+        "fullText": "Law and Justice of foreign state interests: - submission to Israel: the IPN law in one day SEJM, SENATE, PRESIDENT - Russian coal 13.5 million tons in 2018 - Ukrainization of Poland: over 3 million immigrants - new elites of Gowin - record in the EU in accepting immigrants #GoodTimePL?"
     },
     {
-        "id": "4d4d0068a4658eb3d8ad0d49415fee7f",
         "text": "What if the money allocated for immigrants in the EU was instead allocated for schools and hospitals in Africa? And what if we didn't sell weapons there?",
         "target_items": [
             {
@@ -2783,10 +2980,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "4d4d0068a4658eb3d8ad0d49415fee7f",
+        "fullText": "What if the money allocated for immigrants in the EU was instead allocated for schools and hospitals in Africa? And what if we didn't sell weapons there?"
     },
     {
-        "id": "a5d9f4fa491a59bc6e496f0dc0c3f736",
         "text": "EU Solidarity - Nord Stream I, Nord Stream II - Except for Poland, Ukraine, and Eastern Europe - Poland will manage and so will you with the Refugees!!",
         "target_items": [
             {
@@ -2797,10 +2995,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "a5d9f4fa491a59bc6e496f0dc0c3f736",
+        "fullText": "EU Solidarity - Nord Stream I, Nord Stream II - Except for Poland, Ukraine, and Eastern Europe - Poland will manage and so will you with the Refugees!!"
     },
     {
-        "id": "7d859ee97a69bc5e96b0b84d91ef90be",
         "text": "Today, over 7300 migrants are expected to arrive in Italy. What was the European Commission doing today? Filing a lawsuit against Poland regarding the logging of the forest.",
         "target_items": [
             {
@@ -2811,10 +3010,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "7d859ee97a69bc5e96b0b84d91ef90be",
+        "fullText": "Today, over 7300 migrants are expected to arrive in Italy. What was the European Commission doing today? Filing a lawsuit against Poland regarding the logging of the forest."
     },
     {
-        "id": "8d910e0f600f3c4c75e5cb60805801c7",
         "text": "Euronews: Mosul is free, but it doesn't exist; Middle East: religions = poison; Italy+EU=refugee is not a human; Poland=government destroys democracy 1/2",
         "target_items": [
             {
@@ -2825,10 +3025,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "8d910e0f600f3c4c75e5cb60805801c7",
+        "fullText": "Euronews: Mosul is free, but it doesn't exist; Middle East: religions = poison; Italy+EU=refugee is not a human; Poland=government destroys democracy 1/2"
     },
     {
-        "id": "a426c519192afae294331b7bdd88458d",
         "text": "EU Court: Austria and Slovenia can send migrants back to Croatia. #TOKFM",
         "target_items": [
             {
@@ -2839,10 +3040,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "a426c519192afae294331b7bdd88458d",
+        "fullText": "EU Court: Austria and Slovenia can send migrants back to Croatia. #TOKFM"
     },
     {
-        "id": "0b68fcef9df18d4cc6577fd470cd7902",
         "text": "250,000 \u20ac x 7,000 immigrants = 1,750,000,000 \u20ac. Nearly 2 BILLION \u20ac in fines would Poland have to pay if we do not accept refugees. This is the collapse of the EU.",
         "target_items": [
             {
@@ -2853,10 +3055,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "0b68fcef9df18d4cc6577fd470cd7902",
+        "fullText": "250,000 \u20ac x 7,000 immigrants = 1,750,000,000 \u20ac. Nearly 2 BILLION \u20ac in fines would Poland have to pay if we do not accept refugees. This is the collapse of the EU."
     },
     {
-        "id": "bce95aec298be0b6412ff4fa2b409782",
         "text": "The European Commission proposed fines of up to 2 billion euros for not accepting immigrants, interesting what will happen next, maybe anschluss.",
         "target_items": [
             {
@@ -2867,10 +3070,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "bce95aec298be0b6412ff4fa2b409782",
+        "fullText": "The European Commission proposed fines of up to 2 billion euros for not accepting immigrants, interesting what will happen next, maybe anschluss."
     },
     {
-        "id": "5af280e0ccb7a56e6d91ad6f8cba0ca1",
         "text": "Recently, the EC has been working harder (Timmermans, fines for immigrants, GDP forecast) to undermine @Platforma_org and its allies.",
         "target_items": [
             {
@@ -2881,10 +3085,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "5af280e0ccb7a56e6d91ad6f8cba0ca1",
+        "fullText": "Recently, the EC has been working harder (Timmermans, fines for immigrants, GDP forecast) to undermine @Platforma_org and its allies."
     },
     {
-        "id": "4b0004184a06750b978969d0ec4c780f",
         "text": "Early 90s, Poland: \"If you don't pay, your place will burn down.\" Year 2016, European Union: \"If you don't take in an immigrant, you'll pay.\"",
         "target_items": [
             {
@@ -2895,10 +3100,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "4b0004184a06750b978969d0ec4c780f",
+        "fullText": "Early 90s, Poland: \"If you don't pay, your place will burn down.\" Year 2016, European Union: \"If you don't take in an immigrant, you'll pay.\""
     },
     {
-        "id": "60d19d17d5d1380e0966be00ae0b18eb",
         "text": "Can the EU pay Poland 250,000 euros for each accepted immigrant? Of course, after the return of the PO/PSL/WSI government.",
         "target_items": [
             {
@@ -2909,10 +3115,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "60d19d17d5d1380e0966be00ae0b18eb",
+        "fullText": "Can the EU pay Poland 250,000 euros for each accepted immigrant? Of course, after the return of the PO/PSL/WSI government."
     },
     {
-        "id": "df575b0a79e7803f7b99db2c3f694778",
         "text": "The invasion of migrants from #MENA to Europe has the characteristics of a well-planned operation. The same forces are behind the wars in that region and the paralysis of the #EU.",
         "target_items": [
             {
@@ -2923,10 +3130,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "df575b0a79e7803f7b99db2c3f694778",
+        "fullText": "The invasion of migrants from #MENA to Europe has the characteristics of a well-planned operation. The same forces are behind the wars in that region and the paralysis of the #EU."
     },
     {
-        "id": "c4ea714c8c083a9a17846d91d7ecec29",
         "text": "PSL also in KOD and that stupid slogan, especially now when the EU wants to financially destroy poorer countries, migrant quotas.",
         "target_items": [
             {
@@ -2937,10 +3145,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "c4ea714c8c083a9a17846d91d7ecec29",
+        "fullText": "PSL also in KOD and that stupid slogan, especially now when the EU wants to financially destroy poorer countries, migrant quotas."
     },
     {
-        "id": "74f5730c155f908f4ba13506a64cd2f0",
         "text": "It turns out that at the EU summit on immigrants, there will be neither a prime minister from PO nor from PiS - meaning no one will be held accountable for accepting new quotas!",
         "target_items": [
             {
@@ -2951,10 +3160,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "74f5730c155f908f4ba13506a64cd2f0",
+        "fullText": "It turns out that at the EU summit on immigrants, there will be neither a prime minister from PO nor from PiS - meaning no one will be held accountable for accepting new quotas!"
     },
     {
-        "id": "2f6394a3c0b564226957370d6bd7beaa",
         "text": "At the EU summit, the UK, PT, and HR (which has a very big problem with immigrants) will be absent. But the fuss is only being made in PL. Why?",
         "target_items": [
             {
@@ -2965,10 +3175,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "2f6394a3c0b564226957370d6bd7beaa",
+        "fullText": "At the EU summit, the UK, PT, and HR (which has a very big problem with immigrants) will be absent. But the fuss is only being made in PL. Why?"
     },
     {
-        "id": "1626913b8a22e66e0f78a981b8ffde1c",
         "text": "Deep down, the anxiety about immigrants is the fear of a lack of social benefits for native EU citizens. Such reflections after Houellebecq.",
         "target_items": [
             {
@@ -2979,10 +3190,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "1626913b8a22e66e0f78a981b8ffde1c",
+        "fullText": "Deep down, the anxiety about immigrants is the fear of a lack of social benefits for native EU citizens. Such reflections after Houellebecq."
     },
     {
-        "id": "8c80d1fc407faef5f17f5e2619178260",
         "text": "Duda and the entire PiS gang have clung to the trough by negating the EU's agreements on migrants. The time for decisions has come. The brightest chickened out.",
         "target_items": [
             {
@@ -2993,10 +3205,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.25
             }
-        ]
+        ],
+        "resourceId": "8c80d1fc407faef5f17f5e2619178260",
+        "fullText": "Duda and the entire PiS gang have clung to the trough by negating the EU's agreements on migrants. The time for decisions has come. The brightest chickened out."
     },
     {
-        "id": "645fe8d2b1afc0d2da02d850d6fcbab9",
         "text": "I'm afraid that on Monday it will be the end of #Schengen. And Germany and Austria will be left with #refugees while the #EU will be in a mega crisis. #parisattacks",
         "target_items": [
             {
@@ -3007,10 +3220,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "645fe8d2b1afc0d2da02d850d6fcbab9",
+        "fullText": "I'm afraid that on Monday it will be the end of #Schengen. And Germany and Austria will be left with #refugees while the #EU will be in a mega crisis. #parisattacks"
     },
     {
-        "id": "b4b115b3b5d0876d4c605f28046fa6f3",
         "text": "In the referendum for the British, more important than the agreement with the EU may be the EU's inertia in solving the immigration problem and showing power towards Poland.",
         "target_items": [
             {
@@ -3021,10 +3235,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.667
             }
-        ]
+        ],
+        "resourceId": "b4b115b3b5d0876d4c605f28046fa6f3",
+        "fullText": "In the referendum for the British, more important than the agreement with the EU may be the EU's inertia in solving the immigration problem and showing power towards Poland."
     },
     {
-        "id": "cc4fff0f183b6a68a849dbbcfc6a75a0",
         "text": "The EU-UK war over benefits for immigrants as a fundamental European value shows that the fundamental European value is welfare->socialism.",
         "target_items": [
             {
@@ -3035,10 +3250,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "cc4fff0f183b6a68a849dbbcfc6a75a0",
+        "fullText": "The EU-UK war over benefits for immigrants as a fundamental European value shows that the fundamental European value is welfare->socialism."
     },
     {
-        "id": "4f5b4c20e381defc118e2fd68270bce1",
         "text": "P.Kukiz in \"Go\u015bPor\": We have about 100,000 signatures for the referendum project on immigrants (...) this will be a big convenience for PiS, because the EU will not accuse then,",
         "target_items": [
             {
@@ -3049,10 +3265,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "4f5b4c20e381defc118e2fd68270bce1",
+        "fullText": "P.Kukiz in \"Go\u015bPor\": We have about 100,000 signatures for the referendum project on immigrants (...) this will be a big convenience for PiS, because the EU will not accuse then,"
     },
     {
-        "id": "39b9c930a5ad24fc3d21122d2c7713c4",
         "text": "The Szyd\u0142o government accepted the EU decision forcing PL to accept immigrants. That's how much politicians' promises are worth in a democracy. Before the elections.",
         "target_items": [
             {
@@ -3063,10 +3280,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "39b9c930a5ad24fc3d21122d2c7713c4",
+        "fullText": "The Szyd\u0142o government accepted the EU decision forcing PL to accept immigrants. That's how much politicians' promises are worth in a democracy. Before the elections."
     },
     {
-        "id": "caaa2343f0311670c962bce5f82f01bf",
         "text": "#debate in the EU a refugee from outside the EU gets $1200 for staying, and we, Polish cheap labor force, don't even earn that much in Poland :-(",
         "target_items": [
             {
@@ -3077,10 +3295,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "caaa2343f0311670c962bce5f82f01bf",
+        "fullText": "#debate in the EU a refugee from outside the EU gets $1200 for staying, and we, Polish cheap labor force, don't even earn that much in Poland :-("
     },
     {
-        "id": "4609cc171affabf90aabad1b6d5adae0",
         "text": "Again, 2,000 immigrants enter the EU daily. Cool. Of course, there is no reason to block them in any way. Let them come.",
         "target_items": [
             {
@@ -3091,10 +3310,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "4609cc171affabf90aabad1b6d5adae0",
+        "fullText": "Again, 2,000 immigrants enter the EU daily. Cool. Of course, there is no reason to block them in any way. Let them come."
     },
     {
-        "id": "64698c1ac8f45a4747c2cecec5074f9d",
         "text": "Prime Minister @BeataSzydlo on #TVP: Subsequent #EU summits do not solve anything regarding migrants. #100daysOnPlus #100daysPiS",
         "target_items": [
             {
@@ -3105,10 +3325,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "64698c1ac8f45a4747c2cecec5074f9d",
+        "fullText": "Prime Minister @BeataSzydlo on #TVP: Subsequent #EU summits do not solve anything regarding migrants. #100daysOnPlus #100daysPiS"
     },
     {
-        "id": "5c6dfe74adf8281a54f4e0524a55410b",
         "text": "Afghans made up about 23% of last year's wave of migrants. Afghan refugees in Pakistan fleeing to the EU to avoid forced return to Afghanistan.",
         "target_items": [
             {
@@ -3119,10 +3340,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "5c6dfe74adf8281a54f4e0524a55410b",
+        "fullText": "Afghans made up about 23% of last year's wave of migrants. Afghan refugees in Pakistan fleeing to the EU to avoid forced return to Afghanistan."
     },
     {
-        "id": "89e1309297678f896dc97a222c27ceaa",
         "text": "How many immigrants in the 2nd and 3rd generation serve in the police forces of EU countries? To whom are they loyal?",
         "target_items": [
             {
@@ -3133,10 +3355,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "89e1309297678f896dc97a222c27ceaa",
+        "fullText": "How many immigrants in the 2nd and 3rd generation serve in the police forces of EU countries? To whom are they loyal?"
     },
     {
-        "id": "2d6b622904c1edf01e07be59344fa024",
         "text": ".@ZbigniewKuzmiuk in #Go\u015b\u0107Poranka: the EU leaders have not learned any lessons from #brexit or from what is happening with immigrants #wieszwiecej",
         "target_items": [
             {
@@ -3147,10 +3370,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "2d6b622904c1edf01e07be59344fa024",
+        "fullText": ".@ZbigniewKuzmiuk in #Go\u015b\u0107Poranka: the EU leaders have not learned any lessons from #brexit or from what is happening with immigrants #wieszwiecej"
     },
     {
-        "id": "f509206047b5992e50c4dc60ce0cbad3",
         "text": ".@ZbigniewKuzmiuk on #Go\u015b\u0107Poranka: the EU leaders have not learned any lessons from #Brexit or from what is happening with immigrants.",
         "target_items": [
             {
@@ -3161,10 +3385,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "f509206047b5992e50c4dc60ce0cbad3",
+        "fullText": ".@ZbigniewKuzmiuk on #Go\u015b\u0107Poranka: the EU leaders have not learned any lessons from #Brexit or from what is happening with immigrants."
     },
     {
-        "id": "a0ae2a60d26fc7e5e8959721345f58aa",
         "text": "Merkel follows Cameron's example and also wants to take away child benefits from immigrants. Another proof of a new axis in the EU.",
         "target_items": [
             {
@@ -3175,10 +3400,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.5
             }
-        ]
+        ],
+        "resourceId": "a0ae2a60d26fc7e5e8959721345f58aa",
+        "fullText": "Merkel follows Cameron's example and also wants to take away child benefits from immigrants. Another proof of a new axis in the EU."
     },
     {
-        "id": "3d4aba804e23b7974913858e43d0e2c8",
         "text": "For the opposition, if the truth about accepting immigrants from the EU, contrary to what the government previously declared, comes out, it will be a great gift. If they publicize it, they won't gain in the polls themselves, but PiS will plummet. PiS will defeat itself.",
         "target_items": [
             {
@@ -3189,10 +3415,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "3d4aba804e23b7974913858e43d0e2c8",
+        "fullText": "For the opposition, if the truth about accepting immigrants from the EU, contrary to what the government previously declared, comes out, it will be a great gift. If they publicize it, they won't gain in the polls themselves, but PiS will plummet. PiS will defeat itself."
     },
     {
-        "id": "78b2139946da684f1575c444e85d8614",
         "text": "Progr.PIS regarding migrants - NO CHANGES IN PL, no migrants due to forced EU relocation, THERE ARE NONE AND THERE WILL BE NONE! The Minister of Foreign Affairs spoke about people in transit through PL for other reasons. PL's position remains unchanged - HELP ONLY ON SITE. Schengen also allows for controlled entry.",
         "target_items": [
             {
@@ -3203,10 +3430,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "78b2139946da684f1575c444e85d8614",
+        "fullText": "Progr.PIS regarding migrants - NO CHANGES IN PL, no migrants due to forced EU relocation, THERE ARE NONE AND THERE WILL BE NONE! The Minister of Foreign Affairs spoke about people in transit through PL for other reasons. PL's position remains unchanged - HELP ONLY ON SITE. Schengen also allows for controlled entry."
     },
     {
-        "id": "c2c4379c468f4c8214f390eadfaee9f4",
         "text": "A European politician reading Le Figaro is supposed to understand that Poland has accepted 2700 migrants sent by the #EU. Reading the same thing, a Pole is supposed to understand that Minister #Czaputowicz did not mean that at all and was misunderstood. Clearly, it's the Poles' fault that they don't understand what they read.",
         "target_items": [
             {
@@ -3217,10 +3445,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "c2c4379c468f4c8214f390eadfaee9f4",
+        "fullText": "A European politician reading Le Figaro is supposed to understand that Poland has accepted 2700 migrants sent by the #EU. Reading the same thing, a Pole is supposed to understand that Minister #Czaputowicz did not mean that at all and was misunderstood. Clearly, it's the Poles' fault that they don't understand what they read."
     },
     {
-        "id": "cf50dbbe3cbeacc553f5af98cf27cef1",
         "text": "Shortly after the Moroccan national team's qualification for the 2018 World Cup, riots broke out in Brussels caused by jubilant Moroccan immigrants. So, if this team advances from the group stage, will there be anything left of the Belgian capital, or even the EU itself?",
         "target_items": [
             {
@@ -3231,10 +3460,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "cf50dbbe3cbeacc553f5af98cf27cef1",
+        "fullText": "Shortly after the Moroccan national team's qualification for the 2018 World Cup, riots broke out in Brussels caused by jubilant Moroccan immigrants. So, if this team advances from the group stage, will there be anything left of the Belgian capital, or even the EU itself?"
     },
     {
-        "id": "714be89780490499366df3962bb2dfb9",
         "text": "Why is the EU so attractive to immigrants? The key, IMHO, is the last of the following statistics - the EU's share in: world population - 7.2%, global \"GDP\" - 23.8%, social spending - 58% (sic!)",
         "target_items": [
             {
@@ -3245,10 +3475,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "714be89780490499366df3962bb2dfb9",
+        "fullText": "Why is the EU so attractive to immigrants? The key, IMHO, is the last of the following statistics - the EU's share in: world population - 7.2%, global \"GDP\" - 23.8%, social spending - 58% (sic!)"
     },
     {
-        "id": "37f3e52eef90108f9fffdf680e95f013",
         "text": "The total number of people illegally crossing the border on the main migration routes decreased by 63 percent in 2017, according to the European Commission.",
         "target_items": [
             {
@@ -3259,10 +3490,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "37f3e52eef90108f9fffdf680e95f013",
+        "fullText": "The total number of people illegally crossing the border on the main migration routes decreased by 63 percent in 2017, according to the European Commission."
     },
     {
-        "id": "686e9ef9bd7c88267460b8c710f1d2cd",
         "text": "Sometimes I wonder after today's #EUDebate whether the European Union and the #EuropeanParliament are taking a sharp turn to the left, where even liberalism is taking a sharp turn to the left. Let Timmermans and Verhofstadt deal with the refugees from #ISIS, Catalonia, and Puidgemont rather than Poland and the #IndependenceMarch.",
         "target_items": [
             {
@@ -3273,10 +3505,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "686e9ef9bd7c88267460b8c710f1d2cd",
+        "fullText": "Sometimes I wonder after today's #EUDebate whether the European Union and the #EuropeanParliament are taking a sharp turn to the left, where even liberalism is taking a sharp turn to the left. Let Timmermans and Verhofstadt deal with the refugees from #ISIS, Catalonia, and Puidgemont rather than Poland and the #IndependenceMarch."
     },
     {
-        "id": "d93be8e2dd4af7812024741fdf8fbbb2",
         "text": "@D_Tarczynski Accept valuable people, they will work for Poland, they are immigrants from Africa and SHUT THE OPPOSITION AND EU UP WITH SUCH A MOVE!!!!!! Save the white Afrikaners being murdered in Africa!! This is your huge chance!!",
         "target_items": [
             {
@@ -3287,10 +3520,11 @@
                 "stance_5": "negative",
                 "relevant_score": 0.75
             }
-        ]
+        ],
+        "resourceId": "d93be8e2dd4af7812024741fdf8fbbb2",
+        "fullText": "@D_Tarczynski Accept valuable people, they will work for Poland, they are immigrants from Africa and SHUT THE OPPOSITION AND EU UP WITH SUCH A MOVE!!!!!! Save the white Afrikaners being murdered in Africa!! This is your huge chance!!"
     },
     {
-        "id": "a2b0819db191fdcde2a8be2030a4817a",
         "text": "The acceptance of Afrikaner (white) immigrants from Africa into Poland, who are being murdered and humiliated, would shut the mouths of the entire opposition and the quotas for accepting refugees would shut the mouths of EU politicians!! Help the whites, don't miss this chance!!!",
         "target_items": [
             {
@@ -3301,10 +3535,11 @@
                 "stance_5": "negative",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "a2b0819db191fdcde2a8be2030a4817a",
+        "fullText": "The acceptance of Afrikaner (white) immigrants from Africa into Poland, who are being murdered and humiliated, would shut the mouths of the entire opposition and the quotas for accepting refugees would shut the mouths of EU politicians!! Help the whites, don't miss this chance!!!"
     },
     {
-        "id": "d385d058437fd14ee63ac0d9adc2fbc4",
         "text": "The EU is launching another 3 billion Euros for Turkey as part of the migration agreement (de facto: for not letting immigrants into Europe)",
         "target_items": [
             {
@@ -3315,10 +3550,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "d385d058437fd14ee63ac0d9adc2fbc4",
+        "fullText": "The EU is launching another 3 billion Euros for Turkey as part of the migration agreement (de facto: for not letting immigrants into Europe)"
     },
     {
-        "id": "f794e317425230b3ea7560decf5e8b71",
         "text": "If solidarity, then solidarity... hmm... seriously @SasinJacek? And what about the refugees? Where is the solidarity with the EU?",
         "target_items": [
             {
@@ -3329,10 +3565,11 @@
                 "stance_5": "neutral",
                 "relevant_score": 0.833
             }
-        ]
+        ],
+        "resourceId": "f794e317425230b3ea7560decf5e8b71",
+        "fullText": "If solidarity, then solidarity... hmm... seriously @SasinJacek? And what about the refugees? Where is the solidarity with the EU?"
     },
     {
-        "id": "a4889cf5bc596184d4bcd322a162380c",
         "text": "Poland will now breathe easier as the EU deals with Italy, which will start expelling immigrants?? And what about the rule of law and Article 7? Will they also harass the newly elected government? #WithoutRetouch",
         "target_items": [
             {
@@ -3343,6 +3580,8 @@
                 "stance_5": "neutral",
                 "relevant_score": 1.0
             }
-        ]
+        ],
+        "resourceId": "a4889cf5bc596184d4bcd322a162380c",
+        "fullText": "Poland will now breathe easier as the EU deals with Italy, which will start expelling immigrants?? And what about the rule of law and Article 7? Will they also harass the newly elected government? #WithoutRetouch"
     }
 ]
