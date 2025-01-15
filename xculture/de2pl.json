@@ -1,0 +1,3320 @@
+[
+    {
+        "id": "d1f205a8b14a50efdd93690257d5c6ac",
+        "text": "Je\u015bli chodzi o temat #umowy z #Erdoganem w sprawie #uchod\u017ac\u00f3w, #UE, a zw\u0142aszcza #Merkel, zachowuj\u0105 si\u0119 jak lizusy. Szacunek dla #Austrii",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d975b33b682f5cca76a257dd5aa56a6c",
+        "text": "Wielu bojownik\u00f3w IS z UE ma nawet jeszcze swoje paszporty. Nie musz\u0105 podawa\u0107 si\u0119 za uchod\u017ac\u00f3w. IS ma r\u00f3wnie\u017c bojownik\u00f3w podziemia.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.833,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "8d84d3540086577a7a7db58aa1281a65",
+        "text": "News 7-dniowe hity: 9:00: #walka, #pary\u017c, #syria, #turcja, #uchod\u017acy, #zwyci\u0119stwo, #rosja, #zestrzelenie, #liga, #euro",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "09c26ed6dd420720e5085a50bc9c8fce",
+        "text": "#Pr\u00f6hle przedstawia #W\u0119gry zasadniczo w roli stra\u017cnika prawa, kt\u00f3remu nie dzi\u0119kuje si\u0119 za jego zachowanie. #DGEPD #UE #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "e97e234ef16a5465c35440c786413fd3",
+        "text": "Buntownicy twierdz\u0105: #Uchod\u017acy maj\u0105 pow\u00f3d do p\u0142aczu. Tygodniami na nogach, twierdza #Europa wydaje si\u0119 zamkni\u0119ta.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "9b388c86551106ea73b57c41328633b1",
+        "text": "Szanta\u017cowanie UE uchod\u017acami jest nie tylko obrzydliwe, ale tak\u017ce w du\u017cym stopniu g\u0142upie. #imzentrum",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.833,
+                "stance_5": "negative",
+                "relevant_score": 0.833
+            }
+        ]
+    },
+    {
+        "id": "80fe42db23a0632ade9097294578cde1",
+        "text": "Gdyby UE zgodzi\u0142a si\u0119 na (sprawiedliwy) podzia\u0142 uchod\u017ac\u00f3w, mo\u017cliwe by\u0142oby zaj\u0119cie jasnego stanowiska wobec #Turcji i #Erdogana.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "d1ac82d494459752a7594e1c64a66fa4",
+        "text": "Nie ma powodu, aby przyje\u017cd\u017ca\u0107 do Europy, chodzi o ochron\u0119 #uchod\u017ac\u00f3w przed wojn\u0105 i torturami. To nie musi odbywa\u0107 si\u0119 w UE! #Azyl",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "rather negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "f8e297981da5765f7a72921b28a259e9",
+        "text": "Umowa z Turcj\u0105 nie powinna mie\u0107 miejsca. Nie podpisano konwencji ONZ o uchod\u017acach, ale zarz\u0105dzaj\u0105 uchod\u017acami. Zr\u00f3bcie to inaczej @EPinDeutschland",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "62c61f87012263ba5ee7460e018ab581",
+        "text": "NIEMCY i inne pa\u0144stwa UE przyjmuj\u0105 teraz SETKI TYSI\u0118CY uchod\u017ac\u00f3w z Ukrainy. n-tv",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "4819fa23f408102e04385991d0c468f0",
+        "text": "Dzi\u015b przed po\u0142udniem dyskusja panelowa FOS/BOS Neu\u00f6tting na temat kryzysu uchod\u017aczego, populizmu i UE z okazji Dnia Konstytucji Bawarii.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "277e44492d4a602bb29ddb9e1a75b42f",
+        "text": "\u201e@zeitonline: Wed\u0142ug doniesie\u0144 medialnych UE nielegalnie deportuje uchod\u017ac\u00f3w do #Ukrainy i finansuje tam wi\u0119zienia.\u201d #aktuellekamera",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "743db5ef1ae3609b817ef1af1abdd7b9",
+        "text": "#KomisjaUE w szale regulacyjnym: obowi\u0105zek H4 dla ka\u017cdego imigranta. Czy chc\u0105 tak zniszczy\u0107 Niemcy?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "e449e376e0c6d222bd66ca0a6e2aa953",
+        "text": "Kryzys uchod\u017aczy: Komisja Europejska \u017c\u0105da od Niemiec zako\u0144czenia kontroli granicznych",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.333
+            }
+        ]
+    },
+    {
+        "id": "eb8472dff0bf7736008dcef88bbc34f2",
+        "text": "Problemy pozostaj\u0105 nierozwi\u0105zane. Na przyk\u0142ad sytuacja w g\u0142o\u015bno zapowiadanych hotspotach na greckich wyspach. Schroniska dla uchod\u017ac\u00f3w s\u0105 beznadziejnie przepe\u0142nione, warunki higieniczne nie do przyj\u0119cia. #eu2018at",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "5bd76ee4835141e501efb063809c50c2",
+        "text": "#UE Postawa V. Orbana w kwestiach migracyjnych jest konsekwentna. Teraz Komisja UE narzeka, \u017ce arabska deklaracja ko\u0144cowa szczytu nie mo\u017ce by\u0107 wydana w ich i w sensie Merkel. Migracja musi by\u0107 kompleksowo rozpatrywana przez UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "54ba27c783bda31ab5881ff9f6230775",
+        "text": "Ateny przejmuj\u0105 prezydencj\u0119 w Radzie UE: oszcz\u0119dno\u015bci, wzrost gospodarczy i zwalczanie nielegalnej migracji to g\u0142\u00f3wne cele Grecji.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "c0e898030c91cb8b7410e20c45ecbda6",
+        "text": "To jest #UE 2019\ud83d\udd25\ud83d\udd25 #Pary\u017c w sercu #Europy pokazuje swoje oblicze #PaktMigracyjny! #WymianaLudno\u015bci post\u0119puje!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.833,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "5014c6617057dac2bd423897f1ca4dde",
+        "text": "Pa\u0144stwa cz\u0142onkowskie UE nie chc\u0105 pomaga\u0107 syryjskiemu rz\u0105dowi w odbudowie zniszczonych miast. Istnieje wiele dobrych powod\u00f3w. Ale czy syryjscy uchod\u017acy w UE wr\u00f3c\u0105 do zniszczonych miast?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "0c8f56e30550bf6b1ea2d6268ba1d3fb",
+        "text": "#Cizre le\u017cy w Turcji. A UE w\u0142a\u015bnie przekazuje tam miliardy, aby powstrzyma\u0107 syryjskich uchod\u017ac\u00f3w. A Erdogan chwali Hitlera. Halo?!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "672735f575a62cbed9bc68bcb05fb54e",
+        "text": "72 000 uchod\u017ac\u00f3w rozdzielonych na ca\u0142\u0105 UE. Czy nie wstydzicie si\u0119? To jest takie \u015bwiadectwo ub\u00f3stwa, to jest takie \u017ca\u0142osne!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "caf017e6f9fa81e5c345bf72013df3d8",
+        "text": "#koelnhbf Jaka jest r\u00f3\u017cnica mi\u0119dzy \"uchod\u017acami\", \"migrantami\" a \"cudzoziemcami\", kt\u00f3rzy ju\u017c wcze\u015bniej zwr\u00f3cili uwag\u0119 w innych krajach #UE?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "8e3b73806acc6859bd8fb00ddd458f0d",
+        "text": "Dzi\u015b NDRInfo: om\u00f3wiono #PISA. Spadaj\u0105ce pa\u0144stwa UE - dlaczego? Do\u015b\u0107 jednoznaczne. To z powodu migracji i wynikaj\u0105cych z niej problem\u00f3w. Kanada jako wz\u00f3r: maj\u0105 uregulowan\u0105 migracj\u0119, przyje\u017cd\u017caj\u0105 tam tylko ludzie z pozytywnymi perspektywami ekonomicznymi. A teraz ju\u017c nie wiem...",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "dede88af9ac7d3503f5faff6ce367f97",
+        "text": ".@JunckerEU \"kiedy uchod\u017acy siedz\u0105 w \u0142odziach, jest ju\u017c zazwyczaj za p\u00f3\u017ano.\" #FRONTEX widzi to inaczej. #tvduell #realitycheck",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "f4f6fd70e8e4cb4202d96f384b1362d5",
+        "text": "Ach tak: #Jezus pot\u0119pi\u0142by ratownik\u00f3w ludzi tak jak ostatnio w UE: #KulturaPot\u0119piania. Bo w #Prawie UE jest napisane, kim s\u0105 #nielegalni uchod\u017acy. Nasza nacjonalistyczna UE jest ju\u017c tak narodowo za\u015blepiona. #Nazisci, prosz\u0119 by\u0107 gotowi!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "617bcbb13e3ce1dacc73822f6c2bdf0d",
+        "text": "Ob\u00f3z dla uchod\u017ac\u00f3w #Turcja vs #UE. Wasza ci\u0105g\u0142a krytyka b\u0119dzie autentyczna dopiero wtedy, gdy od czasu do czasu wspomnicie o czym\u015b takim. Mimo trudnej sytuacji gospodarczej zapewnienie opieki 7 milionom uchod\u017ac\u00f3w nie jest \u0142atwe!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "8388df519f01667b346d73c1c1960c24",
+        "text": "Najwyra\u017aniej Komisja pilnie szuka silnej opozycji krytycznej wobec UE dla #EP? Propozycje dotycz\u0105ce migrant\u00f3w to podanie na tacy dla #AfD.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b8436e9948e1a5341d0946603b7e06c2",
+        "text": "Syria: Turcja przygotowuje si\u0119 na kolejnych uchod\u017ac\u00f3w z Syrii; \u017ce UE nie przyjmuje naprawd\u0119 uchod\u017ac\u00f3w z tego regionu\u2026 [1/2]",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "09ccff916215bd5739b1bb895a90df5d",
+        "text": "Ponadto dyskusja panelowa na temat europejskiej polityki wobec uchod\u017ac\u00f3w, wizyta w grupie SPD w Parlamencie Europejskim oraz na posiedzeniu frakcji S&D.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.333
+            }
+        ]
+    },
+    {
+        "id": "1e33f7b1984f85e35f0bbc8661502abc",
+        "text": "Polityka uchod\u017acza Europy jest w najlepszym razie \"niedostateczna\", m\u00f3wi @MartinSchulz na #Europaforum",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "2146c4dd49abf64c7a363c463f5302bf",
+        "text": "(...) interwencja w wojn\u0119 w #Syria teraz m\u015bci si\u0119 na #Turcja. Poniewa\u017c #Erdogan jest ju\u017c pod presj\u0105 z powodu milion\u00f3w syryjskich migrant\u00f3w w swoim kraju, mo\u017ce on zerwa\u0107 umow\u0119 o uchod\u017acach z #UE i otworzy\u0107 drogi dla ekstremist\u00f3w.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b3e0b6d54bd33069d2db8e576f4769ea",
+        "text": "#Soros: \"#Europa jest samolubna, dba tylko o w\u0142asne interesy\" LOL #USA? #Izrael? #Uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.833,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "63bc6e0e9c63a67f8f2f90b515226504",
+        "text": "Martwy podczas ucieczki do #Europy: od pocz\u0105tku 2014 roku na drodze przez Morze \u015ar\u00f3dziemne wed\u0142ug ONZ zgin\u0119\u0142o oko\u0142o 2.000 #migrant\u00f3w. 113.000 uratowanych",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b7c8a290fb01e3bc84d768f6b93c578c",
+        "text": "Ponad sto martwych #uchod\u017ac\u00f3w znaleziono na libijskim wybrze\u017cu. Marynarka wojenna spodziewa si\u0119 jeszcze wi\u0119cej ofiar. Wi\u0119cej wkr\u00f3tce @ndaktuell #TwierdzaEuropa",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "36a224e4d57fb2c16aaf4d621ec9c951",
+        "text": "Najbardziej nieudolni politycy z wielkiej koalicji uwa\u017caj\u0105 polityk\u0119 wobec uchod\u017ac\u00f3w za \u015bwietn\u0105, poniewa\u017c problemy s\u0105 zamazywane w #Europie - zobacz skutki w #Hiszpania #CDU",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "bd4f44ae3afafac0b4b0ac0394c18f4e",
+        "text": "Dzi\u015b: Wys\u0142uchanie na temat polityki UE wobec uchod\u017ac\u00f3w w komisji spraw wewn\u0119trznych. 15:00, Paul-L\u00f6be-Haus, sala E 800. W imieniu Pro Asyl m\u00f3wi G\u00fcnter Burkhardt.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.333
+            }
+        ]
+    },
+    {
+        "id": "be7651d6702d0ed4ebb229e3fb75e3f9",
+        "text": "#KrajeUE nie s\u0105 uwzgl\u0119dnione w raporcie #UNHCR o #uchod\u017acach, poniewa\u017c przyjmuj\u0105 ich zbyt ma\u0142o. G\u0142\u00f3wny ci\u0119\u017car ponosz\u0105 najbiedniejsi. #FacetheFacts",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.5,
+                "stance_5": "rather positive",
+                "relevant_score": 0.333
+            }
+        ]
+    },
+    {
+        "id": "f5eccbd9614dbba84a0ccdbaf4030b48",
+        "text": "#SonnTalk: Umowa ramowa UE: Ca\u0142kowita blokada? Wybory do Rady Federalnej: Keller-Sutter i Amherd faworytkami? Uchod\u017acy: Humanitarno\u015b\u0107 czy surowo\u015b\u0107? Moi go\u015bcie: Regula Rytz (GP), Gerhard Pfister (CVP) i Roger K\u00f6ppel (SVP). Od 18:20 na \u017cywo w TeleZ\u00fcri, Tele M1 i TeleB\u00e4rn.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "73b8cd3876865be6272f8e6becd55f5c",
+        "text": "\"Nie jeste\u015bmy tak bardzo przeciwni imigrantom z UE\", wyja\u015bnia Fankhauser, \"ale raczej tym z kraj\u00f3w trzecich.\"",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "8040cae65aa01481f8ecb4347b1e0687",
+        "text": "Premier: S\u0142owacja pozywa UE za kwoty uchod\u017ac\u00f3w - Agencja null",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "971f2524fc22bf0acb9f4e1dd164507b",
+        "text": "Przedsi\u0119biorcy-imigranci w #UK stworzyli 8,5 mln miejsc pracy, czyli wi\u0119cej ni\u017c jest imigrant\u00f3w; #EU-imigranci-za\u0142o\u017cyciele firm! #UKIP zatem bzdura",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "8f5ef44eaa6a86a3c751abb2c81df86a",
+        "text": "Moje pogl\u0105dy polityczne? UE powinna wreszcie mie\u0107 centra w Tunezji, aby UE mog\u0142a wreszcie decydowa\u0107, kto przep\u0142ywa przez Morze \u015ar\u00f3dziemne, a kto nie, aby przemytnicy nie mogli ju\u017c zarabia\u0107 na umieszczaniu os\u00f3b ubiegaj\u0105cych si\u0119 o azyl w z\u0142ych drewnianych \u0142odziach.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "positive",
+                "stance_score": 0.167,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "fb121e60d6a96fc3df32bdc179076246",
+        "text": "Merkel wci\u0105ga migrant\u00f3w w pu\u0142apk\u0119. W UE s\u0105 truci glifosatem.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "40787c2093e68732460be08c504275cd",
+        "text": "Komisja Europejska chce rozdzieli\u0107 50 000 migrant\u00f3w mi\u0119dzy pa\u0144stwa cz\u0142onkowskie... Wszyscy, opr\u00f3cz Niemiec, u\u015bmiechn\u0119li si\u0119 uprzejmie. I podzi\u0119kowali, odmawiaj\u0105c.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "6ba07867687311a63613d2dcf709507f",
+        "text": "@zeitonline By\u0142oby naprawd\u0119 mi\u0142o, gdyby\u015bcie r\u00f3wnie\u017c nie pisali o kryzysie uchod\u017aczym! To jest kryzys odpowiedzialnych w UE!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a45ff7d2ea910bdfa46f90695b893b24",
+        "text": "Uchod\u017acy: Czy porozumienie dubli\u0144skie jest bliskie upadku? Pytamy eksperta ds. prawa UE Waltera Obwexera w #ServusJournal o 19:20.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "112bec39a91c33a6d0586b39cdafb5e7",
+        "text": "C. Hein, dyrektor CIR w #przes\u0142uchanie #komisjawn\u0119trzna na temat polityki UE dotycz\u0105cej #uchod\u017ac\u00f3w: Obraz uchod\u017ac\u00f3w ekonomicznych jest przestarza\u0142y, 80% potrzebuje ochrony",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "92d9e112a87a54fb84061acf67162a7b",
+        "text": "Porozumienie UE-Turcja: Powr\u00f3t uchod\u017ac\u00f3w przebiega powoli. Od 04/2016 deportowano 1.304 osoby, poda\u0142a grecka policja.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "8546adead7dc80ccd2fc070d6403f85a",
+        "text": "Co m\u00f3wi\u0105 #Juncker i #Schulz na temat tego, \u017ce kraje po\u0142udniowe UE musz\u0105 ponosi\u0107 najwi\u0119kszy ci\u0119\u017car uchod\u017ac\u00f3w? #TvDuell",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "75e4c3c6f32891c6876525a8c4c0d81c",
+        "text": "UE MUSI TERAZ WPROWADZI\u0106 NOWE PRZEPISY DOTYCZ\u0104CE UCHOD\u0179C\u00d3W WSP\u00d3LNIE Z INNYMI, NIE CZEKA\u0106 NA TO, CO ZROBI SZANTA\u017bYSTA Z TURCJI!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "98968fa8528c6309254e175a7a82ca3e",
+        "text": "UE musia\u0142aby tylko wprowadzi\u0107 procedur\u0119 azylu w ambasadach, a strumienie uchod\u017ac\u00f3w ograniczy\u0142yby si\u0119 do naprawd\u0119 prze\u015bladowanych. Czy\u017c nie?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "9ec5c864dac336480da858fadac8476e",
+        "text": "@cducsubt Tak, Manni potrafi dyskutowa\u0107, ale niestety to ju\u017c wszystko. Nie ma europejskiej polityki dotycz\u0105cej uchod\u017ac\u00f3w, ani polityki zagranicznej, a tym bardziej wsp\u00f3lnej ochrony klimatu. Ta UE to \u017cart, nic innego jak interesy gospodarcze, a my p\u0142acimy.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "57184e2d942e2c0eccd7b7b9341ac7ee",
+        "text": "Podczas #WyboryEuropejskie obywatele swojego Europy zdecyduj\u0105 r\u00f3wnie\u017c o #PaktMigracyjny!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "b37f8d2380d7f03ad865fef90e6a0e4f",
+        "text": "Tysi\u0105ce fa\u0142szywych dokument\u00f3w to\u017csamo\u015bci mia\u0142y zosta\u0107 wys\u0142ane przez dwie grupy przest\u0119pcze z Grecji do UE w 2015 roku. Klientami byli uchod\u017acy.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "3d60cc083b7ee17a676ddd3bc2d345dd",
+        "text": "Co robi Orban w @EPP, kt\u00f3ry uwa\u017ca Salviniego za \u201etowarzysza walki o zachowanie europejskiego dziedzictwa chrze\u015bcija\u0144skiego i w bitwie o zatrzymanie migracji\u201d? #eu #italy #salvini #orban",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "413143933cd1bf3338981fe848e38c5e",
+        "text": "#Strumienie uchod\u017ac\u00f3w z #Afryki to dopiero pocz\u0105tek #fali, kt\u00f3ra z powodu #zmian klimatycznych zostanie wyrzucona na wybrze\u017ca #Europy! #Wolno\u015b\u0107",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "3de38aebc390ded4548a87d42669d184",
+        "text": "Czy UE mo\u017ce sobie pozwoli\u0107 na nieprzyjmowanie uchod\u017ac\u00f3w? #tvduell",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "09361cc84ca7deebde6e980b313c6950",
+        "text": "#Pegida #afd #Frontex #Immigration #Asyl \"Nie mo\u017cemy przyj\u0105\u0107 ka\u017cdego\", m\u00f3wi\u0105. Tysi\u0105ce ton\u0105 w Morzu \u015ar\u00f3dziemnym, zacznijmy od tego.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "2011aa8a24fc38f0e82cd14466a55646",
+        "text": "\"potrzebny jest og\u00f3lnoeuropejski klucz podzia\u0142u uchod\u017ac\u00f3w i ich sprawiedliwy podzia\u0142 we wszystkich pa\u0144stwach UE\"",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "632c93186b2baebc64730915b86bf692",
+        "text": "Malta domaga si\u0119: r\u00f3wnomiernego rozdzielenia uchod\u017ac\u00f3w na wszystkie kraje UE #eugiswf",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "91115c89d024186d9db8f49b84bb3c30",
+        "text": "#Syria: Ponad 1,1 miliona syryjskich #uchod\u017ac\u00f3w w #Libanie. Tylko 123.000 w ca\u0142ej #Europie. #UNHCR wzywa #UE do podj\u0119cia wi\u0119kszych dzia\u0142a\u0144!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "18b28ee0f0aa7de7f58b92b3c8921045",
+        "text": "R\u00f3wnie\u017c rosn\u0105ca liczba ludno\u015bci, migranci, obywatele UE i uchod\u017acy s\u0105 przyczyn\u0105 niedoboru wody.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.833,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "cb4f6b327d9c7ebbb298e494d95878b1",
+        "text": "#UE p\u0142aci Francji 20 mln i Anglii 27 mln dodatkowej pomocy dla uchod\u017ac\u00f3w. A Niemcy? Anglia \u017c\u0105da tylko specjalnego statusu, ale kasuje.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "475e62158f8f48feb7b980a819982997",
+        "text": "4.000 uchod\u017ac\u00f3w w 48 godzin, 19.000 od pocz\u0105tku roku tylko na po\u0142udniowych wybrze\u017cach W\u0142och. Kiedy #Europa zrozumie, \u017ce izolacja nie dzia\u0142a?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "ce048f0896e3d26f65912a35927073b6",
+        "text": "Dlaczego mo\u017cna tak mocno krytykowa\u0107 Szwajcari\u0119, podczas gdy w Niemczech wysokiej rangi politycy pod\u017cegaj\u0105 przeciwko imigrantom z UE? Mentalno\u015b\u0107 jest taka sama.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "positive",
+                "stance_score": 0.833,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "da6b0909bf1e19859dfcb5f430d27df6",
+        "text": "I ju\u017c dosz\u0142o do kolejnej #tragediiuchod\u017ac\u00f3w. 181 os\u00f3b uton\u0119\u0142o na Morzu \u015ar\u00f3dziemnym. #UE woli si\u0119 przygl\u0105da\u0107, niewiarygodne!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "af18e854e9128547040f73fbc896c9e8",
+        "text": "2/2 Nowe kierownictwo obozu w #Mineo zakaza\u0142o gotowania i jeszcze bardziej ograniczy\u0142o prawo do wychodzenia. #europe #humanrights #migration /p",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.833,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "2f725ce99f8adb3510a1c3ebc0f0e49c",
+        "text": "Nicnierobienie jest najbrutalniejsz\u0105 form\u0105 dzia\u0142ania. #Lampedusa #UE #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "67c8c0f3184b1c22c3095b1a421069f3",
+        "text": "W\u0142ochy prosz\u0105 UE o pomoc w przyjmowaniu uchod\u017ac\u00f3w i gro\u017c\u0105 zamkni\u0119ciem port\u00f3w. Rozmawiamy z Sarah Zerback z biura ARD w Rzymie.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "caab8a168c26993c857712c1ee529a15",
+        "text": "1- Unia Europejska toleruje wojn\u0119 Turcji przeciwko Kurdom w zamian za mniejsz\u0105 liczb\u0119 uchod\u017ac\u00f3w.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.167,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "ca5e80f03ebe6a737ad0dc40ee5e7485",
+        "text": "Czym s\u0105 umowy, gdy #Erdogan czego\u015b chce? #UE #PaktMigracyjny #Wiza #Turcja",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "1426d884a0f997c07c8c9429d40dfb0b",
+        "text": "Sp\u00f3jrz, \"intelektualista\". Z \"komentarzem\" w #Welt, prawda? Kt\u00f3ry doszed\u0142 do \"wniosku\": #Prawicowi ekstremi\u015bci staj\u0105 si\u0119 silniejsi przez nagonk\u0119 na #uchod\u017ac\u00f3w, zamknijmy #Europ\u0119, bo... tak, bo jako \"intelektualista\" trzeba tak my\u015ble\u0107, je\u015bli chce si\u0119 by\u0107 w #Welt.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.167,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "00d6d35ae7d80a1f6424b66e411f9c44",
+        "text": "Posiedzenie Komisji Europejskiej w Brukseli na temat TTIP i polityki migracyjnej UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "e370c7691ea1245f5cbaac5bfa6cfd04",
+        "text": "Niemcy otrzymuj\u0105 4,5 mld euro od UE za przyj\u0119cie szczeg\u00f3lnie du\u017cej liczby uchod\u017ac\u00f3w? W\u0142ochy i Grecja na pewno si\u0119 ciesz\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "7c7b1995031031485dcbc5899eeec067",
+        "text": "UE - przestrze\u0144 otwarto\u015bci? Liczba #uchod\u017ac\u00f3w tutaj wzros\u0142a dziesi\u0119ciokrotnie. Utworzono grupy kontaktowe i awaryjne; kryzys europejskiego re\u017cimu granicznego?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a8db342be3db40253c73ae04d472247d",
+        "text": "Coraz wi\u0119cej kraj\u00f3w UE zaostrza swoje stanowisko wobec sytuacji wynikaj\u0105cych z dzia\u0142a\u0144 migrant\u00f3w lub ca\u0142kowicie odrzuca migrant\u00f3w, co prowadzi do tego, \u017ce b\u0119d\u0105 oni szuka\u0107 schronienia w kraju Merkel. Ale Mutti znowu pomija ofiary i idzie o krok dalej, reklamuj\u0105c imigracj\u0119 w ich krajach.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "5d24449eaaa59d426da64ecd88180d51",
+        "text": "Ponad 100 \"#uchod\u017ac\u00f3w\" wtargn\u0119\u0142o do #Eurotunelu mi\u0119dzy Wielk\u0105 Brytani\u0105 a Francj\u0105, parali\u017cuj\u0105c ruch poci\u0105g\u00f3w na wiele godzin.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "205bfd3e4e106873ce995c66dfbd77a2",
+        "text": "Za to zaaran\u017cowanie wielu uchod\u017ac\u00f3w i zmar\u0142ych w Syrii nale\u017cy przyzna\u0107 Pokojow\u0105 Nagrod\u0119 Nobla ca\u0142emu zachodniemu \u015bwiatu. #EU",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "576ceaf78816a027eaaeb44b329f5f11",
+        "text": "@Hage_W Niemcy na 7. miejscu w UE pod wzgl\u0119dem liczby uchod\u017ac\u00f3w w por\u00f3wnaniu do liczby ludno\u015bci.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "1aa69c1ad1289aec01096b788e60ba68",
+        "text": "Nast\u0119pny odcinek.. \u201eczy m\u00f3g\u0142by\u015b skorzysta\u0107 z imigracji UE? Wsp\u00f3lnota Narod\u00f3w nie jest jednak otwarta\u201d czuj\u0119 si\u0119 troch\u0119 przerzucana tam i z powrotem. \ud83e\udd37\u200d\u2640\ufe0f",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "rather positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "5e88166ece90d6e2c4565064d02a5b6f",
+        "text": "fr #merkel ma najg\u0142upszy pomys\u0142 na polityk\u0119 uchod\u017acz\u0105, kt\u00f3ry przyni\u00f3s\u0142 rozpad #europa, #prawicowyzwrot, przemoc i niezadowolenie - #TVDuell",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "rather positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "058c7c8ed4e1b1ee995590f6559fe654",
+        "text": "Nawet je\u015bli pomoc dla uchod\u017ac\u00f3w w Turcji ma sens (?) - cz\u0142onkostwo w UE i pomoc przedakcesyjna mog\u0105 by\u0107 przedmiotem dyskusji. #freedeniz",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "f3257bdcc852b8fe32f6959af7957e57",
+        "text": "Lekarze bez Granic informuj\u0105 o okrucie\u0144stwach w libijskich obozach dla uchod\u017ac\u00f3w - WINNA JEST UE! POMOC POWINNA ODBYWA\u0106 SI\u0118 W AFRYCE, NIE W UE! PRZEZ TO UE MA PUSTE G\u0141OWY TUTAJ I TAM ZROBI\u0141A CHAOS!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "6f355c9b25c6ac1bb3579e009175bc38",
+        "text": "#CDUCSU Ucieczka i polityka wobec uchod\u017ac\u00f3w BM M\u00fcller \"Potrzebny jest silny impuls w UE dla sp\u00f3jnej polityki wobec uchod\u017ac\u00f3w\" #EUFl\u00fcchtlingskommissar",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "3875e3d18d122d83bbfac9a35baddcea",
+        "text": "Kiedy #uchod\u017acy na granicy #grecko-macedo\u0144skiej wo\u0142aj\u0105 o pomoc, chce si\u0119 od razu wsi\u0105\u015b\u0107 do samochodu #UE #nieludzkie",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "041c0263565cf2bb9390ac752dba7533",
+        "text": "@woelken dlaczego w\u0142a\u015bciwie UE nie interweniuje? W Syrii odwr\u00f3ci\u0142a wzrok, co spowodowa\u0142o uchod\u017ac\u00f3w, czy UE chce to powt\u00f3rzy\u0107?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "17d212b5e242c55d0a4ede150844e1c4",
+        "text": "Estonia uwa\u017ca, \u017ce raczej du\u017ce pa\u0144stwa cz\u0142onkowskie s\u0105 zobowi\u0105zane do przyjmowania uchod\u017ac\u00f3w. #eugiswf",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "596a29d21ecfb518c6dd3123bb929797",
+        "text": "Nie do\u015b\u0107, \u017ce nar\u00f3d turecki jest obci\u0105\u017cony kosztami uchod\u017ac\u00f3w, to jeszcze UE rozpocz\u0119\u0142a ogromn\u0105 kampani\u0119 oszczerstw przeciwko temu narodowi za pomoc\u0105 swoich k\u0142amstw i prasy kartelowej. #OperationPeaceSpring",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "7dc07285e213c971de03b0d37fc32f5b",
+        "text": "Na @republica: Chwila ciszy dla uchod\u017ac\u00f3w, kt\u00f3rzy umieraj\u0105 na granicach UE. Brawo Fatuma Musa #rp15 #bold #facilitation /ak",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "0290410877753a25f1a28ae28a4a9af9",
+        "text": "Premier Badenii-Wirtembergii Winfried #Kretschmann ostrzega przed kryzysem uchod\u017aczym w #Europie",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "e25fe33ee7a54296caa806b68806ae83",
+        "text": "Ten krzyk, bo nielegalni migranci zostali odrzuceni na granicy. Ach nie, to byli tylko Hiszpanie, kt\u00f3rzy chcieli g\u0142osowa\u0107. #EU",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "c0e7a8dfd6b3d1f2bff374ebced8542e",
+        "text": "Niemiecki nie jest oficjalnym j\u0119zykiem w Europie. Imigranci z UE, kt\u00f3rzy nie m\u00f3wi\u0105 po niemiecku, powinni by\u0107 zach\u0119cani poprzez ukierunkowane dzia\u0142ania.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.167,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d465768e1fe6b13944917a5a277f1514",
+        "text": "W momencie, gdy my Europejczycy u\u017cywamy si\u0142y zbrojnej przeciwko uchod\u017acom, #Europa traci wszelk\u0105 legitymacj\u0119 ..!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "cdc38483239f066883f96d39f13f3766",
+        "text": "Wyobra\u017a sobie, \u017ce w #UE jest wojna i \u017caden kraj s\u0105siedni nie przyj\u0105\u0142by nas jako #uchod\u017ac\u00f3w! #ShameOnEurope",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "43045ba8dbb3031b49a7d6959ce48fa1",
+        "text": "Pod presj\u0105 UE W\u0142ochy zmuszaj\u0105 przybywaj\u0105cych uchod\u017ac\u00f3w m.in. za pomoc\u0105 elektrowstrz\u0105s\u00f3w do pobrania odcisk\u00f3w palc\u00f3w w celu rejestracji (Deutschlandfunk)",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "c6cd3171919f39cbe4a53c01981f7d3b",
+        "text": "Dzi\u0119kuj\u0119 @radioeins. Znowu uda\u0142o si\u0119 przypomnie\u0107, \u017ce s\u0105 dobre powody, aby si\u0119 wstydzi\u0107... bycia Europejczykiem! #frontex #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d0788a42bb1d40d1bea15d60737fda79",
+        "text": "O nie, @HansWernerSinn u #markuslanz. Cieszmy si\u0119 na jednostronne i doktrynerskie wypowiedzi o #klima, #euro i #uchod\u017acy. PS: Zapowiedziane badanie zosta\u0142o ju\u017c s\u0142usznie szeroko medialnie przeanalizowane i obalone jako celowo wprowadzaj\u0105ce w b\u0142\u0105d. @ZDFMarkusLanz",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d68dea3bcdd12252fa1641e05ac0121b",
+        "text": "TSUE Europejski #Trybuna\u0142Sprawiedliwo\u015bci Wethelet Rzecznik Generalny #masowaimigracja Imigracja z ub\u00f3stwa Hartz 4 Hartz IV Imigranci Niemcy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "274548fc4a95dd4a10fce7c622a1f926",
+        "text": "Juncker uwa\u017ca: \"Nie mo\u017cemy otworzy\u0107 \u015bluz\" Wow, co za o\u015bwiadczenie dla uchod\u017ac\u00f3w z kraju ogarni\u0119tego wojn\u0105 domow\u0105. #EUdebate2014",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "9666a3b8e9d7695512c520dbf4b3ca01",
+        "text": "Obud\u017acie si\u0119 wreszcie!!! #wyborcy #vv #ddb #zatrzyma\u0107 #wolno\u015b\u0107 #prawo #personel #niewolnicy #UE #o\u015bwiecenie #MOMO #info #migrant #azyl #ko\u015bci\u00f3\u0142 #wiara #oszukiwanie_ludu #BRD #wymiana_ludno\u015bci #przysz\u0142o\u015b\u0107 #ludzie",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "3e7fd66ea8ab518b76a2f89bab0233da",
+        "text": "Hmmm - Zbrojenia - Katastrofalne warunki w UE - Nieludzka polityka wobec uchod\u017ac\u00f3w i polityka zagraniczna Na pewno si\u0119 uda \ud83d\ude10 #ProgramWyborczy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.833,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "6b2bb364bf4a38f479883d0bc5fe3d1b",
+        "text": "\"Ratowanie na morzu\" + transport migrant\u00f3w do UE jest cz\u0119\u015bci\u0105 modelu biznesowego mafii przemytnik\u00f3w. Statki przemytnik\u00f3w NGO, takie jak Sewatch3, s\u0105 wsp\u00f3lnikami mafii przemytnik\u00f3w (pobieraj\u0105 4000$ za migranta), poniewa\u017c TO ONI \u015bwiadcz\u0105 us\u0142ugi dla mafii przemytnik\u00f3w!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "1dcc7cd7d29a8b1c6a8cfccfc90cb7b5",
+        "text": "@XAgathon \u201e\u2026 Teza \u201a#Uchod\u017acy s\u0105 mile widziani w #UE\u2018 jest \u0142atwa do obalenia.\u201c Wystarczy pomy\u015ble\u0107 o Frontex.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "f2547fb1652c1549e810d37914c2da90",
+        "text": "Daj\u0119 UE wskaz\u00f3wk\u0119: Zg\u0142o\u015bcie w\u0142osk\u0105 stra\u017c przybrze\u017cn\u0105 do Pokojowej Nagrody Nobla! Bezinteresownie ratuj\u0105 uchod\u017ac\u00f3w co miesi\u0105c! \ud83d\udc99\ud83d\udc4d",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a83febfd15660b81b0a43ccc61fa8d5c",
+        "text": "Nieludzkie warunki w obozie dla uchod\u017ac\u00f3w w Bo\u015bni. Wstrz\u0105saj\u0105ce obrazy w tym reporta\u017cu. Dlaczego UE tutaj nie pomaga?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "449414ea3e5d675ed51e239a05f14982",
+        "text": "@Frankenfeld1 @TIMECODEX Czy macie p\u00f3\u017aniej czas, aby wsp\u00f3\u0142tworzy\u0107 post o (nowych/ci\u0105g\u0142ych) zgonach uchod\u017ac\u00f3w na zewn\u0119trznej granicy UE?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "dc75e6a27f34db001c4c085ee8e16966",
+        "text": "@Europarl_DE Od \u015brody #zima, \u015bnieg i burze w #Liban. Czy w #UE s\u0105 plany, aby natychmiast pom\u00f3c tamtejszym uchod\u017acom? #ucieczka",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.833,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "bc41886ecf59d69df468cf1f4b3711aa",
+        "text": "Punkt krytyczny: Swoboda przemieszczania si\u0119. Krytykuj\u0105 oko\u0142o 100.000 imigrant\u00f3w do Austrii. A co z 400.000 Austriakami za granic\u0105? #EU2014",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.833,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "51c7605d501764859fe1b14d3340646a",
+        "text": "#Migracja przez #Morze\u015ar\u00f3dziemne: W\u0142ochy domagaj\u0105 si\u0119 wi\u0119kszego wsparcia od UE i ONZ. Wed\u0142ug Ministerstwa Spraw Wewn\u0119trznych w 2014 roku przyby\u0142o ponad 20 500 os\u00f3b.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "bc7b67cb948e7f4d689ebf77f5439c62",
+        "text": "Dzie\u0144 Zjednoczenia Niemiec jest zawsze tak\u017ce Dniem Uchod\u017ac\u00f3w. Wtedy: NRD-RFN Dzi\u015b: Obszar kryzysu/g\u0142odu/wojny - UE/RFN",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "4d2e6476f0ab8ecc6be4f55c7038731e",
+        "text": "Droga UE, mam spontaniczny pomys\u0142 dotycz\u0105cy kwestii uchod\u017ac\u00f3w. Sprawmy, aby ich kraj sta\u0142 si\u0119 miejscem wartym \u017cycia. Potrafimy to zrobi\u0107!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d700b8afb689c3c7eb9b325f68ef406a",
+        "text": "Wycofanie si\u0119 #USA pod rz\u0105dami #Trump z globalnego #porozumienia w sprawie #uchod\u017ac\u00f3w jest dziwne. Ameryka\u0144ski bilateralizm wzmocni globalny #bilateralizm - prowadz\u0105c \u015bwiat do XIX wieku; destabilizuj\u0105ce dla #Europy i globalnie.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.333,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "e2dd7bcd53b4bd4a396a0f3afd93d05e",
+        "text": "Je\u015bli TSUE przyzna zasi\u0142ek Hartz4 wszystkim imigrantom, to niech TSUE p\u0142aci 345,- bezrobotnym Rumunom/Bu\u0142garom/itp. #illner #zuw",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "negative",
+                "stance_score": -0.333,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "2c6272deee2aa71504789cf8ba5c2915",
+        "text": "Ogromne wsparcie dla #MOOCs ze strony UE by\u0142oby cennym wk\u0142adem w pomoc rozwojow\u0105 i polityk\u0119 wobec uchod\u017ac\u00f3w! @iversity @michelreimon",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.833,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "75d5956b7f5c35ca2017d6044b2b42b3",
+        "text": "Ale tak na powa\u017cnie. Szwecja jest super. Zw\u0142aszcza ich polityka wobec uchod\u017ac\u00f3w jest o wiele lepsza ni\u017c w innych krajach UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.167,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a15c075d12715c61c2dc40353416e2fe",
+        "text": "Czy w UE istniej\u0105 inne koncepcje zwalczania przyczyn ucieczki i warunk\u00f3w w libijskich obozach dla uchod\u017ac\u00f3w, opr\u00f3cz kryminalizacji ratownik\u00f3w?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "11ea4f82d28d2fab0b25ea55f36b38d3",
+        "text": "#W\u0119gry: wa\u017cna pora\u017cka dla #Orbana. #Referendum przeciwko #UE i przeciwko uchod\u017acom nie osi\u0105gn\u0119\u0142o kworum.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.833,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "6d866bf7a7ac2df41fbf163b99902d1e",
+        "text": "Tysi\u0105ce uchod\u017ac\u00f3w przybywa z #Ukrainy na Krym, czy UE r\u00f3wnie\u017c uczestniczy w tych obozach dla uchod\u017ac\u00f3w?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "179728d4806084bafc508b51865173f9",
+        "text": "W Parlamencie UE s\u0105 4 kraje, kt\u00f3re zawsze podnosz\u0105 r\u0119k\u0119, gdy przybywaj\u0105 nowi uchod\u017acy. Reszta UE opiera si\u0119 i udaje, \u017ce to ich nie dotyczy. Ale potem podburzaj\u0105 i wyci\u0105gaj\u0105 pa\u0142k\u0119 rasistowsk\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "1fb40638d4ea51b6de89f8df85d594fc",
+        "text": "@ManfredWeber Dob\u00f3r s\u0142\u00f3w w temacie #uchod\u017ac\u00f3w jest do skrytykowania. Jako przewodnicz\u0105cy frakcji #EVP w #ParlamencieUE niestety stajesz si\u0119 niew\u0142a\u015bciw\u0105 osob\u0105 na tym stanowisku. Reprezentujesz pozycj\u0119 #Union czy #CSU w sprawach takich jak np. #W\u0119gry / premier Orban? Kto w\u0142a\u015bciwie m\u00f3wi\u0142by o #CSU, gdyby nie by\u0142o UNION?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.2,
+                "stance_5": "neutral",
+                "relevant_score": 0.4
+            }
+        ]
+    },
+    {
+        "id": "2258cca965f89d585a4eae86f4583e88",
+        "text": "Wed\u0142ug kilku raport\u00f3w s\u0105 teraz w drodze do miasta Chios #Grecja #UE #Migracja",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "44650a755e51b450dbd8057da4df12ed",
+        "text": "Dlaczego najwi\u0119kszym wyzwaniem dla UE jest migracja z Afryki, a nie Afryka, z kt\u00f3rej nie trzeba ucieka\u0107? #orf",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.25,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b17de76bea353c96d1c0d5b3a9304a9d",
+        "text": "Spotkanie UE na Malcie w sprawie kryzysu uchod\u017aczego: Szczyt niepewno\u015bci Ja te\u017c nie wiem",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "236ff218af5c59e4a7036f9d184dc75b",
+        "text": "@JLichdi chwali Inis, kt\u00f3re pomagaj\u0105 uchod\u017acom, pokazuj\u0105 inne #Drezno. #13lut Ale polityka azylowa UE musi zosta\u0107 zmieniona.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "768917b65f0b3b9ab717b4f5d29eac04",
+        "text": "@MartinSchulz S\u0142owacja chce pozwa\u0107 UE za pomoc uchod\u017acom i wyrzuci\u0107 Grecj\u0119 ze strefy Schengen. S\u0142owacja powinna w ko\u0144cu opu\u015bci\u0107 UE!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.25,
+                "stance_5": "positive",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "a0bde1601110186f73309dbdbfc4a222",
+        "text": "@zib2 Nie b\u0105d\u017acie tak ob\u0142udni, relacjonuj\u0105c tragedie uchod\u017ac\u00f3w. Prosz\u0119 r\u00f3wnie\u017c wyja\u015bni\u0107 #Frontex.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.25,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "54fc26c5171410f74fa631b7d515326b",
+        "text": "USA sukces: Dzi\u0119ki wojnie w Syrii i Libii UE jest pe\u0142na uchod\u017ac\u00f3w, Al-Kaida na granicy Europy, a z powodu Ukrainy UE jest sk\u0142\u00f3cona z Rosj\u0105.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a70181e44ab48628cf33aaeb5f5fe7dc",
+        "text": "Ach Panie Je. Mo\u017ce by\u0107, \u017ce tutaj w Niemczech i w UE nie wszystko jest dobrze, je\u015bli chodzi o kwesti\u0119 uchod\u017ac\u00f3w. Bez w\u0105tpienia. Ale to s\u0105 naprawd\u0119 absolutne wymys\u0142y i teorie spiskowe. Wi\u0119c s\u0105 dobre leki na to albo powinno si\u0119 znowu za\u0142o\u017cy\u0107 czapk\u0119 z folii aluminiowej.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.286,
+                "stance_5": "neutral",
+                "relevant_score": 0.714
+            }
+        ]
+    },
+    {
+        "id": "27e55f342f3133de6c885d497af84e40",
+        "text": "Obecnie pierwsi uchod\u017acy z Krymu dotarli do UE. Polska zarejestrowa\u0142a 40 wniosk\u00f3w o azyl od po\u0142owy tygodnia.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b0b016b320bec16055a1f517589cc70e",
+        "text": "\"6.2.14 #GuardiaCivil bezlito\u015bnie nas pobi\u0142a w #Ceuta\" m\u00f3wi Nathan @ECCHRBerlin @BROT_furdiewelt #uchod\u017acy #UE",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a60f8c5d789f2477d0b1cce202836547",
+        "text": "Dlaczego tak trudno jest omawia\u0107 z pa\u0144stwami UE plany awaryjne dla nowych uchod\u017ac\u00f3w? - pyta @UNHCR @eu_echo na spotkaniu partnerskim.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.286,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "81479fa9b0ca2092454bbf1fb0c17a4f",
+        "text": "Ankara nie b\u0119dzie ju\u017c uznawa\u0107 umowy o uchod\u017acach z UE, je\u015bli obywatele tureccy wkr\u00f3tce nie b\u0119d\u0105 mogli wje\u017cd\u017ca\u0107 do pa\u0144stw UE bez wiz [...]",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "b7dc19a889073b01cd11e7f34061f40f",
+        "text": "Zgodnie z zasad\u0105 dubli\u0144sk\u0105, za przeprowadzenie procedury azylowej odpowiedzialny jest ten kraj UE, do kt\u00f3rego uchod\u017aca wjecha\u0142 jako pierwszy.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.143,
+                "stance_5": "neutral",
+                "relevant_score": 0.857
+            }
+        ]
+    },
+    {
+        "id": "5196ca8ee3b2ad7766a7dc285ee343ee",
+        "text": "Kto ma pytania dotycz\u0105ce porozumienia UE-Turcja w sprawie uchod\u017ac\u00f3w, mo\u017ce je zada\u0107 tutaj: frage@erlebnis-europa.eu np. Ile os\u00f3b zosta\u0142o ju\u017c odes\u0142anych?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.5,
+                "stance_5": "rather negative",
+                "relevant_score": 0.143
+            }
+        ]
+    },
+    {
+        "id": "3282d9bedae1f7505ec757e8816aa374",
+        "text": "Erdogan niech po prostu spe\u0142ni obiecane \u017c\u0105dania UE w sprawie paktu dotycz\u0105cego uchod\u017ac\u00f3w! Wtedy nie b\u0119dzie potrzeby szanta\u017cowania UE!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "267cb23948f2162b983a67ae1c13399c",
+        "text": "Zielona europos\u0142anka Harms spokojnie podchodzi do tureckich gr\u00f3\u017ab dotycz\u0105cych umowy o uchod\u017acach: Zamiast wsp\u00f3\u0142pracowa\u0107 z Turcj\u0105, UE powinna wsp\u00f3\u0142pracowa\u0107 z ONZ.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.167,
+                "stance_5": "neutral",
+                "relevant_score": 0.714
+            }
+        ]
+    },
+    {
+        "id": "179d47ea698cc222d1aa34c821f66273",
+        "text": "Turcja grozi UE zerwaniem paktu o uchod\u017acach, je\u015bli zniesienie wiz dla wjazdu do Europy nie nast\u0105pi szybko... /1",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.333,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "4408a901a74a0b2ab63af288ede5c469",
+        "text": "UE+DE POWINNY INWESTOWA\u0106 W UE-W\u0141OCHY+UE-GRECJ\u0118, ABY ROZWI\u0104ZA\u0106 PROBLEM UCHOD\u0179C\u00d3W, A NIE POMAGA\u0106 JAKIEMU\u015a PRZYB\u0141\u0118DZIE K\u0141AMCOWI.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.714
+            }
+        ]
+    },
+    {
+        "id": "0537d02abfd39954f998a34970752f76",
+        "text": "#FortecaEuropa #fortressEurope je\u015bli #Turcja wypowie pakt o uchod\u017acach. Macedonia, W\u0119gry, Austria pozostaj\u0105 nieugi\u0119te. #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.857,
+                "stance_5": "negative",
+                "relevant_score": 0.857
+            }
+        ]
+    },
+    {
+        "id": "0067d4ec24428c31b6bf3808eb1c0c2d",
+        "text": "@SteinbachErika #DLF @infoammorgen: Przerwa\u0107 negocjacje akcesyjne, #UE rozwi\u0105zanie kryzysu #uchod\u017ac\u00f3w, \u017cadnych dalszych szanta\u017cy ze strony #Turcji",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.667,
+                "stance_5": "negative",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "44d9c054cae480fc1463b42eeeb3d61c",
+        "text": "Elmar Brok: Turcja dotychczas wype\u0142ni\u0142a swoj\u0105 cz\u0119\u015b\u0107 umowy dotycz\u0105cej uchod\u017ac\u00f3w. Teraz upomina si\u0119, aby UE r\u00f3wnie\u017c wype\u0142ni\u0142a swoj\u0105 cz\u0119\u015b\u0107. To jest uzasadnione.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.286,
+                "stance_5": "neutral",
+                "relevant_score": 0.714
+            }
+        ]
+    },
+    {
+        "id": "ae3ffb5d407c2542ee55650032f302a1",
+        "text": "Sp\u00f3r o uchod\u017ac\u00f3w: kiedy si\u0119 to wszystko czyta, najlepiej, \u017ceby UE si\u0119 rozpad\u0142a i ka\u017cdy zaj\u0105\u0142 si\u0119 swoimi sprawami. Idioci.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.714,
+                "stance_5": "negative",
+                "relevant_score": 0.857
+            }
+        ]
+    },
+    {
+        "id": "9a1e14fbb7d815144a2fe0cecfbec874",
+        "text": "Oettinger uwa\u017ca czesk\u0105 odmow\u0119 przyj\u0119cia uchod\u017ac\u00f3w za \u201ehaniebn\u0105\u201d, s\u0142usznie, trzeba by\u0142o pracowa\u0107 przed nap\u0142ywem #EU",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "357630575db67c4c4ef3bdfed94f7a6c",
+        "text": "Pakt UE-Turcja w sprawie uchod\u017ac\u00f3w: budujcie rozs\u0105dne obozy w Grecji i przyspieszcie proces przetwarzania. Zatrudnijcie wi\u0119cej ludzi. To mo\u017cliwe.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.143,
+                "stance_5": "neutral",
+                "relevant_score": 0.857
+            }
+        ]
+    },
+    {
+        "id": "f5f8ff9c16afad057a5d90bc6848efbb",
+        "text": "\"UE zaleca Grecji odrzucanie wniosk\u00f3w, je\u015bli uchod\u017acy przybywaj\u0105 z bezpiecznego kraju trzeciego, takiego jak Turcja\" Debile.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "2af9088a5fbd3d9dc52c4d072bb4b02c",
+        "text": "Umowa dotycz\u0105ca uchod\u017ac\u00f3w. Jak\u0105 szkod\u0119 ponios\u0142aby Turcja, gdyby umowa upad\u0142a? UE chce czego\u015b od tureckiej ludno\u015bci, a jednocze\u015bnie stawia warunki?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "97e828bfcd7c6e8ed35b65bb6cf68d82",
+        "text": "@SevimDagdelen LINKE krytykuje zasad\u0119 pierwsze\u0144stwa dla Niemc\u00f3w i obywateli UE w przypadku poszukuj\u0105cych pracy azylant\u00f3w. W ten spos\u00f3b podsyca si\u0119 uprzedzenia! \ud83d\udc4f",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "positive",
+                "stance_score": 0.25,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "4b5d8db9d10e6a25ad0b77be5165d72e",
+        "text": "#EinsFestival: Lindenstrasse, #Eurosport: Tenis, #NTV: Wiadomo\u015bci, #PHOENIX: \u017bycie na uchod\u017astwie - Uchod\u017acy w Niemczech",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "f8a682a149966d7070a840d646bd0b32",
+        "text": "10 martwych #migrant\u00f3w 40 mil morskich od libijskiego wybrze\u017ca w wyniku katastrofy pontonu. Minister spraw wewn\u0119trznych Alfano: #UE musi wspiera\u0107 #MareNostrum, w przeciwnym razie grozi koniec.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d2b3a019ecdb27e94ffcf94491389ed5",
+        "text": "Zagadk\u0105 jest, jak #Sommaruga chce wprowadzi\u0107 kontyngenty, nie zaostrzaj\u0105c \u0142\u0105czenia rodzin (=23% wszystkich imigrant\u00f3w z UE).",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.286,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d3735d17aa61059079bcf70c58c372e1",
+        "text": "\"@BMZ_Bund: Wi\u0119cej \u015brodk\u00f3w dla #uchod\u017ac\u00f3w na Bliskim Wschodzie i umieszczenie tego tematu na szczycie agendy #UE!\" #Pok\u00f3j r\u00f3wnie\u017c dobry dla agendy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "fec8b6984bf3f35275376a8084b22e8f",
+        "text": "Polityka azylowa. Bawaria buduje miasteczka namiotowe dla uchod\u017ac\u00f3w. Witamy w UE",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "5be3ea07c0fc678f9cbb8592850c01db",
+        "text": "Organizacje pomocowe domagaj\u0105 si\u0119 od rz\u0105du federalnego, aby zaanga\u017cowa\u0142 si\u0119 w tworzenie bezpiecznych port\u00f3w dla uchod\u017ac\u00f3w na Morzu \u015ar\u00f3dziemnym. Nie do zaakceptowania jest, \u017ce pa\u0144stwa UE ci\u0105gle prowadz\u0105 uci\u0105\u017cliwe debaty na temat tego, gdzie mog\u0105 cumowa\u0107 statki z migrantami na pok\u0142adzie.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "531a51a42043dac6e01b8ca898c48ccf",
+        "text": "Tak wygl\u0105da polityka europejska! Nasza czo\u0142owa dw\u00f3jka jest tam, gdzie robi si\u0119 powa\u017cnie. @katarinabarley na granicy irlandzkiej, @UdoBullmann w\u015br\u00f3d uchod\u017ac\u00f3w w Syrakuzach. \u270a\ud83c\udffc#TheProgressives #SPDEuropa #EuropaistdieAntwort",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "abc37f455b752fc18dd33b516f544b14",
+        "text": "1/2 To, \u017ce #W\u0119gry blokuj\u0105 wsp\u00f3\u0142prac\u0119 UE z krajami arabskimi i p\u00f3\u0142nocnoafryka\u0144skimi, jest niezrozumia\u0142e i sprzeczne ze wsp\u00f3lnymi europejskimi interesami. UE szuka wsp\u00f3\u0142pracy z tymi krajami, aby zwalcza\u0107 przyczyny ucieczki i nielegaln\u0105 migracj\u0119.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "6ebdf18269669eabb675ec440e8ac96c",
+        "text": "Jedna pi\u0105ta wydale\u0144 w 2018 roku dotyczy obywateli UE. Konkretnie, z 12.611 wydale\u0144, 2.777 dotyczy\u0142o pa\u0144stw UE. #Migracja",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "eb04116da61158488f7094f42b7edb36",
+        "text": "Czy umieraj\u0105 opuszczeni na morzu, czy umieraj\u0105 w perwersyjnych \"obozach dla uchod\u017ac\u00f3w\", czy umieraj\u0105 w obozach, kt\u00f3re finansujemy w Libii - wa\u017cne jest: \u017ce umieraj\u0105. To jest podsumowanie polityki uchod\u017aczej UE. Tak @campsoscar z @openarms_fund",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "c22d5160a98d3eccdb393f4aab1f592e",
+        "text": "#Migranci, kt\u00f3rzy w ostatnich latach dotarli do #Europy, pokazuj\u0105, \u017ce problemy i brak #perspektyw \u017cyciowych w innych cz\u0119\u015bciach #\u015bwiata coraz bardziej bezpo\u015brednio nas dotykaj\u0105. Dla \ud83c\udde9\ud83c\uddea jest wi\u0119c bardzo wa\u017cne, czy #konflikty w innych miejscach s\u0105 rozwi\u0105zywane bez przemocy #Lanz",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "e4b1eb301def9924333deee1b1c54f7b",
+        "text": "Co maj\u0105 do powiedzenia @othmar_karas i @SCHIEDER na temat tego, \u017ce Komisja Europejska utrudnia austriackiemu rz\u0105dowi deportacj\u0119 przest\u0119pczych wnioskodawc\u00f3w o azyl?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b6f284ce760732d1b32f9d4bd746dc95",
+        "text": "\ud83c\udde9\ud83c\uddea i \ud83c\uddeb\ud83c\uddf7 naciskaj\u0105 - przy wsparciu Komisji \ud83c\uddea\ud83c\uddfa - na tymczasowy mechanizm dystrybucji dla #uchod\u017ac\u00f3w, kt\u00f3rzy utkn\u0119li na prywatnych statkach ratunkowych na Morzu \u015ar\u00f3dziemnym. Ile pa\u0144stw #UE musi si\u0119 zaanga\u017cowa\u0107, aby mechanizm m\u00f3g\u0142 ruszy\u0107, pozostaje niejasne.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.143,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "ba4e67e03e271cf74833b70cba6edc37",
+        "text": "Uratowano ludzkie \u017cycie, to chyba najwa\u017cniejsze, prawda? Czy mo\u017ce chodzi\u0142o tak naprawd\u0119 o nielegalne przemycanie do Europy? Libia ma oficjalne zlecenie od UE na ewakuacj\u0119 \"\u0142odzi uchod\u017ac\u00f3w\" i ratowanie ludzkiego \u017cycia, czy to ju\u017c te\u017c nie obowi\u0105zuje?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.25,
+                "stance_5": "negative",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "fe038a636a336f9df67e27d7e8c09b72",
+        "text": "#defendeurope #Europaverteidigen #Europa obroni\u0107 cz\u0142owiecze\u0144stwo! #PolitykaMigracyjna #PrawoDoMiasta",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "ca452f335783736664b98a899141e488",
+        "text": "Co m\u00f3wi\u0105 @c_lindner, @Lambsdorff i reszta @fdp na ten temat? Czy nadal trzymaj\u0105 si\u0119 #Abschottung UE i sprzedaj\u0105 systematyczne naruszanie fundamentalnych #prawcz\u0142owieka jako nakaz #praworz\u0105dno\u015bci? #Migracja #Azyl #Libia",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "934d490739827054ad31be4446cc95bb",
+        "text": "EU-AB Bogherini potwierdza doniesienia Amnesty, Lekarzy bez Granic o torturach, gwa\u0142tach, handlu organami na uchod\u017acach w Libii. Mimo to rz\u0105d federalny chwali sukcesy UE w blokowaniu uchod\u017ac\u00f3w na tamtejszym wybrze\u017cu, na morzu, chce nawet oboz\u00f3w przej\u015bciowych tam, zdradza tym samym warto\u015bci UE, takie jak prawa cz\u0142owieka.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "7911bc318d03d11ada52f63fca8b8185",
+        "text": "Prosz\u0119, nie. Nie znowu. Wydanie 99. Kazanie od 2 lat w ci\u0105g\u0142ej p\u0119tli. Kiedy zacznie si\u0119, po ostatnim spotkaniu rady? Tak jak Tampere 1999? 19 lat temu uzgodniono wsp\u00f3ln\u0105 polityk\u0119 azylow\u0105 i migracyjn\u0105 UE. I co z tego.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "663eec19303c1c0f7768d150ee5c652e",
+        "text": "W\u0142ochy stoj\u0105 przed spo\u0142eczn\u0105 zmian\u0105 dzi\u0119ki #decretodignita i przed zmian\u0105 w polityce bezpiecze\u0144stwa dzi\u0119ki #DecretoSicurezza - obie te kwestie maj\u0105 ogromne znaczenie dla UE. Ale w niemieckich mediach czyta si\u0119 tylko, \u017ce 90 migrant\u00f3w znalezionych przed Libi\u0105 nie mo\u017ce wjecha\u0107.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a15e8ed5c21af70e1388aef11ac4df6c",
+        "text": "Typ z 18 obserwuj\u0105cymi t\u0142umaczy mi, \u017ce dla kraj\u00f3w uprzemys\u0142owionych solidarno\u015b\u0107 z uchod\u017acami, ofiarami wojny i klimatu nie ma znaczenia, poniewa\u017c \"solidarno\u015b\u0107\" jest \"do\u015b\u0107 niejasnym\" poj\u0119ciem. Dlaczego UE mia\u0142aby za to p\u0142aci\u0107? Nie b\u0119d\u0119 ju\u017c odpowiada\u0107 takim formom \u017cycia.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "3e2175044f9595f562dc4d2f86803bb0",
+        "text": "Sp\u00f3r o misj\u0119 morsk\u0105 #UE #Sophia grozi eskalacj\u0105. #W\u0142ochy chc\u0105 przyjmowa\u0107 migrant\u00f3w wy\u0142apanych na #Morzu\u015ar\u00f3dziemnym tylko przez kilka tygodni.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": -0.286,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "e4d62d15fa3cfeb1a3ba9d4a110d7ee0",
+        "text": "Brak komentarza! #Refugeeswelcome #uchod\u017acy #migranci #eu #spo\u0142ecze\u0144stwo #Niemcy #kultura #kultura_witaj\u0105ca #polityka #lewica #zieloni #spd",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "f61f764932c71a04493ca7ff86eaf865",
+        "text": "Gerald Knaus @rumeliobserver mia\u0142by rozwi\u0105zanie: Czy to by\u0142by plan, aby przeciwdzia\u0142a\u0107 niejednoznacznym stwierdzeniom rasist\u00f3w: nie mo\u017cemy przyj\u0105\u0107 \"wszystkich\"? Zaproponowano: pa\u0144stwa UE szczeg\u00f3lnie dotkni\u0119te migracj\u0105 uchod\u017ac\u00f3w powinny utworzy\u0107 wsp\u00f3lne o\u015brodki azylowe.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "positive",
+                "stance_score": 0.571,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "7d3ba2e62f25ea9a44dcc2e62899b015",
+        "text": "Odcinek reklamowy AfD w porannym magazynie. Nie spekulanci i b\u0142\u0119dna polityka europejska s\u0105 winni brakowi mieszka\u0144, nie, migranci. A pani Merkel niszczy SPD. W sprawie emerytur woli milcze\u0107! ZdF, powinni\u015bcie przesta\u0107 zaprasza\u0107 faszyst\u00f3w.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.714,
+                "stance_5": "positive",
+                "relevant_score": 0.714
+            }
+        ]
+    },
+    {
+        "id": "00c2624d11c20b2f3c90c3d20a896ca8",
+        "text": "Czy Mi\u0119dzynarodowy Trybuna\u0142 Karny (#MTK) w Hadze powinien wszcz\u0105\u0107 dochodzenie przeciwko UE i jej pa\u0144stwom cz\u0142onkowskim z powodu ich polityki migracyjnej, kt\u00f3ra dla wielu ludzi okaza\u0142a si\u0119 \u015bmiertelna?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "46b790dd7009e9f60ee4c35fd40ac3fe",
+        "text": "\ud83c\uddf1\ud83c\uddfe\ud83c\uddea\ud83c\uddfa #Libia sprowadzi\u0142a z powrotem kolejnych migrant\u00f3w. Zdj\u0119cia pokazuj\u0105, \u017ce si\u0142y #UE pomagaj\u0105 w lokalizacji, wbrew zakazowi refoulement. #Trypolis nie ma samolot\u00f3w. Kto da\u0142 im te zdj\u0119cia? Czy b\u0119dziemy mie\u0107 wi\u0119cej zmar\u0142ych i nic o tym nie wiedzie\u0107? @nelloscavo",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "positive",
+                "stance_score": 0.714,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "a5481a5938bb993ba9a131275043b869",
+        "text": "Mi\u0119dzynarodowy Trybuna\u0142 Karny (#ICC) ma zdecydowa\u0107 o oskar\u017ceniu odpowiedzialnych w #UE za \u015bmier\u0107 ponad 12000 uchod\u017ac\u00f3w na Morzu \u015ar\u00f3dziemnym.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.714,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "61145df80e53b42264ffe6d59833438b",
+        "text": "\u201eW Libii ludzie s\u0105 torturowani i zniewoleni, a u wybrze\u017cy uchod\u017acy ton\u0105 w Morzu \u015ar\u00f3dziemnym. Grupa mi\u0119dzynarodowych prawnik\u00f3w stawia teraz powa\u017cne zarzuty przeciwko UE.\u201c wi\u0119cej od @FideliusSchmid @SPIEGELONLINE poni\u017cej.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "d282399ba747f9e2fd1c683733e191f0",
+        "text": "#EkspertMigracyjny migruje 200 mln #Obcych do SPD, Zielonych, CSU, CDU. Wszyscy w UE, w Afryce, w Niemczech, kt\u00f3rzy byli dotkni\u0119ci spo\u0142eczn\u0105 #Ustaw\u0105Wykluczaj\u0105c\u0105 HartzIV (potocznie: HassIV). Ma to przeciwdzia\u0142a\u0107 niedoborowi wykwalifikowanych pracownik\u00f3w w polityce.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "e52d4675e02c782f23de76e5c2302c8d",
+        "text": "#KryzysFinansowy, #KryzysUE, #KryzysMigracyjny, #KryzysKoszt\u00f3wEnergii: to tylko kilka pozycji w bilansie kryzysowym #Merkel-MurksKo. Naprawienie tego wszystkiego by\u0142oby dla #AfD ogromnym zadaniem. Ale kto inny m\u00f3g\u0142by to zrobi\u0107? #MerkelMusiOdej\u015b\u0107 #NoweWybory",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "c2affaf0adab086db26607a9681670af",
+        "text": "Prawnicy zajmuj\u0105cy si\u0119 prawami cz\u0142owieka domagaj\u0105 si\u0119, aby Mi\u0119dzynarodowy Trybuna\u0142 Karny wszcz\u0105\u0142 dochodzenie przeciwko UE - z powodu tysi\u0119cy utoni\u0119\u0107 na Morzu \u015ar\u00f3dziemnym oraz wsp\u00f3\u0142pracy z libijsk\u0105 stra\u017c\u0105 przybrze\u017cn\u0105, kt\u00f3ra odsy\u0142a uchod\u017ac\u00f3w z powrotem do kraju ogarni\u0119tego wojn\u0105 domow\u0105. Tre\u015b\u0107 wniosku (ang.).",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "76fbbf4e5ddcf18f90be6d7c55321e97",
+        "text": "Z pi\u00f3ra #SPD pochodzi tak zwana \"Ustawa przeciwko nielegalnemu zatrudnieniu i nadu\u017cywaniu \u015bwiadcze\u0144 socjalnych\". Ma by\u0107 g\u0142osowana w czwartek. Migranci z UE maj\u0105 by\u0107 wykluczeni ze \u015bwiadcze\u0144 socjalnych, takich jak #HartzIV i #Kindergeld, ze wzgl\u0119d\u00f3w ochrony pracy.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "ba07ec7cb8f5ac3c02f245148dbf079b",
+        "text": "Ka\u017cdego migranta klasyfikuj\u0119 do kategorii A, B lub C. Kto dostaje A, jest szczeg\u00f3lnie potrzebuj\u0105cy ochrony - i zazwyczaj mo\u017ce uda\u0107 si\u0119 na europejski kontynent (...). Co to za chory system, kt\u00f3ry dzieli ludzi i w ten spos\u00f3b decyduje o ich \u017cyciu? #EU #Migration",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "06fd049fcfc9de5082fb0e68f069d937",
+        "text": "D\u0142ug publiczny W\u0141OCH powsta\u0142 r\u00f3wnie\u017c dlatego, \u017ce W\u0142ochy musia\u0142y stale przyjmowa\u0107 (Lampedusa) i zaopatrywa\u0107 uchod\u017ac\u00f3w tak\u017ce w latach przed 2015 rokiem. Mo\u017ce W\u0142ochy powinny to uwzgl\u0119dni\u0107 w rozliczeniach z UE, zw\u0142aszcza w ci\u0105gu ostatnich 4 lat!!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "26c303e3ce89daf747145fb3391a8a66",
+        "text": "Ludzie, kt\u00f3rym odbiera si\u0119 \u015bwiadczenia socjalne, niestety zbyt cz\u0119sto trafiaj\u0105 na ulic\u0119. Dzi\u0119ki tej ustawie migranci z UE maj\u0105 by\u0107 wykluczeni np. z #HartzIV i #Kindergeld. Dzi\u0119kujemy #SPD za ten doskona\u0142y przyk\u0142ad zinstytucjonalizowanego #Rasizmu!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "14bcfe9a8dc3611852e4e43644b132e6",
+        "text": "To, co irytuje w obecnej debacie na temat ochrony klimatu (jak wcze\u015bniej uchod\u017acy, diesel) w Niemczech: znowu tylko jeden temat, ma\u0142o zr\u00f3\u017cnicowany, dryfuje w stron\u0119 ideologii. Tymczasem UE dyskutuje ju\u017c od dawna: m.in. pozosta\u0142o\u015bci lek\u00f3w, gospodarka o obiegu zamkni\u0119tym, zr\u00f3wnowa\u017cone finansowanie, itd.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "fda0e020e71c747cf5b4ece70bfbde2b",
+        "text": "Powiedzmy tak: W ostatnich latach banki UE \"ukrad\u0142y\" obywatelom dochody z odsetek na bardzo wysokim poziomie miliard\u00f3w; te 500.000 euro, kt\u00f3re ukradli uchod\u017acy, to tylko drobnostka!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.25,
+                "stance_5": "negative",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "fcea0caadf7e32fe8f0b21d353f07732",
+        "text": "Macron m\u00f3wi, \u017ce UE powinna przej\u0105\u0107 nowe zadania. Ochrona granic zewn\u0119trznych, polityka wobec uchod\u017ac\u00f3w, unia obronna....... Czy kto\u015b naprawd\u0119 wierzy, \u017ce mo\u017cemy to dosta\u0107 za darmo? #illner",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "a6278ac20b5c387a6ac26fdb66826239",
+        "text": "VR2: Czy rosn\u0105ca legalna migracja wewn\u0105trz UE z kraju urodzenia jest z\u0142a? #zdhannover",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "economic migrants",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "535b7598b891bb7dde512696dd2984aa",
+        "text": "@RT_Erdogan; zgodnie z umow\u0105 dotycz\u0105c\u0105 uchod\u017ac\u00f3w #UE powinna pom\u00f3c uchod\u017acom kwot\u0105 6 miliard\u00f3w euro. Do dzi\u015b uchod\u017acy otrzymali tylko 1,8 miliona euro. To pokazuje, czym jest moralno\u015b\u0107 zachodnia, czyli #UE! Chrze\u015bcijanom nie obchodzi, co stanie si\u0119 z uchod\u017acami.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "5eb25f1f0748ef30f68c2d2e1ebe8217",
+        "text": "Potrzebne jest wi\u0119cej personelu dla BAMF do przeprowadzania kwalifikowanych, szybkich procedur, konsekwentnych deportacji, ustawy imigracyjnej jak np. w Kanadzie, ochrony zewn\u0119trznych granic UE, wsp\u00f3lnej polityki uchod\u017aczej UE, zr\u00f3wnowa\u017conego konceptu integracji oraz zwalczania przyczyn ucieczki.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.714,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "122460e1228390dcf508b64d153475e0",
+        "text": "G\u0142osowanie nad funduszem UE na regulacj\u0119 uchod\u017ac\u00f3w\ud83c\uddea\ud83c\uddfa wykaza\u0142o: 11 g\u0142os\u00f3w za, 1 przeciw, 3 wstrzymuj\u0105ce si\u0119",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "6a00803e28a0222e87f5ca60f8d38ce8",
+        "text": "@sebastiankurz wyja\u015bnia wi\u0119c, \u017ce plan rozdzia\u0142u uchod\u017ac\u00f3w w #UE si\u0119 nie powi\u00f3d\u0142. Czy \u015bmia\u0142 si\u0119 przy tym triumfalnie? W ko\u0144cu to ON, obok zwyk\u0142ych podejrzanych, BY\u0141 przeszkod\u0105 w UE. Na ko\u0144cu mog\u0142o si\u0119 uda\u0107, a jego nagonka okaza\u0142a si\u0119 bezskuteczna. #FP\u00d6VP",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.429,
+                "stance_5": "negative",
+                "relevant_score": 0.857
+            }
+        ]
+    },
+    {
+        "id": "5a7adf6b66e1756dd6fa2ba9d835b453",
+        "text": "#karlspreis #Merkel Potrzebujemy wsp\u00f3\u0142pracy w #Europa w zakresie #edukacja #politykamigracyjna #uniebankowa #uniekapita\u0142owa wsp\u00f3lnej polityki zagranicznej i #bezpiecze\u0144stwo - Europa musi wzi\u0105\u0107 sw\u00f3j los w swoje r\u0119ce /ms",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "bead276a91fc0af6fe1fa55e73ce2d0c",
+        "text": "Chcia\u0142bym zwr\u00f3ci\u0107 uwag\u0119, \u017ce TAZ poinformowa\u0142 o opublikowanym raporcie niemieckiej ambasady w Nigrze, w kt\u00f3rym stwierdzono, \u017ce warunki w obozach dla uchod\u017ac\u00f3w w Libii przypominaj\u0105 te w obozach koncentracyjnych. Te obozy s\u0105 finansowane przez Niemcy i UE!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "36679503508e1bf798fd7bcf0d58626e",
+        "text": "#Serwisutweet: W francuskim utworze nie \u015bpiewa \u201eMerci\u201d (pl. = Dzi\u0119kuj\u0119), lecz o \u201eMercy\u201d, dziewczynce uchod\u017aczyni #Eurovision #AllAboard #ESC2018",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "73c0401e0da2edb63817b8e131389ddd",
+        "text": "Tak, to tutaj dla Francji s\u0105 pan i pani Black, kt\u00f3rzy \u015bpiewaj\u0105 piosenk\u0119 pop o \u0142odzi uchod\u017ac\u00f3w o nazwie \"Danke\". Nie do wymy\u015blenia. #ESC2018 #Eurovision",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "0d10f72a03a9d1dfbf2b445e174e801b",
+        "text": "Fajnie, \u017ce #Australia teraz r\u00f3wnie\u017c nale\u017cy do #UE - zwi\u0119ksza to produkt narodowy brutto i maj\u0105 wystarczaj\u0105co du\u017co miejsca dla uchod\u017ac\u00f3w #ESC2018 Ale my\u015bl\u0119, \u017ce ich nie przyjmuj\u0105? #AUS",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "c67b33b8263f783851c8afd42786b325",
+        "text": "W ca\u0142ej UE s\u0105 politycy UE w parlamentach pa\u0144stw cz\u0142onkowskich UE, z wyj\u0105tkiem Niemiec! RFN uniemo\u017cliwia dzia\u0142alno\u015b\u0107 polityczn\u0105, wej\u015bcie polityk\u00f3w UE do parlamentu na szczeblu krajowym! Skandaliczne! Migranci w polityce s\u0105 silnie hamowani przez pa\u0144stwo i partie!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.667,
+                "stance_5": "positive",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "fc6a8897fb54105027a10b6b3bef0159",
+        "text": "#dpa: UE: Grecja otrzymuje 180 mln euro na uchod\u017ac\u00f3w.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "fe08ce399900985e3719cde564fda561",
+        "text": "Porozumienie UE-Turcja w sprawie uchod\u017ac\u00f3w - pa\u0144stwa UE ju\u017c my\u015bl\u0105 o wycofaniu si\u0119: umowa z Turcj\u0105 w sprawie uchod\u017ac\u00f3w grozi upadkiem",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.143,
+                "stance_5": "neutral",
+                "relevant_score": 0.571
+            }
+        ]
+    },
+    {
+        "id": "1dd3ca2577b0436ae6dd0d8e5a45b0a0",
+        "text": "Realistycznie patrz\u0105c, #DowJones spadnie poni\u017cej 20000, #Trump: #C\u0142a karne przeciwko #Chinom, odpowied\u017a nast\u0105pi\u0142a! #Bolton stawia na #Wojn\u0119 z #Iranem! #UE w stanie #Chaos (#Brexit, #Nacjonalizm, #Kryzys uchod\u017aczy, #Afera Skripal) Gie\u0142da na kursie wysokiego ryzyka\u203c\ufe0f#FoxNews #cnn",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "5654c5c5c14232d2a3f079d7d7e7ba41",
+        "text": "Z um #umowyuchod\u017aczej UE jest jeszcze winna #Turcji trzy miliardy euro. Ale Niemcy i inne kraje cz\u0142onkowskie sprzeciwiaj\u0105 si\u0119 planowanemu finansowaniu drugiej po\u0142owy, wed\u0142ug raportu #medi\u00f3w. Erdo\u011fan, prosz\u0119 wy\u015blij wszystkich #syryjczyk\u00f3w do Europy.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.25,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "5ae4508230052b6006f3b5dd83c4aa23",
+        "text": "W ca\u0142ej UE s\u0105 politycy UE w parlamentach pa\u0144stw cz\u0142onkowskich UE, z wyj\u0105tkiem Niemiec! RFN uniemo\u017cliwia dzia\u0142alno\u015b\u0107 polityczn\u0105, wej\u015bcie polityk\u00f3w UE do parlamentu na szczeblu krajowym! Skandaliczne! Migranci w polityce s\u0105 silnie hamowani przez pa\u0144stwo i partie!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.857,
+                "stance_5": "positive",
+                "relevant_score": 0.714
+            }
+        ]
+    },
+    {
+        "id": "fa495d82f74d83b545917aa4b9cfd44b",
+        "text": "W ca\u0142ej UE s\u0105 politycy UE w parlamentach pa\u0144stw cz\u0142onkowskich UE, z wyj\u0105tkiem Niemiec! RFN uniemo\u017cliwia dzia\u0142alno\u015b\u0107 polityczn\u0105, wej\u015bcie polityk\u00f3w UE do parlamentu na szczeblu krajowym! Skandaliczne! Migranci w polityce s\u0105 silnie hamowani przez pa\u0144stwo i partie!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "a39b13b4acc8d75ae40732fcb04175db",
+        "text": "\u017badne \"medium jako\u015bciowe\" nie przypomina o k\u0142amstwach, kt\u00f3re doprowadzi\u0142y do #wojny w Iraku i powa\u017cnych konsekwencji, zw\u0142aszcza dla #Europy (terroryzm, uchod\u017acy). N\u0119dzna prasa systemowa jest nastawiona na bezkrytyczne powtarzanie tego, co m\u00f3wi\u0105 pod\u017cegacze wojenni w USA.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.25,
+                "stance_5": "positive",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "baf8b071609ab62502870b57f361f8ed",
+        "text": "Sensacyjny dokument w tle w ARD o szczytach UE ... o szczycie, na kt\u00f3rym Grecja by\u0142a bliska wyrzucenia z UE, o pocz\u0105tku kryzysu uchod\u017aczego (Juncker, Hollande, Renzi, Varoufakis, Sch\u00e4uble zdradzaj\u0105 kulisy)",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "c00cd1ef51cfbccb653573eff5dbd0e0",
+        "text": "Silny wk\u0142ad #ARD tej nocy w prac\u0119 #Rady #Europejskiej \u201eDramat #Europy\u201d. Kryzys finansowy, kryzys uchod\u017aczy i Brexit z bliska i z pierwszej r\u0119ki. Dziennikarstwo wysokiej jako\u015bci jako jasna odpowied\u017a na populist\u00f3w i bajkopisarzy. #PolitykaEuropejska to ci\u0119\u017cka praca! #WyboryEuropejskie",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "bb4571fd7c2ecd6aa0e22f4a14d92234",
+        "text": "Kiedy #UE w ko\u0144cu zrozumie, \u017ce odstraszanie nie dzia\u0142a, gdy ludzie s\u0105 wystarczaj\u0105co zdesperowani? m( #uchod\u017acy #Morze\u015ar\u00f3dziemne",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.714,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "fad8cd014521edab8581185078d0e247",
+        "text": "Zbli\u017caj\u0105 si\u0119 wybory. #Arte cieszy nas dzi\u015b wieczorem najbardziej przyjazn\u0105 do \u017cycia #Europ\u0105 wszech czas\u00f3w i porusza nasze zimne serca wzruszaj\u0105cymi losami uchod\u017ac\u00f3w. Aby\u015bcie wiedzieli, czego si\u0119 od Was oczekuje 26 maja.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "cebc02f98329a4ee63663864e90a908d",
+        "text": "#wahlomat #Asylrecht - Przera\u017caj\u0105ce/zadziwiaj\u0105ce: @CDU NIE jest przeciwna stwierdzeniu \"Wszyscy ubiegaj\u0105cy si\u0119 o azyl, kt\u00f3rzy pr\u00f3buj\u0105 dosta\u0107 si\u0119 do UE przez Morze \u015ar\u00f3dziemne, powinni zosta\u0107 odes\u0142ani do swoich kraj\u00f3w ojczystych.\" Uzasadnienie: Zwalczanie nielegalnej migracji (pe\u0142ny tekst patrz komentarz)",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b4dc70f9c7ab7091aec352bf780664d8",
+        "text": "W obozie dla uchod\u017ac\u00f3w, po zakrapianej nocy, w Czarnobylu lub u dentysty: bardzo ciekawe spojrzenia #Europa",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "f32a46ee84efdd6919ca5a04188ba879",
+        "text": "Bez #Agape wszystko jest niczym! \u2618\ufe0f\ud83c\udf08 #spo\u0142ecze\u0144stwo #edukacja #przysz\u0142o\u015b\u0107 #wolno\u015b\u0107 #uchod\u017acy #pokolenia #m\u0142odzie\u017c #mi\u0142o\u015b\u0107 #dzieci #coaching #zmiana #UE #ONZ #socjologia #psychologia #mentalno\u015b\u0107 #rozw\u00f3josobisty",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.25
+            }
+        ]
+    },
+    {
+        "id": "c96cec707cf1dec42508b244a0edda37",
+        "text": "W czwartek (09.05.2019) dr Daniel Keil i nasz cz\u0142onek grupy badawczej @MXPichl b\u0119d\u0105 dyskutowa\u0107 w Wielkiej Sali VHS #Kassel od godziny 19:00 o #wyborach europejskich, skrajnie prawicowych partiach i polityce UE wobec uchod\u017ac\u00f3w. Przyjd\u017acie!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "f2532da465fcf0d1dae62673ebf07944",
+        "text": "#Obowi\u0105zekSzczepie\u0144 Odra - Czy dzieci #uchod\u017ac\u00f3w powinny by\u0107 szczepione zaraz po przybyciu? #Spahn chce wychowywa\u0107 przeciwnik\u00f3w szczepie\u0144 grzywn\u0105 w wysoko\u015bci 2500 \u20ac lub aresztem przymusowym. #WyboryEuropejskie2019 @jensspahn @spdbt",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.286,
+                "stance_5": "rather positive",
+                "relevant_score": 0.714
+            }
+        ]
+    },
+    {
+        "id": "cdcd323fd5559d3b69a50b6ed7fb74fe",
+        "text": "Dobrze, \u017ce #W\u0119gry pot\u0119piaj\u0105 t\u0119 przera\u017caj\u0105c\u0105 praktyk\u0119 kart EC w #UE! #Migracja #Migranci #UNHCR #Azyl #PaktMigracyjny",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.5
+            }
+        ]
+    },
+    {
+        "id": "d676edac2a50cbed12c558021456afdd",
+        "text": "Cytat z aktualnej kampanii wyborczej do Parlamentu Europejskiego w Austrii \ud83c\udde6\ud83c\uddf9: \u201eNie chcemy przymusowego rozdzielania \u201enielegalnych migrant\u00f3w\u201d. Dla Czerwonego Krzy\u017ca nie istniej\u0105 \u201enielegalni\u201d ludzie, a zatem tak\u017ce nie ma \u201enielegalnych\u201d migrant\u00f3w! M\u00f3wimy o \u201enieregularnej\u201d migracji. @roteskreuzat @Refugees",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "illegal migrants",
+                "stance": "negative",
+                "stance_score": -0.143,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "11fd9ee9a5e491aa43db1f49a2bfaa8d",
+        "text": "Cze\u015b\u0107 @bpb_de - teza 29 w waszym EU Wahl-O-Mat brzmi \"Wszyscy ubiegaj\u0105cy si\u0119 o azyl, kt\u00f3rzy pr\u00f3buj\u0105 dosta\u0107 si\u0119 do UE przez Morze \u015ar\u00f3dziemne, powinni zosta\u0107 odes\u0142ani do swoich kraj\u00f3w ojczystych\". Czy dobrze przemy\u015bleli\u015bcie to sformu\u0142owanie?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "asylum seekers",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "518047346a004e961adc9a11e032a071",
+        "text": "#ob\u00f3zuchod\u017ac\u00f3w w #Libii? Do przemy\u015blenia. Oszcz\u0119dza im niebezpiecznej podr\u00f3\u017cy przez morze. Ale tylko pod kontrol\u0105 #UE #Pistorius",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.286,
+                "stance_5": "rather positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "b7bba6b229e4a1c6b94eeb235a144ef6",
+        "text": "Oczywi\u015bcie, jako pa\u0144stwo UE mo\u017cna teraz krytykowa\u0107 W\u0142ochy za naruszenia prawa. Mo\u017cna by im jednak r\u00f3wnie\u017c przyj\u0105\u0107 kilku uchod\u017ac\u00f3w.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.286,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "9ced8bead40680b097d893f4dc96250d",
+        "text": "Reuters: Pa\u0144stwa UE planuj\u0105 zamro\u017cenie prywatnych kont bankowych! Kryzys uchod\u017aczy 2.0 \u2013 Cisza przed burz\u0105 #stadtbergen",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "f9900d55e35f6747d3016736d62a164a",
+        "text": "Lekarze bez Granic - Plany W\u0142och dotycz\u0105ce uchod\u017ac\u00f3w: Wtedy utonie jeszcze wi\u0119cej ludzi: winna b\u0119dzie UE, poniewa\u017c nie s\u0105 zgodni. Idioci.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.286,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "dfbba0ab599c81ab51edaf20dd6b2c4b",
+        "text": "UE ubolewa nad wstrz\u0105saj\u0105cymi warunkami w libijskich obozach dla uchod\u017ac\u00f3w. My\u015bla\u0142em, \u017ce muzu\u0142manie s\u0105 dobrymi gospodarzami, ale tylko dla tych, kt\u00f3rzy przynosz\u0105 pieni\u0105dze!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "41b2e6160655a87390a13aa157fe3298",
+        "text": "\u201eSprowad\u017a wi\u0119cej uchod\u017ac\u00f3w Jugend Rettet\u201d Ok pani Merkel, damy rad\u0119! #merkel #vluchtelingen #massaimmigratie #eu #ngo #jugendrettet",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "40575f2bae877bfa15c5d6385617f428",
+        "text": "#BundesLeserKonferenz : Schulz: Polityka UE wobec uchod\u017ac\u00f3w to katastrofa! #wi\u0119cejCzasuDlaMartina",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.286,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "c9a9cd5cf078a8307fd5ed14bd5a2459",
+        "text": "#Merkel chce, aby koszty pracy drastycznie spad\u0142y dzi\u0119ki uchod\u017acom. Globalny kapitalizm wyzyskuje Afryk\u0119 dla nowoczesnego niewolnictwa w UE.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": -0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "946710a1c23b0884768b65126922eada",
+        "text": "Wzywa\u0107 do jedno\u015bci Europy + zawiesi\u0107 priorytetowe sprawdzanie na 3 lata. Cios w twarz bezrobotnych s\u0105siad\u00f3w z UE. alias #uchod\u017acy",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.5,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "5401e24ec5ae69ac74abc36b95e08164",
+        "text": "#dpa: Komisarz UE ds. uchod\u017ac\u00f3w: Walka z przemytnikami ma priorytet.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 0.143
+            }
+        ]
+    },
+    {
+        "id": "d71109d6d4686e3a5fe3123f94713a4e",
+        "text": "Unia Europejska zostawia W\u0142ochy na lodzie w kwestii przyjmowania uchod\u017ac\u00f3w. W\u0142ochy utrudniaj\u0105 ratowanie na morzu. Co za wstyd dla Europy!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "11f2a560369354422f06ce091a083ecb",
+        "text": "#Rackete, pokazuje tylko nieudolno\u015b\u0107 UE. Dlaczego w og\u00f3le musi wy\u0142awia\u0107 ludzi z wody? Z powodu ca\u0142kowicie zrujnowanej polityki migracyjnej, kt\u00f3ra mi\u0119dzy sloganami \"zamkni\u0119te granice\" a \"damy rad\u0119\" ca\u0142kowicie zawiod\u0142a bez rozwi\u0105za\u0144.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "negative",
+                "stance_score": -0.714,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "ddd92e3180b6ecdb253ec7c95df055f1",
+        "text": "Bardzo warty przeczytania w\u0105tek od @JoachimStamp o #SeaWatch3, kt\u00f3ry sam by\u0142 na miejscu w Afryce P\u00f3\u0142nocnej: Ratowanie na morzu jest ludzkim obowi\u0105zkiem - ale UE musi sama wyj\u015b\u0107 na morze i w ko\u0144cu znale\u017a\u0107 si\u0142\u0119 do wsp\u00f3lnej polityki uchod\u017aczej, kt\u00f3ra zapobiegnie ju\u017c wsiadaniu na \u0142odzie!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "75c39db2501fc52e74edc1345e5da0a3",
+        "text": "W\u0142ochy chc\u0105 teraz powa\u017cnie rozdzieli\u0107 #uchod\u017ac\u00f3w z #SeaWatch3 mi\u0119dzy kilka pa\u0144stw UE (i szukaj\u0105 odbiorc\u00f3w). Gdyby pozwolili dobrowolnie przybi\u0107 do brzegu, nie by\u0142oby problemu - teraz, gdy zaj\u0119li statek, pech, zaj\u0119ty \u0142\u0105cznie z uchod\u017acami!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "03e0d03c80f684db9515df34b6c6d94b",
+        "text": "#hallohallo #UE targuje stanowiskami, nie ratuje uchod\u017ac\u00f3w, dopuszcza ataki na wolno\u015b\u0107 prasy i s\u0105downictwa, a tak\u017ce transakcje CumEx i unikanie opodatkowania. Co w\u0142a\u015bciwie potraficie??? Tak sabotuje si\u0119 wsp\u00f3ln\u0105 Europ\u0119",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.75,
+                "stance_5": "positive",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "763b419215109b1befca249758103c7a",
+        "text": "#Europa rozpada si\u0119 z powodu #kryzysu uchod\u017aczego - Kraj wkr\u00f3tce podzielony i rozdarty jak USA. #Apel o darowizny spo\u0142ecze\u0144stwa obywatelskiego nie rozwi\u0105zuje problemu #migracji",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "negative",
+                "stance_score": -0.75,
+                "stance_5": "negative",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "21860163a21c9ccab3aa271337f5b05d",
+        "text": "K\u0142\u00f3tnia o kapitan statku ratunkowego! Swoj\u0105 decyzj\u0105 o przywiezieniu uratowanych z #morza uchod\u017ac\u00f3w na #Lampedusa, Carola #Rackete dzieli #Europ\u0119. Miasto #Kiel sygnalizowa\u0142o gotowo\u015b\u0107 przyj\u0119cia uchod\u017ac\u00f3w z \u201eSea-Watch\u201d. Czy to by\u0142a autopromocja kosztem #uchod\u017ac\u00f3w?",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.571,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "baff5126b7408c91361423a5562ee77e",
+        "text": "Musimy wsp\u00f3lnie wypracowa\u0107 polityk\u0119 azylow\u0105 i migracyjn\u0105, wsp\u00f3lnie walczy\u0107 ze zmianami klimatycznymi i zadba\u0107 o to, aby firmy nie mog\u0142y korzysta\u0107 z luk podatkowych. @d_boeselager chce znale\u017a\u0107 \"odwa\u017cne odpowiedzi na te tematy\" w #ParlamencieEuropejskim.",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "neutral",
+                "stance_score": 0.25,
+                "stance_5": "neutral",
+                "relevant_score": 0.75
+            }
+        ]
+    },
+    {
+        "id": "e1d5fbad88ce22ed048ca7392f77b54a",
+        "text": "Sensowna polityka wobec uchod\u017ac\u00f3w: \n\u2022 Usuwanie przyczyn ucieczki na miejscu \n\u2022 Strefy ochronne jak najbli\u017cej miejsc ucieczki, aby przynajmniej u\u0142atwi\u0107 uchod\u017acom niebezpieczn\u0105 ucieczk\u0119 \nTo nie jest zadanie dla pojedynczego kraju, lecz dla ca\u0142ej UE wsp\u00f3lnie z rodzin\u0105 narod\u00f3w!",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "positive",
+                "stance_score": 0.571,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "bda519e2d935d87f9ce9773c2bb82f9f",
+        "text": "Pilne wiadomo\u015bci: Migranci na wideo Frontex zostali porwani i porzuceni na morzu. Dok\u0142adne okoliczno\u015bci nadal tajemnicze i niejasne! #frontex #seawatch3 #rackete_ering",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "migrants",
+                "stance": "positive",
+                "stance_score": 0.333,
+                "stance_5": "positive",
+                "relevant_score": 1.0
+            }
+        ]
+    },
+    {
+        "id": "75c8d163bfaa685a23548056f3b247c2",
+        "text": "74 lata po II wojnie \u015bwiatowej, pokojowej demokracji, reparacjach, wprowadzeniu euro, miliardowej pomocy dla UE i EBC, przyj\u0119ciu 1,8 mln uchod\u017ac\u00f3w, #Macron i sp\u00f3\u0142ka naprawd\u0119 nie ufaj\u0105 Niemcom? Odwa\u017caj\u0105 si\u0119 ignorowa\u0107 wol\u0119 wyborc\u00f3w? #WEBER #EUCO",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "rather negative",
+                "relevant_score": 0.667
+            }
+        ]
+    },
+    {
+        "id": "ba01f6db3678a1fec7bb66e07aed7c89",
+        "text": "Poranny UPDAYt: ++ Krytyka nominacji #vonderLeyen na szefow\u0105 Komisji Europejskiej ++ Co najmniej 40 zabitych w nalocie na ob\u00f3z dla uchod\u017ac\u00f3w w #Libii ++ Rz\u0105d W\u0142och krytykuje po uwolnieniu Caroli #Rackete ++ Wi\u0119cej wiadomo\u015bci w aplikacji @updayDE",
+        "target_items": [
+            {
+                "target": "migrants",
+                "fg_target": "refugees",
+                "stance": "neutral",
+                "stance_score": 0.0,
+                "stance_5": "neutral",
+                "relevant_score": 1.0
+            }
+        ]
+    }
+]
