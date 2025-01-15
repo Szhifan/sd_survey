@@ -212,4 +212,4 @@ def get_text_by_id(id,lang_id):
     return None 
 
 if __name__ == "__main__":
-    fetch_from_db("en2pl","default_prolific_id","anno-xculture")
+    fetch_from_db("en2pl","654e38a9bd1961e9942af916","anno-xculture")
